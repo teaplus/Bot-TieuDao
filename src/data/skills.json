@@ -1,0 +1,17 @@
+{
+  "hoa_cau_thuat": {
+    "id": "hoa_cau_thuat", "name": "Hỏa Cầu Thuật", "type": "ACTIVE", "rarity": "SPIRIT",
+    "description": "Ngưng tụ hỏa linh thành cầu, gây 120% sức tấn công.", "spirit_cost": 12,
+    "combat": { "power": 1.2, "element": "FIRE" }, "effects": []
+  },
+  "kim_cang_the": {
+    "id": "kim_cang_the", "name": "Kim Cang Thể", "type": "PASSIVE", "rarity": "SPIRIT",
+    "description": "Luyện thể như kim cang, tăng 10% phòng thủ.",
+    "effects": [{ "stat": "def", "mode": "add_percent_base", "value": 0.1 }]
+  },
+  "thanh_tam_quyet": {
+    "id": "thanh_tam_quyet", "name": "Thanh Tâm Quyết", "type": "PASSIVE", "rarity": "MYSTIC",
+    "description": "Giữ linh đài thanh minh, tăng 8% tốc độ tu luyện.",
+    "effects": [{ "stat": "cultivation_speed", "mode": "add_percent_base", "value": 0.08 }]
+  }
+}

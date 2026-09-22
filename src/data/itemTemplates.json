@@ -1,0 +1,15 @@
+{
+  "1001": { "id": "1001", "name": "Hạ phẩm Linh thạch", "type": "CURRENCY", "rarity": "SPIRIT", "description": "Đơn vị tiền tệ thông dụng của giới tu tiên." },
+  "2001": { "id": "2001", "name": "Bổ Huyết Đan", "type": "CONSUMABLE", "rarity": "MORTAL", "description": "Đan dược hồi phục sinh lực.", "effects": [{ "stat": "hp", "mode": "restore_flat", "value": 50 }] },
+  "3001": { "id": "3001", "name": "Thanh Phong Kiếm", "type": "EQUIPMENT", "slot": "weapon", "rarity": "MORTAL", "description": "Trường kiếm nhẹ dành cho tu sĩ mới nhập môn.", "fixed_effects": [{ "stat": "atk", "mode": "add_flat_base", "value": 5 }] },
+  "3002": { "id": "3002", "name": "Thanh Vân Pháp Bào", "type": "EQUIPMENT", "slot": "armor", "rarity": "SPIRIT", "description": "Pháp bào thêu trận văn tụ linh.", "fixed_effects": [{ "stat": "def", "mode": "add_flat_base", "value": 12 }, { "stat": "hp", "mode": "add_flat_base", "value": 40 }] },
+  "3003": { "id": "3003", "name": "Tụ Linh Châu", "type": "EQUIPMENT", "slot": "artifact", "rarity": "SPIRIT", "description": "Pháp bảo hội tụ linh khí quanh người.", "fixed_effects": [{ "stat": "cultivation_speed", "mode": "add_percent_base", "value": 0.05 }] },
+  "3004": { "id": "3004", "name": "Bạch Ngọc Giới", "type": "EQUIPMENT", "slot": "ring", "rarity": "SPIRIT", "description": "Nhẫn ngọc có khắc một tiểu tụ linh trận.", "fixed_effects": [{ "stat": "spirit", "mode": "add_flat_base", "value": 10 }] },
+  "3005": { "id": "3005", "name": "Truy Phong Ngoa", "type": "EQUIPMENT", "slot": "boots", "rarity": "MORTAL", "description": "Đôi giày được gia trì một tia phong lực.", "fixed_effects": [{ "stat": "spd", "mode": "add_flat_base", "value": 3 }] },
+  "4001": { "id": "4001", "name": "Nạp Khí Quyết", "type": "CULTIVATION_ART", "rarity": "MORTAL", "description": "Công pháp nhập môn của phàm nhân.", "artId": "cp_001" },
+  "4002": { "id": "4002", "name": "Thanh Vân Thổ Nạp Công", "type": "CULTIVATION_ART", "rarity": "SPIRIT", "description": "Dẫn thiên địa linh khí vận hành quanh chu thiên.", "artId": "cp_002" },
+  "4003": { "id": "4003", "name": "Cửu Chuyển Huyền Công", "type": "CULTIVATION_ART", "rarity": "MYSTIC", "description": "Huyền công vận chuyển linh khí qua chín vòng đại chu thiên.", "artId": "cp_003" },
+  "5001": { "id": "5001", "name": "Bí kíp Hỏa Cầu Thuật", "type": "SKILL_BOOK", "rarity": "SPIRIT", "description": "Ngọc giản ghi lại thuật ngưng tụ hỏa cầu.", "skillId": "hoa_cau_thuat" },
+  "5002": { "id": "5002", "name": "Bí kíp Kim Cang Thể", "type": "SKILL_BOOK", "rarity": "SPIRIT", "description": "Pháp môn luyện thể tăng cường phòng ngự.", "skillId": "kim_cang_the" },
+  "5003": { "id": "5003", "name": "Bí kíp Thanh Tâm Quyết", "type": "SKILL_BOOK", "rarity": "MYSTIC", "description": "Tâm pháp bị động giúp tu luyện thanh tịnh.", "skillId": "thanh_tam_quyet" }
+}

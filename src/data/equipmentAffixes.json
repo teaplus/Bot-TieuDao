@@ -1,0 +1,32 @@
+{
+  "weapon": [
+    { "stat": "atk", "mode": "add_flat_base", "min": 2, "max": 5, "weight": 40 },
+    { "stat": "crit_rate", "mode": "add_percent_base", "min": 0.01, "max": 0.03, "decimals": 2, "weight": 25 },
+    { "stat": "crit_damage", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 20 },
+    { "stat": "spd", "mode": "add_flat_base", "min": 1, "max": 2, "weight": 15 }
+  ],
+  "armor": [
+    { "stat": "def", "mode": "add_flat_base", "min": 2, "max": 5, "weight": 35 },
+    { "stat": "hp", "mode": "add_flat_base", "min": 10, "max": 25, "weight": 35 },
+    { "stat": "healing_received", "mode": "add_percent_base", "min": 0.02, "max": 0.05, "decimals": 2, "weight": 20 },
+    { "stat": "cultivation_speed", "mode": "add_percent_base", "min": 0.01, "max": 0.03, "decimals": 2, "weight": 10 }
+  ],
+  "artifact": [
+    { "stat": "cultivation_speed", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 35 },
+    { "stat": "atk", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 25 },
+    { "stat": "def", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 20 },
+    { "stat": "spirit", "mode": "add_flat_base", "min": 5, "max": 12, "weight": 20 }
+  ],
+  "ring": [
+    { "stat": "crit_rate", "mode": "add_percent_base", "min": 0.01, "max": 0.04, "decimals": 2, "weight": 30 },
+    { "stat": "cultivation_speed", "mode": "add_percent_base", "min": 0.01, "max": 0.04, "decimals": 2, "weight": 30 },
+    { "stat": "hp", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 20 },
+    { "stat": "spirit", "mode": "add_percent_base", "min": 0.03, "max": 0.08, "decimals": 2, "weight": 20 }
+  ],
+  "boots": [
+    { "stat": "spd", "mode": "add_flat_base", "min": 1, "max": 4, "weight": 40 },
+    { "stat": "evasion", "mode": "add_percent_base", "min": 0.01, "max": 0.04, "decimals": 2, "weight": 30 },
+    { "stat": "def", "mode": "add_flat_base", "min": 1, "max": 3, "weight": 20 },
+    { "stat": "cultivation_speed", "mode": "add_percent_base", "min": 0.01, "max": 0.02, "decimals": 2, "weight": 10 }
+  ]
+}

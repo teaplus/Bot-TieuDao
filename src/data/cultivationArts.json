@@ -1,0 +1,5 @@
+{
+  "cp_001": { "id": "cp_001", "itemId": "4001", "name": "Nạp Khí Quyết", "rarity": "MORTAL", "description": "Công pháp nhập môn, hiệu suất tu luyện cơ bản.", "effects": [] },
+  "cp_002": { "id": "cp_002", "itemId": "4002", "name": "Thanh Vân Thổ Nạp Công", "rarity": "SPIRIT", "description": "Linh phẩm công pháp, tăng 20% tốc độ tu luyện.", "effects": [] },
+  "cp_003": { "id": "cp_003", "itemId": "4003", "name": "Cửu Chuyển Huyền Công", "rarity": "MYSTIC", "description": "Huyền phẩm công pháp, tăng 45% tốc độ tu luyện.", "effects": [{ "stat": "hp", "mode": "add_percent_base", "value": 0.05 }] }
+}

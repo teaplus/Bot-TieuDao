@@ -1,0 +1,8 @@
+{
+  "MORTAL": { "name": "Phàm phẩm", "order": 1, "color": "#9CA3AF", "affix_count": [1, 1], "affix_scale": 1, "cultivation_bonus": 0 },
+  "SPIRIT": { "name": "Linh phẩm", "order": 2, "color": "#22C55E", "affix_count": [1, 2], "affix_scale": 2, "cultivation_bonus": 0.2 },
+  "MYSTIC": { "name": "Huyền phẩm", "order": 3, "color": "#3B82F6", "affix_count": [2, 3], "affix_scale": 4, "cultivation_bonus": 0.45 },
+  "EARTH": { "name": "Địa phẩm", "order": 4, "color": "#F59E0B", "affix_count": [3, 3], "affix_scale": 7, "cultivation_bonus": 0.75 },
+  "HEAVEN": { "name": "Thiên phẩm", "order": 5, "color": "#EF4444", "affix_count": [3, 4], "affix_scale": 12, "cultivation_bonus": 1.1 },
+  "IMMORTAL": { "name": "Tiên phẩm", "order": 6, "color": "#F5D76E", "affix_count": [4, 4], "affix_scale": 20, "cultivation_bonus": 1.7 }
+}

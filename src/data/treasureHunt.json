@@ -1,0 +1,21 @@
+{
+  "cooldown_seconds": 3600,
+  "rewards": [
+    { "type": "SPIRIT_STONES", "weight": 45 },
+    { "type": "EQUIPMENT", "weight": 38 },
+    { "type": "CULTIVATION_ART", "weight": 9 },
+    { "type": "SKILL_BOOK", "weight": 8 }
+  ],
+  "rarities": [
+    { "id": "MORTAL", "weight": 65, "min_realm_id": 1 },
+    { "id": "SPIRIT", "weight": 27, "min_realm_id": 2 },
+    { "id": "MYSTIC", "weight": 7, "min_realm_id": 12 },
+    { "id": "EARTH", "weight": 0.9, "min_realm_id": 22 },
+    { "id": "HEAVEN", "weight": 0.09, "min_realm_id": 32 },
+    { "id": "IMMORTAL", "weight": 0.01, "min_realm_id": 42 }
+  ],
+  "equipment": ["3001", "3002", "3003", "3004", "3005"],
+  "cultivation_arts": ["4002", "4003"],
+  "skill_books": ["5001", "5002", "5003"],
+  "spirit_stones": { "min": 20, "max": 80, "realm_scale": 0.08 }
+}

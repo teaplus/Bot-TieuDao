@@ -1,0 +1,12 @@
+{
+  "atk": { "name": "Tấn công", "format": "number", "base_value": 10 },
+  "def": { "name": "Phòng thủ", "format": "number", "base_value": 10 },
+  "hp": { "name": "Sinh lực", "format": "number", "base_value": 100 },
+  "spd": { "name": "Tốc độ", "format": "number", "base_value": 10 },
+  "crit_rate": { "name": "Tỷ lệ chí mạng", "format": "percent", "base_value": 0 },
+  "crit_damage": { "name": "Sát thương chí mạng", "format": "percent", "base_value": 1.5 },
+  "cultivation_speed": { "name": "Tốc độ tu luyện", "format": "percent", "base_value": 1 },
+  "healing_received": { "name": "Hiệu quả hồi phục", "format": "percent", "base_value": 0 },
+  "spirit": { "name": "Linh lực", "format": "number", "base_value": 100 },
+  "evasion": { "name": "Né tránh", "format": "percent", "base_value": 0 }
+}
