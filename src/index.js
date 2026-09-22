@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import express from 'express';
 import ExtendedClient from './core/ExtendedClient.js';
 import { bootstrapGameData } from './foundation/game-data/bootstrapGameData.js';
 import { setGameDataManager } from './foundation/game-data/gameDataContext.js';
@@ -247,3 +248,9 @@ client.start(config.discordToken).catch((error) => {
     });
     process.exitCode = 1;
 });
+
+// Express server to keep Render web service alive
+const app = express();
+const port = process.env.PORT || 10000;
+app.get('/', (req, res) => res.send('TieuDao Bot is running!'));
+app.listen(port, () => logger.info('Express web server listening on port ' + port));
