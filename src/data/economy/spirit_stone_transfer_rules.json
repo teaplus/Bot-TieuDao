@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "revision": "SPIRIT_STONE_TRANSFER_V2_GUEST_RECIPIENT",
+  "currencyId": "SPIRIT_STONE",
+  "senderEligibility": "REGISTERED_ONLY",
+  "recipientEligibility": "REGISTERED_OR_GUEST_AUTO_CREATE",
+  "minimumAmount": "1",
+  "maximumSource": "SENDER_WALLET_BALANCE",
+  "feeBasisPoints": 0,
+  "dailyTransferLimit": null,
+  "confirmation": {
+    "required": true,
+    "ttlSeconds": 60,
+    "ownerOnly": true
+  },
+  "receiptVisibility": "PUBLIC_WITHOUT_BALANCES"
+}

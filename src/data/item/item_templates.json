@@ -1,0 +1,197 @@
+{
+  "items": [
+    {
+      "id": "BREAKTHROUGH_PILL",
+      "displayName": "Phá Chướng Đan",
+      "description": "Tăng 5% tỉ lệ đột phá cho lần đột phá tiếp theo.",
+      "category": "PILL",
+      "rarity": "COMMON",
+      "requiredRealm": "LUYEN_KHI",
+
+      "maxStack": 999,
+
+      "tradable": true,
+      "sellable": true,
+      "droppable": true,
+      "usable": true,
+
+      "sources": [
+        "MONSTER_DROP",
+        "SHOP"
+      ],
+
+      "actions": [
+        {
+          "type": "BREAKTHROUGH",
+          "parameters": {
+            "successRate": 5
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "CULTIVATION_PILL",
+      "displayName": "Tu Vi Đan",
+      "description": "Tăng 20% tốc độ tu luyện đến Nguyên Anh.",
+      "category": "PILL",
+      "rarity": "COMMON",
+      "requiredRealm": "LUYEN_KHI",
+
+      "maxStack": 999,
+
+      "tradable": true,
+      "sellable": true,
+      "droppable": true,
+      "usable": true,
+
+      "sources": [
+        "MONSTER_DROP",
+        "SHOP"
+      ],
+
+      "actions": [
+        {
+          "type": "CULTIVATION",
+          "parameters": {
+            "speed": 20,
+            "maxRealm": "NGUYEN_ANH"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "SPIRIT_GATHERING_PILL",
+      "displayName": "Tụ Linh Đan",
+      "description": "Cô đọng linh khí, tăng 10% tu vi cần thiết của tầng Luyện Khí hiện tại.",
+      "category": "PILL",
+      "rarity": "COMMON",
+      "requiredRealm": "LUYEN_KHI",
+      "realmPolicy": "EXACT_REALM",
+
+      "maxStack": 999,
+
+      "tradable": true,
+      "sellable": true,
+      "droppable": true,
+      "usable": true,
+
+      "sources": [
+        "CRAFT"
+      ],
+
+      "actions": [
+        {
+          "type": "GRANT_CULTIVATION_PERCENT",
+          "parameters": {
+            "realmCode": "LUYEN_KHI",
+            "requiredCultivationPercent": 10,
+            "capAtBreakthroughThreshold": true
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "BERSERK_PILL",
+      "displayName": "Cuồng Bạo Đan",
+      "description": "Tăng 20% ATK trong trận đấu tiếp theo.",
+      "category": "PILL",
+      "rarity": "UNCOMMON",
+      "requiredRealm": "LUYEN_KHI",
+
+      "maxStack": 999,
+
+      "tradable": true,
+      "sellable": true,
+      "droppable": true,
+      "usable": true,
+
+      "sources": [
+        "CRAFT",
+        "SHOP"
+      ],
+
+      "actions": [
+        {
+          "type": "BATTLE_MODIFIER",
+          "parameters": {
+            "modifierId": "ATK",
+            "value": 20,
+            "duration": "NEXT_BATTLE"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "SECRET_REALM_TICKET",
+      "displayName": "Vé Bí Cảnh",
+      "description": "Cho phép tham gia Bí Cảnh một lần.",
+      "category": "TICKET",
+      "rarity": "COMMON",
+      "requiredRealm": "LUYEN_KHI",
+
+      "maxStack": 999,
+
+      "tradable": true,
+      "sellable": false,
+      "droppable": true,
+      "usable": true,
+
+      "sources": [
+        "MONSTER_DROP",
+        "SHOP",
+        "EVENT"
+      ],
+
+      "actions": [
+        {
+          "type": "PERMISSION",
+          "parameters": {
+            "permission": "SECRET_REALM",
+            "consume": true
+          }
+        }
+      ]
+    },
+    {
+        "id": "SPIRIT_HERB",
+
+        "displayName": "Linh Thảo",
+
+        "description": "Linh thảo phổ biến hấp thụ linh khí thiên địa. Là nguyên liệu cơ bản để luyện chế nhiều loại đan dược.",
+
+        "status": "DEPRECATED",
+
+        "deprecatedReason": "REPLACED_BY_MAP_GATHERING_RESOURCE",
+
+        "replacedByItemId": "HERB_TU_LINH_THAO",
+
+        "category": "MATERIAL",
+
+        "rarity": "COMMON",
+
+        "requiredRealm": "LUYEN_KHI",
+
+        "maxStack": 9999,
+
+        "tradable": true,
+
+        "sellable": true,
+
+        "droppable": true,
+
+        "usable": false,
+
+        "sources": [
+            "GATHERING",
+            "MONSTER_DROP",
+            "SHOP"
+        ],
+
+        "actions": []
+    }
+  ]
+}

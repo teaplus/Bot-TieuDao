@@ -1,0 +1,34 @@
+{
+  "version": 1,
+
+  "aiProfiles": [
+    {
+      "id": "NORMAL",
+
+      "attackWeight": 80,
+
+      "defenseWeight": 20
+    },
+    {
+      "id": "AGGRESSIVE",
+
+      "attackWeight": 95,
+
+      "defenseWeight": 5
+    },
+    {
+      "id": "DEFENSIVE",
+
+      "attackWeight": 60,
+
+      "defenseWeight": 40
+    },
+    {
+      "id": "BOSS",
+
+      "attackWeight": 70,
+
+      "defenseWeight": 30
+    }
+  ]
+}

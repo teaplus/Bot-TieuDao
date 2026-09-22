@@ -1,0 +1,365 @@
+{
+  "version": 3,
+  "maps": [
+    {
+      "id": "THANH_VAN_SON_MACH",
+      "displayName": "Thanh Vân Sơn Mạch",
+      "description": "Sơn mạch nhập môn dành cho tu sĩ Luyện Khí.",
+      "realmCode": "LUYEN_KHI",
+      "navigationOrder": 1,
+      "isStartingMap": true,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 1
+      },
+      "recommendedRealmRange": {
+        "minOrder": 1,
+        "maxOrder": 1
+      },
+      "monsterSpawnPoolId": "POOL_TRUC_LAM",
+      "monsterQualityPoolId": "QUALITY_POOL_THANH_VAN",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null
+    },
+    {
+      "id": "HUYEN_MOC_QUOC",
+      "displayName": "Huyền Mộc Quốc",
+      "description": "Cổ quốc dành cho tu sĩ Trúc Cơ lịch luyện.",
+      "realmCode": "TRUC_CO",
+      "navigationOrder": 2,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 2
+      },
+      "recommendedRealmRange": {
+        "minOrder": 2,
+        "maxOrder": 2
+      },
+      "monsterSpawnPoolId": "POOL_HOA_DIEM_SON",
+      "monsterQualityPoolId": "QUALITY_POOL_HUYEN_MOC",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null
+    },
+    {
+      "id": "DONG_HOANG_DAI_LUC",
+      "displayName": "Đông Hoang Đại Lục",
+      "description": "Đại lục rộng lớn dành cho tu sĩ Kết Đan.",
+      "realmCode": "KET_DAN",
+      "navigationOrder": 3,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 3
+      },
+      "recommendedRealmRange": {
+        "minOrder": 3,
+        "maxOrder": 3
+      },
+      "monsterSpawnPoolId": "POOL_THIEN_MON",
+      "monsterQualityPoolId": "QUALITY_POOL_DONG_HOANG",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null
+    },
+    {
+      "id": "TRUNG_CHAU_THANH_VUC",
+      "displayName": "Trung Châu Thánh Vực",
+      "description": "Thánh vực dành cho tu sĩ Nguyên Anh.",
+      "realmCode": "NGUYEN_ANH",
+      "navigationOrder": 4,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 4
+      },
+      "recommendedRealmRange": {
+        "minOrder": 4,
+        "maxOrder": 4
+      },
+      "monsterSpawnPoolId": "POOL_TRUNG_CHAU_THANH_VUC",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_TRUNG_CHAU"
+    },
+    {
+      "id": "THIEN_LINH_GIOI",
+      "displayName": "Thiên Linh Giới",
+      "description": "Linh giới dành cho tu sĩ Hóa Thần.",
+      "realmCode": "HOA_THAN",
+      "navigationOrder": 5,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 5
+      },
+      "recommendedRealmRange": {
+        "minOrder": 5,
+        "maxOrder": 5
+      },
+      "monsterSpawnPoolId": "POOL_THIEN_LINH_GIOI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_THIEN_LINH"
+    },
+    {
+      "id": "HU_KHONG_HAI",
+      "displayName": "Hư Không Hải",
+      "description": "Hư không vô tận dành cho tu sĩ Luyện Hư.",
+      "realmCode": "LUYEN_HU",
+      "navigationOrder": 6,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 6
+      },
+      "recommendedRealmRange": {
+        "minOrder": 6,
+        "maxOrder": 6
+      },
+      "monsterSpawnPoolId": "POOL_HU_KHONG_HAI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_HU_KHONG"
+    },
+    {
+      "id": "THANH_LINH_DAI_LUC",
+      "displayName": "Thánh Linh Đại Lục",
+      "description": "Đại lục thánh linh dành cho tu sĩ Hợp Thể.",
+      "realmCode": "HOP_THE",
+      "navigationOrder": 7,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 7
+      },
+      "recommendedRealmRange": {
+        "minOrder": 7,
+        "maxOrder": 7
+      },
+      "monsterSpawnPoolId": "POOL_THANH_LINH_DAI_LUC",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_THANH_LINH"
+    },
+    {
+      "id": "CUU_THIEN_TIEN_CANH",
+      "displayName": "Cửu Thiên Tiên Cảnh",
+      "description": "Tiên cảnh cửu thiên dành cho tu sĩ Đại Thừa.",
+      "realmCode": "DAI_THUA",
+      "navigationOrder": 8,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 8
+      },
+      "recommendedRealmRange": {
+        "minOrder": 8,
+        "maxOrder": 8
+      },
+      "monsterSpawnPoolId": "POOL_CUU_THIEN_TIEN_CANH",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_CUU_THIEN"
+    },
+    {
+      "id": "THIEN_KIEP_GIOI",
+      "displayName": "Thiên Kiếp Giới",
+      "description": "Thế giới thiên kiếp dành cho tu sĩ Độ Kiếp.",
+      "realmCode": "DO_KIEP",
+      "navigationOrder": 9,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 9
+      },
+      "recommendedRealmRange": {
+        "minOrder": 9,
+        "maxOrder": 9
+      },
+      "monsterSpawnPoolId": "POOL_THIEN_KIEP_GIOI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_THIEN_KIEP"
+    },
+    {
+      "id": "TIEN_GIOI",
+      "displayName": "Tiên Giới",
+      "description": "Tiên giới dành cho Chân Tiên.",
+      "realmCode": "CHAN_TIEN",
+      "navigationOrder": 10,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 10
+      },
+      "recommendedRealmRange": {
+        "minOrder": 10,
+        "maxOrder": 10
+      },
+      "monsterSpawnPoolId": "POOL_TIEN_GIOI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_TIEN_GIOI"
+    },
+    {
+      "id": "HUYEN_THIEN_TIEN_VUC",
+      "displayName": "Huyền Thiên Tiên Vực",
+      "description": "Tiên vực huyền thiên dành cho Huyền Tiên.",
+      "realmCode": "HUYEN_TIEN",
+      "navigationOrder": 11,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 11
+      },
+      "recommendedRealmRange": {
+        "minOrder": 11,
+        "maxOrder": 11
+      },
+      "monsterSpawnPoolId": "POOL_HUYEN_THIEN_TIEN_VUC",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_HUYEN_THIEN"
+    },
+    {
+      "id": "KIM_KHUYET_THIEN",
+      "displayName": "Kim Khuyết Thiên",
+      "description": "Thiên vực kim khuyết dành cho Kim Tiên.",
+      "realmCode": "KIM_TIEN",
+      "navigationOrder": 12,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 12
+      },
+      "recommendedRealmRange": {
+        "minOrder": 12,
+        "maxOrder": 12
+      },
+      "monsterSpawnPoolId": "POOL_KIM_KHUYET_THIEN",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_KIM_KHUYET"
+    },
+    {
+      "id": "THAI_SO_GIOI",
+      "displayName": "Thái Sơ Giới",
+      "description": "Thế giới thái sơ dành cho Thái Ất.",
+      "realmCode": "THAI_AT",
+      "navigationOrder": 13,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 13
+      },
+      "recommendedRealmRange": {
+        "minOrder": 13,
+        "maxOrder": 13
+      },
+      "monsterSpawnPoolId": "POOL_THAI_SO_GIOI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_THAI_SO"
+    },
+    {
+      "id": "DAI_LA_THIEN",
+      "displayName": "Đại La Thiên",
+      "description": "Đại La thiên vực dành cho Đại La.",
+      "realmCode": "DAI_LA",
+      "navigationOrder": 14,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 14
+      },
+      "recommendedRealmRange": {
+        "minOrder": 14,
+        "maxOrder": 14
+      },
+      "monsterSpawnPoolId": "POOL_DAI_LA_THIEN",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_DAI_LA"
+    },
+    {
+      "id": "KHOI_NGUYEN_DAO_GIOI",
+      "displayName": "Khởi Nguyên Đạo Giới",
+      "description": "Đạo giới khởi nguyên dành cho Đạo Tổ.",
+      "realmCode": "DAO_TO",
+      "navigationOrder": 15,
+      "isStartingMap": false,
+      "status": "ACTIVE",
+      "unlockCondition": {
+        "type": "MIN_REALM_ORDER",
+        "realmOrder": 15
+      },
+      "recommendedRealmRange": {
+        "minOrder": 15,
+        "maxOrder": 15
+      },
+      "monsterSpawnPoolId": "POOL_KHOI_NGUYEN_DAO_GIOI",
+      "activityTypes": [
+        "EXPLORATION",
+        "GATHERING"
+      ],
+      "rewardModifier": null,
+      "monsterQualityPoolId": "QUALITY_POOL_KHOI_NGUYEN"
+    }
+  ]
+}

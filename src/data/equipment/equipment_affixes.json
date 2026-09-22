@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "affixes": [
+    {
+      "id": "SKD",
+      "displayName": "Tăng sát thương kỹ năng",
+      "modifierId": "SKILL_DAMAGE_UP",
+      "min": 1,
+      "max": 3,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "LF",
+      "displayName": "Tăng hút máu",
+      "modifierId": "LIFESTEAL_UP",
+      "min": 1,
+      "max": 3,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "SHD",
+      "displayName": "Tạo khiên",
+      "modifierId": "SHIELD_UP",
+      "min": 1,
+      "max": 3,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "REG",
+      "displayName": "Hồi phục",
+      "modifierId": "REGEN_UP",
+      "min": 1,
+      "max": 2,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "CDMG",
+      "displayName": "Tăng sát thương chí mạng",
+      "modifierId": "CRIT_DAMAGE_UP",
+      "min": 1,
+      "max": 5,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "PEN",
+      "displayName": "Xuyên giáp",
+      "modifierId": "PEN_UP",
+      "min": 1,
+      "max": 3,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "CCR",
+      "displayName": "Khống chế",
+      "modifierId": "CONTROL_RATE_UP",
+      "min": 1,
+      "max": 3,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "WOUND",
+      "displayName": "Trọng thương",
+      "modifierId": "WOUND_RATE_UP",
+      "min": 1,
+      "max": 15,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "STUN",
+      "displayName": "Choáng",
+      "modifierId": "STUN_RATE_UP",
+      "min": 1,
+      "max": 5,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "WEAK",
+      "displayName": "Suy yếu",
+      "modifierId": "WEAK_RATE_UP",
+      "min": 1,
+      "max": 5,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "CRIT",
+      "displayName": "Chí mạng",
+      "modifierId": "CRIT_RATE_UP",
+      "min": 1,
+      "max": 10,
+      "unit": "PERCENT"
+    },
+    {
+      "id": "LUCK",
+      "displayName": "Vận",
+      "modifierId": "LUCK_UP",
+      "min": 1,
+      "max": 5,
+      "unit": "FLAT"
+    }
+  ]
+}

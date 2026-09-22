@@ -1,0 +1,16 @@
+{
+  "revision": 4,
+  "sessionTtlSeconds": 300,
+  "maxRerolls": 5,
+  "spiritRootQualityPoolId": "SPIRIT_ROOT_REBIRTH_QUALITY_V1",
+  "rebirthCount": "0",
+  "starterCultivationArtId": "CP_NEUTRAL_HOANG",
+  "starterRecipeIds": [
+    "CRAFT_BREAKTHROUGH_PILL",
+    "CRAFT_SPIRIT_GATHERING_PILL"
+  ],
+  "daoName": {
+    "minLength": 2,
+    "maxLength": 24
+  }
+}

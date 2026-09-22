@@ -1,0 +1,90 @@
+{
+  "recipes": [
+
+    {
+
+      "id": "CRAFT_BREAKTHROUGH_PILL",
+
+      "displayName": "Luyện Phá Chướng Đan",
+
+      "professionId": "ALCHEMIST",
+
+      "professionGrade": 1,
+
+      "unlockMode": "LEARNED",
+
+      "output": {
+
+        "type": "ITEM",
+
+        "itemId": "BREAKTHROUGH_PILL",
+
+        "quantity": 1
+
+      },
+
+      "resultItemId": "BREAKTHROUGH_PILL",
+
+      "resultQuantity": 1,
+
+      "requiredRealm": "LUYEN_KHI",
+
+      "costCurrency": {
+
+        "currencyId": "SPIRIT_STONE",
+
+        "amount": 0
+
+      },
+
+      "materials": [
+
+        {
+
+          "itemId": "HERB_TU_LINH_THAO",
+
+          "quantity": 4
+
+        },
+
+        {
+
+          "itemId": "HERB_THANH_TAM_THAO",
+
+          "quantity": 1
+
+        }
+
+      ]
+
+    },
+
+    {
+      "id": "CRAFT_SPIRIT_GATHERING_PILL",
+      "displayName": "Luyện Tụ Linh Đan",
+      "professionId": "ALCHEMIST",
+      "professionGrade": 1,
+      "unlockMode": "LEARNED",
+      "output": {
+        "type": "ITEM",
+        "itemId": "SPIRIT_GATHERING_PILL",
+        "quantity": 1
+      },
+      "resultItemId": "SPIRIT_GATHERING_PILL",
+      "resultQuantity": 1,
+      "requiredRealm": "LUYEN_KHI",
+      "durationMinutes": 1,
+      "costCurrency": {
+        "currencyId": "SPIRIT_STONE",
+        "amount": 0
+      },
+      "materials": [
+        {
+          "itemId": "HERB_TU_LINH_THAO",
+          "quantity": 3
+        }
+      ]
+    }
+
+  ]
+}

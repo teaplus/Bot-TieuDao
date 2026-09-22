@@ -1,0 +1,29 @@
+{
+  "version": 3,
+
+  "cultivation": {
+    "offlineGain": true,
+    "offlineTimeLimit": "NONE",
+    "calculationMode": "CONTINUOUS_ELAPSED_SECONDS",
+    "rateUnit": "MINUTE",
+    "storage": {
+      "type": "NUMERIC",
+      "precision": 30,
+      "scale": 6,
+      "roundingMode": "HALF_UP"
+    },
+
+    "formula": "BASE * ALL_VALID_CULTIVATION_MODIFIERS",
+
+    "cultivationOverflow": {
+      "enabled": true,
+      "thresholdType": "NEXT_BREAKTHROUGH_REQUIRED_CULTIVATION",
+      "efficiencyMultiplier": "0.20",
+      "noNextTransitionPolicy": "APPLY_OVERFLOW_EFFICIENCY_TO_ALL_GAIN"
+    },
+
+    "breakthroughKeepCultivation": false,
+
+    "baseGainPerMinute": 60
+  }
+}

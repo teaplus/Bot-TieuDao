@@ -1,0 +1,578 @@
+[
+    {
+        "id": 0,
+        "name": "Thiên Vi Càn",
+        "full_title": "Quẻ số 1: Thiên Vi Càn",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-vi-can",
+        "image": "https://sodep.dabala.vn/que/1.png",
+        "description": "Quẻ Thiên Vi Càn (Càn - 乾), là quẻ số 1 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Thiên Vi Càn thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Thiên Vi Càn là quẻ Đại Cát, có triệu \"Khốn Long Đắc Thủy - Thời Vận Đã Đến\".",
+        "type": "Đại Cát"
+    },
+    {
+        "id": 1,
+        "name": "Địa Vi Khôn",
+        "full_title": "Quẻ số 2: Địa Vi Khôn",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-vi-khon",
+        "image": "https://sodep.dabala.vn/que/2.png",
+        "description": "Quẻ Địa Vi Khôn (Khôn - 坤), là quẻ số 2 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Địa Vi Khôn thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Địa Vi Khôn là quẻ Đại Cát, có triệu \"Ngạ Hổ Đắc Thực - Thỏa lòng mãn ý.\".",
+        "type": "Đại Cát"
+    },
+    {
+        "id": 2,
+        "name": "Thủy Lôi Truân",
+        "full_title": "Quẻ số 3: Thủy Lôi Truân",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-loi-truan",
+        "image": "https://sodep.dabala.vn/que/3.png",
+        "description": "Quẻ Thủy Lôi Truân (Truân - 屯), là quẻ số 3 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Thủy Lôi Truân thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Thủy Lôi Truân là quẻ Hung, có triệu \"Loạn Ti Vô Đầu - Lòng Dạ Rối Bời\".",
+        "type": "Hung"
+    },
+    {
+        "id": 3,
+        "name": "Sơn Thủy Mông",
+        "full_title": "Quẻ số 4: Sơn Thủy Mông",
+        "url": "https://dich.kabala.vn/kinh-dich/son-thuy-mong",
+        "image": "https://sodep.dabala.vn/que/4.png",
+        "description": "Quẻ Sơn Thủy Mông (Mông - 蒙), là quẻ số 4 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Sơn Thủy Mông thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Sơn Thủy Mông là quẻ Hung, có triệu \"Tiểu Quỷ Thâu Tiền - Thời vận không hay\".",
+        "type": "Hung"
+    },
+    {
+        "id": 4,
+        "name": "Thủy Thiên Nhu",
+        "full_title": "Quẻ số 5: Thủy Thiên Nhu",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-thien-nhu",
+        "image": "https://sodep.dabala.vn/que/5.png",
+        "description": "Quẻ Thủy Thiên Nhu (Nhu - 需), là quẻ số 5 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Thủy Thiên Nhu thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Thủy Thiên Nhu là quẻ Cát, có triệu \"Minh Châu Xuất Thổ - Vận tốt đã đến\".",
+        "type": "Cát"
+    },
+    {
+        "id": 5,
+        "name": "Thiên Thủy Tụng",
+        "full_title": "Quẻ số 6: Thiên Thủy Tụng",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-thuy-tung",
+        "image": "https://sodep.dabala.vn/que/6.png",
+        "description": "Quẻ Thiên Thủy Tụng (Tụng - 訟), là quẻ số 6 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Thiên Thủy Tụng thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Thiên Thủy Tụng là quẻ Hung, có triệu \"Nhị Nhân Tranh Lộ - Việc làm không thuận\".",
+        "type": "Hung"
+    },
+    {
+        "id": 6,
+        "name": "Địa Thủy Sư",
+        "full_title": "Quẻ số 7: Địa Thủy Sư",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-thuy-su",
+        "image": "https://sodep.dabala.vn/que/7.png",
+        "description": "Quẻ Địa Thủy Sư (Sư - 師), là quẻ số 7 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Địa Thủy Sư thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Địa Thủy Sư là quẻ Cát, có triệu \"Mã Đáo Thành Công - Mọi sự tốt đẹp\".",
+        "type": "Cát"
+    },
+    {
+        "id": 7,
+        "name": "Thủy Địa Tỷ",
+        "full_title": "Quẻ số 8: Thủy Địa Tỷ",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-dia-ty",
+        "image": "https://sodep.dabala.vn/que/8.png",
+        "description": "Quẻ Thủy Địa Tỷ (Tỷ - 比), là quẻ số 8 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Thủy Địa Tỷ thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Thủy Địa Tỷ là quẻ Cát, có triệu \"Thuận Phong Hành Thuyền - Việc gì cũng lợi.\".",
+        "type": "Cát"
+    },
+    {
+        "id": 8,
+        "name": "Phong Thiên Tiểu Súc",
+        "full_title": "Quẻ số 9: Phong Thiên Tiểu Súc",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-thien-tieu-suc",
+        "image": "https://sodep.dabala.vn/que/9.png",
+        "description": "Quẻ Phong Thiên Tiểu Súc (Tiểu Súc - 小畜), là quẻ số 9 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Phong Thiên Tiểu Súc thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Phong Thiên Tiểu Súc là quẻ Bình Hòa, có triệu \"Mật Vân Bất Vũ - Tạm thời phải nhẫn\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 9,
+        "name": "Thiên Trạch Lý",
+        "full_title": "Quẻ số 10: Thiên Trạch Lý",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-trach-ly",
+        "image": "https://sodep.dabala.vn/que/10.png",
+        "description": "Quẻ Thiên Trạch Lý (Lý - 履), là quẻ số 10 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Thiên Trạch Lý thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Thiên Trạch Lý là quẻ Cát, có triệu \"Phượng Minh Kỳ Sơn - Quốc gia cát tường\".",
+        "type": "Cát"
+    },
+    {
+        "id": 10,
+        "name": "Địa Thiên Thái",
+        "full_title": "Quẻ số 11: Địa Thiên Thái",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-thien-thai",
+        "image": "https://sodep.dabala.vn/que/11.png",
+        "description": "Quẻ Địa Thiên Thái (Thái - 泰), là quẻ số 11 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Địa Thiên Thái thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Địa Thiên Thái là quẻ Cát, có triệu \"Hỷ Báo Tam Nguyên - Đại cát đại lợi\".",
+        "type": "Cát"
+    },
+    {
+        "id": 11,
+        "name": "Thiên Địa Bĩ",
+        "full_title": "Quẻ số 12: Thiên Địa Bĩ",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-dia-bi",
+        "image": "https://sodep.dabala.vn/que/12.png",
+        "description": "Quẻ Thiên Địa Bĩ (Bĩ - 否), là quẻ số 12 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Thiên Địa Bĩ thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Thiên Địa Bĩ là quẻ Hung, có triệu \"Hổ Lạc Hãm Khanh - Cát ít hung nhiều\".",
+        "type": "Hung"
+    },
+    {
+        "id": 12,
+        "name": "Thiên Hỏa Đồng Nhân",
+        "full_title": "Quẻ số 13: Thiên Hỏa Đồng Nhân",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-hoa-dong-nhan",
+        "image": "https://sodep.dabala.vn/que/13.png",
+        "description": "Quẻ Thiên Hỏa Đồng Nhân (Đồng Nhân - 同人), là quẻ số 13 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Thiên Hỏa Đồng Nhân thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Thiên Hỏa Đồng Nhân là quẻ Cát, có triệu \"Tiên Nhân Chỉ Lộ - Đi đâu cũng lợi\".",
+        "type": "Cát"
+    },
+    {
+        "id": 13,
+        "name": "Hỏa Thiên Đại Hữu",
+        "full_title": "Quẻ số 14: Hỏa Thiên Đại Hữu",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-thien-dai-huu",
+        "image": "https://sodep.dabala.vn/que/14.png",
+        "description": "Quẻ Hỏa Thiên Đại Hữu (Đại Hữu - 大有), là quẻ số 14 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Hỏa Thiên Đại Hữu thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Hỏa Thiên Đại Hữu là quẻ Đại Cát, có triệu \"Nhuyễn Mộc Nô Tước - Làm việc chắc chắn\".",
+        "type": "Đại Cát"
+    },
+    {
+        "id": 14,
+        "name": "Địa Sơn Khiêm",
+        "full_title": "Quẻ số 15: Địa Sơn Khiêm",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-son-khiem",
+        "image": "https://sodep.dabala.vn/que/15.png",
+        "description": "Quẻ Địa Sơn Khiêm (Khiêm - 謙), là quẻ số 15 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Địa Sơn Khiêm thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Địa Sơn Khiêm là quẻ Cát, có triệu \"Nhị Nhân Phân Kim - Vạn sự hanh thông\".",
+        "type": "Cát"
+    },
+    {
+        "id": 15,
+        "name": "Lôi Địa Dự",
+        "full_title": "Quẻ số 16: Lôi Địa Dự",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-dia-du",
+        "image": "https://sodep.dabala.vn/que/16.png",
+        "description": "Quẻ Lôi Địa Dự (Dự - 豫), là quẻ số 16 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Lôi Địa Dự thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Lôi Địa Dự là quẻ Cát, có triệu \"Thanh Long Đắc Vị - Gặp hung hóa cát\".",
+        "type": "Cát"
+    },
+    {
+        "id": 16,
+        "name": "Trạch Lôi Tùy",
+        "full_title": "Quẻ số 17: Trạch Lôi Tùy",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-loi-tuy",
+        "image": "https://sodep.dabala.vn/que/17.png",
+        "description": "Quẻ Trạch Lôi Tùy (Tùy - 隨), là quẻ số 17 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Trạch Lôi Tùy thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Trạch Lôi Tùy là quẻ Bình Hòa, có triệu \"Bộ Bộ Đăng Cao - Lên cao từng bước\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 17,
+        "name": "Sơn Phong Cổ",
+        "full_title": "Quẻ số 18: Sơn Phong Cổ",
+        "url": "https://dich.kabala.vn/kinh-dich/son-phong-co",
+        "image": "https://sodep.dabala.vn/que/18.png",
+        "description": "Quẻ Sơn Phong Cổ (Cổ - 蠱), là quẻ số 18 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Sơn Phong Cổ thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Sơn Phong Cổ là quẻ Hung, có triệu \"Thôi Ma Phần Đạo - Làm không đúng cách\".",
+        "type": "Hung"
+    },
+    {
+        "id": 18,
+        "name": "Địa Trạch Lâm",
+        "full_title": "Quẻ số 19: Địa Trạch Lâm",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-trach-lam",
+        "image": "https://sodep.dabala.vn/que/19.png",
+        "description": "Quẻ Địa Trạch Lâm (Lâm - 臨), là quẻ số 19 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Địa Trạch Lâm thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Địa Trạch Lâm là quẻ Bình Hòa, có triệu \"Phát Chánh Thi Nhân - Thời vận hanh thông\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 19,
+        "name": "Phong Địa Quán",
+        "full_title": "Quẻ số 20: Phong Địa Quán",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-dia-quan",
+        "image": "https://sodep.dabala.vn/que/20.png",
+        "description": "Quẻ Phong Địa Quán (Quan - 觀), là quẻ số 20 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Phong Địa Quán thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Phong Địa Quán là quẻ Bình Hòa, có triệu \"Hạn Bồng Phùng Hà - Quý nhân phù trợ\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 20,
+        "name": "Hỏa Lôi Phệ Hạp",
+        "full_title": "Quẻ số 21: Hỏa Lôi Phệ Hạp",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-loi-phe-hap",
+        "image": "https://sodep.dabala.vn/que/21.png",
+        "description": "Quẻ Hỏa Lôi Phệ Hạp (Phệ Hạp - 噬嗑), là quẻ số 21 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Hỏa Lôi Phệ Hạp thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Hỏa Lôi Phệ Hạp là quẻ Bình Hòa, có triệu \"Cô Nhân Ngộ Thực - Gặp may gặp mắn\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 21,
+        "name": "Sơn Hỏa Bí",
+        "full_title": "Quẻ số 22: Sơn Hỏa Bí",
+        "url": "https://dich.kabala.vn/kinh-dich/son-hoa-bi",
+        "image": "https://sodep.dabala.vn/que/22.png",
+        "description": "Quẻ Sơn Hỏa Bí (Bí - 賁), là quẻ số 22 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Sơn Hỏa Bí thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Sơn Hỏa Bí là quẻ Cát, có triệu \"Hỷ Khí Doanh Môn - Vạn sự như ý\".",
+        "type": "Cát"
+    },
+    {
+        "id": 22,
+        "name": "Sơn Địa Bác",
+        "full_title": "Quẻ số 23: Sơn Địa Bác",
+        "url": "https://dich.kabala.vn/kinh-dich/son-dia-bac",
+        "image": "https://sodep.dabala.vn/que/23.png",
+        "description": "Quẻ Sơn Địa Bác (Bác - 剝), là quẻ số 23 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Sơn Địa Bác thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Sơn Địa Bác là quẻ Hung, có triệu \"Ưng Thước Đồng Lâm - Việc không thành\".",
+        "type": "Hung"
+    },
+    {
+        "id": 23,
+        "name": "Địa Lôi Phục",
+        "full_title": "Quẻ số 24: Địa Lôi Phục",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-loi-phuc",
+        "image": "https://sodep.dabala.vn/que/24.png",
+        "description": "Quẻ Địa Lôi Phục (Phục - 復), là quẻ số 24 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Địa Lôi Phục thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Địa Lôi Phục là quẻ Bình Hòa, có triệu \"Phu Thê Phản Mục - Tráo trở lật lọng\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 24,
+        "name": "Thiên Lôi Vô Vọng",
+        "full_title": "Quẻ số 25: Thiên Lôi Vô Vọng",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-loi-vo-vong",
+        "image": "https://sodep.dabala.vn/que/25.png",
+        "description": "Quẻ Thiên Lôi Vô Vọng (Vô Vọng - 無妄), là quẻ số 25 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Thiên Lôi Vô Vọng thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Thiên Lôi Vô Vọng là quẻ Hung, có triệu \"Điểu Bị Lao Lung - Tù túng buồn lo\".",
+        "type": "Hung"
+    },
+    {
+        "id": 25,
+        "name": "Sơn Thiên Đại Súc",
+        "full_title": "Quẻ số 26: Sơn Thiên Đại Súc",
+        "url": "https://dich.kabala.vn/kinh-dich/son-thien-dai-suc",
+        "image": "https://sodep.dabala.vn/que/26.png",
+        "description": "Quẻ Sơn Thiên Đại Súc (Đại Súc - 大畜), là quẻ số 26 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Sơn Thiên Đại Súc thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Sơn Thiên Đại Súc là quẻ Cát, có triệu \"Trận Thế Đắc Khai - Không còn trở ngại\".",
+        "type": "Cát"
+    },
+    {
+        "id": 26,
+        "name": "Sơn Lôi Di",
+        "full_title": "Quẻ số 27: Sơn Lôi Di",
+        "url": "https://dich.kabala.vn/kinh-dich/son-loi-di",
+        "image": "https://sodep.dabala.vn/que/27.png",
+        "description": "Quẻ Sơn Lôi Di (Di - 頤), là quẻ số 27 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Sơn Lôi Di thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Sơn Lôi Di là quẻ Cát Hanh, có triệu \"Vị Thủy Phỏng Hiền - Bĩ cực thái lai\".",
+        "type": "Cát Hanh"
+    },
+    {
+        "id": 27,
+        "name": "Trạch Phong Đại Quá",
+        "full_title": "Quẻ số 28: Trạch Phong Đại Quá",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-phong-dai-qua",
+        "image": "https://sodep.dabala.vn/que/28.png",
+        "description": "Quẻ Trạch Phong Đại Quá (Đại Quá - 大過), là quẻ số 28 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Trạch Phong Đại Quá thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Trạch Phong Đại Quá là quẻ Cát, có triệu \"Dạ Mộng Kim Ngân - Không vẫn hoàn không\".",
+        "type": "Cát"
+    },
+    {
+        "id": 28,
+        "name": "Thủy Vi Khảm",
+        "full_title": "Quẻ số 29: Thủy Vi Khảm",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-vi-kham",
+        "image": "https://sodep.dabala.vn/que/29.png",
+        "description": "Quẻ Thủy Vi Khảm (Khảm - 坎), là quẻ số 29 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Thủy Vi Khảm thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Thủy Vi Khảm là quẻ Bình Hòa, có triệu \"Thủy Để Lao Nguyệt - Uổng công phí sức\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 29,
+        "name": "Hỏa Vi Ly",
+        "full_title": "Quẻ số 30: Hỏa Vi Ly",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-vi-ly",
+        "image": "https://sodep.dabala.vn/que/30.png",
+        "description": "Quẻ Hỏa Vi Ly (Ly - 離), là quẻ số 30 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Hỏa Vi Ly thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Hỏa Vi Ly là quẻ Cát, có triệu \"Thiên Quan Tứ Phước - Phát phúc sinh tài\".",
+        "type": "Cát"
+    },
+    {
+        "id": 30,
+        "name": "Trạch Sơn Hàm",
+        "full_title": "Quẻ số 31: Trạch Sơn Hàm",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-son-ham",
+        "image": "https://sodep.dabala.vn/que/31.png",
+        "description": "Quẻ Trạch Sơn Hàm (Hàm - 咸), là quẻ số 31 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Trạch Sơn Hàm thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Trạch Sơn Hàm là quẻ Cát, có triệu \"Manh Nha Xuất Thổ - Thời vận đã đến\".",
+        "type": "Cát"
+    },
+    {
+        "id": 31,
+        "name": "Lôi Phong Hằng",
+        "full_title": "Quẻ số 32: Lôi Phong Hằng",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-phong-hang",
+        "image": "https://sodep.dabala.vn/que/32.png",
+        "description": "Quẻ Lôi Phong Hằng (Hằng - 恆), là quẻ số 32 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Lôi Phong Hằng thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Lôi Phong Hằng là quẻ Cát, có triệu \"Ngư Lai Tràng Võng - Vạn sự như ý\".",
+        "type": "Cát"
+    },
+    {
+        "id": 32,
+        "name": "Thiên Sơn Độn",
+        "full_title": "Quẻ số 33: Thiên Sơn Độn",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-son-don",
+        "image": "https://sodep.dabala.vn/que/33.png",
+        "description": "Quẻ Thiên Sơn Độn (Độn - 遯), là quẻ số 33 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Thiên Sơn Độn thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Thiên Sơn Độn là quẻ Hung, có triệu \"Nùng Vân Tế Nhật - Mưu sự bất thành\".",
+        "type": "Hung"
+    },
+    {
+        "id": 33,
+        "name": "Lôi Thiên Đại Tráng",
+        "full_title": "Quẻ số 34: Lôi Thiên Đại Tráng",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-thien-dai-trang",
+        "image": "https://sodep.dabala.vn/que/34.png",
+        "description": "Quẻ Lôi Thiên Đại Tráng (Đại Tráng - 大壯), là quẻ số 34 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Lôi Thiên Đại Tráng thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Lôi Thiên Đại Tráng là quẻ Cát, có triệu \"Công Sư Đắc Mộc - Vận khí sắp lên\".",
+        "type": "Cát"
+    },
+    {
+        "id": 34,
+        "name": "Hỏa Địa Tấn",
+        "full_title": "Quẻ số 35: Hỏa Địa Tấn",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-dia-tan",
+        "image": "https://sodep.dabala.vn/que/35.png",
+        "description": "Quẻ Hỏa Địa Tấn (Tấn - 晉), là quẻ số 35 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Hỏa Địa Tấn thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Hỏa Địa Tấn là quẻ Cát, có triệu \"Sừ Địa Đắc Kim - Vận đỏ sắp đến\".",
+        "type": "Cát"
+    },
+    {
+        "id": 35,
+        "name": "Địa Hỏa Minh Di",
+        "full_title": "Quẻ số 36: Địa Hỏa Minh Di",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-hoa-minh-di",
+        "image": "https://sodep.dabala.vn/que/36.png",
+        "description": "Quẻ Địa Hỏa Minh Di (Minh Di - 明夷), là quẻ số 36 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Địa Hỏa Minh Di thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Địa Hỏa Minh Di là quẻ Hung, có triệu \"Quá Giang Chiết Kiều - Vô cùng khó khăn\".",
+        "type": "Hung"
+    },
+    {
+        "id": 36,
+        "name": "Phong Hỏa Gia Nhân",
+        "full_title": "Quẻ số 37: Phong Hỏa Gia Nhân",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-hoa-gia-nhan",
+        "image": "https://sodep.dabala.vn/que/37.png",
+        "description": "Quẻ Phong Hỏa Gia Nhân (Gia Nhân - 家人), là quẻ số 37 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Phong Hỏa Gia Nhân thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Phong Hỏa Gia Nhân là quẻ Cát, có triệu \"Cảnh Lý Quan Hoa - Theo đuổi ảo ảnh\".",
+        "type": "Cát"
+    },
+    {
+        "id": 37,
+        "name": "Hỏa Trạch Khuê",
+        "full_title": "Quẻ số 38: Hỏa Trạch Khuê",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-trach-khue",
+        "image": "https://sodep.dabala.vn/que/38.png",
+        "description": "Quẻ Hỏa Trạch Khuê (Khuê - 睽), là quẻ số 38 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Hỏa Trạch Khuê thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Hỏa Trạch Khuê là quẻ Hung, có triệu \"Phản Mại Trư Dương - Long đong lận đận\".",
+        "type": "Hung"
+    },
+    {
+        "id": 38,
+        "name": "Thủy Sơn Kiển",
+        "full_title": "Quẻ số 39: Thủy Sơn Kiển",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-son-kien",
+        "image": "https://sodep.dabala.vn/que/39.png",
+        "description": "Quẻ Thủy Sơn Kiển (Kiển - 蹇), là quẻ số 39 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Thủy Sơn Kiển thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Thủy Sơn Kiển là quẻ Hung, có triệu \"Vũ Tuyết Tải Đồ - Mưu sự không đúng\".",
+        "type": "Hung"
+    },
+    {
+        "id": 39,
+        "name": "Lôi Thủy Giải",
+        "full_title": "Quẻ số 40: Lôi Thủy Giải",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-thuy-giai",
+        "image": "https://sodep.dabala.vn/que/40.png",
+        "description": "Quẻ Lôi Thủy Giải (Giải - 解), là quẻ số 40 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Lôi Thủy Giải thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Lôi Thủy Giải là quẻ Cát, có triệu \"Ngũ Quan Thoát Nạn - May mắn thoát nạn\".",
+        "type": "Cát"
+    },
+    {
+        "id": 40,
+        "name": "Sơn Trạch Tổn",
+        "full_title": "Quẻ số 41: Sơn Trạch Tổn",
+        "url": "https://dich.kabala.vn/kinh-dich/son-trach-ton",
+        "image": "https://sodep.dabala.vn/que/41.png",
+        "description": "Quẻ Sơn Trạch Tổn (Tổn - 損), là quẻ số 41 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Sơn Trạch Tổn thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Sơn Trạch Tổn là quẻ Bình Hòa, có triệu \"Thôi Xa Phí Lực - Uổng phí công sức\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 41,
+        "name": "Phong Lôi Ích",
+        "full_title": "Quẻ số 42: Phong Lôi Ích",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-loi-ich",
+        "image": "https://sodep.dabala.vn/que/42.png",
+        "description": "Quẻ Phong Lôi Ích (Ích - 益), là quẻ số 42 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Phong Lôi Ích thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Phong Lôi Ích là quẻ Cát, có triệu \"Khô Mộc Khai Hoa - Bĩ cực vinh lai\".",
+        "type": "Cát"
+    },
+    {
+        "id": 42,
+        "name": "Trạch Thiên Quải",
+        "full_title": "Quẻ số 43: Trạch Thiên Quải",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-thien-quai",
+        "image": "https://sodep.dabala.vn/que/43.png",
+        "description": "Quẻ Trạch Thiên Quải (Quải - 夬), là quẻ số 43 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☰ Càn (乾) - Thiên (天) tức Trời. Quẻ Trạch Thiên Quải thuộc nhóm tượng quẻ Khôn, ngũ hành Thổ. Quẻ Trạch Thiên Quải là quẻ Hung, có triệu \"Du Phong Thoát Võng - Gặp hung hoá cát\".",
+        "type": "Hung"
+    },
+    {
+        "id": 43,
+        "name": "Thiên Phong Cấu",
+        "full_title": "Quẻ số 44: Thiên Phong Cấu",
+        "url": "https://dich.kabala.vn/kinh-dich/thien-phong-cau",
+        "image": "https://sodep.dabala.vn/que/44.png",
+        "description": "Quẻ Thiên Phong Cấu (Cấu - 姤), là quẻ số 44 trong Kinh Dịch. Quẻ có Ngoại quái ☰ Càn (乾) - Thiên (天) tức Trời. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Thiên Phong Cấu thuộc nhóm tượng quẻ Càn, ngũ hành Kim. Quẻ Thiên Phong Cấu là quẻ Bình Hòa, có triệu \"Tha Hương Ngộ Hữu - Thời vận đã đến\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 44,
+        "name": "Trạch Địa Tụy",
+        "full_title": "Quẻ số 45: Trạch Địa Tụy",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-dia-tuy",
+        "image": "https://sodep.dabala.vn/que/45.png",
+        "description": "Quẻ Trạch Địa Tụy (Tụy - 萃), là quẻ số 45 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☷ Khôn (坤) - Địa (地) tức Đất. Quẻ Trạch Địa Tụy thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Trạch Địa Tụy là quẻ Cát, có triệu \"Ngư Lý Hóa Long - Rồng bay lên trời\".",
+        "type": "Cát"
+    },
+    {
+        "id": 45,
+        "name": "Địa Phong Thăng",
+        "full_title": "Quẻ số 46: Địa Phong Thăng",
+        "url": "https://dich.kabala.vn/kinh-dich/dia-phong-thang",
+        "image": "https://sodep.dabala.vn/que/46.png",
+        "description": "Quẻ Địa Phong Thăng (Thăng - 升), là quẻ số 46 trong Kinh Dịch. Quẻ có Ngoại quái ☷ Khôn (坤) - Địa (地) tức Đất. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Địa Phong Thăng thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Địa Phong Thăng là quẻ Cát, có triệu \"Chỉ Nhật Cao Thăng - Phát tài phát lộc\".",
+        "type": "Cát"
+    },
+    {
+        "id": 46,
+        "name": "Trạch Thủy Khốn",
+        "full_title": "Quẻ số 47: Trạch Thủy Khốn",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-thuy-khon",
+        "image": "https://sodep.dabala.vn/que/47.png",
+        "description": "Quẻ Trạch Thủy Khốn (Khốn - 困), là quẻ số 47 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Trạch Thủy Khốn thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Trạch Thủy Khốn là quẻ Bình Hòa, có triệu \"Thoát Lãng Trừu Đê - Tình trạng bất ổn\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 47,
+        "name": "Thủy Phong Tỉnh",
+        "full_title": "Quẻ số 48: Thủy Phong Tỉnh",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-phong-tinh",
+        "image": "https://sodep.dabala.vn/que/48.png",
+        "description": "Quẻ Thủy Phong Tỉnh (Tỉnh - 井), là quẻ số 48 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Thủy Phong Tỉnh thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Thủy Phong Tỉnh là quẻ Bình Hòa, có triệu \"Khô Tỉnh Sanh Tuyền - Vận tốt đã đến\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 48,
+        "name": "Trạch Hỏa Cách",
+        "full_title": "Quẻ số 49: Trạch Hỏa Cách",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-hoa-cach",
+        "image": "https://sodep.dabala.vn/que/49.png",
+        "description": "Quẻ Trạch Hỏa Cách (Cách - 革), là quẻ số 49 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Trạch Hỏa Cách thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Trạch Hỏa Cách là quẻ Cát, có triệu \"Hạn Miêu Đắc Vũ - Vận tốt đã đến\".",
+        "type": "Cát"
+    },
+    {
+        "id": 49,
+        "name": "Hỏa Phong Đỉnh",
+        "full_title": "Quẻ số 50: Hỏa Phong Đỉnh",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-phong-dinh",
+        "image": "https://sodep.dabala.vn/que/50.png",
+        "description": "Quẻ Hỏa Phong Đỉnh (Đỉnh - 鼎), là quẻ số 50 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Hỏa Phong Đỉnh thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Hỏa Phong Đỉnh là quẻ Cát, có triệu \"Ngư Ông Đắc Lợi - Nhất cử lưỡng tiện\".",
+        "type": "Cát"
+    },
+    {
+        "id": 50,
+        "name": "Lôi Vi Chấn",
+        "full_title": "Quẻ số 51: Lôi Vi Chấn",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-vi-chan",
+        "image": "https://sodep.dabala.vn/que/51.png",
+        "description": "Quẻ Lôi Vi Chấn (Chấn - 震), là quẻ số 51 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Quẻ Lôi Vi Chấn thuộc nhóm tượng quẻ Chấn, ngũ hành Mộc. Quẻ Lôi Vi Chấn là quẻ Bình Hòa, có triệu \"Kim Chung Dạ Tràng - Mọi sự thành công\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 51,
+        "name": "Sơn Vi Cấn",
+        "full_title": "Quẻ số 52: Sơn Vi Cấn",
+        "url": "https://dich.kabala.vn/kinh-dich/son-vi-can",
+        "image": "https://sodep.dabala.vn/que/52.png",
+        "description": "Quẻ Sơn Vi Cấn (Cấn - 艮), là quẻ số 52 trong Kinh Dịch. Quẻ có Ngoại quái ☶ Cấn (艮) - Sơn (山) tức Núi. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Sơn Vi Cấn thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Sơn Vi Cấn là quẻ Bình Hòa, có triệu \"Nhân Đoản Táo Cao - Mọi việc bất thuận\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 52,
+        "name": "Phong Sơn Tiệm",
+        "full_title": "Quẻ số 53: Phong Sơn Tiệm",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-son-tiem",
+        "image": "https://sodep.dabala.vn/que/53.png",
+        "description": "Quẻ Phong Sơn Tiệm (Tiệm - 漸), là quẻ số 53 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Phong Sơn Tiệm thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Phong Sơn Tiệm là quẻ Cát, có triệu \"Tuấn Mã Xuất Lung - Trứng để đầu đẳng.\".",
+        "type": "Cát"
+    },
+    {
+        "id": 53,
+        "name": "Lôi Trạch Quy Muội",
+        "full_title": "Quẻ số 54: Lôi Trạch Quy Muội",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-trach-quy-muoi",
+        "image": "https://sodep.dabala.vn/que/54.png",
+        "description": "Quẻ Lôi Trạch Quy Muội (Quy Muội - 歸妹), là quẻ số 54 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Lôi Trạch Quy Muội thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Lôi Trạch Quy Muội là quẻ Hung, có triệu \"Duyên Mộc Cầu Ngư - Mưu sự bất thành\".",
+        "type": "Hung"
+    },
+    {
+        "id": 54,
+        "name": "Lôi Hỏa Phong",
+        "full_title": "Quẻ số 55: Lôi Hỏa Phong",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-hoa-phong",
+        "image": "https://sodep.dabala.vn/que/55.png",
+        "description": "Quẻ Lôi Hỏa Phong (Phong - 豐), là quẻ số 55 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Lôi Hỏa Phong thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Lôi Hỏa Phong là quẻ Cát, có triệu \"Cổ Kính Trùng Minh - Vận tốt trở lại\".",
+        "type": "Cát"
+    },
+    {
+        "id": 55,
+        "name": "Hỏa Sơn Lữ",
+        "full_title": "Quẻ số 56: Hỏa Sơn Lữ",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-son-lu",
+        "image": "https://sodep.dabala.vn/que/56.png",
+        "description": "Quẻ Hỏa Sơn Lữ (Lữ - 旅), là quẻ số 56 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Hỏa Sơn Lữ thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Hỏa Sơn Lữ là quẻ Bình Hòa, có triệu \"Túc Điểu Phần Sào - Việc làm không thành\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 56,
+        "name": "Phong Vi Tốn",
+        "full_title": "Quẻ số 57: Phong Vi Tốn",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-vi-ton",
+        "image": "https://sodep.dabala.vn/que/57.png",
+        "description": "Quẻ Phong Vi Tốn (Tốn - 巽), là quẻ số 57 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☴ Tốn (巽) - Phong (風) tức Gió. Quẻ Phong Vi Tốn thuộc nhóm tượng quẻ Tốn, ngũ hành Mộc. Quẻ Phong Vi Tốn là quẻ Bình Hòa, có triệu \"Châu Đắc Thuận Phong - Khốn cực sinh phúc\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 57,
+        "name": "Trạch Vi Đoài",
+        "full_title": "Quẻ số 58: Trạch Vi Đoài",
+        "url": "https://dich.kabala.vn/kinh-dich/trach-vi-doai",
+        "image": "https://sodep.dabala.vn/que/58.png",
+        "description": "Quẻ Trạch Vi Đoài (Đoài - 兌), là quẻ số 58 trong Kinh Dịch. Quẻ có Ngoại quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Trạch Vi Đoài thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Trạch Vi Đoài là quẻ Cát, có triệu \"Chẩn Thủy Hòa Nê - Vô cùng thuận tiện\".",
+        "type": "Cát"
+    },
+    {
+        "id": 58,
+        "name": "Phong Thủy Hoán",
+        "full_title": "Quẻ số 59: Phong Thủy Hoán",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-thuy-hoan",
+        "image": "https://sodep.dabala.vn/que/59.png",
+        "description": "Quẻ Phong Thủy Hoán (Hoán - 渙), là quẻ số 59 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Phong Thủy Hoán thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Phong Thủy Hoán là quẻ Hung, có triệu \"Cách Hà Vọng Kim - Uổng công phí sức\".",
+        "type": "Hung"
+    },
+    {
+        "id": 59,
+        "name": "Thủy Trạch Tiết",
+        "full_title": "Quẻ số 60: Thủy Trạch Tiết",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-trach-tiet",
+        "image": "https://sodep.dabala.vn/que/60.png",
+        "description": "Quẻ Thủy Trạch Tiết (Tiết - 節), là quẻ số 60 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Thủy Trạch Tiết thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Thủy Trạch Tiết là quẻ Cát, có triệu \"Trảm Tướng Phong Thần - Không phải kiêng kị\".",
+        "type": "Cát"
+    },
+    {
+        "id": 60,
+        "name": "Phong Trạch Trung Phu",
+        "full_title": "Quẻ số 61: Phong Trạch Trung Phu",
+        "url": "https://dich.kabala.vn/kinh-dich/phong-trach-trung-phu",
+        "image": "https://sodep.dabala.vn/que/61.png",
+        "description": "Quẻ Phong Trạch Trung Phu (Trung Phu - 中孚), là quẻ số 61 trong Kinh Dịch. Quẻ có Ngoại quái ☴ Tốn (巽) - Phong (風) tức Gió. Nội quái ☱ Đoài (兌) - Trạch (澤) tức Đầm. Quẻ Phong Trạch Trung Phu thuộc nhóm tượng quẻ Cấn, ngũ hành Thổ. Quẻ Phong Trạch Trung Phu là quẻ Cát, có triệu \"Hành Tẩu Bạc Băng - Vô cùng tốt lành\".",
+        "type": "Cát"
+    },
+    {
+        "id": 61,
+        "name": "Lôi Sơn Tiểu Quá",
+        "full_title": "Quẻ số 62: Lôi Sơn Tiểu Quá",
+        "url": "https://dich.kabala.vn/kinh-dich/loi-son-tieu-qua",
+        "image": "https://sodep.dabala.vn/que/62.png",
+        "description": "Quẻ Lôi Sơn Tiểu Quá (Tiểu Quá - 小過), là quẻ số 62 trong Kinh Dịch. Quẻ có Ngoại quái ☳ Chấn (震) - Lôi (雷) tức Sấm. Nội quái ☶ Cấn (艮) - Sơn (山) tức Núi. Quẻ Lôi Sơn Tiểu Quá thuộc nhóm tượng quẻ Đoài, ngũ hành Kim. Quẻ Lôi Sơn Tiểu Quá là quẻ Bình Hòa, có triệu \"Cấp Quá Độc Kiều - Tiến lợi lui hại.\".",
+        "type": "Bình Hòa"
+    },
+    {
+        "id": 62,
+        "name": "Thủy Hỏa Ký Tế",
+        "full_title": "Quẻ số 63: Thủy Hỏa Ký Tế",
+        "url": "https://dich.kabala.vn/kinh-dich/thuy-hoa-ky-te",
+        "image": "https://sodep.dabala.vn/que/63.png",
+        "description": "Quẻ Thủy Hỏa Ký Tế (Ký Tế - 既濟), là quẻ số 63 trong Kinh Dịch. Quẻ có Ngoại quái ☵ Khảm (坎) - Thủy (水) tức Nước. Nội quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Quẻ Thủy Hỏa Ký Tế thuộc nhóm tượng quẻ Khảm, ngũ hành Thủy. Quẻ Thủy Hỏa Ký Tế là quẻ Đại Cát, có triệu \"Kim Bảng Đề Danh - Cát khánh như ý\".",
+        "type": "Đại Cát"
+    },
+    {
+        "id": 63,
+        "name": "Hỏa Thủy Vị Tế",
+        "full_title": "Quẻ số 64: Hỏa Thủy Vị Tế",
+        "url": "https://dich.kabala.vn/kinh-dich/hoa-thuy-vi-te",
+        "image": "https://sodep.dabala.vn/que/64.png",
+        "description": "Quẻ Hỏa Thủy Vị Tế (Vị Tế - 未濟), là quẻ số 64 trong Kinh Dịch. Quẻ có Ngoại quái ☲ Ly (離) - Hỏa (火) tức Hỏa. Nội quái ☵ Khảm (坎) - Thủy (水) tức Nước. Quẻ Hỏa Thủy Vị Tế thuộc nhóm tượng quẻ Ly, ngũ hành Hỏa. Quẻ Hỏa Thủy Vị Tế là quẻ Hung, có triệu \"Thái Tuế Nguyệt Kiến - Tiểu nhân ám hại\".",
+        "type": "Hung"
+    }
+]

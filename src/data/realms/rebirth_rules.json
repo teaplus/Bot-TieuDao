@@ -1,0 +1,47 @@
+{
+  "rebirth": {
+    "id": "REBIRTH_MVP_V1",
+    "revision": 2,
+    "enabled": true,
+    "repeatPolicy": "UNLIMITED",
+    "eligibility": {
+      "realmPosition": "LAST_REALM",
+      "stagePosition": "MAX_STAGE",
+      "requiresCurrentStageCultivation": true
+    },
+    "resetTarget": {
+      "realmPosition": "FIRST_REALM",
+      "stage": 1,
+      "cultivation": "0"
+    },
+    "retention": {
+      "PLAYER_IDENTITY": "KEEP",
+      "SPIRIT_ROOT": "KEEP",
+      "SPIRIT_STONE": "KEEP",
+      "ACHIEVEMENTS": "KEEP",
+      "COSMETICS": "KEEP",
+      "REBIRTH_COUNT": "KEEP",
+      "OTHER_CURRENCIES": "RESET",
+      "INVENTORY": "RESET",
+      "EQUIPMENT": "RESET",
+      "LEARNED_SKILLS": "RESET",
+      "CULTIVATION_ARTS": "RESET",
+      "ACTIVE_LOADOUT": "RESET",
+      "SECT_MEMBERSHIP": "RESET"
+    },
+    "resetBootstrap": {
+      "cultivationArtId": "CP_NEUTRAL_HOANG",
+      "grantCultivationArtOwnership": true,
+      "reason": "RUNTIME_PLAYER_REQUIRES_ACTIVE_CULTIVATION_ART"
+    },
+    "baseStatBonus": {
+      "formula": "REALM_STAGE_BASE_SQRT_REBIRTH",
+      "coefficientNumerator": "1",
+      "coefficientDenominator": "4",
+      "rounding": "FLOOR",
+      "stats": ["HP", "ATK", "DEF", "SPD"],
+      "calculationMode": "DERIVED_NOT_COMPOUNDED",
+      "applicationOrder": "BEFORE_EFFECT_AND_EQUIPMENT"
+    }
+  }
+}

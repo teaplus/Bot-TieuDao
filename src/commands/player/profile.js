@@ -1,35 +1,117 @@
-import { EmbedBuilder, MessageFlags } from 'discord.js';
+import { MessageFlags } from 'discord.js';
+import ComponentSession from '../../application/discord/ComponentSession.js';
+import {
+    createInventoryPayload,
+    INVENTORY_FILTERS
+} from '../../application/discord/InventoryPresentation.js';
 import BaseCommand from '../../core/BaseCommand.js';
-import PlayerRepository from '../../repositories/PlayerRepository.js';
+
+const SESSION_TIMEOUT_MS = 2 * 60 * 1000;
+
+export function formatItemUseNotice(result) {
+    switch (result?.outcome) {
+        case 'CULTIVATION_PILL_USED':
+            return `✅ Đã dùng **${result.itemName}**, nhận **${result.appliedGain} tu vi**. `
+                + `Hiện tại: **${result.cultivation}/${result.requiredCultivation}**.`;
+        case 'ITEM_REALM_MISMATCH':
+            return `⚠️ Đan dược này chỉ dùng tại cảnh giới **${result.requiredRealmCode}**; `
+                + `cảnh giới hiện tại là **${result.currentRealmCode || 'không xác định'}**.`;
+        case 'CULTIVATION_ALREADY_FULL':
+            return '⚠️ Tu vi tầng hiện tại đã viên mãn. Hãy đột phá trước khi dùng thêm.';
+        case 'ITEM_NOT_USABLE':
+        case 'ITEM_ACTION_NOT_SUPPORTED':
+            return '⚠️ Vật phẩm này chưa có cách sử dụng trực tiếp.';
+        case 'PLAYER_NOT_FOUND':
+            return '⚠️ Không tìm thấy nhân vật.';
+        default:
+            return '⚠️ Không thể sử dụng vật phẩm lúc này.';
+    }
+}
 
 export default class InventoryCommand extends BaseCommand {
     constructor() {
-        super({ name: 'tuido', description: 'Kiểm tra túi đồ và pháp bảo của bạn' });
+        super({
+            name: 'tuido',
+            description: 'Xem và phân loại vật phẩm trong túi trữ vật'
+        });
     }
 
-    async execute(interaction) {
+    async execute(interaction, client) {
         await interaction.deferReply();
-        const record = await PlayerRepository.findById(interaction.user.id);
-        if (!record) {
-            return interaction.editReply({ content: 'Hãy dùng `/start` để tạo nhân vật trước.', flags: MessageFlags.Ephemeral });
+        let inventoryView = await client.playerReadService.getInventoryView(interaction.user.id);
+        if (!inventoryView) {
+            return interaction.editReply({
+                content: 'Hãy dùng `/start` để tạo nhân vật trước.',
+                flags: MessageFlags.Ephemeral
+            });
         }
 
-        const items = record.inventory.filter((item) => item.type !== 'CURRENCY');
-        const embed = new EmbedBuilder()
-            .setTitle(`Túi trữ vật của ${interaction.user.username}`)
-            .setColor('#B88A44')
-            .setDescription(`Linh thạch: **${Number(record.data.spirit_stones).toLocaleString('vi-VN')}**`);
+        const sessionId = interaction.id;
+        let filter = 'ALL';
+        let pageIndex = 0;
+        let notice = null;
+        const render = (options = {}) => createInventoryPayload({
+            inventoryView,
+            interaction,
+            sessionId,
+            filter,
+            pageIndex,
+            notice,
+            ...options
+        });
+        let rendered = render();
+        const message = await interaction.editReply(rendered.payload);
 
-        if (!items.length) {
-            embed.addFields({ name: 'Vật phẩm', value: 'Túi trữ vật đang trống.' });
-        } else {
-            for (const item of items.slice(0, 10)) {
-                const quantity = item.quantity > 1 ? ` x${item.quantity}` : '';
-                const inventoryId = item.uuid ? ` • ID: ${item.uuid}` : '';
-                embed.addFields({ name: `${item.name}${quantity}${inventoryId}`, value: item.getDisplayString() });
+        await ComponentSession.forMessage({
+            interaction,
+            message,
+            prefix: `tuido:${sessionId}:`,
+            timeoutMs: SESSION_TIMEOUT_MS
+        }).run({
+            onCollect: async (component) => {
+                const [, , action, value] = component.customId.split(':');
+                if (action === 'filter' && INVENTORY_FILTERS[value]) {
+                    filter = value;
+                    pageIndex = 0;
+                    notice = null;
+                } else if (action === 'page') {
+                    pageIndex += value === 'next' ? 1 : -1;
+                    notice = null;
+                } else if (action === 'use') {
+                    try {
+                        const result = await client.itemUseService.use(
+                            interaction.user.id,
+                            component.values?.[0],
+                            { operationId: component.id }
+                        );
+                        notice = formatItemUseNotice(result);
+                    } catch (error) {
+                        notice = error?.message === 'ITEM_NOT_FOUND'
+                            ? '⚠️ Vật phẩm không còn trong túi hoặc đã được sử dụng.'
+                            : '⚠️ Thiên cơ nhiễu loạn, chưa thể sử dụng vật phẩm lúc này.';
+                    }
+                    inventoryView = await client.playerReadService.getInventoryView(
+                        interaction.user.id
+                    );
+                } else {
+                    return false;
+                }
+
+                rendered = render();
+                pageIndex = rendered.state.pageIndex;
+                await component.update(rendered.payload);
+                return true;
+            },
+            onTimeout: async () => {
+                try {
+                    await interaction.editReply(render({ expired: true }).payload);
+                } catch {
+                    // Message may have been deleted; session cleanup remains best-effort.
+                }
             }
-        }
-
-        return interaction.editReply({ embeds: [embed] });
+        });
+        return message;
     }
 }
+
+export { SESSION_TIMEOUT_MS };

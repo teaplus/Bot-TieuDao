@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "id": "MAP_LUYEN_KHI",
+      "grades": {
+        "HOANG": 100
+      }
+    },
+    {
+      "id": "MAP_TRUC_CO",
+      "grades": {
+        "HOANG": 20,
+        "HUYEN": 80
+      }
+    },
+    {
+      "id": "MAP_KET_DAN",
+      "grades": {
+        "HUYEN": 40,
+        "DIA": 60
+      }
+    },
+    {
+      "id": "MAP_HOA_THAN",
+      "grades": {
+        "HUYEN": 40,
+        "DIA": 60
+      }
+    },
+    {
+      "id": "MAP_LUYEN_HU",
+      "grades": {
+        "DIA": 100
+      }
+    },
+    {
+      "id": "MAP_HOP_THE",
+      "grades": {
+        "DIA": 20,
+        "THIEN": 80
+      }
+    },
+    {
+      "id": "MAP_DAI_THUA",
+      "grades": {
+        "THIEN": 100
+      }
+    },
+    {
+      "id": "MAP_DO_KIEP",
+      "grades": {
+        "THIEN": 20,
+        "TIEN": 80
+      }
+    },
+    {
+      "id": "MAP_CHAN_TIEN",
+      "grades": {
+        "TIEN": 100
+      }
+    },
+    {
+      "id": "MAP_HUYEN_TIEN",
+      "grades": {
+        "TIEN": 100
+      }
+    },
+    {
+      "id": "MAP_KIM_TIEN",
+      "grades": {
+        "TIEN": 20,
+        "THANH": 80
+      }
+    },
+    {
+      "id": "MAP_THAI_AT",
+      "grades": {
+        "THANH": 100
+      }
+    },
+    {
+      "id": "MAP_DAI_LA",
+      "grades": {
+        "THANH": 20,
+        "THAN": 80
+      }
+    },
+    {
+      "id": "MAP_DAO_TO",
+      "grades": {
+        "THAN": 100
+      }
+    }
+  ]
+}

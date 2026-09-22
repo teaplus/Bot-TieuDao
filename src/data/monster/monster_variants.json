@@ -1,0 +1,36 @@
+{
+  "version": 1,
+
+  "variants": [
+    {
+      "id": "NORMAL",
+      "displayName": "Thường",
+
+      "hpMultiplier": 1.0,
+      "atkMultiplier": 1.0,
+      "defMultiplier": 1.0,
+      "currencyMultiplier": 1.0,
+      "dropRateMultiplier": 1.0
+    },
+    {
+      "id": "ELITE",
+      "displayName": "Tinh Anh",
+
+      "hpMultiplier": 2.0,
+      "atkMultiplier": 1.5,
+      "defMultiplier": 1.5,
+    "currencyMultiplier": 1.5,
+      "dropRateMultiplier": 2.0
+    },
+    {
+      "id": "BOSS",
+      "displayName": "Boss",
+
+      "hpMultiplier": 5.0,
+      "atkMultiplier": 3.0,
+      "defMultiplier": 3.0,
+      "currencyMultiplier": 3.0,
+      "dropRateMultiplier": 5.0
+    }
+  ]
+}

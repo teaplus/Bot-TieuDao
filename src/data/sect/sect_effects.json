@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "effects": [
+    {
+      "id": "SECT_FIRE_BURN_DURATION",
+      "displayName": "Xích Diễm Chân Ý",
+      "description": "Thiêu Đốt do bản thân gây ra kéo dài thêm 1 lượt.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BURN_DURATION",
+        "durationBonusTurns": 1
+      }
+    },
+    {
+      "id": "SECT_WOOD_PARTY_HEAL",
+      "displayName": "Thanh Mộc Hồi Xuân",
+      "description": "Cuối lượt hồi 3% HP tối đa cho bản thân và đồng minh còn sống; trong solo chỉ hồi bản thân.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "BUFF"
+      ],
+      "events": [
+        {
+          "event": "TURN_END"
+        }
+      ],
+      "actions": [
+        {
+          "type": "HEAL",
+          "target": "ALLY_ALL",
+          "arguments": {
+            "formulaId": "SECT_MAX_HP_3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH_SHIELD_EXPLODE",
+      "displayName": "Hậu Thổ Phản Chấn",
+      "description": "Khi khiên bị phá, phản lại 30% lượng khiên vừa hấp thụ lên nguồn sát thương; tối đa 1 lần mỗi lượt.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "SHIELD_BREAK_REFLECT",
+        "shieldDamageRatio": 0.3,
+        "maxTriggersPerTurn": 1
+      }
+    },
+    {
+      "id": "SECT_WATER_CLEANSE",
+      "displayName": "Thương Hải Tịnh Thể",
+      "description": "Đầu lượt thanh tẩy 1 hiệu ứng bất lợi trên bản thân; tối đa 1 lần mỗi trận.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "BUFF"
+      ],
+      "duration": 1,
+      "events": [
+        {
+          "event": "TURN_START"
+        }
+      ],
+      "actions": [
+        {
+          "type": "PURIFY",
+          "target": "SELF",
+          "arguments": {
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL_CRIT_UP",
+      "displayName": "Kim Kiếm Sắc Bén",
+      "description": "Tăng 10 điểm phần trăm tỷ lệ Chí Mạng trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "CRIT_UP_10"
+      }
+    },
+    {
+      "id": "SECT_LIGHTNING_PEN_UP",
+      "displayName": "Thiên Lôi Xuyên Phá",
+      "description": "Tăng 10 điểm phần trăm Xuyên Phá trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "PEN_UP_10"
+      }
+    },
+    {
+      "id": "SECT_YINYANG_REF_UP",
+      "displayName": "Lưỡng Nghi Phản Kình",
+      "description": "Tăng 10 điểm phần trăm Phản Sát Thương trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "REF_UP_10"
+      }
+    },
+    {
+      "id": "SECT_YINYANG_ATK_DOWN",
+      "displayName": "Lưỡng Nghi Thu Liễm",
+      "description": "Giảm 10% Công Kích cơ bản trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "ATK_DOWN_10"
+      }
+    },
+    {
+      "id": "SECT_ASSASSIN_ATK_UP",
+      "displayName": "Sát Thần Công Phạt",
+      "description": "Tăng 15% Công Kích cơ bản trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "ATK_UP_15"
+      }
+    },
+    {
+      "id": "SECT_ASSASSIN_BREAKTHROUGH_DOWN",
+      "displayName": "Sát Đạo Phản Phệ",
+      "description": "Giảm 10 điểm phần trăm tỷ lệ đột phá.",
+      "type": "PASSIVE",
+      "scopes": [
+        "BREAKTHROUGH"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BREAKTHROUGH_CHANCE",
+        "percentagePoints": -10
+      }
+    },
+    {
+      "id": "SECT_LONGEVITY_CULTIVATION_UP",
+      "displayName": "Trường Sinh Dưỡng Khí",
+      "description": "Tăng 10% tốc độ tu luyện theo hệ số nhân.",
+      "type": "PASSIVE",
+      "scopes": [
+        "CULTIVATION"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "CULTIVATION_MULTIPLIER",
+        "value": 0.1
+      }
+    },
+    {
+      "id": "SECT_LONGEVITY_BREAKTHROUGH_UP",
+      "displayName": "Trường Sinh Ngộ Đạo",
+      "description": "Tăng 10 điểm phần trăm tỷ lệ đột phá.",
+      "type": "PASSIVE",
+      "scopes": [
+        "BREAKTHROUGH"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BREAKTHROUGH_CHANCE",
+        "percentagePoints": 10
+      }
+    },
+    {
+      "id": "SECT_LONGEVITY_ATK_DOWN",
+      "displayName": "Trường Sinh Bất Tranh",
+      "description": "Giảm 10% Công Kích cơ bản trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "ATK_DOWN_10"
+      }
+    },
+    {
+      "id": "SECT_LONGEVITY_DEF_DOWN",
+      "displayName": "Trường Sinh Khinh Giáp",
+      "description": "Giảm 10% Phòng Thủ cơ bản trong chiến đấu.",
+      "type": "PASSIVE",
+      "scopes": [
+        "ENTITY"
+      ],
+      "tags": [
+        "SECT",
+        "MARKER"
+      ],
+      "sectPolicy": {
+        "kind": "BATTLE_MODIFIER",
+        "modifierId": "DEF_DOWN_10"
+      }
+    }
+  ]
+}

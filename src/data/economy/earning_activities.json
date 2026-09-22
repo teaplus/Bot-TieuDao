@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "revision": "EARNING_ACTIVITIES_V1",
+  "currencyId": "SPIRIT_STONE",
+  "scalingSource": "SHOP_MAP_BASE_PRICE",
+  "activities": [
+    {
+      "id": "DAILY_SPIRIT_STONE",
+      "type": "DAILY",
+      "displayName": "Bổng Lộc Hằng Ngày",
+      "command": "daily",
+      "aliases": ["hangngay"],
+      "rewardMultiplierBasisPoints": 50000,
+      "periodType": "DAILY",
+      "periodLimit": 1
+    },
+    {
+      "id": "WORK_SPIRIT_STONE",
+      "type": "WORK",
+      "displayName": "Việc Làm Tu Tiên",
+      "command": "work",
+      "aliases": ["lamviec"],
+      "rewardMinMultiplierBasisPoints": 8000,
+      "rewardMaxMultiplierBasisPoints": 12000,
+      "cooldownSeconds": 3600,
+      "periodType": "DAILY",
+      "periodLimit": 8,
+      "flavors": [
+        "Trông coi Linh Điền",
+        "Vận chuyển Linh Thạch",
+        "Quét dọn Tàng Kinh Các",
+        "Hộ tống thương đội tu tiên",
+        "Khai thác Linh Khoáng"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "version": 2,
+  "effects": [
+    {
+      "id": "ELEMENT_FIRE",
+      "displayName": "Hỏa",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE"
+      ],
+      "events": [
+        {
+          "event": "ON_HIT",
+          "chance": 30
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_EFFECT",
+          "arguments": {
+            "effectId": "BURN",
+            "target": "TARGET"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_WOOD",
+      "displayName": "Mộc",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "SUPPORT"
+      ],
+      "events": [
+        {
+          "event": "TURN_END"
+        }
+      ],
+      "actions": [
+        {
+          "type": "HEAL",
+          "arguments": {
+            "formulaId": "WOOD_HEAL",
+            "target": "TARGET"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_EARTH",
+      "displayName": "Thổ",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "DEFENSE"
+      ],
+      "events": [
+        {
+          "event": "TURN_START"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "arguments": {
+            "formulaId": "WOOD_HEAL",
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_METAL",
+      "displayName": "Kim",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE"
+      ],
+      "events": [
+        {
+          "event": "ON_ATTACK"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "arguments": {
+            "modifierId": "CRIT_DAMAGE_UP_20",
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_WATER",
+      "displayName": "Thủy",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "SUPPORT"
+      ],
+      "events": [
+        {
+          "event": "TURN_END"
+        }
+      ],
+      "actions": [
+        {
+          "type": "PURIFY",
+          "arguments": {
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_LIGHTNING",
+      "displayName": "Lôi",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "MUTATION",
+        "OFFENSIVE"
+      ],
+      "events": [
+        {
+          "event": "ON_ATTACK"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "arguments": {
+            "modifierId": "PEN_UP_10",
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_ICE",
+      "displayName": "Băng",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "MUTATION",
+        "CONTROL"
+      ],
+      "events": [
+        {
+          "event": "ON_HIT"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_EFFECT",
+          "arguments": {
+            "effectId": "FREEZE",
+            "target": "TARGET"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ELEMENT_WIND",
+      "displayName": "Phong",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE",
+        "MARKER"
+      ],
+      "events": [],
+      "actions": []
+    },
+    {
+      "id": "ELEMENT_LIGHT",
+      "displayName": "Ánh Sáng",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE",
+        "MARKER"
+      ],
+      "events": [],
+      "actions": []
+    },
+    {
+      "id": "ELEMENT_DARK",
+      "displayName": "Bóng Tối",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE",
+        "MARKER"
+      ],
+      "events": [],
+      "actions": []
+    },
+    {
+      "id": "ELEMENT_CHAOS",
+      "displayName": "Hỗn Độn",
+      "type": "PASSIVE",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE",
+        "UNCOUNTERED",
+        "FORMULA_PENDING",
+        "MARKER"
+      ],
+      "events": [],
+      "actions": []
+    },
+    {
+      "id": "EFFECT_ELEMENT_WOOD_GENERATE_FIRE",
+      "displayName": "Mộc sinh Hỏa",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "GENERATE"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_FIRE_GENERATE_EARTH",
+      "displayName": "Hỏa sinh Thổ",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "GENERATE"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_EARTH_GENERATE_METAL",
+      "displayName": "Thổ sinh Kim",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "GENERATE"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_METAL_GENERATE_WATER",
+      "displayName": "Kim sinh Thủy",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "GENERATE"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_WATER_GENERATE_WOOD",
+      "displayName": "Thủy sinh Mộc",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "GENERATE"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_WOOD_COUNTER_EARTH",
+      "displayName": "Mộc khắc Thổ",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_EARTH_COUNTER_WATER",
+      "displayName": "Thổ khắc Thủy",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_WATER_COUNTER_FIRE",
+      "displayName": "Thủy khắc Hỏa",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_FIRE_COUNTER_METAL",
+      "displayName": "Hỏa khắc Kim",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_METAL_COUNTER_WOOD",
+      "displayName": "Kim khắc Mộc",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_LIGHT_COUNTER_DARK",
+      "displayName": "Ánh Sáng khắc Bóng Tối",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EFFECT_ELEMENT_DARK_COUNTER_LIGHT",
+      "displayName": "Bóng Tối khắc Ánh Sáng",
+      "type": "INSTANT",
+      "scopes": [
+        "ACTION"
+      ],
+      "tags": [
+        "ELEMENT_RELATION",
+        "COUNTER"
+      ],
+      "events": [
+        {
+          "event": "ON_APPLY"
+        }
+      ],
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "target": "SELF",
+          "chance": 100,
+          "arguments": {
+            "modifierId": "ATK_UP_20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BURN",
+      "displayName": "Thiêu Đốt",
+      "type": "STATUS",
+      "tags": [
+        "DEBUFF",
+        "DOT"
+      ],
+      "duration": 3,
+      "stackable": true,
+      "maxStack": 99,
+      "events": [
+        {
+          "event": "TURN_END"
+        }
+      ],
+      "actions": [
+        {
+          "type": "DAMAGE",
+          "arguments": {
+            "formulaId": "BURN_DAMAGE",
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "FREEZE",
+      "displayName": "Đóng Băng",
+      "type": "STATUS",
+      "tags": [
+        "CONTROL"
+      ],
+      "duration": 1,
+      "stackable": false,
+      "controlDirective": "SKIP_ACTION",
+      "actions": []
+    },
+    {
+      "id": "STUN",
+      "displayName": "Choáng",
+      "type": "STATUS",
+      "tags": [
+        "CONTROL"
+      ],
+      "duration": 1,
+      "stackable": false,
+      "controlDirective": "SKIP_ACTION",
+      "actions": []
+    },
+    {
+      "id": "SILENCE",
+      "displayName": "Câm Lặng",
+      "type": "STATUS",
+      "tags": [
+        "CONTROL"
+      ],
+      "duration": 2,
+      "stackable": false,
+      "controlDirective": "BASIC_ATTACK_ONLY",
+      "actions": []
+    },
+    {
+      "id": "HEAL_BLOCK",
+      "displayName": "Khóa Hồi Máu",
+      "type": "STATUS",
+      "tags": [
+        "DEBUFF",
+        "HEAL_BLOCK",
+        "MARKER"
+      ],
+      "duration": 1,
+      "stackable": false,
+      "actions": []
+    },
+    {
+      "id": "SHIELD",
+      "displayName": "Khiên",
+      "type": "STATUS",
+      "tags": [
+        "BUFF"
+      ],
+      "duration": 1,
+      "stackable": true,
+      "maxStack": 99,
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "arguments": {
+            "target": "SELF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "HEAL",
+      "displayName": "Hồi Máu",
+      "type": "INSTANT",
+      "tags": [
+        "HEAL",
+        "BUFF"
+      ],
+      "actions": [
+        {
+          "type": "HEAL",
+          "arguments": {
+            "formulaId": "WOOD_HEAL",
+            "target": "TARGET"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PURIFY",
+      "displayName": "Thanh Tẩy",
+      "type": "INSTANT",
+      "tags": [
+        "BUFF"
+      ],
+      "actions": [
+        {
+          "type": "REMOVE_DEBUFF",
+          "arguments": {
+            "count": 1,
+            "target": "TARGET"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CHAIN_DAMAGE",
+      "displayName": "Sét Lan",
+      "type": "INSTANT",
+      "tags": [
+        "SPECIAL"
+      ],
+      "actions": [
+        {
+          "type": "CHAIN_DAMAGE",
+          "arguments": {
+            "formulaId": "LIGHTNING_CHAIN",
+            "target": "TARGET",
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "targetStrategy": "ENEMY_RANDOM_WITHOUT_REPLACEMENT",
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Thiết kế Mô hình UX Tối ưu (Hybrid Model)
+Để game vừa mượt mà, vừa không gây chán cho người chơi cũ lẫn người chơi mới, bạn nên áp dụng các quy tắc sau:
+
+1. Phân loại theo loại trận đấu (Phân tầng UX)
+Quái thường / Farm nguyên liệu: Xuất kết quả trực tiếp bằng 1 Embed tóm tắt (Sát thương gây ra, EXP nhận được, Vật phẩm drop).
+
+Trận đánh Boss / Phó bản lớn: Chạy theo lượt (Realtime). Edit cùng một message để cập nhật lượng máu (HP bar), trạng thái (Buff/Debuff) và hành động vừa xảy ra.
+
+2. Cho phép người chơi tự chọn (User Preference)
+Tạo nút bấm hoặc lệnh cài đặt cá nhân:
+
+/settings combat_animation: fast | detailed
+
+Hoặc thêm 1 nút [⏩ Skip] ngay khi trận đấu realtime bắt đầu để người chơi bỏ qua animation và xem ngay kết quả nếu đang vội.
+
+3. Tối ưu giao diện hiển thị trên Discord
+Chỉ dùng 1 Message duy nhất: Tuyệt đối không gửi tin nhắn mới mỗi turn (sẽ gây rác channel). Hãy dùng Message Edit cho Embed chính.
+
+Thanh máu trực quan: Dùng ký tự Unicode để làm thanh máu dạng text:
+Boss HP: [██████░░░░] 60%
+
+Log hành động ngắn gọn: Chỉ hiển thị 2–3 dòng log gần nhất ở phần description của Embed thay vì liệt kê toàn bộ lịch sử trận đấu.
+
+Lưu ý kỹ thuật: Discord giới hạn việc edit message rất chặt. Nếu làm dạng realtime, hãy đặt khoảng hoãn (delay) tối thiểu 1.2s - 1.5s giữa các lượt hiển thị. Đừng edit quá nhanh khiến bot bị hoãn request (Rate Limited - HTTP 429).

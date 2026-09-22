@@ -1,0 +1,29 @@
+{
+  "rarities": [
+    {
+      "id": "COMMON",
+      "displayName": "Thường",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "UNCOMMON",
+      "displayName": "Hiếm",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "RARE",
+      "displayName": "Trân Quý",
+      "color": "#2196F3"
+    },
+    {
+      "id": "EPIC",
+      "displayName": "Sử Thi",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "LEGENDARY",
+      "displayName": "Truyền Thuyết",
+      "color": "#FF9800"
+    }
+  ]
+}

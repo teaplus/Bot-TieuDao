@@ -1,0 +1,20 @@
+{
+  "revision": 1,
+  "batch": {
+    "minimum": 1,
+    "maximum": 99,
+    "durationScaling": "LINEAR"
+  },
+  "slotsPerProfession": 1,
+  "consumeInputsAt": "START",
+  "claimMode": "EXPLICIT",
+  "cancelEnabled": false,
+  "offlineCapSeconds": null,
+  "lowGradeExperiencePenalty": {
+    "minimumGradeDifference": 2,
+    "multiplierBasisPoints": 2500
+  },
+  "recipeUnlockModes": ["AUTO_BY_GRADE", "LEARNED"],
+  "executableOutputTypes": ["ITEM", "EQUIPMENT"],
+  "qualityOutputTypes": ["EQUIPMENT"]
+}

@@ -1,0 +1,5089 @@
+{
+  "version": 1,
+  "cultivationArts": [
+    {
+      "id": "SECT_ART_FIRE_HOANG",
+      "displayName": "Xích Diễm Nhập Môn Quyết",
+      "label": "Xích Diễm Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "HOANG",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_FIRE_HUYEN",
+      "displayName": "Xích Diễm Chân Quyết",
+      "label": "Xích Diễm Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_FIRE_DIA",
+      "displayName": "Xích Diễm Bí Điển",
+      "label": "Xích Diễm Bí Điển",
+      "description": "Địa phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "DIA",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_FIRE_THIEN",
+      "displayName": "Xích Diễm Thiên Kinh",
+      "label": "Xích Diễm Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "THIEN",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_FIRE_THANH",
+      "displayName": "Xích Diễm Thánh Điển",
+      "label": "Xích Diễm Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "THANH",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_FIRE_THAN",
+      "displayName": "Xích Diễm Thần Kinh",
+      "label": "Xích Diễm Thần Kinh",
+      "description": "Thần phẩm độc truyền của Xích Diễm Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỏa.",
+      "grade": "THAN",
+      "element": "FIRE",
+      "sectId": "SECT_FIRE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_HOANG",
+      "displayName": "Thanh Mộc Trường Sinh Nhập Môn Quyết",
+      "label": "Thanh Mộc Trường Sinh Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_HUYEN",
+      "displayName": "Thanh Mộc Trường Sinh Chân Quyết",
+      "label": "Thanh Mộc Trường Sinh Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_DIA",
+      "displayName": "Thanh Mộc Trường Sinh Bí Điển",
+      "label": "Thanh Mộc Trường Sinh Bí Điển",
+      "description": "Địa phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "DIA",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_THIEN",
+      "displayName": "Thanh Mộc Trường Sinh Thiên Kinh",
+      "label": "Thanh Mộc Trường Sinh Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_THANH",
+      "displayName": "Thanh Mộc Trường Sinh Thánh Điển",
+      "label": "Thanh Mộc Trường Sinh Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THANH",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_WOOD_THAN",
+      "displayName": "Thanh Mộc Trường Sinh Thần Kinh",
+      "label": "Thanh Mộc Trường Sinh Thần Kinh",
+      "description": "Thần phẩm độc truyền của Thanh Mộc Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THAN",
+      "element": "WOOD",
+      "sectId": "SECT_WOOD",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_HOANG",
+      "displayName": "Hậu Thổ Nhập Môn Quyết",
+      "label": "Hậu Thổ Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "HOANG",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_HUYEN",
+      "displayName": "Hậu Thổ Chân Quyết",
+      "label": "Hậu Thổ Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_DIA",
+      "displayName": "Hậu Thổ Bí Điển",
+      "label": "Hậu Thổ Bí Điển",
+      "description": "Địa phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "DIA",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_THIEN",
+      "displayName": "Hậu Thổ Thiên Kinh",
+      "label": "Hậu Thổ Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "THIEN",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_THANH",
+      "displayName": "Hậu Thổ Thánh Điển",
+      "label": "Hậu Thổ Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "THANH",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_EARTH_THAN",
+      "displayName": "Hậu Thổ Thần Kinh",
+      "label": "Hậu Thổ Thần Kinh",
+      "description": "Thần phẩm độc truyền của Hậu Thổ Môn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thổ.",
+      "grade": "THAN",
+      "element": "EARTH",
+      "sectId": "SECT_EARTH",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_HOANG",
+      "displayName": "Thương Hải Nhập Môn Quyết",
+      "label": "Thương Hải Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "HOANG",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_HUYEN",
+      "displayName": "Thương Hải Chân Quyết",
+      "label": "Thương Hải Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_DIA",
+      "displayName": "Thương Hải Bí Điển",
+      "label": "Thương Hải Bí Điển",
+      "description": "Địa phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "DIA",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_THIEN",
+      "displayName": "Thương Hải Thiên Kinh",
+      "label": "Thương Hải Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "THIEN",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_THANH",
+      "displayName": "Thương Hải Thánh Điển",
+      "label": "Thương Hải Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "THANH",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_WATER_THAN",
+      "displayName": "Thương Hải Thần Kinh",
+      "label": "Thương Hải Thần Kinh",
+      "description": "Thần phẩm độc truyền của Thương Hải Các, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Thủy.",
+      "grade": "THAN",
+      "element": "WATER",
+      "sectId": "SECT_WATER",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_WATER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_HOANG",
+      "displayName": "Canh Kim Kiếm Nhập Môn Quyết",
+      "label": "Canh Kim Kiếm Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "HOANG",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_HUYEN",
+      "displayName": "Canh Kim Kiếm Chân Quyết",
+      "label": "Canh Kim Kiếm Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_DIA",
+      "displayName": "Canh Kim Kiếm Bí Điển",
+      "label": "Canh Kim Kiếm Bí Điển",
+      "description": "Địa phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "DIA",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_THIEN",
+      "displayName": "Canh Kim Kiếm Thiên Kinh",
+      "label": "Canh Kim Kiếm Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "THIEN",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_THANH",
+      "displayName": "Canh Kim Kiếm Thánh Điển",
+      "label": "Canh Kim Kiếm Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "THANH",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_METAL_THAN",
+      "displayName": "Canh Kim Kiếm Thần Kinh",
+      "label": "Canh Kim Kiếm Thần Kinh",
+      "description": "Thần phẩm độc truyền của Kim Kiếm Sơn, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Kim.",
+      "grade": "THAN",
+      "element": "METAL",
+      "sectId": "SECT_METAL",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_METAL",
+        "METAL"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_HOANG",
+      "displayName": "Thiên Lôi Nhập Môn Quyết",
+      "label": "Thiên Lôi Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_HUYEN",
+      "displayName": "Thiên Lôi Chân Quyết",
+      "label": "Thiên Lôi Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_DIA",
+      "displayName": "Thiên Lôi Bí Điển",
+      "label": "Thiên Lôi Bí Điển",
+      "description": "Địa phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_THIEN",
+      "displayName": "Thiên Lôi Thiên Kinh",
+      "label": "Thiên Lôi Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "THIEN",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_THANH",
+      "displayName": "Thiên Lôi Thánh Điển",
+      "label": "Thiên Lôi Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "THANH",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_LIGHTNING_THAN",
+      "displayName": "Thiên Lôi Thần Kinh",
+      "label": "Thiên Lôi Thần Kinh",
+      "description": "Thần phẩm độc truyền của Thiên Lôi Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Lôi.",
+      "grade": "THAN",
+      "element": "LIGHTNING",
+      "sectId": "SECT_LIGHTNING",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_HOANG",
+      "displayName": "Hàn Nguyệt Nhập Môn Quyết",
+      "label": "Hàn Nguyệt Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "HOANG",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_HUYEN",
+      "displayName": "Hàn Nguyệt Chân Quyết",
+      "label": "Hàn Nguyệt Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "HUYEN",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_DIA",
+      "displayName": "Hàn Nguyệt Bí Điển",
+      "label": "Hàn Nguyệt Bí Điển",
+      "description": "Địa phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "DIA",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_THIEN",
+      "displayName": "Hàn Nguyệt Thiên Kinh",
+      "label": "Hàn Nguyệt Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "THIEN",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_THANH",
+      "displayName": "Hàn Nguyệt Thánh Điển",
+      "label": "Hàn Nguyệt Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "THANH",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_ICE_THAN",
+      "displayName": "Hàn Nguyệt Thần Kinh",
+      "label": "Hàn Nguyệt Thần Kinh",
+      "description": "Thần phẩm độc truyền của Hàn Nguyệt Cung, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Băng.",
+      "grade": "THAN",
+      "element": "ICE",
+      "sectId": "SECT_ICE",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ICE",
+        "ICE"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_HOANG",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Nhập Môn Quyết",
+      "label": "Lưỡng Nghi Hỗn Nguyên Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "HOANG",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_HUYEN",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Chân Quyết",
+      "label": "Lưỡng Nghi Hỗn Nguyên Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "HUYEN",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_DIA",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Bí Điển",
+      "label": "Lưỡng Nghi Hỗn Nguyên Bí Điển",
+      "description": "Địa phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "DIA",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_THIEN",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Thiên Kinh",
+      "label": "Lưỡng Nghi Hỗn Nguyên Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "THIEN",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_THANH",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Thánh Điển",
+      "label": "Lưỡng Nghi Hỗn Nguyên Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "THANH",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_YINYANG_THAN",
+      "displayName": "Lưỡng Nghi Hỗn Nguyên Thần Kinh",
+      "label": "Lưỡng Nghi Hỗn Nguyên Thần Kinh",
+      "description": "Thần phẩm độc truyền của Lưỡng Nghi Tông, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Hỗn Độn.",
+      "grade": "THAN",
+      "element": "CHAOS",
+      "sectId": "SECT_YINYANG",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG",
+        "CHAOS"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_HOANG",
+      "displayName": "U Minh Sát Thần Nhập Môn Quyết",
+      "label": "U Minh Sát Thần Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "HOANG",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_HUYEN",
+      "displayName": "U Minh Sát Thần Chân Quyết",
+      "label": "U Minh Sát Thần Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "HUYEN",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_DIA",
+      "displayName": "U Minh Sát Thần Bí Điển",
+      "label": "U Minh Sát Thần Bí Điển",
+      "description": "Địa phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "DIA",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_THIEN",
+      "displayName": "U Minh Sát Thần Thiên Kinh",
+      "label": "U Minh Sát Thần Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "THIEN",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_THANH",
+      "displayName": "U Minh Sát Thần Thánh Điển",
+      "label": "U Minh Sát Thần Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "THANH",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_ASSASSIN_THAN",
+      "displayName": "U Minh Sát Thần Thần Kinh",
+      "label": "U Minh Sát Thần Thần Kinh",
+      "description": "Thần phẩm độc truyền của Sát Thần Điện, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Bóng Tối.",
+      "grade": "THAN",
+      "element": "DARK",
+      "sectId": "SECT_ASSASSIN",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN",
+        "DARK"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_HOANG",
+      "displayName": "Trường Sinh Bất Lão Nhập Môn Quyết",
+      "label": "Trường Sinh Bất Lão Nhập Môn Quyết",
+      "description": "Hoàng phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_HUYEN",
+      "displayName": "Trường Sinh Bất Lão Chân Quyết",
+      "label": "Trường Sinh Bất Lão Chân Quyết",
+      "description": "Huyền phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_DIA",
+      "displayName": "Trường Sinh Bất Lão Bí Điển",
+      "label": "Trường Sinh Bất Lão Bí Điển",
+      "description": "Địa phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "DIA",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_THIEN",
+      "displayName": "Trường Sinh Bất Lão Thiên Kinh",
+      "label": "Trường Sinh Bất Lão Thiên Kinh",
+      "description": "Thiên phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_THANH",
+      "displayName": "Trường Sinh Bất Lão Thánh Điển",
+      "label": "Trường Sinh Bất Lão Thánh Điển",
+      "description": "Thánh phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THANH",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "SECT_ART_LONGEVITY_THAN",
+      "displayName": "Trường Sinh Bất Lão Thần Kinh",
+      "label": "Trường Sinh Bất Lão Thần Kinh",
+      "description": "Thần phẩm độc truyền của Trường Sinh Cốc, tăng tốc tu luyện theo phẩm khi phù hợp Linh Căn hệ Mộc.",
+      "grade": "THAN",
+      "element": "WOOD",
+      "sectId": "SECT_LONGEVITY",
+      "tags": [
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY",
+        "WOOD"
+      ]
+    }
+  ],
+  "attackSkills": [
+    {
+      "id": "SECT_ATK_FIRE_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Thuật",
+      "grade": "HOANG",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SECT_ATK_FIRE_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_FIRE_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Phần Thiên Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_FIRE_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Chân Pháp",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SECT_ATK_FIRE_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_FIRE_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Phần Thiên Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_FIRE_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Đại Pháp",
+      "grade": "DIA",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SECT_ATK_FIRE_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_FIRE_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Phần Thiên Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_FIRE_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Thiên Quyết",
+      "grade": "THIEN",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SECT_ATK_FIRE_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_FIRE_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Phần Thiên Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_FIRE_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Thánh Pháp",
+      "label": "Phần Thiên Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "FIRE",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_FIRE_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_FIRE_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_FIRE_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Thần Thông",
+      "label": "Phần Thiên Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "FIRE",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_FIRE_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_FIRE_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Xích Diễm Tông, gây sát thương kỹ năng hệ Hỏa và hồi chiêu 2 lượt.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_ATK_WOOD_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Thuật",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_WOOD_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WOOD_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Vạn Mộc Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_WOOD_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Chân Pháp",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_WOOD_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WOOD_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Vạn Mộc Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_WOOD_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Đại Pháp",
+      "grade": "DIA",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_WOOD_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WOOD_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Vạn Mộc Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_WOOD_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Thiên Quyết",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_WOOD_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WOOD_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Vạn Mộc Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_WOOD_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Thánh Pháp",
+      "label": "Vạn Mộc Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "WOOD",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_WOOD_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_WOOD_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_WOOD_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Thần Thông",
+      "label": "Vạn Mộc Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "WOOD",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_WOOD_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_WOOD_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Thanh Mộc Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_ATK_EARTH_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Thuật",
+      "grade": "HOANG",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SECT_ATK_EARTH_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_EARTH_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Sơn Hà Trấn Nhạc Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_EARTH_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Chân Pháp",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SECT_ATK_EARTH_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_EARTH_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Sơn Hà Trấn Nhạc Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_EARTH_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Đại Pháp",
+      "grade": "DIA",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SECT_ATK_EARTH_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_EARTH_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Sơn Hà Trấn Nhạc Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_EARTH_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Thiên Quyết",
+      "grade": "THIEN",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SECT_ATK_EARTH_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_EARTH_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Sơn Hà Trấn Nhạc Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_EARTH_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Thánh Pháp",
+      "label": "Sơn Hà Trấn Nhạc Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "EARTH",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_EARTH_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_EARTH_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_EARTH_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Trấn Nhạc Thần Thông",
+      "label": "Sơn Hà Trấn Nhạc Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "EARTH",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_EARTH_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_EARTH_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Hậu Thổ Môn, gây sát thương kỹ năng hệ Thổ và hồi chiêu 2 lượt.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_ATK_WATER_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Thuật",
+      "grade": "HOANG",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SECT_ATK_WATER_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WATER_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Thương Lan Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_WATER_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Chân Pháp",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SECT_ATK_WATER_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WATER_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Thương Lan Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_WATER_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Đại Pháp",
+      "grade": "DIA",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SECT_ATK_WATER_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WATER_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Thương Lan Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_WATER_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Thiên Quyết",
+      "grade": "THIEN",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SECT_ATK_WATER_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_WATER_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Thương Lan Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_WATER_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Thánh Pháp",
+      "label": "Thương Lan Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "WATER",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_WATER_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_WATER_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_WATER_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Thương Lan Thần Thông",
+      "label": "Thương Lan Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "WATER",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_WATER_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_WATER_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Thương Hải Các, gây sát thương kỹ năng hệ Thủy và hồi chiêu 2 lượt.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_ATK_METAL_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Thuật",
+      "grade": "HOANG",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SECT_ATK_METAL_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_METAL_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Vạn Kiếm Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_METAL_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Chân Pháp",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SECT_ATK_METAL_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_METAL_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Vạn Kiếm Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_METAL_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Đại Pháp",
+      "grade": "DIA",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SECT_ATK_METAL_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_METAL_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Vạn Kiếm Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_METAL_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Thiên Quyết",
+      "grade": "THIEN",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SECT_ATK_METAL_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_METAL_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Vạn Kiếm Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_METAL_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Thánh Pháp",
+      "label": "Vạn Kiếm Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "METAL",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_METAL_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_METAL_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_METAL_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Kiếm Thần Thông",
+      "label": "Vạn Kiếm Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "METAL",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_METAL_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_METAL_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Kim Kiếm Sơn, gây sát thương kỹ năng hệ Kim và hồi chiêu 2 lượt.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Thuật",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SECT_ATK_LIGHTNING_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LIGHTNING_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Cửu Tiêu Lôi Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Chân Pháp",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SECT_ATK_LIGHTNING_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LIGHTNING_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Cửu Tiêu Lôi Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Đại Pháp",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SECT_ATK_LIGHTNING_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LIGHTNING_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Cửu Tiêu Lôi Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Thiên Quyết",
+      "grade": "THIEN",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SECT_ATK_LIGHTNING_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LIGHTNING_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Cửu Tiêu Lôi Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Thánh Pháp",
+      "label": "Cửu Tiêu Lôi Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "LIGHTNING",
+      "elementLabel": "Lôi",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_LIGHTNING_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_LIGHTNING_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_LIGHTNING_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Lôi Thần Thông",
+      "label": "Cửu Tiêu Lôi Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "LIGHTNING",
+      "elementLabel": "Lôi",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_LIGHTNING_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_LIGHTNING_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Thiên Lôi Điện, gây sát thương kỹ năng hệ Lôi và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_ATK_ICE_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Thuật",
+      "grade": "HOANG",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SECT_ATK_ICE_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ICE_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Băng Phách Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_ICE_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Chân Pháp",
+      "grade": "HUYEN",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SECT_ATK_ICE_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ICE_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Băng Phách Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_ICE_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Đại Pháp",
+      "grade": "DIA",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SECT_ATK_ICE_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ICE_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Băng Phách Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_ICE_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Thiên Quyết",
+      "grade": "THIEN",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SECT_ATK_ICE_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ICE_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Băng Phách Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_ICE_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Thánh Pháp",
+      "label": "Băng Phách Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "ICE",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_ICE_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_ICE_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_ICE_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Băng Phách Thần Thông",
+      "label": "Băng Phách Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "ICE",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_ICE_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_ICE_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Hàn Nguyệt Cung, gây sát thương kỹ năng hệ Băng và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Thuật",
+      "grade": "HOANG",
+      "element": "CHAOS",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100,
+          "id": "SECT_ATK_YINYANG_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_YINYANG_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Hỗn Độn Âm Dương Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Chân Pháp",
+      "grade": "HUYEN",
+      "element": "CHAOS",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100,
+          "id": "SECT_ATK_YINYANG_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_YINYANG_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Hỗn Độn Âm Dương Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Đại Pháp",
+      "grade": "DIA",
+      "element": "CHAOS",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100,
+          "id": "SECT_ATK_YINYANG_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_YINYANG_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Hỗn Độn Âm Dương Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Thiên Quyết",
+      "grade": "THIEN",
+      "element": "CHAOS",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100,
+          "id": "SECT_ATK_YINYANG_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_YINYANG_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Hỗn Độn Âm Dương Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Thánh Pháp",
+      "label": "Hỗn Độn Âm Dương Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "CHAOS",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_YINYANG_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_YINYANG_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_YINYANG_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Hỗn Độn Âm Dương Thần Thông",
+      "label": "Hỗn Độn Âm Dương Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "CHAOS",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_YINYANG_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_CHAOS",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_YINYANG_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "CHAOS",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Lưỡng Nghi Tông, gây sát thương kỹ năng hệ Hỗn Độn và hồi chiêu 2 lượt.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Thuật",
+      "grade": "HOANG",
+      "element": "DARK",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100,
+          "id": "SECT_ATK_ASSASSIN_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ASSASSIN_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Vô Ảnh Đoạt Mệnh Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Chân Pháp",
+      "grade": "HUYEN",
+      "element": "DARK",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100,
+          "id": "SECT_ATK_ASSASSIN_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ASSASSIN_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Vô Ảnh Đoạt Mệnh Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Đại Pháp",
+      "grade": "DIA",
+      "element": "DARK",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100,
+          "id": "SECT_ATK_ASSASSIN_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ASSASSIN_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Vô Ảnh Đoạt Mệnh Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Thiên Quyết",
+      "grade": "THIEN",
+      "element": "DARK",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100,
+          "id": "SECT_ATK_ASSASSIN_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_ASSASSIN_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Vô Ảnh Đoạt Mệnh Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Thánh Pháp",
+      "label": "Vô Ảnh Đoạt Mệnh Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "DARK",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_ASSASSIN_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_ASSASSIN_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_ASSASSIN_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Vô Ảnh Đoạt Mệnh Thần Thông",
+      "label": "Vô Ảnh Đoạt Mệnh Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "DARK",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_ASSASSIN_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_DARK",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_ASSASSIN_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "DARK",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Sát Thần Điện, gây sát thương kỹ năng hệ Bóng Tối và hồi chiêu 2 lượt.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Thuật",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_LONGEVITY_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LONGEVITY_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Sinh Diệt Luân Hồi Thuật",
+      "description": "Hoàng phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Chân Pháp",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_LONGEVITY_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LONGEVITY_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Sinh Diệt Luân Hồi Chân Pháp",
+      "description": "Huyền phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Đại Pháp",
+      "grade": "DIA",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_LONGEVITY_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LONGEVITY_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Sinh Diệt Luân Hồi Đại Pháp",
+      "description": "Địa phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Thiên Quyết",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SECT_ATK_LONGEVITY_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SECT_ATK_LONGEVITY_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Sinh Diệt Luân Hồi Thiên Quyết",
+      "description": "Thiên phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Thánh Pháp",
+      "label": "Sinh Diệt Luân Hồi Thánh Pháp",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "WOOD",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_LONGEVITY_THANH_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_LONGEVITY_THANH_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "description": "Thánh phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_ATK_LONGEVITY_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Diệt Luân Hồi Thần Thông",
+      "label": "Sinh Diệt Luân Hồi Thần Thông",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "WOOD",
+      "elementLabel": "Phong",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "id": "SECT_ATK_LONGEVITY_THAN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100
+        },
+        {
+          "id": "SECT_ATK_LONGEVITY_THAN_ACTION_02",
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "description": "Thần phẩm công kích độc truyền của Trường Sinh Cốc, gây sát thương kỹ năng hệ Mộc và hồi chiêu 2 lượt.",
+      "sectId": "SECT_LONGEVITY"
+    }
+  ],
+  "defenseSkills": [
+    {
+      "id": "SECT_DEF_FIRE_HOANG",
+      "displayName": "Viêm Long Hộ Thể",
+      "grade": "HOANG",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_FIRE_HUYEN",
+      "displayName": "Viêm Long Linh Giáp",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_FIRE_DIA",
+      "displayName": "Viêm Long Đạo Y",
+      "grade": "DIA",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_FIRE_THIEN",
+      "displayName": "Viêm Long Thiên Cương",
+      "grade": "THIEN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_FIRE_THANH",
+      "displayName": "Viêm Long Thánh Vực",
+      "grade": "THANH",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_FIRE_THAN",
+      "displayName": "Viêm Long Thần Vực",
+      "grade": "THAN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_FIRE_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "SECT_DEF_FIRE_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE",
+        "SECT_EXCLUSIVE",
+        "SECT_FIRE"
+      ],
+      "label": "Viêm Long Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Xích Diễm Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_FIRE"
+    },
+    {
+      "id": "SECT_DEF_WOOD_HOANG",
+      "displayName": "Sinh Linh Hộ Thể",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_WOOD_HUYEN",
+      "displayName": "Sinh Linh Linh Giáp",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_WOOD_DIA",
+      "displayName": "Sinh Linh Đạo Y",
+      "grade": "DIA",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_WOOD_THIEN",
+      "displayName": "Sinh Linh Thiên Cương",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_WOOD_THANH",
+      "displayName": "Sinh Linh Thánh Vực",
+      "grade": "THANH",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_WOOD_THAN",
+      "displayName": "Sinh Linh Thần Vực",
+      "grade": "THAN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WOOD_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_WOOD_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_WOOD"
+      ],
+      "label": "Sinh Linh Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Thanh Mộc Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WOOD"
+    },
+    {
+      "id": "SECT_DEF_EARTH_HOANG",
+      "displayName": "Bất Động Hộ Thể",
+      "grade": "HOANG",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_EARTH_HUYEN",
+      "displayName": "Bất Động Linh Giáp",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_EARTH_DIA",
+      "displayName": "Bất Động Đạo Y",
+      "grade": "DIA",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_EARTH_THIEN",
+      "displayName": "Bất Động Thiên Cương",
+      "grade": "THIEN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_EARTH_THANH",
+      "displayName": "Bất Động Thánh Vực",
+      "grade": "THANH",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_EARTH_THAN",
+      "displayName": "Bất Động Thần Vực",
+      "grade": "THAN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_EARTH_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "SECT_DEF_EARTH_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH",
+        "SECT_EXCLUSIVE",
+        "SECT_EARTH"
+      ],
+      "label": "Bất Động Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Hậu Thổ Môn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_EARTH"
+    },
+    {
+      "id": "SECT_DEF_WATER_HOANG",
+      "displayName": "Huyền Thủy Hộ Thể",
+      "grade": "HOANG",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_WATER_HUYEN",
+      "displayName": "Huyền Thủy Linh Giáp",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_WATER_DIA",
+      "displayName": "Huyền Thủy Đạo Y",
+      "grade": "DIA",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_WATER_THIEN",
+      "displayName": "Huyền Thủy Thiên Cương",
+      "grade": "THIEN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_WATER_THANH",
+      "displayName": "Huyền Thủy Thánh Vực",
+      "grade": "THANH",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_WATER_THAN",
+      "displayName": "Huyền Thủy Thần Vực",
+      "grade": "THAN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_WATER_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "SECT_DEF_WATER_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER",
+        "SECT_EXCLUSIVE",
+        "SECT_WATER"
+      ],
+      "label": "Huyền Thủy Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Thương Hải Các, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_WATER"
+    },
+    {
+      "id": "SECT_DEF_METAL_HOANG",
+      "displayName": "Kim Cương Hộ Thể",
+      "grade": "HOANG",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_METAL_HUYEN",
+      "displayName": "Kim Cương Linh Giáp",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_METAL_DIA",
+      "displayName": "Kim Cương Đạo Y",
+      "grade": "DIA",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_METAL_THIEN",
+      "displayName": "Kim Cương Thiên Cương",
+      "grade": "THIEN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_METAL_THANH",
+      "displayName": "Kim Cương Thánh Vực",
+      "grade": "THANH",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_METAL_THAN",
+      "displayName": "Kim Cương Thần Vực",
+      "grade": "THAN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_METAL_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "SECT_DEF_METAL_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL",
+        "SECT_EXCLUSIVE",
+        "SECT_METAL"
+      ],
+      "label": "Kim Cương Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Kim Kiếm Sơn, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_METAL"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_HOANG",
+      "displayName": "Lôi Cương Hộ Thể",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_HUYEN",
+      "displayName": "Lôi Cương Linh Giáp",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_DIA",
+      "displayName": "Lôi Cương Đạo Y",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_THIEN",
+      "displayName": "Lôi Cương Thiên Cương",
+      "grade": "THIEN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_THANH",
+      "displayName": "Lôi Cương Thánh Vực",
+      "grade": "THANH",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_LIGHTNING_THAN",
+      "displayName": "Lôi Cương Thần Vực",
+      "grade": "THAN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LIGHTNING_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "SECT_DEF_LIGHTNING_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING",
+        "SECT_EXCLUSIVE",
+        "SECT_LIGHTNING"
+      ],
+      "label": "Lôi Cương Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Thiên Lôi Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LIGHTNING"
+    },
+    {
+      "id": "SECT_DEF_ICE_HOANG",
+      "displayName": "Huyền Băng Hộ Thể",
+      "grade": "HOANG",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_ICE_HUYEN",
+      "displayName": "Huyền Băng Linh Giáp",
+      "grade": "HUYEN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_ICE_DIA",
+      "displayName": "Huyền Băng Đạo Y",
+      "grade": "DIA",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_ICE_THIEN",
+      "displayName": "Huyền Băng Thiên Cương",
+      "grade": "THIEN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_ICE_THANH",
+      "displayName": "Huyền Băng Thánh Vực",
+      "grade": "THANH",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_ICE_THAN",
+      "displayName": "Huyền Băng Thần Vực",
+      "grade": "THAN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ICE_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "SECT_DEF_ICE_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE",
+        "SECT_EXCLUSIVE",
+        "SECT_ICE"
+      ],
+      "label": "Huyền Băng Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Hàn Nguyệt Cung, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ICE"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_HOANG",
+      "displayName": "Thái Cực Hộ Thể",
+      "grade": "HOANG",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_HUYEN",
+      "displayName": "Thái Cực Linh Giáp",
+      "grade": "HUYEN",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_DIA",
+      "displayName": "Thái Cực Đạo Y",
+      "grade": "DIA",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_THIEN",
+      "displayName": "Thái Cực Thiên Cương",
+      "grade": "THIEN",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_THANH",
+      "displayName": "Thái Cực Thánh Vực",
+      "grade": "THANH",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_YINYANG_THAN",
+      "displayName": "Thái Cực Thần Vực",
+      "grade": "THAN",
+      "element": "CHAOS",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_YINYANG_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_CHAOS",
+          "id": "SECT_DEF_YINYANG_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "CHAOS",
+        "SECT_EXCLUSIVE",
+        "SECT_YINYANG"
+      ],
+      "label": "Thái Cực Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Lưỡng Nghi Tông, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_YINYANG"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_HOANG",
+      "displayName": "Ám Ảnh Hộ Thể",
+      "grade": "HOANG",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_HUYEN",
+      "displayName": "Ám Ảnh Linh Giáp",
+      "grade": "HUYEN",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_DIA",
+      "displayName": "Ám Ảnh Đạo Y",
+      "grade": "DIA",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_THIEN",
+      "displayName": "Ám Ảnh Thiên Cương",
+      "grade": "THIEN",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_THANH",
+      "displayName": "Ám Ảnh Thánh Vực",
+      "grade": "THANH",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_ASSASSIN_THAN",
+      "displayName": "Ám Ảnh Thần Vực",
+      "grade": "THAN",
+      "element": "DARK",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_ASSASSIN_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_DARK",
+          "id": "SECT_DEF_ASSASSIN_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "DARK",
+        "SECT_EXCLUSIVE",
+        "SECT_ASSASSIN"
+      ],
+      "label": "Ám Ảnh Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Sát Thần Điện, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_ASSASSIN"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_HOANG",
+      "displayName": "Vạn Thọ Hộ Thể",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Hộ Thể",
+      "description": "Hoàng phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_HUYEN",
+      "displayName": "Vạn Thọ Linh Giáp",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Linh Giáp",
+      "description": "Huyền phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_DIA",
+      "displayName": "Vạn Thọ Đạo Y",
+      "grade": "DIA",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Đạo Y",
+      "description": "Địa phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_THIEN",
+      "displayName": "Vạn Thọ Thiên Cương",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Thiên Cương",
+      "description": "Thiên phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_THANH",
+      "displayName": "Vạn Thọ Thánh Vực",
+      "grade": "THANH",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Thánh Vực",
+      "description": "Thánh phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    },
+    {
+      "id": "SECT_DEF_LONGEVITY_THAN",
+      "displayName": "Vạn Thọ Thần Vực",
+      "grade": "THAN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "SECT_DEF_LONGEVITY_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "SECT_DEF_LONGEVITY_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD",
+        "SECT_EXCLUSIVE",
+        "SECT_LONGEVITY"
+      ],
+      "label": "Vạn Thọ Thần Vực",
+      "description": "Thần phẩm hộ thân độc truyền của Trường Sinh Cốc, tự tạo khiên khi sinh lực xuống dưới 30%.",
+      "sectId": "SECT_LONGEVITY"
+    }
+  ]
+}

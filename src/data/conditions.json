@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "conditions": [
+    {
+      "id": "SELF_HP_LTE_30",
+      "displayName": "Bản thân còn tối đa 30% HP",
+      "root": {
+        "type": "PREDICATE",
+        "predicate": "HP_PERCENT",
+        "subject": "SELF",
+        "operator": "LTE",
+        "value": 30
+      }
+    },
+    {
+      "id": "TARGET_HP_LTE_30",
+      "displayName": "Mục tiêu còn tối đa 30% HP",
+      "root": {
+        "type": "PREDICATE",
+        "predicate": "HP_PERCENT",
+        "subject": "TARGET",
+        "operator": "LTE",
+        "value": 30
+      }
+    },
+    {
+      "id": "SELF_HAS_BURN",
+      "displayName": "Bản thân đang bị Thiêu Đốt",
+      "root": {
+        "type": "PREDICATE",
+        "predicate": "HAS_EFFECT",
+        "subject": "SELF",
+        "operator": "IS",
+        "value": true,
+        "arguments": {
+          "effectId": "BURN"
+        }
+      }
+    },
+    {
+      "id": "SELF_ALIVE_AND_HP_LTE_30",
+      "displayName": "Bản thân còn sống và còn tối đa 30% HP",
+      "root": {
+        "type": "GROUP",
+        "operator": "ALL",
+        "children": [
+          {
+            "type": "PREDICATE",
+            "predicate": "IS_ALIVE",
+            "subject": "SELF",
+            "operator": "IS",
+            "value": true
+          },
+          {
+            "type": "PREDICATE",
+            "predicate": "HP_PERCENT",
+            "subject": "SELF",
+            "operator": "LTE",
+            "value": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "SELF_HAS_BURN_OR_HP_LTE_30",
+      "displayName": "Bản thân bị Thiêu Đốt hoặc còn tối đa 30% HP",
+      "root": {
+        "type": "GROUP",
+        "operator": "ANY",
+        "children": [
+          {
+            "type": "PREDICATE",
+            "predicate": "HAS_EFFECT",
+            "subject": "SELF",
+            "operator": "IS",
+            "value": true,
+            "arguments": {
+              "effectId": "BURN"
+            }
+          },
+          {
+            "type": "PREDICATE",
+            "predicate": "HP_PERCENT",
+            "subject": "SELF",
+            "operator": "LTE",
+            "value": 30
+          }
+        ]
+      }
+    }
+  ]
+}

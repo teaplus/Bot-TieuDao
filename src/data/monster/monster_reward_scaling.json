@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "id": "MONSTER_REWARD_SCALING_V1",
+  "aliasId": "BASIC_MONSTER_DROP",
+  "coveragePolicy": "CONFIGURED_TIERS_ONLY",
+  "currency": {
+    "currencyId": "SPIRIT_STONE",
+    "baseRealmOrder": 1,
+    "baseMin": 10,
+    "baseMax": 20,
+    "growthFactor": 2,
+    "roundingMode": "FLOOR"
+  },
+  "tiers": [
+    {
+      "realmOrder": 1,
+      "tableId": "MONSTER_LUYEN_KHI",
+      "displayName": "Quái Luyện Khí",
+      "rollCount": 3,
+      "equipment": {
+        "chance": 10,
+        "gradeChances": { "LOW": 70, "MEDIUM": 25, "HIGH": 5 },
+        "typeChances": {
+          "WEAPON": 25,
+          "ARMOR": 25,
+          "NECKLACE": 25,
+          "RING": 25
+        },
+        "quantity": { "min": 1, "max": 1 }
+      },
+      "items": [
+        { "itemId": "HERB_TU_LINH_THAO", "chance": 5, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "HERB_THANH_TAM_THAO", "chance": 1, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "BREAKTHROUGH_PILL", "chance": 5, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "SECRET_REALM_TICKET", "chance": 2, "quantity": { "min": 1, "max": 1 } }
+      ]
+    },
+    {
+      "realmOrder": 2,
+      "tableId": "MONSTER_TRUC_CO",
+      "displayName": "Quái Trúc Cơ",
+      "rollCount": 3,
+      "equipment": {
+        "chance": 10,
+        "gradeChances": { "LOW": 70, "MEDIUM": 25, "HIGH": 5 },
+        "typeChances": {
+          "WEAPON": 25,
+          "ARMOR": 25,
+          "NECKLACE": 25,
+          "RING": 25
+        },
+        "quantity": { "min": 1, "max": 1 }
+      },
+      "items": [
+        { "itemId": "BREAKTHROUGH_PILL", "chance": 5, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "SECRET_REALM_TICKET", "chance": 2, "quantity": { "min": 1, "max": 1 } }
+      ]
+    },
+    {
+      "realmOrder": 3,
+      "tableId": "MONSTER_KET_DAN",
+      "displayName": "Quái Kết Đan",
+      "rollCount": 3,
+      "equipment": {
+        "chance": 10,
+        "gradeChances": { "LOW": 70, "MEDIUM": 25, "HIGH": 5 },
+        "typeChances": {
+          "WEAPON": 25,
+          "ARMOR": 25,
+          "NECKLACE": 25,
+          "RING": 25
+        },
+        "quantity": { "min": 1, "max": 1 }
+      },
+      "items": [
+        { "itemId": "BREAKTHROUGH_PILL", "chance": 5, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "SECRET_REALM_TICKET", "chance": 2, "quantity": { "min": 1, "max": 1 } }
+      ]
+    },
+    {
+      "realmOrder": 4,
+      "tableId": "MONSTER_NGUYEN_ANH",
+      "displayName": "Quái Nguyên Anh",
+      "rollCount": 1,
+      "equipment": {
+        "chance": 8,
+        "gradePoolId": "MAP_KET_DAN",
+        "gradeChances": { "LOW": 70, "MEDIUM": 25, "HIGH": 5 },
+        "typeChances": {
+          "WEAPON": 25,
+          "ARMOR": 25,
+          "NECKLACE": 25,
+          "RING": 25
+        },
+        "quantity": { "min": 1, "max": 1 }
+      },
+      "items": [
+        { "itemId": "BREAKTHROUGH_PILL", "chance": 3, "quantity": { "min": 1, "max": 1 } },
+        { "itemId": "SECRET_REALM_TICKET", "chance": 1, "quantity": { "min": 1, "max": 1 } }
+      ]
+    },
+    {
+      "realmOrder": 5, "tableId": "MONSTER_HOA_THAN", "displayName": "Quái Hóa Thần", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_HOA_THAN","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_THIEN_LINH_HOA","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_HOA_THAN_THAO","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_THIEN_LINH_TINH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_HOA_THAN_NGOC","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 6, "tableId": "MONSTER_LUYEN_HU", "displayName": "Quái Luyện Hư", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_LUYEN_HU","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_HU_KHONG_DANG","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_KHONG_MINH_HOA","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_HU_KHONG_THACH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_KHONG_MINH_TINH_THIET","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 7, "tableId": "MONSTER_HOP_THE", "displayName": "Quái Hợp Thể", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_HOP_THE","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_THANH_LINH_CHI","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_HOP_DAO_LIEN","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_THANH_LINH_NGOC","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_HOP_THIEN_KIM","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 8, "tableId": "MONSTER_DAI_THUA", "displayName": "Quái Đại Thừa", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_DAI_THUA","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_CUU_THIEN_TIEN_THAO","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_DAI_THUA_DAO_QUA","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_CUU_THIEN_TIEN_KIM","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_DAI_THUA_NGOC_TUY","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 9, "tableId": "MONSTER_DO_KIEP", "displayName": "Quái Độ Kiếp", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_DO_KIEP","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_LOI_KIEP_HOA","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_DO_KIEP_TIEN_LIEN","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_THIEN_LOI_THACH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_KIEP_HOA_THAN_KIM","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 10, "tableId": "MONSTER_CHAN_TIEN", "displayName": "Quái Chân Tiên", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_CHAN_TIEN","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_CHAN_TIEN_THAO","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_TIEN_NGUYEN_QUA","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_TIEN_NGUYEN_NGOC","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_CHAN_TIEN_KIM","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 11, "tableId": "MONSTER_HUYEN_TIEN", "displayName": "Quái Huyền Tiên", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_HUYEN_TIEN","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_HUYEN_THIEN_DAO_LIEN","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_HUYEN_TIEN_LINH_CHI","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_HUYEN_THIEN_TINH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_HUYEN_TIEN_BI_NGAN","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 12, "tableId": "MONSTER_KIM_TIEN", "displayName": "Quái Kim Tiên", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_KIM_TIEN","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_KIM_KHUYET_TIEN_LAN","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_KIM_TIEN_DAO_QUA","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_KIM_KHUYET_THAN_KIM","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_THAI_DUONG_TIEN_TINH","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 13, "tableId": "MONSTER_THAI_AT", "displayName": "Quái Thái Ất", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_THAI_AT","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_THAI_SO_HON_NGUYEN_THAO","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_THAI_AT_DAO_LIEN","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_THAI_SO_NGUYEN_THACH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_THAI_AT_TIEN_KIM","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 14, "tableId": "MONSTER_DAI_LA", "displayName": "Quái Đại La", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_DAI_LA","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_DAI_LA_DAO_QUA","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_VAN_PHAP_TIEN_LIEN","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_DAI_LA_THAN_KIM","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_VAN_PHAP_DAO_TINH","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    },
+    {
+      "realmOrder": 15, "tableId": "MONSTER_DAO_TO", "displayName": "Quái Đạo Tổ", "rollCount": 1,
+      "equipment": {"chance":8,"gradePoolId":"MAP_DAO_TO","gradeChances":{"LOW":70,"MEDIUM":25,"HIGH":5},"typeChances":{"WEAPON":25,"ARMOR":25,"NECKLACE":25,"RING":25},"quantity":{"min":1,"max":1}},
+      "items": [
+        {"itemId":"HERB_KHOI_NGUYEN_DAO_LIEN","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"HERB_HONG_MONG_THAN_THAO","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"ORE_KHOI_NGUYEN_THAN_THACH","chance":3,"quantity":{"min":1,"max":1}},{"itemId":"ORE_HONG_MONG_DAO_KIM","chance":1,"quantity":{"min":1,"max":1}},
+        {"itemId":"SECRET_REALM_TICKET","chance":1,"quantity":{"min":1,"max":1}}
+      ]
+    }
+  ]
+}

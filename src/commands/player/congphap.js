@@ -1,85 +1,143 @@
-import { EmbedBuilder, MessageFlags, SlashCommandBuilder } from 'discord.js';
+import { MessageFlags } from 'discord.js';
+import ComponentSession from '../../application/discord/ComponentSession.js';
+import {
+    createCultivationLoadoutPayload,
+    loadCultivationLoadoutState
+} from '../../application/discord/CultivationLoadoutPresentation.js';
 import BaseCommand from '../../core/BaseCommand.js';
-import CultivationArtManager from '../../managers/CultivationArtManager.js';
-import PlayerRepository from '../../repositories/PlayerRepository.js';
-import SelectPrompt from '../../core/SelectPrompt.js';
+
+const SESSION_TIMEOUT_MS = 2 * 60 * 1000;
+
+const ERROR_MESSAGES = Object.freeze({
+    ITEM_NOT_FOUND: 'Không tìm thấy bí kíp đã chọn trong Túi Trữ Vật.',
+    NOT_SKILL_BOOK: 'Vật phẩm đã chọn không phải bí kíp Kỹ Năng.',
+    ALREADY_LEARNED: 'Đạo hữu đã lĩnh ngộ nội dung này.',
+    ART_NOT_LEARNED: 'Đạo hữu chưa lĩnh ngộ Công Pháp đã chọn.',
+    ART_NOT_FOUND: 'Không tìm thấy dữ liệu Công Pháp đã chọn.',
+    SKILL_NOT_LEARNED: 'Loadout chứa Kỹ Năng đạo hữu chưa lĩnh ngộ.',
+    SKILL_LOADOUT_DUPLICATE: 'Một Kỹ Năng không thể chiếm nhiều ô.',
+    SKILL_LOADOUT_CAPACITY_EXCEEDED: 'Số Kỹ Năng đã vượt giới hạn ô của cảnh giới hiện tại.',
+    SKILL_LOADOUT_ACTIVE_LIMIT_EXCEEDED: 'Chỉ được trang bị tối đa 3 Kỹ Năng Chủ động.'
+});
 
 export default class CultivationArtCommand extends BaseCommand {
     constructor() {
-        super({ name: 'congphap', description: 'Xem, học hoặc đổi công pháp tu luyện' });
+        super({
+            name: 'congphap',
+            description: 'Quản lý Công Pháp tu luyện và loadout Kỹ Năng'
+        });
     }
 
-    getSlashData() {
-        return new SlashCommandBuilder()
-            .setName(this.name)
-            .setDescription(this.description)
-            .addSubcommand((sub) => sub.setName('xem').setDescription('Xem các công pháp đã học'))
-            .addSubcommand((sub) => sub.setName('hoc').setDescription('Chọn và học công pháp trong túi'))
-            .addSubcommand((sub) => sub.setName('dung').setDescription('Chọn công pháp đã lĩnh ngộ để tu luyện'));
-    }
-
-    async execute(interaction) {
+    async execute(interaction, client) {
         await interaction.deferReply({ flags: MessageFlags.Ephemeral });
-        const action = interaction.options.getSubcommand();
 
+        let state;
         try {
-            if (action === 'hoc') {
-                const record = await PlayerRepository.findById(interaction.user.id);
-                if (!record) return interaction.editReply('Hãy dùng `/start` để tạo nhân vật trước.');
-                const learned = await CultivationArtManager.list(interaction.user.id);
-                const learnedIds = new Set(learned.map((art) => art.id));
-                const books = record.inventory.filter((item) => item.type === 'CULTIVATION_ART'
-                    && !learnedIds.has(item.cultivationArtId));
-                if (!books.length) return interaction.editReply('Trong túi không có bí kíp công pháp để lĩnh ngộ.');
-                const inventoryId = await SelectPrompt.choose(interaction, {
-                    customId: `learn_art:${interaction.id}`,
-                    placeholder: 'Chọn công pháp muốn lĩnh ngộ',
-                    prompt: 'Chọn một bí kíp công pháp trong túi:',
-                    options: books.map((item) => ({
-                        label: `${item.name} [${item.rarityInfo.name}]`,
-                        value: item.uuid,
-                        description: item.description
-                    }))
-                });
-                if (!inventoryId) return;
-                const art = await CultivationArtManager.learn(interaction.user.id, inventoryId);
-                return interaction.editReply({ content: `Đã lĩnh ngộ và vận hành **${art.name}**.`, components: [] });
-            }
-            if (action === 'dung') {
-                const learnedArts = await CultivationArtManager.list(interaction.user.id);
-                const selectableArts = learnedArts.filter((art) => !art.active);
-                if (!selectableArts.length) return interaction.editReply('Không có công pháp khác để chuyển đổi.');
-                const artId = await SelectPrompt.choose(interaction, {
-                    customId: `equip_art:${interaction.id}`,
-                    placeholder: 'Chọn công pháp muốn vận hành',
-                    prompt: 'Chọn một công pháp đã lĩnh ngộ:',
-                    options: selectableArts.map((art) => ({
-                        label: `${art.name} [${art.rarity}]`,
-                        value: art.id,
-                        description: art.description
-                    }))
-                });
-                if (!artId) return;
-                const art = await CultivationArtManager.equip(interaction.user.id, artId);
-                return interaction.editReply({ content: `Đã chuyển sang tu luyện **${art.name}**.`, components: [] });
-            }
-
-            const arts = await CultivationArtManager.list(interaction.user.id);
-            const embed = new EmbedBuilder().setTitle('Công pháp đã lĩnh ngộ').setColor('#2E8B57');
-            embed.setDescription(arts.length
-                ? arts.map((art) => `${art.active ? '◆' : '◇'} **${art.name}** (${art.id}) [${art.rarity}]`).join('\n')
-                : 'Chưa lĩnh ngộ công pháp nào.');
-            return interaction.editReply({ embeds: [embed] });
+            state = await loadCultivationLoadoutState(client, interaction.user.id);
         } catch (error) {
-            const messages = {
-                ITEM_NOT_FOUND: 'Không tìm thấy bí kíp này trong túi.',
-                NOT_ART: 'Vật phẩm đã chọn không phải công pháp.',
-                ALREADY_LEARNED: 'Đạo hữu đã lĩnh ngộ công pháp này.',
-                ART_NOT_LEARNED: 'Đạo hữu chưa lĩnh ngộ công pháp có mã này.'
-            };
-            if (messages[error.message]) return interaction.editReply({ content: messages[error.message], components: [] });
-            console.error('Lỗi tại lệnh /congphap:', error);
-            return interaction.editReply({ content: 'Không thể vận hành công pháp lúc này.', components: [] });
+            client.logger?.error('Cultivation loadout read failed', {
+                error: error instanceof Error ? error.message : String(error)
+            });
+            return interaction.editReply(
+                'Đạo vận hỗn loạn, chưa thể mở bảng Công Pháp lúc này.'
+            );
         }
+        if (!state) {
+            return interaction.editReply('Hãy dùng `/start` để tạo nhân vật trước.');
+        }
+
+        const sessionId = interaction.id;
+        let notice = null;
+        let skillPage = 0;
+        const render = (options = {}) => createCultivationLoadoutPayload({
+            state,
+            sessionId,
+            notice,
+            skillPage,
+            ...options
+        });
+        const message = await interaction.editReply(render());
+
+        await ComponentSession.forMessage({
+            interaction,
+            message,
+            prefix: `congphap:${sessionId}:`,
+            timeoutMs: SESSION_TIMEOUT_MS
+        }).run({
+            onCollect: async (component) => {
+                const action = component.customId.split(':')[2];
+                if (action === 'close') {
+                    await component.update(render({
+                        disabled: true,
+                        notice: 'Đã đóng bảng Công Pháp.'
+                    }));
+                    return false;
+                }
+
+                await component.deferUpdate();
+                try {
+                    const selectedId = component.values?.[0];
+                    if (action === 'skill-prev') {
+                        skillPage = Math.max(0, skillPage - 1);
+                        notice = null;
+                    } else if (action === 'skill-next') {
+                        skillPage += 1;
+                        notice = null;
+                    } else if (action === 'equip-art') {
+                        const art = await client.cultivationArtService.equipCultivationArt(
+                            interaction.user.id,
+                            selectedId
+                        );
+                        notice = `✅ Đang vận hành **${art.name}**.`;
+                    } else if (action === 'equip-skills') {
+                        const result = await client.skillService.equipSkillLoadout(
+                            interaction.user.id,
+                            component.values || []
+                        );
+                        if (!result) throw new Error('PLAYER_NOT_FOUND');
+                        notice = `✅ Đã cập nhật **${result.skillIds.length}/${result.capacity}** ô`
+                            + ` · Chủ động **${result.activeCount}/${result.maxActiveSkills}**`
+                            + ` · Bị động **${result.passiveCount}**.`;
+                    } else if (action === 'learn-art') {
+                        const art = await client.cultivationArtService.learnCultivationArt(
+                            interaction.user.id,
+                            selectedId
+                        );
+                        notice = `📖 Đã lĩnh ngộ và vận hành **${art.name}**.`;
+                    } else if (action === 'learn-skill') {
+                        const skill = await client.skillService.learnSkill(
+                            interaction.user.id,
+                            selectedId
+                        );
+                        notice = `✨ Đã lĩnh ngộ **${skill.name}**. Hãy chọn thanh Kỹ Năng để trang bị.`;
+                    }
+                    state = await loadCultivationLoadoutState(
+                        client,
+                        interaction.user.id
+                    ) || state;
+                } catch (error) {
+                    notice = ERROR_MESSAGES[error.message]
+                        || 'Không thể thay đổi Công Pháp/Kỹ Năng lúc này.';
+                    client.logger?.error('Cultivation loadout action failed', {
+                        action,
+                        error: error instanceof Error ? error.message : String(error)
+                    });
+                    state = await loadCultivationLoadoutState(
+                        client,
+                        interaction.user.id
+                    ).catch(() => state) || state;
+                }
+
+                await interaction.editReply(render());
+                return true;
+            },
+            onTimeout: async () => {
+                await interaction.editReply(render({
+                    disabled: true,
+                    notice: 'Bảng Công Pháp đã hết hạn. Dùng lại `/congphap` để tiếp tục.'
+                }));
+            }
+        });
+        return null;
     }
 }

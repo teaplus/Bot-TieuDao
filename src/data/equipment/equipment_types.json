@@ -1,0 +1,48 @@
+{
+  "version": 1,
+
+  "types": [
+    {
+      "id": "WEAPON",
+      "displayName": "Vũ khí",
+      "baseModifiers": [
+        {
+          "modifierId": "ATK_PERCENT"
+        }
+      ]
+    },
+    {
+      "id": "ARMOR",
+      "displayName": "Áo giáp",
+      "baseModifiers": [
+        {
+          "modifierId": "DEF_PERCENT"
+        },
+        {
+          "modifierId": "HP_PERCENT"
+        }
+      ]
+    },
+    {
+      "id": "NECKLACE",
+      "displayName": "Dây chuyền",
+      "baseModifiers": [
+        {
+          "modifierId": "DEF_PERCENT"
+        },
+        {
+          "modifierId": "HP_PERCENT"
+        }
+      ]
+    },
+    {
+      "id": "RING",
+      "displayName": "Nhẫn",
+      "baseModifiers": [
+        {
+          "modifierId": "HP_PERCENT"
+        }
+      ]
+    }
+  ]
+}

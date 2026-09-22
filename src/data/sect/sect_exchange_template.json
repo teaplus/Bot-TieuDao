@@ -1,0 +1,175 @@
+{
+  "version": 1,
+
+  "quality": "LOW",
+
+  "exchangeRules": [
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "HOANG",
+      "requiredRealm": "LUYEN_KHI",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 100
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "HOANG",
+      "requiredRealm": "LUYEN_KHI",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 120
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "HOANG",
+      "requiredRealm": "LUYEN_KHI",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 120
+      }
+    },
+
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "HUYEN",
+      "requiredRealm": "KET_DAN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 500
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "HUYEN",
+      "requiredRealm": "KET_DAN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 600
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "HUYEN",
+      "requiredRealm": "KET_DAN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 600
+      }
+    },
+
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "DIA",
+      "requiredRealm": "LUYEN_HU",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 2500
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "DIA",
+      "requiredRealm": "LUYEN_HU",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 3000
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "DIA",
+      "requiredRealm": "LUYEN_HU",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 3000
+      }
+    },
+
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "THIEN",
+      "requiredRealm": "CHAN_TIEN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 10000
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "THIEN",
+      "requiredRealm": "CHAN_TIEN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 12000
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "THIEN",
+      "requiredRealm": "CHAN_TIEN",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 12000
+      }
+    },
+
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "THANH",
+      "requiredRealm": "DAI_LA",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 50000
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "THANH",
+      "requiredRealm": "DAI_LA",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 60000
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "THANH",
+      "requiredRealm": "DAI_LA",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 60000
+      }
+    },
+
+    {
+      "category": "CULTIVATION_ART",
+      "grade": "THAN",
+      "requiredRealm": "DAO_TO",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 200000
+      }
+    },
+    {
+      "category": "ATTACK",
+      "grade": "THAN",
+      "requiredRealm": "DAO_TO",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 240000
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "grade": "THAN",
+      "requiredRealm": "DAO_TO",
+      "cost": {
+        "currencyId": "SECT_POINT",
+        "amount": 240000
+      }
+    }
+  ]
+}

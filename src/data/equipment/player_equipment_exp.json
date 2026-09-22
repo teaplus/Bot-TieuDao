@@ -1,0 +1,51 @@
+{
+  "equipment": {
+    "weapon": {
+      "templateId": "EQ_FIRE_WEAPON",
+      "grade": "THIEN",
+      "quality": "HIGH",
+      "affixes": [
+        {
+          "id": "CRIT",
+          "value": 8
+        },
+        {
+          "id": "PEN",
+          "value": 2
+        }
+      ]
+    },
+    "armor": {
+      "templateId": "EQ_FIRE_ARMOR",
+      "grade": "THIEN",
+      "quality": "MIDDLE",
+      "affixes": [
+        {
+          "id": "REG",
+          "value": 2
+        }
+      ]
+    },
+    "necklace": {
+      "templateId": "EQ_FIRE_NECKLACE",
+      "grade": "THIEN",
+      "quality": "LOW",
+      "affixes": []
+    },
+    "ring": {
+      "templateId": "EQ_FIRE_RING",
+      "grade": "THIEN",
+      "quality": "HIGH",
+      "affixes": [
+        {
+          "id": "CRIT",
+          "value": 10
+        },
+        {
+          "id": "SKD",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

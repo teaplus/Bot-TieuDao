@@ -1,0 +1,67 @@
+{
+  "generate": [
+    {
+      "from": "WOOD",
+      "to": "FIRE",
+      "effectId": "EFFECT_ELEMENT_WOOD_GENERATE_FIRE"
+    },
+    {
+      "from": "FIRE",
+      "to": "EARTH",
+      "effectId": "EFFECT_ELEMENT_FIRE_GENERATE_EARTH"
+    },
+    {
+      "from": "EARTH",
+      "to": "METAL",
+      "effectId": "EFFECT_ELEMENT_EARTH_GENERATE_METAL"
+    },
+    {
+      "from": "METAL",
+      "to": "WATER",
+      "effectId": "EFFECT_ELEMENT_METAL_GENERATE_WATER"
+    },
+    {
+      "from": "WATER",
+      "to": "WOOD",
+      "effectId": "EFFECT_ELEMENT_WATER_GENERATE_WOOD"
+    }
+  ],
+
+  "counter": [
+    {
+      "from": "WOOD",
+      "to": "EARTH",
+      "effectId": "EFFECT_ELEMENT_WOOD_COUNTER_EARTH"
+    },
+    {
+      "from": "EARTH",
+      "to": "WATER",
+      "effectId": "EFFECT_ELEMENT_EARTH_COUNTER_WATER"
+    },
+    {
+      "from": "WATER",
+      "to": "FIRE",
+      "effectId": "EFFECT_ELEMENT_WATER_COUNTER_FIRE"
+    },
+    {
+      "from": "FIRE",
+      "to": "METAL",
+      "effectId": "EFFECT_ELEMENT_FIRE_COUNTER_METAL"
+    },
+    {
+      "from": "METAL",
+      "to": "WOOD",
+      "effectId": "EFFECT_ELEMENT_METAL_COUNTER_WOOD"
+    },
+    {
+      "from": "LIGHT",
+      "to": "DARK",
+      "effectId": "EFFECT_ELEMENT_LIGHT_COUNTER_DARK"
+    },
+    {
+      "from": "DARK",
+      "to": "LIGHT",
+      "effectId": "EFFECT_ELEMENT_DARK_COUNTER_LIGHT"
+    }
+  ]
+}

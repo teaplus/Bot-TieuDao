@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "grades": [
+    { "grade": 1, "displayName": "Nhất Phẩm", "cumulativeExperience": "0", "recipeExperience": "10", "minRealm": "LUYEN_KHI", "baseDurationMinutes": 1 },
+    { "grade": 2, "displayName": "Nhị Phẩm", "cumulativeExperience": "100", "recipeExperience": "20", "minRealm": "TRUC_CO", "baseDurationMinutes": 3 },
+    { "grade": 3, "displayName": "Tam Phẩm", "cumulativeExperience": "300", "recipeExperience": "40", "minRealm": "KET_DAN", "baseDurationMinutes": 10 },
+    { "grade": 4, "displayName": "Tứ Phẩm", "cumulativeExperience": "700", "recipeExperience": "80", "minRealm": "NGUYEN_ANH", "baseDurationMinutes": 30 },
+    { "grade": 5, "displayName": "Ngũ Phẩm", "cumulativeExperience": "1500", "recipeExperience": "160", "minRealm": "HOA_THAN", "baseDurationMinutes": 90 },
+    { "grade": 6, "displayName": "Lục Phẩm", "cumulativeExperience": "3100", "recipeExperience": "320", "minRealm": "LUYEN_HU", "baseDurationMinutes": 240 },
+    { "grade": 7, "displayName": "Thất Phẩm", "cumulativeExperience": "6300", "recipeExperience": "640", "minRealm": "HOP_THE", "baseDurationMinutes": 600 },
+    { "grade": 8, "displayName": "Bát Phẩm", "cumulativeExperience": "12700", "recipeExperience": "1280", "minRealm": "DAI_THUA", "baseDurationMinutes": 1440 },
+    { "grade": 9, "displayName": "Cửu Phẩm", "cumulativeExperience": "25500", "recipeExperience": "2560", "minRealm": "DO_KIEP", "baseDurationMinutes": 2880 }
+  ]
+}

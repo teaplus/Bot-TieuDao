@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "professions": [
+    {
+      "id": "ALCHEMIST",
+      "displayName": "Luyện Đan Sư",
+      "status": "ACTIVE",
+      "outputTypes": ["ITEM"]
+    },
+    {
+      "id": "TALISMAN_MASTER",
+      "displayName": "Phù Sư",
+      "status": "ACTIVE",
+      "outputTypes": ["ITEM"]
+    },
+    {
+      "id": "ARTIFACT_REFINER",
+      "displayName": "Luyện Khí Sư",
+      "status": "ACTIVE",
+      "outputTypes": ["EQUIPMENT"]
+    },
+    {
+      "id": "FORMATION_MASTER",
+      "displayName": "Trận Sư",
+      "status": "DEFINITION_ONLY",
+      "outputTypes": ["FORMATION"]
+    },
+    {
+      "id": "PUPPET_MASTER",
+      "displayName": "Khôi Lỗi Sư",
+      "status": "DEFINITION_ONLY",
+      "outputTypes": ["PUPPET"]
+    }
+  ]
+}

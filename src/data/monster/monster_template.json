@@ -1,0 +1,2245 @@
+{
+  "version": 4,
+  "description": "Template động cho quái vật thông thường. Quái tự động scale theo Đại cảnh giới của người chơi, nhưng luôn bị khóa ở Tiểu cảnh giới (Stage) mặc định.",
+  "monsterTemplates": [
+    {
+      "id": "TPL_MON_FIRE_001",
+      "displayName": "Hỏa Linh",
+      "element": "FIRE",
+      "combat": {
+        "attackSkillPool": "FIRE",
+        "defenseSkillPool": "FIRE",
+        "aiProfile": "NORMAL"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_FIRE_002",
+      "displayName": "Diễm Lang",
+      "element": "FIRE",
+      "combat": {
+        "attackSkillPool": "FIRE",
+        "defenseSkillPool": "FIRE",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_WOOD_001",
+      "displayName": "Mộc Linh",
+      "element": "WOOD",
+      "combat": {
+        "attackSkillPool": "WOOD",
+        "defenseSkillPool": "WOOD",
+        "aiProfile": "NORMAL"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_EARTH_001",
+      "displayName": "Thạch Linh",
+      "element": "EARTH",
+      "combat": {
+        "attackSkillPool": "EARTH",
+        "defenseSkillPool": "EARTH",
+        "aiProfile": "DEFENSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_WATER_001",
+      "displayName": "Thủy Linh",
+      "element": "WATER",
+      "combat": {
+        "attackSkillPool": "WATER",
+        "defenseSkillPool": "WATER",
+        "aiProfile": "NORMAL"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_METAL_001",
+      "displayName": "Kim Linh",
+      "element": "METAL",
+      "combat": {
+        "attackSkillPool": "METAL",
+        "defenseSkillPool": "METAL",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_LIGHTNING_001",
+      "displayName": "Lôi Linh",
+      "element": "LIGHTNING",
+      "combat": {
+        "attackSkillPool": "LIGHTNING",
+        "defenseSkillPool": "LIGHTNING",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_ICE_001",
+      "displayName": "Băng Linh",
+      "element": "ICE",
+      "combat": {
+        "attackSkillPool": "ICE",
+        "defenseSkillPool": "ICE",
+        "aiProfile": "DEFENSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_DRAGON_001",
+      "displayName": "Xích Viêm Giao Long",
+      "element": "FIRE",
+      "combat": {
+        "attackSkillPool": "FIRE",
+        "defenseSkillPool": "FIRE",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_LIGHTNING_002",
+      "displayName": "Vân Dực Điêu",
+      "element": "LIGHTNING",
+      "combat": {
+        "attackSkillPool": "LIGHTNING",
+        "defenseSkillPool": "LIGHTNING",
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "SK_THIEN_MON_PHONG_LOI_TRAO"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_METAL_002",
+      "displayName": "Kim Giáp Viên",
+      "element": "METAL",
+      "combat": {
+        "attackSkillPool": "METAL",
+        "defenseSkillPool": "METAL",
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "SK_THIEN_MON_KIM_CUONG_CHAN"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_LIGHTNING_003",
+      "displayName": "Hộ Sơn Lôi Thú",
+      "element": "LIGHTNING",
+      "combat": {
+        "attackSkillPool": "LIGHTNING",
+        "defenseSkillPool": "LIGHTNING",
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "SK_THIEN_MON_LOI_NGUC"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "TPL_MON_METAL_003",
+      "displayName": "Thiên Môn Kiếm Khôi",
+      "element": "METAL",
+      "combat": {
+        "attackSkillPool": "METAL",
+        "defenseSkillPool": "METAL",
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "SK_THIEN_MON_KIEM_TRAN"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "adaptive": true,
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_SPIRIT_RABBIT",
+      "displayName": "Thỏ Linh",
+      "raceId": "BEAST",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_BEAST_BITE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_SPIRIT_FOX",
+      "displayName": "Linh Hồ",
+      "raceId": "BEAST",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_BEAST_POUNCE",
+          "MON_SK_BEAST_HUNTING_INSTINCT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_DEMON_WOLF",
+      "displayName": "Yêu Lang",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_BITE",
+          "MON_SK_BEAST_ROAR"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_IRON_WOLF",
+      "displayName": "Thiết Giáp Lang",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_BITE",
+          "MON_SK_BEAST_ROAR"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_WOOD_TREE_DEMON",
+      "displayName": "Thụ Yêu",
+      "raceId": "WOOD_DEMON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_WOOD_ROOT_BIND",
+          "MON_SK_WOOD_THORNS"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_WOOD_FLOWER_DEMON",
+      "displayName": "Hoa Yêu",
+      "raceId": "WOOD_DEMON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_WOOD_CHARM_POLLEN",
+          "MON_SK_WOOD_THORNS"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_WOOD_VINE_DEMON",
+      "displayName": "Đằng Yêu",
+      "raceId": "WOOD_DEMON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_WOOD_ROOT_BIND",
+          "MON_SK_WOOD_THORNS"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_WOOD_ANCIENT_WOOD",
+      "displayName": "Cổ Mộc",
+      "raceId": "WOOD_DEMON",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_WOOD_THORNS",
+          "MON_SK_WOOD_LIFE_DRAIN"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_WOOD_SPIRIT_FLOWER",
+      "displayName": "Linh Hoa",
+      "raceId": "WOOD_DEMON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_WOOD_CHARM_POLLEN",
+          "MON_SK_WOOD_LIFE_DRAIN"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SPIRIT_GINSENG",
+      "displayName": "Nhân Sâm Tinh",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_HEAL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SPIRIT_STONE",
+      "displayName": "Thạch Linh",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_LIFE_SPRING"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_WHITE_TIGER",
+      "displayName": "Bạch Hổ",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_BITE",
+          "MON_SK_BEAST_ROAR"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_BLOOD_TIGER",
+      "displayName": "Huyết Hổ",
+      "raceId": "BEAST",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_POUNCE",
+          "MON_SK_BEAST_BERSERK"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_DEMON_BEAR",
+      "displayName": "Ma Hùng",
+      "raceId": "BEAST",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_ROAR",
+          "MON_SK_BEAST_BERSERK"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_FLAME_LION",
+      "displayName": "Liệt Diễm Sư",
+      "raceId": "BEAST",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_ROAR",
+          "MON_SK_BEAST_BERSERK"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_THUNDER_LEOPARD",
+      "displayName": "Lôi Báo",
+      "raceId": "BEAST",
+      "element": "LIGHTNING",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_POUNCE",
+          "MON_SK_BEAST_HUNTING_INSTINCT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BEAST_VAJRA_APE",
+      "displayName": "Kim Cang Viên",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_ROAR",
+          "MON_SK_BEAST_HUNTING_INSTINCT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_WOLF_KING",
+      "displayName": "Lang Vương",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_BITE",
+          "MON_SK_BEAST_KING_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_KHI"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_TEN_THOUSAND_YEAR_TREE",
+      "displayName": "Vạn Niên Thụ Yêu",
+      "raceId": "WOOD_DEMON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "DEFENSIVE",
+        "skillIds": [
+          "MON_SK_WOOD_ROOT_BIND",
+          "MON_SK_WOOD_LIFE_DRAIN"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "TRUC_CO"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_WHITE_TIGER_KING",
+      "displayName": "Bạch Hổ Vương",
+      "raceId": "BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "AGGRESSIVE",
+        "skillIds": [
+          "MON_SK_BEAST_BITE",
+          "MON_SK_BEAST_KING_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KET_DAN"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_THANH_XA",
+      "displayName": "Thanh Xà",
+      "raceId": "SERPENT",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_VENOM",
+          "MON_SK_SERPENT_CONSTRICT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_XICH_XA",
+      "displayName": "Xích Xà",
+      "raceId": "SERPENT",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_BLOOD_VENOM",
+          "MON_SK_SERPENT_CONSTRICT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_DOC_XA",
+      "displayName": "Độc Xà",
+      "raceId": "SERPENT",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_VENOM",
+          "MON_SK_SERPENT_POISON_MIST"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_HAC_MANG",
+      "displayName": "Hắc Mãng",
+      "raceId": "SERPENT",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_CONSTRICT",
+          "MON_SK_SERPENT_SHED"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_HUYEN_XA",
+      "displayName": "Huyền Xà",
+      "raceId": "SERPENT",
+      "element": "ICE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_BLOOD_VENOM",
+          "MON_SK_SERPENT_SHED"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_PHONG_UNG",
+      "displayName": "Phong Ưng",
+      "raceId": "AVIAN",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_WIND_BLADE",
+          "MON_SK_AVIAN_DIVE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_HUYET_UNG",
+      "displayName": "Huyết Ưng",
+      "raceId": "AVIAN",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_DIVE",
+          "MON_SK_AVIAN_GALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_HAC_NHA",
+      "displayName": "Hắc Nha",
+      "raceId": "AVIAN",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_DIVE",
+          "MON_SK_AVIAN_FLIGHT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_HOA_DIEU",
+      "displayName": "Hỏa Điểu",
+      "raceId": "AVIAN",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_WIND_BLADE",
+          "MON_SK_AVIAN_GALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_LOI_DIEU",
+      "displayName": "Lôi Điểu",
+      "raceId": "AVIAN",
+      "element": "LIGHTNING",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_THUNDER_WING",
+          "MON_SK_AVIAN_DIVE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SEA_SA_NGU",
+      "displayName": "Sa Ngư",
+      "raceId": "SEA",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SEA_WATER_ARROW",
+          "MON_SK_SEA_VORTEX"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SEA_YEU_KINH",
+      "displayName": "Yêu Kình",
+      "raceId": "SEA",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SEA_TSUNAMI",
+          "MON_SK_SEA_TIDAL_WAVE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SEA_THUY_XA",
+      "displayName": "Thủy Xà",
+      "raceId": "SEA",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SEA_WATER_ARROW",
+          "MON_SK_SEA_WATER_PRISON"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SEA_HAI_MANG",
+      "displayName": "Hải Mãng",
+      "raceId": "SEA",
+      "element": "ICE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SEA_TIDAL_WAVE",
+          "MON_SK_SEA_WATER_PRISON"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SEA_HAI_LONG",
+      "displayName": "Hải Long",
+      "raceId": "SEA",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SEA_TSUNAMI",
+          "MON_SK_SEA_VORTEX"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_TURTLE_LINH_QUY",
+      "displayName": "Linh Quy",
+      "raceId": "TURTLE",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_TURTLE_WATER_SHIELD",
+          "MON_SK_TURTLE_EARTHQUAKE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_TURTLE_HUYEN_QUY",
+      "displayName": "Huyền Quy",
+      "raceId": "TURTLE",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_TURTLE_SHELL",
+          "MON_SK_TURTLE_COUNTER"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_TURTLE_HAC_QUY",
+      "displayName": "Hắc Quy",
+      "raceId": "TURTLE",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_TURTLE_WATER_SHIELD",
+          "MON_SK_TURTLE_COUNTER"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_TURTLE_BANG_QUY",
+      "displayName": "Băng Quy",
+      "raceId": "TURTLE",
+      "element": "ICE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_TURTLE_COUNTER",
+          "MON_SK_TURTLE_RECOVERY"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_THANH_LOAN",
+      "displayName": "Thanh Loan",
+      "raceId": "AVIAN",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_WIND_BLADE",
+          "MON_SK_AVIAN_FLIGHT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_AU_LONG",
+      "displayName": "Ấu Long",
+      "raceId": "DRAGON",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_CLAW",
+          "MON_SK_DRAGON_SCALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_THANH_LONG",
+      "displayName": "Thanh Long",
+      "raceId": "DRAGON",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_BREATH",
+          "MON_SK_DRAGON_WEATHER_CALL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_HAC_LONG",
+      "displayName": "Hắc Long",
+      "raceId": "DRAGON",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_MIGHT",
+          "MON_SK_DRAGON_CLAW"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_BANG_LONG",
+      "displayName": "Băng Long",
+      "raceId": "DRAGON",
+      "element": "ICE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_BREATH",
+          "MON_SK_DRAGON_SCALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_LOI_LONG",
+      "displayName": "Lôi Long",
+      "raceId": "DRAGON",
+      "element": "LIGHTNING",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_CLAW",
+          "MON_SK_DRAGON_WEATHER_CALL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DEMON_THIEN_MA",
+      "displayName": "Thiên Ma",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "DARK",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_FIRE",
+          "MON_SK_HEAVENLY_DEMON_BODY"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DEMON_TAM_MA",
+      "displayName": "Tâm Ma",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "DARK",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION",
+          "MON_SK_HEAVENLY_DEMON_ILLUSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DEMON_HUYEN_MA",
+      "displayName": "Huyễn Ma",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "DARK",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_ILLUSION",
+          "MON_SK_HEAVENLY_DEMON_POSSESSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DEMON_KIEM_MA",
+      "displayName": "Kiếm Ma",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_FIRE",
+          "MON_SK_HEAVENLY_DEMON_BODY"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DEMON_HUYET_MA",
+      "displayName": "Huyết Ma",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_FIRE",
+          "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SPIRIT_CREATURE_LINH_CHI_TINH",
+      "displayName": "Linh Chi Tinh",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_HEAL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SPIRIT_CREATURE_HOA_LINH",
+      "displayName": "Hoa Linh",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_HASTE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SPIRIT_CREATURE_MOC_LINH",
+      "displayName": "Mộc Linh",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_LIFE_SPRING"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_UNG_LONG",
+      "displayName": "Ứng Long",
+      "raceId": "DRAGON",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_CLAW",
+          "MON_SK_DRAGON_WEATHER_CALL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_HOA_LONG",
+      "displayName": "Hỏa Long",
+      "raceId": "DRAGON",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_BREATH",
+          "MON_SK_DRAGON_SCALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_YAO_FOX",
+      "displayName": "Hồ Yêu",
+      "raceId": "YAO",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_YAO_FIRE",
+          "MON_SK_YAO_CHARM"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_YAO_MIEU_YEU",
+      "displayName": "Miêu Yêu",
+      "raceId": "YAO",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_YAO_AURA",
+          "MON_SK_YAO_ILLUSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_YAO_DIEU_YEU",
+      "displayName": "Điểu Yêu",
+      "raceId": "YAO",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_YAO_FIRE",
+          "MON_SK_YAO_ILLUSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_YAO_XA_YEU",
+      "displayName": "Xà Yêu",
+      "raceId": "YAO",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_YAO_AURA",
+          "MON_SK_YAO_CHARM"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_YAO_TIGER",
+      "displayName": "Hổ Yêu",
+      "raceId": "YAO",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_YAO_BERSERK",
+          "MON_SK_YAO_FIRE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_AVIAN_KIM_UNG",
+      "displayName": "Kim Ưng",
+      "raceId": "AVIAN",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_AVIAN_GOLDEN_WING_SLASH",
+          "MON_SK_AVIAN_DIVE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_SERPENT_KIM_LAN_MANG",
+      "displayName": "Kim Lân Mãng",
+      "raceId": "SERPENT",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_SERPENT_CONSTRICT",
+          "MON_SK_SERPENT_SHED"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DRAGON_KIM_LONG",
+      "displayName": "Kim Long",
+      "raceId": "DRAGON",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DRAGON_CLAW",
+          "MON_SK_DRAGON_SCALE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_INSECT_KIM_GIAP_TRUNG",
+      "displayName": "Kim Giáp Trùng",
+      "raceId": "INSECT",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_INSECT_ARMOR_CORROSION",
+          "MON_SK_INSECT_SWARM_ATTACK"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_TURTLE_KIM_GIAP_QUY",
+      "displayName": "Kim Giáp Quy",
+      "raceId": "TURTLE",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_TURTLE_SHELL",
+          "MON_SK_TURTLE_COUNTER"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_ANCIENT_BEAST_CUNG_KY",
+      "displayName": "Cùng Kỳ",
+      "raceId": "ANCIENT_BEAST",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_ANCIENT_DESTRUCTION",
+          "MON_SK_ANCIENT_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_ANCIENT_BEAST_THAO_THIET",
+      "displayName": "Thao Thiết",
+      "raceId": "ANCIENT_BEAST",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_ANCIENT_DEVOUR_HEAVEN",
+          "MON_SK_ANCIENT_DEVOUR"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_ANCIENT_BEAST_THAO_NGOT",
+      "displayName": "Thao Ngột",
+      "raceId": "ANCIENT_BEAST",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_ANCIENT_DESTRUCTION",
+          "MON_SK_ANCIENT_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_ANCIENT_BEAST_HON_DON_THU",
+      "displayName": "Hỗn Độn Thú",
+      "raceId": "ANCIENT_BEAST",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_ANCIENT_CHAOS_QI",
+          "MON_SK_ANCIENT_DEVOUR"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_ANCIENT_BEAST_CON_BANG",
+      "displayName": "Côn Bằng",
+      "raceId": "ANCIENT_BEAST",
+      "element": "WIND",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_ANCIENT_DEVOUR_HEAVEN",
+          "MON_SK_ANCIENT_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DIVINE_BEAST_THANH_LONG",
+      "displayName": "Thanh Long",
+      "raceId": "DIVINE_BEAST",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DIVINE_ELEMENT_LORD",
+          "MON_SK_DIVINE_REBIRTH"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DIVINE_BEAST_BACH_HO",
+      "displayName": "Bạch Hổ",
+      "raceId": "DIVINE_BEAST",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DIVINE_PUNISHMENT",
+          "MON_SK_DIVINE_SHIELD"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DIVINE_BEAST_CHU_TUOC",
+      "displayName": "Chu Tước",
+      "raceId": "DIVINE_BEAST",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DIVINE_ELEMENT_LORD",
+          "MON_SK_DIVINE_REBIRTH"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DIVINE_BEAST_HUYEN_VU",
+      "displayName": "Huyền Vũ",
+      "raceId": "DIVINE_BEAST",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DIVINE_SHIELD",
+          "MON_SK_DIVINE_PUNISHMENT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_DIVINE_BEAST_KY_LAN",
+      "displayName": "Kỳ Lân",
+      "raceId": "DIVINE_BEAST",
+      "element": "EARTH",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DIVINE_LIGHT",
+          "MON_SK_DIVINE_SHIELD"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DAO_AVATAR_THIEN_DAO_Y_CHI",
+      "displayName": "Thiên Đạo Ý Chí",
+      "raceId": "HEAVENLY_DAO_AVATAR",
+      "element": "LIGHT",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DAO_PUNISHMENT",
+          "MON_SK_DAO_SUPPRESSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAO_TO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DAO_AVATAR_DAO_LINH",
+      "displayName": "Đạo Linh",
+      "raceId": "HEAVENLY_DAO_AVATAR",
+      "element": "LIGHT",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DAO_PUNISHMENT",
+          "MON_SK_DAO_DISPEL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAO_TO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DAO_AVATAR_HON_DON_LINH",
+      "displayName": "Hỗn Độn Linh",
+      "raceId": "HEAVENLY_DAO_AVATAR",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DAO_RULE_DESTRUCTION",
+          "MON_SK_DAO_DISPEL"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAO_TO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_HEAVENLY_DAO_AVATAR_DAO_BINH",
+      "displayName": "Đạo Binh",
+      "raceId": "HEAVENLY_DAO_AVATAR",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "NORMAL",
+        "skillIds": [
+          "MON_SK_DAO_PUNISHMENT",
+          "MON_SK_DAO_HEAL_LOCK"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAO_TO",
+        "fixedStage": 1
+      },
+      "allowedVariants": [
+        "NORMAL",
+        "ELITE"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_CUU_DAU_XA",
+      "displayName": "Cửu Đầu Xà",
+      "raceId": "SERPENT",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_SERPENT_NINE_HEAD_VENOM",
+          "MON_SK_SERPENT_HEAVEN_DESCENT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_CHU_TUOC_HAU_DUE",
+      "displayName": "Chu Tước Hậu Duệ",
+      "raceId": "AVIAN",
+      "element": "FIRE",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_AVIAN_MYRIAD_FEATHERS",
+          "MON_SK_AVIAN_GOLDEN_WING_SLASH"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_HAI_VUONG",
+      "displayName": "Hải Vương",
+      "raceId": "SEA",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_SEA_TSUNAMI",
+          "MON_SK_SEA_VORTEX"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "LUYEN_HU"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_HUYEN_VU",
+      "displayName": "Huyền Vũ",
+      "raceId": "TURTLE",
+      "element": "WATER",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_TURTLE_XUANWU_SHIELD",
+          "MON_SK_TURTLE_EARTHQUAKE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_THAI_CO_CHAN_LONG",
+      "displayName": "Thái Cổ Chân Long",
+      "raceId": "DRAGON",
+      "element": "LIGHTNING",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_DRAGON_WORLD_END_BREATH",
+          "MON_SK_DRAGON_TRUE_DESCENT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_THUA"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_MA_DE",
+      "displayName": "Ma Đế",
+      "raceId": "HEAVENLY_DEMON",
+      "element": "DARK",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_HEAVENLY_DEMON_FIRE",
+          "MON_SK_HEAVENLY_DEMON_BODY"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_VAN_LINH_CHI_CHU",
+      "displayName": "Vạn Linh Chi Chủ",
+      "raceId": "SPIRIT_CREATURE",
+      "element": "WOOD",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_SPIRIT_LIGHT",
+          "MON_SK_SPIRIT_LIFE_SPRING"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "CHAN_TIEN"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_YEU_HOANG",
+      "displayName": "Yêu Hoàng",
+      "raceId": "YAO",
+      "element": "DARK",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_YAO_FIRE",
+          "MON_SK_YAO_ILLUSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "HUYEN_TIEN"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_KIM_SI_DAI_BANG",
+      "displayName": "Kim Sí Đại Bằng",
+      "raceId": "AVIAN",
+      "element": "METAL",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_AVIAN_GOLDEN_WING_SLASH",
+          "MON_SK_AVIAN_MYRIAD_FEATHERS"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "KIM_TIEN"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_THAI_CO_DI_THU",
+      "displayName": "Thái Cổ Dị Thú",
+      "raceId": "ANCIENT_BEAST",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_ANCIENT_DESTRUCTION",
+          "MON_SK_ANCIENT_PRESSURE"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "THAI_AT"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_NGU_THANH_THU",
+      "displayName": "Ngũ Thánh Thú",
+      "raceId": "DIVINE_BEAST",
+      "element": "LIGHT",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_DIVINE_ELEMENT_LORD",
+          "MON_SK_DIVINE_PUNISHMENT"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAI_LA"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    },
+    {
+      "id": "MON_BOSS_THIEN_DAO_HOA_THAN",
+      "displayName": "Thiên Đạo Hóa Thân",
+      "raceId": "HEAVENLY_DAO_AVATAR",
+      "element": "CHAOS",
+      "combat": {
+        "aiProfile": "BOSS",
+        "skillIds": [
+          "MON_SK_DAO_RULE_DESTRUCTION",
+          "MON_SK_DAO_SUPPRESSION"
+        ]
+      },
+      "scalingRule": {
+        "minRealm": "DAO_TO"
+      },
+      "allowedVariants": [
+        "BOSS"
+      ],
+      "baseRewardId": "BASIC_MONSTER_DROP"
+    }
+  ]
+}

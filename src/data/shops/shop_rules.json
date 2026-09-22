@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "currencyId": "SPIRIT_STONE",
+  "pricePolicy": {
+    "rounding": "CEIL_TO_INTEGER",
+    "mapBasePrices": [
+      { "mapId": "THANH_VAN_SON_MACH", "amount": "100" },
+      { "mapId": "HUYEN_MOC_QUOC", "amount": "250" },
+      { "mapId": "DONG_HOANG_DAI_LUC", "amount": "625" },
+      { "mapId": "TRUNG_CHAU_THANH_VUC", "amount": "1500" },
+      { "mapId": "THIEN_LINH_GIOI", "amount": "3750" },
+      { "mapId": "HU_KHONG_HAI", "amount": "9000" },
+      { "mapId": "THANH_LINH_DAI_LUC", "amount": "22500" },
+      { "mapId": "CUU_THIEN_TIEN_CANH", "amount": "55000" },
+      { "mapId": "THIEN_KIEP_GIOI", "amount": "135000" },
+      { "mapId": "TIEN_GIOI", "amount": "330000" },
+      { "mapId": "HUYEN_THIEN_TIEN_VUC", "amount": "800000" },
+      { "mapId": "KIM_KHUYET_THIEN", "amount": "2000000" },
+      { "mapId": "THAI_SO_GIOI", "amount": "5000000" },
+      { "mapId": "DAI_LA_THIEN", "amount": "12500000" },
+      { "mapId": "KHOI_NGUYEN_DAO_GIOI", "amount": "30000000" }
+    ],
+    "productMultipliers": {
+      "MATERIAL_PRIMARY": "1",
+      "MATERIAL_RARE": "3",
+      "CONSUMABLE": "2",
+      "TICKET": "5",
+      "CULTIVATION_ART_BOOK": "25",
+      "SKILL_BOOK": "20",
+      "EQUIPMENT": "30"
+    },
+    "shopMultipliers": {
+      "MAP": "1",
+      "SPECIAL": "3",
+      "MYSTERY": "1.5"
+    }
+  },
+  "specialShop": {
+    "refreshPeriod": "WEEKLY",
+    "slotCount": 6,
+    "quality": "HIGH",
+    "slotPattern": [
+      "CULTIVATION_ART_BOOK",
+      "SKILL_BOOK",
+      "EQUIPMENT",
+      "CULTIVATION_ART_BOOK",
+      "SKILL_BOOK",
+      "EQUIPMENT"
+    ]
+  },
+  "explorationEncounter": {
+    "revision": 1,
+    "entries": [
+      { "type": "MONSTER", "weight": 90 },
+      { "type": "MYSTERY_MERCHANT", "weight": 5 },
+      { "type": "FORTUNE_REWARD", "weight": 5 }
+    ]
+  },
+  "mysteryMerchant": {
+    "slotCount": 4,
+    "stockPerSlot": 1,
+    "ttlSeconds": 900,
+    "maxActiveSessionsPerPlayer": 1,
+    "productWeights": {
+      "ITEM": 60,
+      "CULTIVATION_ART_BOOK": 12.5,
+      "SKILL_BOOK": 12.5,
+      "EQUIPMENT": 15
+    },
+    "equipmentQuality": "HIGH",
+    "equipmentRarity": "LEGENDARY",
+    "talismanStatus": "CONTENT_PENDING"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "selectionMode": "WEIGHTED_ONE",
+  "activeRunLimit": 1,
+  "resourceTierPolicy": "MAP_NAVIGATION_ORDER",
+  "families": [
+    {
+      "id": "HERB",
+      "displayName": "Linh Thảo",
+      "activityName": "Hái Linh Thảo",
+      "durationSeconds": 30
+    },
+    {
+      "id": "ORE",
+      "displayName": "Linh Khoáng",
+      "activityName": "Khai Thác Linh Khoáng",
+      "durationSeconds": 60
+    }
+  ],
+  "roles": {
+    "PRIMARY": {
+      "weight": 75,
+      "quantity": { "min": 1, "max": 3 },
+      "rarity": "COMMON"
+    },
+    "RARE": {
+      "weight": 25,
+      "quantity": { "min": 1, "max": 1 },
+      "rarity": "UNCOMMON"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "CULTIVATION",
+      "resourceType": "PLAYER_PROGRESSION",
+      "resourceId": "CULTIVATION",
+      "evaluationMode": "LAZY",
+      "rulesSource": "realms/cultivation_rules.json",
+      "claimPolicy": {
+        "profile": "PREVIEW_ONLY",
+        "collect": "EXPLICIT_CLAIM",
+        "breakthrough": "ATOMIC_SETTLE"
+      },
+      "tags": ["IDLE", "MVP"]
+    }
+  ]
+}

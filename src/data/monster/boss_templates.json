@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "description": "Template động cho Boss. Tự động scale sức mạnh dựa trên cờ adaptive và biến minRealm.",
+  "bossTemplates": [
+    {
+      "id": "BOSS_WORLD_FIRE_001",
+      "displayName": "Hồng Mông Viêm Tổ",
+      "element": "FIRE",
+      "variantId": "BOSS",
+      "combat": {
+        "attackSkillPool": "FIRE",
+        "defenseSkillPool": "FIRE",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "HOA_THAN",
+        "adaptive": true,
+        "worldBossMultiplier": 100
+      },
+      "rewardPool": "WORLD_BOSS_FIRE_DROP"
+    },
+    {
+      "id": "BOSS_WORLD_EARTH_001",
+      "displayName": "Thái Sơn Cự Thần",
+      "element": "EARTH",
+      "variantId": "BOSS",
+      "combat": {
+        "attackSkillPool": "EARTH",
+        "defenseSkillPool": "EARTH",
+        "aiProfile": "DEFENSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "HOP_THE",
+        "adaptive": true,
+        "worldBossMultiplier": 100
+      },
+      "rewardPool": "WORLD_BOSS_EARTH_DROP"
+    },
+    {
+      "id": "BOSS_WORLD_LIGHTNING_001",
+      "displayName": "Cửu Thiên Lôi Thần",
+      "element": "LIGHTNING",
+      "variantId": "BOSS",
+      "combat": {
+        "attackSkillPool": "LIGHTNING",
+        "defenseSkillPool": "LIGHTNING",
+        "aiProfile": "AGGRESSIVE"
+      },
+      "scalingRule": {
+        "minRealm": "DO_KIEP",
+        "adaptive": true,
+        "worldBossMultiplier": 150
+      },
+      "rewardPool": "WORLD_BOSS_LIGHTNING_DROP"
+    },
+    {
+      "id": "BOSS_INSTANCE_WATER_001",
+      "displayName": "Thương Hải Long Vương",
+      "element": "WATER",
+      "variantId": "BOSS",
+      "combat": {
+        "attackSkillPool": "WATER",
+        "defenseSkillPool": "WATER",
+        "aiProfile": "NORMAL"
+      },
+      "scalingRule": {
+        "minRealm": "NGUYEN_ANH",
+        "adaptive": true,
+        "worldBossMultiplier": 1
+      },
+      "rewardPool": "INSTANCE_BOSS_WATER_DROP"
+    }
+  ]
+}

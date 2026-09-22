@@ -1,0 +1,135 @@
+{
+  "revision": 1,
+  "applicationId": "845540702422171728",
+  "syncedAt": "2026-08-02T14:20:38.126Z",
+  "emojis": {
+    "EQ_FIRE_WEAPON": {
+      "id": "1533474913615351929",
+      "name": "td_eq_fire_weapon"
+    },
+    "EQ_FIRE_ARMOR": {
+      "id": "1533474915364241589",
+      "name": "td_eq_fire_armor"
+    },
+    "EQ_FIRE_NECKLACE": {
+      "id": "1533474917247488142",
+      "name": "td_eq_fire_necklace"
+    },
+    "EQ_FIRE_RING": {
+      "id": "1533474918962954453",
+      "name": "td_eq_fire_ring"
+    },
+    "EQ_WOOD_WEAPON": {
+      "id": "1533474920460193934",
+      "name": "td_eq_wood_weapon"
+    },
+    "EQ_WOOD_ARMOR": {
+      "id": "1533474922494431306",
+      "name": "td_eq_wood_armor"
+    },
+    "EQ_WOOD_NECKLACE": {
+      "id": "1533474924541382806",
+      "name": "td_eq_wood_necklace"
+    },
+    "EQ_WOOD_RING": {
+      "id": "1533474926172962887",
+      "name": "td_eq_wood_ring"
+    },
+    "EQ_EARTH_WEAPON": {
+      "id": "1533474927590637650",
+      "name": "td_eq_earth_weapon"
+    },
+    "EQ_EARTH_ARMOR": {
+      "id": "1533474929780068444",
+      "name": "td_eq_earth_armor"
+    },
+    "EQ_EARTH_NECKLACE": {
+      "id": "1533474931382161440",
+      "name": "td_eq_earth_necklace"
+    },
+    "EQ_EARTH_RING": {
+      "id": "1533474933613789284",
+      "name": "td_eq_earth_ring"
+    },
+    "EQ_WATER_WEAPON": {
+      "id": "1533474935475798016",
+      "name": "td_eq_water_weapon"
+    },
+    "EQ_WATER_ARMOR": {
+      "id": "1533474937296125992",
+      "name": "td_eq_water_armor"
+    },
+    "EQ_WATER_NECKLACE": {
+      "id": "1533474938931908691",
+      "name": "td_eq_water_necklace"
+    },
+    "EQ_WATER_RING": {
+      "id": "1533474940815151116",
+      "name": "td_eq_water_ring"
+    },
+    "EQ_METAL_WEAPON": {
+      "id": "1533474942769955050",
+      "name": "td_eq_metal_weapon"
+    },
+    "EQ_METAL_ARMOR": {
+      "id": "1533474944980222173",
+      "name": "td_eq_metal_armor"
+    },
+    "EQ_METAL_NECKLACE": {
+      "id": "1533474946897154159",
+      "name": "td_eq_metal_necklace"
+    },
+    "EQ_METAL_RING": {
+      "id": "1533474948788523089",
+      "name": "td_eq_metal_ring"
+    },
+    "EQ_LIGHTNING_WEAPON": {
+      "id": "1533474950730747944",
+      "name": "td_eq_lightning_weapon"
+    },
+    "EQ_LIGHTNING_ARMOR": {
+      "id": "1533474952613728518",
+      "name": "td_eq_lightning_armor"
+    },
+    "EQ_LIGHTNING_NECKLACE": {
+      "id": "1533474954358689894",
+      "name": "td_eq_lightning_necklace"
+    },
+    "EQ_LIGHTNING_RING": {
+      "id": "1533474956237869076",
+      "name": "td_eq_lightning_ring"
+    },
+    "EQ_ICE_WEAPON": {
+      "id": "1533474958074843287",
+      "name": "td_eq_ice_weapon"
+    },
+    "EQ_ICE_ARMOR": {
+      "id": "1533474959752564976",
+      "name": "td_eq_ice_armor"
+    },
+    "EQ_ICE_NECKLACE": {
+      "id": "1533474961493065909",
+      "name": "td_eq_ice_necklace"
+    },
+    "EQ_ICE_RING": {
+      "id": "1533474963296747581",
+      "name": "td_eq_ice_ring"
+    },
+    "EQ_WIND_WEAPON": {
+      "id": "1533474965238841505",
+      "name": "td_eq_wind_weapon"
+    },
+    "EQ_WIND_ARMOR": {
+      "id": "1533474966807515158",
+      "name": "td_eq_wind_armor"
+    },
+    "EQ_WIND_NECKLACE": {
+      "id": "1533474969013452951",
+      "name": "td_eq_wind_necklace"
+    },
+    "EQ_WIND_RING": {
+      "id": "1533474970435457258",
+      "name": "td_eq_wind_ring"
+    }
+  }
+}

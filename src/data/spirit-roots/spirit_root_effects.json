@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "effects": [
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_5",
+      "displayName": "Linh Căn Trung Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_5" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_10",
+      "displayName": "Linh Căn Thượng Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_10" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_20",
+      "displayName": "Linh Căn Cực Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_20" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_25",
+      "displayName": "Linh Căn Thiên Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_25" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_30",
+      "displayName": "Linh Căn Thánh Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_30" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_35",
+      "displayName": "Linh Căn Tiên Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_35" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_QUALITY_CULTIVATION_50",
+      "displayName": "Linh Căn Thần Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["CULTIVATION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "CULTIVATION"],
+      "passiveBindings": [
+        { "scope": "CULTIVATION", "modifierId": "CULTIVATION_UP_50" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_2",
+      "displayName": "Đồng điệu nguyên tố Trung Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_2", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_4",
+      "displayName": "Đồng điệu nguyên tố Thượng Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_4", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_7",
+      "displayName": "Đồng điệu nguyên tố Cực Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_7", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_10",
+      "displayName": "Đồng điệu nguyên tố Thiên Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_10", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_14",
+      "displayName": "Đồng điệu nguyên tố Thánh Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_14", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_18",
+      "displayName": "Đồng điệu nguyên tố Tiên Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_18", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_AFFINITY_DAMAGE_25",
+      "displayName": "Đồng điệu nguyên tố Thần Phẩm",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "QUALITY", "AFFINITY_DAMAGE"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_MATCH_DAMAGE_UP_25", "predicate": "ACTION_ELEMENT_MATCHES_SOURCE_AFFINITY" }
+      ]
+    },
+    {
+      "id": "SPIRIT_ROOT_CHAOS_UNIVERSAL_AFFINITY_2",
+      "displayName": "Hỗn Độn Tương Hợp",
+      "type": "PASSIVE",
+      "scopes": ["ACTION"],
+      "tags": ["SPIRIT_ROOT", "CHAOS", "AFFINITY_DAMAGE", "UNIVERSAL"],
+      "passiveBindings": [
+        { "scope": "ACTION", "modifierId": "SPIRIT_ROOT_UNIVERSAL_DAMAGE_UP_2", "predicate": "ACTION_ELEMENT_COUNTERS_TARGET" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import pool from '../database/postgres.js';
-import ItemFactory from './ItemFactory.js';
+import ItemFactory from '../factories/ItemFactory.js';
 
+// LEGACY: use gameplay/player/EquipmentService.js for new command flows.
 export default class EquipmentManager {
     static async equip(playerId, inventoryId) {
         const client = await pool.connect();

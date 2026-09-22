@@ -1,0 +1,2129 @@
+{
+  "version": 2,
+  "attackSkills": [
+    {
+      "id": "MON_SK_BEAST_BITE",
+      "displayName": "Cắn Xé",
+      "grade": "HOANG",
+      "element": "METAL",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_BITE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_POUNCE",
+      "displayName": "Vồ Mồi",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_POUNCE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_BEAST_POUNCE_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "SLOW",
+          "effectId": "STUN",
+          "chance": 30
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "DAMAGE",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_ROAR",
+      "displayName": "Gầm Thét",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "ALL"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_ROAR_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_BEAST_ROAR_ACTION_02",
+          "order": 2,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_DOWN_10",
+          "chance": 100
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "AOE",
+        "DEBUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_BERSERK",
+      "displayName": "Cuồng Hóa",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_BERSERK_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_UP_15"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_HUNTING_INSTINCT",
+      "displayName": "Bản Năng Săn Mồi",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_HUNTING_INSTINCT_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "CRIT_UP_10"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_FRENZY",
+      "displayName": "Cuồng Bạo",
+      "grade": "DIA",
+      "element": "FIRE",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_FRENZY_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_UP_20"
+        },
+        {
+          "id": "MON_SK_BEAST_FRENZY_ACTION_02",
+          "order": 2,
+          "type": "ADD_MODIFIER",
+          "modifierId": "SKILL_DAMAGE_UP_10"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "BOSS",
+        "BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_BEAST_KING_PRESSURE",
+      "displayName": "Vương Giả Uy Áp",
+      "grade": "DIA",
+      "element": "EARTH",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "ALL"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_BEAST_KING_PRESSURE_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_DOWN_20"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "BEAST",
+        "BOSS",
+        "AOE",
+        "DEBUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_WOOD_ROOT_BIND",
+      "displayName": "Rễ Trói",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_WOOD_ROOT_BIND_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_WOOD_ROOT_BIND_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "SLOW",
+          "effectId": "STUN",
+          "chance": 50
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "WOOD_DEMON",
+        "DAMAGE",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_WOOD_THORNS",
+      "displayName": "Gai Gỗ",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_WOOD_THORNS_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "WOOD_DEMON",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_WOOD_LIFE_DRAIN",
+      "displayName": "Hấp Thu Sinh Mệnh",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_WOOD_LIFE_DRAIN_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_WOOD_LIFE_DRAIN_ACTION_02",
+          "order": 2,
+          "type": "HEAL",
+          "target": "SELF",
+          "formulaId": "HEAL_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "WOOD_DEMON",
+        "DAMAGE",
+        "HEAL"
+      ]
+    },
+    {
+      "id": "MON_SK_WOOD_CHARM_POLLEN",
+      "displayName": "Hoa Phấn Mê Hoặc",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_WOOD_CHARM_POLLEN_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "SILENCE",
+          "chance": 25
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "WOOD_DEMON",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_SPIRIT_HEAL",
+      "displayName": "Linh Khí Trị Liệu",
+      "grade": "HUYEN",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SPIRIT_HEAL_ACTION_01",
+          "order": 1,
+          "type": "HEAL",
+          "formulaId": "HEAL_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SPIRIT_CREATURE",
+        "HEAL"
+      ],
+      "elementMode": "INHERIT_CASTER"
+    },
+    {
+      "id": "MON_SK_SPIRIT_PURIFY",
+      "displayName": "Tịnh Hóa",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SPIRIT_PURIFY_ACTION_01",
+          "order": 1,
+          "type": "PURIFY",
+          "arguments": {
+            "count": 1
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SPIRIT_CREATURE",
+        "PURIFY"
+      ]
+    },
+    {
+      "id": "MON_SK_SPIRIT_HASTE",
+      "displayName": "Gia Tốc",
+      "grade": "HUYEN",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SPIRIT_HASTE_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "SPD_UP_10"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SPIRIT_CREATURE",
+        "BUFF"
+      ],
+      "elementMode": "INHERIT_CASTER"
+    },
+    {
+      "id": "MON_SK_SPIRIT_LIFE_SPRING",
+      "displayName": "Sinh Mệnh Chi Tuyền",
+      "grade": "DIA",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SPIRIT_LIFE_SPRING_ACTION_01",
+          "order": 1,
+          "type": "HEAL",
+          "formulaId": "HEAL_ATTACK"
+        },
+        {
+          "id": "MON_SK_SPIRIT_LIFE_SPRING_ACTION_02",
+          "order": 2,
+          "type": "PURIFY",
+          "arguments": {
+            "count": 1
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SPIRIT_CREATURE",
+        "HEAL",
+        "PURIFY"
+      ],
+      "elementMode": "INHERIT_CASTER"
+    },
+    {
+      "id": "MON_SK_SPIRIT_LIGHT",
+      "displayName": "Linh Quang",
+      "grade": "HOANG",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SPIRIT_LIGHT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SPIRIT_CREATURE",
+        "DIRECT_DAMAGE"
+      ],
+      "elementMode": "INHERIT_CASTER"
+    },
+    {
+      "id": "MON_SK_AVIAN_WIND_BLADE",
+      "displayName": "Phong Nhận",
+      "grade": "HOANG",
+      "element": "WIND",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_WIND_BLADE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "element": "WIND"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "WIND",
+        "DIRECT_DAMAGE"
+      ],
+      "elementMode": "FIXED"
+    },
+    {
+      "id": "MON_SK_ANCIENT_CHAOS_QI",
+      "displayName": "Hỗn Độn Chi Khí",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "CHAOS",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_ANCIENT_CHAOS_QI_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "ANCIENT_BEAST",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_ANCIENT_DESTRUCTION",
+      "displayName": "Phá Diệt",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_ANCIENT_DESTRUCTION_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "ANCIENT_BEAST",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_ANCIENT_DEVOUR",
+      "displayName": "Cắn Nuốt",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_ANCIENT_DEVOUR_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_ANCIENT_DEVOUR_ACTION_02",
+          "order": 2,
+          "type": "HEAL",
+          "target": "SELF",
+          "formulaId": "HEAL_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "ANCIENT_BEAST",
+        "DAMAGE_HEAL"
+      ]
+    },
+    {
+      "id": "MON_SK_ANCIENT_DEVOUR_HEAVEN",
+      "displayName": "Thôn Thiên",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_ANCIENT_DEVOUR_HEAVEN_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "ANCIENT_BEAST",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_ANCIENT_PRESSURE",
+      "displayName": "Thái Cổ Uy Áp",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_ANCIENT_PRESSURE_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "ANCIENT_BEAST",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_DIVE",
+      "displayName": "Bổ Nhào",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_DIVE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_FLIGHT",
+      "displayName": "Phi Thiên",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WIND",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_FLIGHT_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "SPD_UP_10",
+          "arguments": {
+            "duration": 2
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "SPD_BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_GALE",
+      "displayName": "Cuồng Phong",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WIND",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_GALE_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_GOLDEN_WING_SLASH",
+      "displayName": "Kim Sí Trảm",
+      "grade": "THIEN",
+      "elementMode": "FIXED",
+      "element": "METAL",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_GOLDEN_WING_SLASH_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_MYRIAD_FEATHERS",
+      "displayName": "Vạn Vũ Phi Linh",
+      "grade": "THIEN",
+      "elementMode": "FIXED",
+      "element": "WIND",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_MYRIAD_FEATHERS_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "CHAIN_DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_AVIAN_THUNDER_WING",
+      "displayName": "Lôi Dực",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "LIGHTNING",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_AVIAN_THUNDER_WING_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_AVIAN_THUNDER_WING_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "AVIAN",
+        "DAMAGE_CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_DAO_DISPEL",
+      "displayName": "Xóa Buff",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "CHAOS",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DAO_DISPEL_ACTION_01",
+          "order": 1,
+          "type": "DISPEL",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DAO_AVATAR",
+        "DISPEL"
+      ]
+    },
+    {
+      "id": "MON_SK_DAO_HEAL_LOCK",
+      "displayName": "Khóa Hồi Máu",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "DARK",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DAO_HEAL_LOCK_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "HEAL_BLOCK",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DAO_AVATAR",
+        "HEAL_BLOCK"
+      ]
+    },
+    {
+      "id": "MON_SK_DAO_PUNISHMENT",
+      "displayName": "Thiên Phạt",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "LIGHT",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DAO_PUNISHMENT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DAO_AVATAR",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DAO_RULE_DESTRUCTION",
+      "displayName": "Quy Tắc Hủy Diệt",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "CHAOS",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DAO_RULE_DESTRUCTION_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DAO_AVATAR",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DAO_SUPPRESSION",
+      "displayName": "Đạo Tắc Áp Chế",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "LIGHT",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DAO_SUPPRESSION_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DAO_AVATAR",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_DIVINE_ELEMENT_LORD",
+      "displayName": "Nguyên Tố Chi Chủ",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DIVINE_ELEMENT_LORD_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DIVINE_BEAST",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DIVINE_LIGHT",
+      "displayName": "Thần Quang",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "LIGHT",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DIVINE_LIGHT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DIVINE_BEAST",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DIVINE_PUNISHMENT",
+      "displayName": "Thiên Phạt",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DIVINE_PUNISHMENT_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DIVINE_BEAST",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DIVINE_REBIRTH",
+      "displayName": "Tái Sinh",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DIVINE_REBIRTH_ACTION_01",
+          "order": 1,
+          "type": "HEAL",
+          "formulaId": "HEAL_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DIVINE_BEAST",
+        "HEAL"
+      ]
+    },
+    {
+      "id": "MON_SK_DIVINE_SHIELD",
+      "displayName": "Thánh Khiên",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DIVINE_SHIELD_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DIVINE_BEAST",
+        "SHIELD"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_BREATH",
+      "displayName": "Long Tức",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_BREATH_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_CLAW",
+      "displayName": "Long Trảo",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_CLAW_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_MIGHT",
+      "displayName": "Long Uy",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_MIGHT_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_UP_20",
+          "arguments": {
+            "duration": 2
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "ATK_BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_SCALE",
+      "displayName": "Long Lân Hộ Thể",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_SCALE_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "SHIELD"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_TRUE_DESCENT",
+      "displayName": "Chân Long Giáng Thế",
+      "grade": "THIEN",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_TRUE_DESCENT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_WEATHER_CALL",
+      "displayName": "Hô Phong Hoán Vũ",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_WEATHER_CALL_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_DRAGON_WORLD_END_BREATH",
+      "displayName": "Diệt Thế Long Tức",
+      "grade": "THIEN",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_DRAGON_WORLD_END_BREATH_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "DRAGON",
+        "CHAIN_DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_HEAVENLY_DEMON_BODY",
+      "displayName": "Ma Thần Thể",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_BODY_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DEMON",
+        "SHIELD"
+      ]
+    },
+    {
+      "id": "MON_SK_HEAVENLY_DEMON_FIRE",
+      "displayName": "Ma Hỏa",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "DARK",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_FIRE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DEMON",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION",
+      "displayName": "Tâm Ma Xâm Thực",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DEMON",
+        "DAMAGE_CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_HEAVENLY_DEMON_ILLUSION",
+      "displayName": "Huyễn Cảnh",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_ILLUSION_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DEMON",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_HEAVENLY_DEMON_POSSESSION",
+      "displayName": "Đoạt Xá",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_POSSESSION_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_HEAVENLY_DEMON_POSSESSION_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "HEAVENLY_DEMON",
+        "DAMAGE_CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_INSECT_ARMOR_CORROSION",
+      "displayName": "Ăn Mòn Giáp",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_INSECT_ARMOR_CORROSION_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "INSECT",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_INSECT_SWARM_ATTACK",
+      "displayName": "Quần Thể Công Kích",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_INSECT_SWARM_ATTACK_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "INSECT",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_SEA_TIDAL_WAVE",
+      "displayName": "Sóng Thần",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SEA_TIDAL_WAVE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SEA",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_SEA_TSUNAMI",
+      "displayName": "Hải Khiếu",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SEA_TSUNAMI_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SEA",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_SEA_VORTEX",
+      "displayName": "Lốc Xoáy",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SEA_VORTEX_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_SEA_VORTEX_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SEA",
+        "DAMAGE_CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_SEA_WATER_ARROW",
+      "displayName": "Thủy Tiễn",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SEA_WATER_ARROW_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SEA",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_SEA_WATER_PRISON",
+      "displayName": "Thủy Lao",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SEA_WATER_PRISON_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SEA",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_BLOOD_VENOM",
+      "displayName": "Huyết Độc",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_BLOOD_VENOM_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_CONSTRICT",
+      "displayName": "Quấn Siết",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_CONSTRICT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        },
+        {
+          "id": "MON_SK_SERPENT_CONSTRICT_ACTION_02",
+          "order": 2,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "DAMAGE_CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_HEAVEN_DESCENT",
+      "displayName": "Thiên Xà Hàng Thế",
+      "grade": "THIEN",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_HEAVEN_DESCENT_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_NINE_HEAD_VENOM",
+      "displayName": "Cửu Đầu Phun Độc",
+      "grade": "THIEN",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_NINE_HEAD_VENOM_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "DAMAGE",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_POISON_MIST",
+      "displayName": "Độc Vụ",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_POISON_MIST_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_SHED",
+      "displayName": "Lột Xác",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_SHED_ACTION_01",
+          "order": 1,
+          "type": "PURIFY",
+          "arguments": {
+            "count": 1
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "PURIFY"
+      ]
+    },
+    {
+      "id": "MON_SK_SERPENT_VENOM",
+      "displayName": "Nọc Độc",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_SERPENT_VENOM_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "SERPENT",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_COUNTER",
+      "displayName": "Phản Kích",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_COUNTER_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_EARTHQUAKE",
+      "displayName": "Địa Chấn",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "EARTH",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_EARTHQUAKE_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "arguments": {
+            "maxTargets": 3,
+            "allowRepeat": false,
+            "jumpMultipliers": [
+              1,
+              0.7,
+              0.4
+            ]
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "CHAIN_DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_RECOVERY",
+      "displayName": "Hồi Phục",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_RECOVERY_ACTION_01",
+          "order": 1,
+          "type": "HEAL",
+          "formulaId": "HEAL_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "HEAL"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_SHELL",
+      "displayName": "Mai Giáp",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_SHELL_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "SHIELD"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_WATER_SHIELD",
+      "displayName": "Thủy Thuẫn",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "WATER",
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_WATER_SHIELD_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "SHIELD"
+      ]
+    },
+    {
+      "id": "MON_SK_TURTLE_XUANWU_SHIELD",
+      "displayName": "Huyền Vũ Thần Thuẫn",
+      "grade": "THIEN",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_TURTLE_XUANWU_SHIELD_ACTION_01",
+          "order": 1,
+          "type": "ADD_SHIELD",
+          "formulaId": "SHIELD_ATTACK"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "TURTLE",
+        "SHIELD",
+        "BOSS"
+      ]
+    },
+    {
+      "id": "MON_SK_YAO_AURA",
+      "displayName": "Yêu Khí",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_YAO_AURA_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "YAO",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_YAO_BERSERK",
+      "displayName": "Cuồng Hóa",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "SELF",
+        "scope": "SELF"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_YAO_BERSERK_ACTION_01",
+          "order": 1,
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_UP_20",
+          "arguments": {
+            "duration": 2
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "YAO",
+        "ATK_BUFF"
+      ]
+    },
+    {
+      "id": "MON_SK_YAO_CHARM",
+      "displayName": "Mị Hoặc",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_YAO_CHARM_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "YAO",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "MON_SK_YAO_FIRE",
+      "displayName": "Yêu Hỏa",
+      "grade": "DIA",
+      "elementMode": "FIXED",
+      "element": "FIRE",
+      "cooldownTurns": 2,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_YAO_FIRE_ACTION_01",
+          "order": 1,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE"
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "YAO",
+        "DAMAGE"
+      ]
+    },
+    {
+      "id": "MON_SK_YAO_ILLUSION",
+      "displayName": "Huyễn Ảnh",
+      "grade": "DIA",
+      "elementMode": "INHERIT_CASTER",
+      "element": null,
+      "cooldownTurns": 3,
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "id": "MON_SK_YAO_ILLUSION_ACTION_01",
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "STUN",
+          "chanceByVariant": {
+            "DEFAULT": 20,
+            "BOSS": 25
+          }
+        }
+      ],
+      "tags": [
+        "MONSTER_ONLY",
+        "YAO",
+        "CONTROL"
+      ]
+    }
+  ]
+}

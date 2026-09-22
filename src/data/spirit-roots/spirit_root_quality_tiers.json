@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "qualityTiers": [
+    {
+      "id": "LOWER_GRADE",
+      "displayName": "Hạ Phẩm",
+      "order": 1,
+      "effectIds": []
+    },
+    {
+      "id": "MIDDLE_GRADE",
+      "displayName": "Trung Phẩm",
+      "order": 2,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_5",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_2"
+      ]
+    },
+    {
+      "id": "UPPER_GRADE",
+      "displayName": "Thượng Phẩm",
+      "order": 3,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_10",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_4"
+      ]
+    },
+    {
+      "id": "PEAK_GRADE",
+      "displayName": "Cực Phẩm",
+      "order": 4,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_20",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_7"
+      ]
+    },
+    {
+      "id": "HEAVENLY_GRADE",
+      "displayName": "Thiên Phẩm",
+      "order": 5,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_25",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_10"
+      ]
+    },
+    {
+      "id": "SAINT_GRADE",
+      "displayName": "Thánh Phẩm",
+      "order": 6,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_30",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_14"
+      ]
+    },
+    {
+      "id": "IMMORTAL_GRADE",
+      "displayName": "Tiên Phẩm",
+      "order": 7,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_35",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_18"
+      ]
+    },
+    {
+      "id": "DIVINE_GRADE",
+      "displayName": "Thần Phẩm",
+      "order": 8,
+      "effectIds": [
+        "SPIRIT_ROOT_QUALITY_CULTIVATION_50",
+        "SPIRIT_ROOT_AFFINITY_DAMAGE_25"
+      ]
+    }
+  ]
+}

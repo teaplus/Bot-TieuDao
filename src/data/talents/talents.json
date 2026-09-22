@@ -1,0 +1,501 @@
+{
+  "version": 1,
+
+  "categories": [
+    {
+      "id": "OFFENSE",
+      "displayName": "Tấn Công"
+    },
+    {
+      "id": "DEFENSE",
+      "displayName": "Phòng Thủ"
+    },
+    {
+      "id": "SUPPORT",
+      "displayName": "Phụ Trợ"
+    }
+  ],
+
+  "talents": [
+    {
+      "id": "VO_KIEM",
+      "displayName": "Vô Kiếm",
+
+      "category": "OFFENSE",
+
+      "description": "ATK +10%",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "ATK_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "PHA_GIAP",
+      "displayName": "Phá Giáp",
+
+      "category": "OFFENSE",
+
+      "description": "PEN +10",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "PEN_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "SAT_Y",
+      "displayName": "Sát Ý",
+
+      "category": "OFFENSE",
+
+      "description": "CRIT +10%",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "CRIT_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "HUYET_CHIEN",
+      "displayName": "Huyết Chiến",
+
+      "category": "OFFENSE",
+
+      "description": "LS +5%",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "LIFESTEAL_UP_5"
+        }
+      ]
+    },
+
+    {
+      "id": "TUYET_SAT",
+      "displayName": "Tuyệt Sát",
+
+      "category": "OFFENSE",
+
+      "description": "CDMG +20%",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "CRIT_DAMAGE_UP_20"
+        }
+      ]
+    },
+
+    {
+      "id": "KIEM_TAM",
+      "displayName": "Kiếm Tâm",
+
+      "category": "OFFENSE",
+
+      "description": "SKD +10%",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "SKILL_DAMAGE_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "TRUY_KICH",
+      "displayName": "Truy Kích",
+
+      "category": "OFFENSE",
+
+      "description": "Đòn đánh thường có xác suất đánh thêm 1 lần.",
+
+      "trigger": "AFTER_NORMAL_ATTACK",
+
+      "actions": [
+        {
+          "type": "EXTRA_ATTACK",
+          "chance": 15
+        }
+      ]
+    },
+
+    {
+      "id": "BAO_NO",
+      "displayName": "Bạo Nộ",
+
+      "category": "OFFENSE",
+
+      "description": "HP dưới 30% tăng sát thương cuối.",
+
+      "trigger": "HP_BELOW_PERCENT",
+
+      "condition": {
+        "hpPercent": 30
+      },
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "FINAL_DAMAGE_UP_10"
+        }
+      ]
+    },
+    {
+      "id": "HAN_Y",
+      "displayName": "Hàn Ý",
+
+      "category": "DEFENSE",
+
+      "description": "Tăng tỷ lệ khống chế.",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+          "modifierId": "CONTROL_RATE_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "DINH_THAN",
+      "displayName": "Định Thân",
+
+      "category": "DEFENSE",
+
+      "description": "Khống chế +1 lượt.",
+
+      "trigger": "ON_APPLY_CONTROL",
+
+      "actions": [
+        {
+          "type": "INCREASE_DURATION",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "id": "THIEN_UY",
+
+      "displayName": "Thiên Uy",
+
+      "category": "DEFENSE",
+
+      "description": "Giảm SPD toàn bộ địch khi bắt đầu trận.",
+
+      "trigger": "BATTLE_START",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "SPD_DOWN_20",
+
+          "target": "ALL_ENEMIES"
+        }
+      ]
+    },
+
+    {
+      "id": "LOI_PHAT",
+
+      "displayName": "Lôi Phạt",
+
+      "category": "DEFENSE",
+
+      "description": "Choáng thành công gây thêm sát thương.",
+
+      "trigger": "AFTER_APPLY_STUN",
+
+      "actions": [
+        {
+          "type": "DAMAGE",
+
+          "formulaId": "BURN_DAMAGE"
+        }
+      ]
+    },
+
+    {
+      "id": "AP_CHE_LINH_HON",
+
+      "displayName": "Áp Chế Linh Hồn",
+
+      "category": "DEFENSE",
+
+      "trigger": "ATTACK_CONTROLLED_TARGET",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "FINAL_DAMAGE_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "HUYEN_ANH",
+
+      "displayName": "Huyễn Ảnh",
+
+      "category": "DEFENSE",
+
+      "trigger": "BEFORE_RECEIVE_EFFECT",
+
+      "actions": [
+        {
+          "type": "NEGATE_EFFECT",
+
+          "count": 1
+        }
+      ]
+    },
+
+    {
+      "id": "BINH_TINH",
+
+      "displayName": "Bình Tĩnh",
+
+      "category": "DEFENSE",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "REDUCE_DEBUFF_DURATION",
+
+          "value": 20
+        }
+      ]
+    },
+
+    {
+      "id": "PHONG_AN",
+
+      "displayName": "Phong Ấn",
+
+      "category": "DEFENSE",
+
+      "trigger": "TARGET_HP_BELOW_PERCENT",
+
+      "condition": {
+        "hpPercent": 30
+      },
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "CONTROL_RATE_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "LINH_AP",
+
+      "displayName": "Linh Áp",
+
+      "category": "DEFENSE",
+
+      "trigger": "ATTACK_TARGET",
+
+      "actions": [
+        {
+          "type": "DAMAGE_PER_DEBUFF",
+
+          "value": 3
+        }
+      ]
+    },
+
+    {
+      "id": "BA_KHI",
+
+      "displayName": "Bá Khí",
+
+      "category": "DEFENSE",
+
+      "trigger": "BEFORE_APPLY_CONTROL",
+
+      "actions": [
+        {
+          "type": "NEGATE_CONTROL",
+
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "THIEN_MENH",
+
+      "displayName": "Thiên Mệnh",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "LUCK_UP_20"
+        }
+      ]
+    },
+
+    {
+      "id": "KY_TAI",
+
+      "displayName": "Kỳ Tài",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "CULTIVATION_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "LINH_CAM",
+
+      "displayName": "Linh Cảm",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "EVENT_RATE",
+
+          "value": 15
+        }
+      ]
+    },
+
+    {
+      "id": "PHU_QUY",
+
+      "displayName": "Phú Quý",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "DROP_RATE",
+
+          "value": 15
+        }
+      ]
+    },
+
+    {
+      "id": "THIEN_NHAN",
+
+      "displayName": "Thiên Nhãn",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "HIT_RATE_UP_100"
+        }
+      ]
+    },
+
+    {
+      "id": "HUYET_MACH",
+
+      "displayName": "Huyết Mạch",
+
+      "category": "SUPPORT",
+
+      "trigger": "BATTLE_START",
+
+      "actions": [
+        {
+          "type": "RANDOM_ATTRIBUTE",
+
+          "percent": 5
+        }
+      ]
+    },
+
+    {
+      "id": "CONG_MINH",
+
+      "displayName": "Cộng Minh",
+
+      "category": "SUPPORT",
+
+      "trigger": "MATCH_ELEMENT",
+
+      "actions": [
+        {
+          "type": "ADD_MODIFIER",
+
+          "modifierId": "FINAL_DAMAGE_UP_10"
+        }
+      ]
+    },
+
+    {
+      "id": "THIEN_TUYEN",
+
+      "displayName": "Thiên Tuyển",
+
+      "category": "SUPPORT",
+
+      "trigger": "PASSIVE",
+
+      "actions": [
+        {
+          "type": "ADD_ALL_ATTRIBUTES_PERCENT",
+
+          "value": 3
+        }
+      ]
+    }
+
+  ]
+}

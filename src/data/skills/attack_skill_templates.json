@@ -1,0 +1,1060 @@
+{
+  "version": 1,
+  "attackSkills": [
+    {
+      "id": "SK_FIRE_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Hỏa Cầu Thuật",
+      "grade": "HOANG",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SK_FIRE_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_FIRE_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WOOD_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Mộc Linh Thuật",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SK_WOOD_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WOOD_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_EARTH_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Địa Thứ",
+      "grade": "HOANG",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SK_EARTH_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_EARTH_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WATER_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Thủy Tiễn Thuật",
+      "grade": "HOANG",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SK_WATER_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WATER_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_METAL_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Kim Mang Trảm",
+      "grade": "HOANG",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SK_METAL_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_METAL_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_LIGHTNING_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Lôi Kích Thuật",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SK_LIGHTNING_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_LIGHTNING_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_ICE_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Băng Tiễn Thuật",
+      "grade": "HOANG",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SK_ICE_HOANG_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_ICE_HOANG_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_FIRE_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Xích Diễm Trảm",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SK_FIRE_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_FIRE_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WOOD_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Mộc Triền Nhiễu",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SK_WOOD_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WOOD_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_EARTH_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Địa Liệt Kích",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SK_EARTH_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_EARTH_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WATER_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Thiên Hà Xung Kích",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SK_WATER_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WATER_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_METAL_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Kim Mang Liên Trảm",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SK_METAL_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_METAL_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_LIGHTNING_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Lôi Oanh Kích",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SK_LIGHTNING_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_LIGHTNING_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_ICE_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Huyền Băng Phong",
+      "grade": "HUYEN",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SK_ICE_HUYEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_ICE_HUYEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_FIRE_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Phần Thiên Diệt Kích",
+      "grade": "DIA",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SK_FIRE_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_FIRE_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WOOD_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Sinh Mệnh Quấn Sát",
+      "grade": "DIA",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SK_WOOD_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WOOD_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_EARTH_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Sơn Hà Chấn",
+      "grade": "DIA",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SK_EARTH_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_EARTH_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WATER_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Thương Hải Nộ Đào",
+      "grade": "DIA",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SK_WATER_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WATER_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_METAL_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Kim Cương Phá Diệt",
+      "grade": "DIA",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "SINGLE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SK_METAL_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_METAL_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_LIGHTNING_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Tử Tiêu Lôi Phạt",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SK_LIGHTNING_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_LIGHTNING_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_ICE_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Hàn Ngục Phong Sát",
+      "grade": "DIA",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SK_ICE_DIA_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_ICE_DIA_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_FIRE_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Dương Diệt Thế",
+      "grade": "THIEN",
+      "element": "FIRE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_FIRE",
+          "chance": 100,
+          "id": "SK_FIRE_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_FIRE_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "FIRE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WOOD_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Vạn Cổ Sinh Linh",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WOOD",
+          "chance": 100,
+          "id": "SK_WOOD_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WOOD_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WOOD",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_EARTH_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Hậu Thổ Trấn Áp",
+      "grade": "THIEN",
+      "element": "EARTH",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_EARTH",
+          "chance": 100,
+          "id": "SK_EARTH_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_EARTH_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "EARTH",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WATER_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Hải Diệt Thế",
+      "grade": "THIEN",
+      "element": "WATER",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_WATER",
+          "chance": 100,
+          "id": "SK_WATER_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_WATER_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "WATER",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_METAL_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Canh Kim Phá Thiên Trảm",
+      "grade": "THIEN",
+      "element": "METAL",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_METAL",
+          "chance": 100,
+          "id": "SK_METAL_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_METAL_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "METAL",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_LIGHTNING_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Tiêu Thần Lôi",
+      "grade": "THIEN",
+      "element": "LIGHTNING",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_LIGHTNING",
+          "chance": 100,
+          "id": "SK_LIGHTNING_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_LIGHTNING_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "LIGHTNING",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_ICE_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Thái Âm Băng Phong",
+      "grade": "THIEN",
+      "element": "ICE",
+      "target": {
+        "team": "ENEMY",
+        "scope": "AOE"
+      },
+      "actions": [
+        {
+          "order": 1,
+          "type": "APPLY_EFFECT",
+          "effectId": "ELEMENT_ICE",
+          "chance": 100,
+          "id": "SK_ICE_THIEN_ACTION_01"
+        },
+        {
+          "order": 2,
+          "type": "DAMAGE",
+          "formulaId": "SKILL_DAMAGE",
+          "id": "SK_ICE_THIEN_ACTION_02"
+        }
+      ],
+      "tags": [
+        "ATTACK",
+        "ICE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "SK_WIND_HOANG",
+      "cooldownTurns": 2,
+      "displayName": "Phong Nhẫn Thuật",
+      "label": "Phong Nhẫn Thuật",
+      "grade": "HOANG",
+      "gradeLabel": "Hoàng phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "SINGLE" },
+      "actions": [
+        { "id": "SK_WIND_HOANG_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_HOANG_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_WIND_HUYEN",
+      "cooldownTurns": 2,
+      "displayName": "Tật Phong Liên Trảm",
+      "label": "Tật Phong Liên Trảm",
+      "grade": "HUYEN",
+      "gradeLabel": "Huyền phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "SINGLE" },
+      "actions": [
+        { "id": "SK_WIND_HUYEN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_HUYEN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_WIND_DIA",
+      "cooldownTurns": 2,
+      "displayName": "Liệt Không Phong Sát",
+      "label": "Liệt Không Phong Sát",
+      "grade": "DIA",
+      "gradeLabel": "Địa phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_WIND_DIA_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_DIA_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_WIND_THIEN",
+      "cooldownTurns": 2,
+      "displayName": "Cửu Thiên Phong Bạo",
+      "label": "Cửu Thiên Phong Bạo",
+      "grade": "THIEN",
+      "gradeLabel": "Thiên phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_WIND_THIEN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_THIEN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_WIND_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Đại La Hư Không Phong",
+      "label": "Đại La Hư Không Phong",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_WIND_THANH_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_THANH_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_WIND_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Khởi Nguyên Vạn Phong Kiếp",
+      "label": "Khởi Nguyên Vạn Phong Kiếp",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_WIND_THAN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_WIND", "chance": 100 },
+        { "id": "SK_WIND_THAN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "WIND", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_LIGHTNING_THANH",
+      "cooldownTurns": 2,
+      "displayName": "Đại La Phạt Cửu Lôi",
+      "label": "Đại La Phạt Cửu Lôi",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "LIGHTNING",
+      "elementLabel": "Lôi",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_LIGHTNING_THANH_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_LIGHTNING", "chance": 100 },
+        { "id": "SK_LIGHTNING_THANH_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "LIGHTNING", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_LIGHTNING_THAN",
+      "cooldownTurns": 2,
+      "displayName": "Khởi Nguyên Thần Lôi Kiếp",
+      "label": "Khởi Nguyên Thần Lôi Kiếp",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "LIGHTNING",
+      "elementLabel": "Lôi",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_LIGHTNING_THAN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_LIGHTNING", "chance": 100 },
+        { "id": "SK_LIGHTNING_THAN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "LIGHTNING", "AOE", "DIRECT_DAMAGE"]
+    },
+    {
+      "id": "SK_THIEN_MON_PHONG_LOI_TRAO",
+      "cooldownTurns": 2,
+      "displayName": "Phong Lôi Trảo",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "target": { "team": "ENEMY", "scope": "SINGLE" },
+      "actions": [
+        { "id": "SK_THIEN_MON_PHONG_LOI_TRAO_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_LIGHTNING", "chance": 100 },
+        { "id": "SK_THIEN_MON_PHONG_LOI_TRAO_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "LIGHTNING", "THIEN_MON", "MONSTER_ONLY"]
+    },
+    {
+      "id": "SK_THIEN_MON_KIM_CUONG_CHAN",
+      "cooldownTurns": 2,
+      "displayName": "Kim Cương Chấn",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "target": { "team": "ENEMY", "scope": "SINGLE" },
+      "actions": [
+        { "id": "SK_THIEN_MON_KIM_CUONG_CHAN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_METAL", "chance": 100 },
+        { "id": "SK_THIEN_MON_KIM_CUONG_CHAN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" }
+      ],
+      "tags": ["ATTACK", "METAL", "THIEN_MON", "MONSTER_ONLY"]
+    },
+    {
+      "id": "SK_THIEN_MON_LOI_NGUC",
+      "cooldownTurns": 3,
+      "displayName": "Lôi Ngục",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "target": { "team": "ENEMY", "scope": "SINGLE" },
+      "actions": [
+        {
+          "id": "SK_THIEN_MON_LOI_NGUC_ACTION_01",
+          "order": 1,
+          "type": "CHAIN_DAMAGE",
+          "formulaId": "LIGHTNING_CHAIN",
+          "arguments": { "maxTargets": 3, "allowRepeat": false, "jumpMultipliers": [1, 0.7, 0.4] }
+        },
+        { "id": "SK_THIEN_MON_LOI_NGUC_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "STUN", "chance": 20 }
+      ],
+      "tags": ["ATTACK", "LIGHTNING", "CONTROL", "THIEN_MON", "MONSTER_ONLY"]
+    },
+    {
+      "id": "SK_THIEN_MON_KIEM_TRAN",
+      "cooldownTurns": 3,
+      "displayName": "Thiên Môn Kiếm Trận",
+      "grade": "THIEN",
+      "element": "METAL",
+      "target": { "team": "ENEMY", "scope": "AOE" },
+      "actions": [
+        { "id": "SK_THIEN_MON_KIEM_TRAN_ACTION_01", "order": 1, "type": "APPLY_EFFECT", "effectId": "ELEMENT_METAL", "chance": 100 },
+        { "id": "SK_THIEN_MON_KIEM_TRAN_ACTION_02", "order": 2, "type": "DAMAGE", "formulaId": "SKILL_DAMAGE" },
+        { "id": "SK_THIEN_MON_KIEM_TRAN_ACTION_03", "order": 3, "type": "APPLY_EFFECT", "effectId": "STUN", "chance": 15 }
+      ],
+      "tags": ["ATTACK", "METAL", "AOE", "CONTROL", "THIEN_MON", "MONSTER_ONLY"]
+    }
+  ]
+}

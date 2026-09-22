@@ -1,0 +1,26 @@
+{
+  "version": 1,
+
+  "sameElementMultiplier": 1.0,
+
+  "differentElementMultiplier": 0.8,
+
+  "maxRandomAffixes": 2,
+
+  "allowDuplicateAffix": false,
+
+  "allowDuplicateEquipment": true,
+
+  "equipmentSlots": {
+    "WEAPON": 1,
+    "ARMOR": 1,
+    "NECKLACE": 1,
+    "RING": 1
+  },
+
+  "randomAffixRules": {
+    "LOW": 0,
+    "MIDDLE": 1,
+    "HIGH": 2
+  }
+}

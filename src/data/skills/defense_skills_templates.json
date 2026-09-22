@@ -1,0 +1,1319 @@
+{
+  "version": 1,
+  "defenseSkills": [
+    {
+      "id": "DEF_FIRE_HOANG",
+      "displayName": "Hỏa Linh Hộ Thể",
+      "grade": "HOANG",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_HOANG",
+      "displayName": "Mộc Linh Hộ Thể",
+      "grade": "HOANG",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_HOANG",
+      "displayName": "Thạch Giáp Thuật",
+      "grade": "HOANG",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_HOANG",
+      "displayName": "Thủy Linh Hộ Thể",
+      "grade": "HOANG",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_HOANG",
+      "displayName": "Kim Cương Hộ Thể",
+      "grade": "HOANG",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_HOANG",
+      "displayName": "Lôi Ảnh Hộ Thể",
+      "grade": "HOANG",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_ICE_HOANG",
+      "displayName": "Hàn Băng Hộ Thể",
+      "grade": "HOANG",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_HOANG_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_HOANG_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    },
+    {
+      "id": "DEF_FIRE_HUYEN",
+      "displayName": "Xích Diễm Kết Giới",
+      "grade": "HUYEN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_HUYEN",
+      "displayName": "Vạn Mộc Bình Chướng",
+      "grade": "HUYEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_HUYEN",
+      "displayName": "Đại Địa Chi Thuẫn",
+      "grade": "HUYEN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_HUYEN",
+      "displayName": "Thiên Hà Thủy Mạc",
+      "grade": "HUYEN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_HUYEN",
+      "displayName": "Kim Mang Hộ Thuẫn",
+      "grade": "HUYEN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_HUYEN",
+      "displayName": "Cửu Lôi Hộ Thể",
+      "grade": "HUYEN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_ICE_HUYEN",
+      "displayName": "Huyền Băng Kết Giới",
+      "grade": "HUYEN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_HUYEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_HUYEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    },
+    {
+      "id": "DEF_FIRE_DIA",
+      "displayName": "Phần Thiên Hộ Thể",
+      "grade": "DIA",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_DIA",
+      "displayName": "Sinh Mệnh Kết Giới",
+      "grade": "DIA",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_DIA",
+      "displayName": "Sơn Hà Bất Động",
+      "grade": "DIA",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_DIA",
+      "displayName": "Thương Hải Hộ Thuẫn",
+      "grade": "DIA",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_DIA",
+      "displayName": "Kim Cương Bất Hoại",
+      "grade": "DIA",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_DIA",
+      "displayName": "Tử Tiêu Lôi Thuẫn",
+      "grade": "DIA",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_ICE_DIA",
+      "displayName": "Hàn Ngục Hộ Thể",
+      "grade": "DIA",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_DIA_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_DIA_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    },
+    {
+      "id": "DEF_FIRE_THIEN",
+      "displayName": "Cửu Dương Bất Diệt Thể",
+      "grade": "THIEN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_THIEN",
+      "displayName": "Vạn Cổ Trường Sinh Thể",
+      "grade": "THIEN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_THIEN",
+      "displayName": "Hậu Thổ Bất Động Thể",
+      "grade": "THIEN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_THIEN",
+      "displayName": "Cửu Hải Huyền Thuẫn",
+      "grade": "THIEN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_THIEN",
+      "displayName": "Canh Kim Bất Hoại Thể",
+      "grade": "THIEN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_THIEN",
+      "displayName": "Cửu Tiêu Lôi Thể",
+      "grade": "THIEN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_ICE_THIEN",
+      "displayName": "Thái Âm Hàn Băng Thể",
+      "grade": "THIEN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_THIEN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_THIEN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    },
+    {
+      "id": "DEF_FIRE_THANH",
+      "displayName": "Thánh Viêm Thần Thuẫn",
+      "grade": "THANH",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_THANH",
+      "displayName": "Sinh Linh Thánh Thể",
+      "grade": "THANH",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_THANH",
+      "displayName": "Thánh Linh Địa Thuẫn",
+      "grade": "THANH",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_THANH",
+      "displayName": "Thương Hải Thánh Vực",
+      "grade": "THANH",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_THANH",
+      "displayName": "Kim Hoàng Thần Thể",
+      "grade": "THANH",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_THANH",
+      "displayName": "Thiên Phạt Lôi Giáp",
+      "grade": "THANH",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_ICE_THANH",
+      "displayName": "Hàn Thiên Thánh Thuẫn",
+      "grade": "THANH",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_THANH_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_THANH_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    },
+    {
+      "id": "DEF_FIRE_THAN",
+      "displayName": "Đại Nhật Kim Ô Thần Thể",
+      "grade": "THAN",
+      "element": "FIRE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_FIRE_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_FIRE",
+          "id": "DEF_FIRE_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "FIRE"
+      ]
+    },
+    {
+      "id": "DEF_WOOD_THAN",
+      "displayName": "Thần Mộc Vĩnh Sinh Thể",
+      "grade": "THAN",
+      "element": "WOOD",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WOOD_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WOOD",
+          "id": "DEF_WOOD_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WOOD"
+      ]
+    },
+    {
+      "id": "DEF_EARTH_THAN",
+      "displayName": "Hậu Thổ Thần Thể",
+      "grade": "THAN",
+      "element": "EARTH",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_EARTH_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_EARTH",
+          "id": "DEF_EARTH_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "EARTH"
+      ]
+    },
+    {
+      "id": "DEF_WATER_THAN",
+      "displayName": "Vô Tận Hải Thần Thể",
+      "grade": "THAN",
+      "element": "WATER",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_WATER_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_WATER",
+          "id": "DEF_WATER_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "WATER"
+      ]
+    },
+    {
+      "id": "DEF_METAL_THAN",
+      "displayName": "Kim Thần Bất Diệt Kim Thân",
+      "grade": "THAN",
+      "element": "METAL",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_METAL_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_METAL",
+          "id": "DEF_METAL_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "METAL"
+      ]
+    },
+    {
+      "id": "DEF_LIGHTNING_THAN",
+      "displayName": "Cửu Thiên Lôi Thần Thể",
+      "grade": "THAN",
+      "element": "LIGHTNING",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_LIGHTNING_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_LIGHTNING",
+          "id": "DEF_LIGHTNING_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "LIGHTNING"
+      ]
+    },
+    {
+      "id": "DEF_WIND_HOANG",
+      "displayName": "Phong Linh Hộ Thể",
+      "label": "Phong Linh Hộ Thể",
+      "grade": "HOANG",
+      "gradeLabel": "Hoàng phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_HOANG_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_HOANG_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_WIND_HUYEN",
+      "displayName": "Tật Phong Hộ Thuẫn",
+      "label": "Tật Phong Hộ Thuẫn",
+      "grade": "HUYEN",
+      "gradeLabel": "Huyền phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_HUYEN_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_HUYEN_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_WIND_DIA",
+      "displayName": "Hư Không Phong Bích",
+      "label": "Hư Không Phong Bích",
+      "grade": "DIA",
+      "gradeLabel": "Địa phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_DIA_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_DIA_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_WIND_THIEN",
+      "displayName": "Cửu Thiên Phong Vực",
+      "label": "Cửu Thiên Phong Vực",
+      "grade": "THIEN",
+      "gradeLabel": "Thiên phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_THIEN_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_THIEN_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_WIND_THANH",
+      "displayName": "Đại La Hư Phong Thể",
+      "label": "Đại La Hư Phong Thể",
+      "grade": "THANH",
+      "gradeLabel": "Thánh phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_THANH_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_THANH_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_WIND_THAN",
+      "displayName": "Khởi Nguyên Phong Thần Vực",
+      "label": "Khởi Nguyên Phong Thần Vực",
+      "grade": "THAN",
+      "gradeLabel": "Thần phẩm",
+      "element": "WIND",
+      "elementLabel": "Phong",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": { "hpPercent": 30 },
+      "actions": [
+        { "id": "DEF_WIND_THAN_ACTION_01", "order": 1, "type": "ADD_SHIELD", "formulaId": "DEFENSE_SKILL_SHIELD" },
+        { "id": "DEF_WIND_THAN_ACTION_02", "order": 2, "type": "APPLY_EFFECT", "effectId": "DEFENSE_WIND" }
+      ],
+      "tags": ["DEFENSE", "AUTO_TRIGGER", "WIND"]
+    },
+    {
+      "id": "DEF_ICE_THAN",
+      "displayName": "Cực Hàn Thần Vực",
+      "grade": "THAN",
+      "element": "ICE",
+      "trigger": "HP_BELOW_PERCENT",
+      "condition": {
+        "hpPercent": 30
+      },
+      "actions": [
+        {
+          "type": "ADD_SHIELD",
+          "formulaId": "DEFENSE_SKILL_SHIELD",
+          "id": "DEF_ICE_THAN_ACTION_01",
+          "order": 1
+        },
+        {
+          "type": "APPLY_EFFECT",
+          "effectId": "DEFENSE_ICE",
+          "id": "DEF_ICE_THAN_ACTION_02",
+          "order": 2
+        }
+      ],
+      "tags": [
+        "DEFENSE",
+        "AUTO_TRIGGER",
+        "ICE"
+      ]
+    }
+  ]
+}

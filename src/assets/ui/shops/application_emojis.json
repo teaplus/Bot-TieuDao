@@ -1,0 +1,23 @@
+{
+  "revision": 1,
+  "applicationId": "845540702422171728",
+  "syncedAt": "2026-08-04T07:46:31.106Z",
+  "emojis": {
+    "MAP": {
+      "id": "1534105227366502472",
+      "name": "td_shop_map"
+    },
+    "SPECIAL": {
+      "id": "1534105229354729612",
+      "name": "td_shop_special"
+    },
+    "SECT": {
+      "id": "1534105231602876606",
+      "name": "td_shop_sect"
+    },
+    "MYSTERY": {
+      "id": "1534105233884450906",
+      "name": "td_shop_mystery"
+    }
+  }
+}

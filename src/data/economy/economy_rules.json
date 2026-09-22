@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "timestampStorage": "UTC_TIMESTAMPTZ",
+  "dailyBoundary": "00:00",
+  "weeklyBoundary": {
+    "day": "MONDAY",
+    "time": "00:00"
+  }
+}

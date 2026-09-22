@@ -1,0 +1,230 @@
+Danh sách quái vật cho game Tu Tiên
+
+1. Thú tộc
+
+-   Thỏ Linh
+-   Linh Hồ
+-   Yêu Lang
+-   Phong Lang
+-   Thiết Giáp Lang
+-   Bạch Hổ
+-   Huyết Hổ
+-   Ma Hùng
+-   Thiết Giác Ngưu
+-   Độc Giác Tê
+-   Liệt Diễm Sư
+-   Băng Sư
+-   Phong Báo
+-   Lôi Báo
+-   Hắc Viên
+-   Kim Cang Viên
+
+Boss: - Lang Vương - Bạch Hổ Vương - Viên Ma Vương
+
+2. Xà tộc
+
+-   Thanh Xà
+-   Xích Xà
+-   Độc Xà
+-   Hắc Mãng
+-   Huyền Xà
+-   Băng Xà
+-   Kim Lân Mãng
+-   Lôi Mãng
+
+Boss: - Cửu Đầu Xà - Đằng Xà
+
+3. Điểu tộc
+
+-   Phong Ưng
+-   Kim Ưng
+-   Huyết Ưng
+-   Hắc Nha
+-   Hỏa Điểu
+-   Băng Điểu
+-   Lôi Điểu
+-   Thanh Loan
+
+Boss: - Kim Sí Đại Bằng - Chu Tước Hậu Duệ
+
+4. Long tộc
+
+-   Ấu Long
+-   Thanh Long
+-   Hắc Long
+-   Băng Long
+-   Lôi Long
+-   Kim Long
+-   Hỏa Long
+-   Ứng Long
+
+Boss: - Long Vương - Thái Cổ Chân Long
+
+5. Quy tộc
+
+-   Linh Quy
+-   Huyền Quy
+-   Hắc Quy
+-   Kim Giáp Quy
+-   Băng Quy
+
+Boss: - Huyền Vũ
+
+6. Côn trùng
+
+-   Độc Chu
+-   Ma Chu
+-   Huyết Chu
+-   Kim Giáp Trùng
+-   Độc Hạt
+-   Băng Hạt
+-   Lôi Ong
+-   Thực Nhân Kiến
+
+Boss: - Chu Hoàng - Trùng Mẫu
+
+7. Mộc yêu
+
+-   Thụ Yêu
+-   Hoa Yêu
+-   Đằng Yêu
+-   Cổ Mộc
+-   Linh Hoa
+
+Boss: - Vạn Niên Thụ Yêu
+
+8. Linh vật
+
+-   Nhân Sâm Tinh
+-   Linh Chi Tinh
+-   Hoa Linh
+-   Mộc Linh
+-   Thạch Linh
+
+Boss: - Vạn Linh Chi Chủ
+
+9. Ma vật
+
+-   Ma Lang
+-   Ma Hổ
+-   Ma Viên
+-   Ma Tướng
+-   Ma Quỷ
+-   Ma Soái
+
+Boss: - Thiên Ma
+
+10. Quỷ tộc
+
+-   Du Hồn
+-   Lệ Quỷ
+-   Ác Linh
+-   Oán Linh
+-   Hắc Bạch Vô Thường
+
+Boss: - Quỷ Vương
+
+11. Cương thi
+
+-   Bạch Cương
+-   Hắc Cương
+-   Phi Thi
+-   Hạn Bạt
+
+Boss: - Thi Vương
+
+12. Khô lâu
+
+-   Khô Lâu
+-   Khô Lâu Kiếm Sĩ
+-   Khô Lâu Cung Thủ
+-   Khô Lâu Pháp Sư
+
+Boss: - Khô Lâu Hoàng
+
+13. Hải tộc
+
+-   Sa Ngư
+-   Yêu Kình
+-   Thủy Xà
+-   Hải Mãng
+-   Hải Long
+
+Boss: - Hải Vương
+
+14. Dạ Xoa
+
+-   Dạ Xoa
+-   Phi Thiên Dạ Xoa
+-   Huyết Dạ Xoa
+
+Boss: - Dạ Xoa Hoàng
+
+15. Tu La
+
+-   Tu La Chiến Binh
+-   Tu La Tướng
+-   Tu La Vương
+
+16. Thiên Ma
+
+-   Thiên Ma
+-   Tâm Ma
+-   Huyễn Ma
+-   Kiếm Ma
+-   Huyết Ma
+
+Boss: - Ma Đế
+
+17. Yêu tộc
+
+-   Hồ Yêu
+-   Miêu Yêu
+-   Điểu Yêu
+-   Xà Yêu
+-   Hổ Yêu
+
+Boss: - Yêu Hoàng
+
+18. Dị thú Thượng Cổ
+
+-   Cùng Kỳ
+-   Thao Thiết
+-   Thao Ngột
+-   Hỗn Độn Thú
+-   Côn Bằng
+
+Boss: - Thái Cổ Dị Thú
+
+19. Thần thú
+
+-   Thanh Long
+-   Bạch Hổ
+-   Chu Tước
+-   Huyền Vũ
+-   Kỳ Lân
+
+Boss: - Ngũ Thánh Thú
+
+20. Thiên Đạo Hóa Thân
+
+-   Thiên Đạo Ý Chí
+-   Đạo Linh
+-   Hỗn Độn Linh
+-   Đạo Binh
+
+Boss: - Thiên Đạo Hóa Thân
+
+Hệ thống phẩm chất
+
+-   Phàm Thú
+-   Linh Thú
+-   Yêu Thú
+-   Huyền Thú
+-   Địa Thú
+-   Thiên Thú
+-   Thánh Thú
+-   Tiên Thú
+-   Thần Thú
+-   Hồng Hoang Dị Thú
+

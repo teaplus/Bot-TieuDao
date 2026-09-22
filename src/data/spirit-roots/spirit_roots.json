@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "rollMode": "WEIGHTED_SINGLE",
+  "spiritRoots": [
+    {
+      "id": "THIEN_LINH_CAN",
+      "displayName": "Thiên Linh Căn",
+      "legacyValue": "Thien Linh Can",
+      "archetype": "HEAVENLY",
+      "elementIds": [],
+      "defensiveElementId": null,
+      "affinityPolicy": {
+        "mode": "ALL_NON_NEUTRAL_ELEMENTS"
+      },
+      "rollWeight": 1,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "HEAVENLY"]
+    },
+    {
+      "id": "BANG_LINH_CAN",
+      "displayName": "Băng Linh Căn",
+      "legacyValue": "Bang Linh Can",
+      "archetype": "MUTATED",
+      "elementIds": ["ICE"],
+      "defensiveElementId": "ICE",
+      "rollWeight": 3,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "MUTATION"]
+    },
+    {
+      "id": "LOI_LINH_CAN",
+      "displayName": "Lôi Linh Căn",
+      "legacyValue": "Loi Linh Can",
+      "archetype": "MUTATED",
+      "elementIds": ["LIGHTNING"],
+      "defensiveElementId": "LIGHTNING",
+      "rollWeight": 3,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "MUTATION"]
+    },
+    {
+      "id": "PHONG_LINH_CAN",
+      "displayName": "Phong Linh Căn",
+      "legacyValue": "Phong Linh Can",
+      "archetype": "MUTATED",
+      "elementIds": ["WIND"],
+      "defensiveElementId": "WIND",
+      "rollWeight": 3,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "MUTATION"]
+    },
+    {
+      "id": "HON_DON_LINH_CAN",
+      "displayName": "Hỗn Độn Linh Căn",
+      "legacyValue": "Hon Don Linh Can",
+      "archetype": "PRIMORDIAL",
+      "elementIds": ["CHAOS"],
+      "defensiveElementId": "CHAOS",
+      "rollWeight": 0,
+      "affinityPolicy": {
+        "mode": "ALL_NON_NEUTRAL_ELEMENTS"
+      },
+      "effectIds": ["SPIRIT_ROOT_CHAOS_UNIVERSAL_AFFINITY_2"],
+      "tags": ["SPIRIT_ROOT", "PRIMORDIAL", "CHAOS", "REBIRTH_GATED"]
+    },
+    {
+      "id": "KIM_LINH_CAN",
+      "displayName": "Kim Linh Căn",
+      "legacyValue": "Kim Linh Can",
+      "archetype": "ELEMENTAL",
+      "elementIds": ["METAL"],
+      "defensiveElementId": "METAL",
+      "rollWeight": 12,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "ELEMENTAL"]
+    },
+    {
+      "id": "MOC_LINH_CAN",
+      "displayName": "Mộc Linh Căn",
+      "legacyValue": "Moc Linh Can",
+      "archetype": "ELEMENTAL",
+      "elementIds": ["WOOD"],
+      "defensiveElementId": "WOOD",
+      "rollWeight": 12,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "ELEMENTAL"]
+    },
+    {
+      "id": "THUY_LINH_CAN",
+      "displayName": "Thủy Linh Căn",
+      "legacyValue": "Thuy Linh Can",
+      "archetype": "ELEMENTAL",
+      "elementIds": ["WATER"],
+      "defensiveElementId": "WATER",
+      "rollWeight": 12,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "ELEMENTAL"]
+    },
+    {
+      "id": "HOA_LINH_CAN",
+      "displayName": "Hỏa Linh Căn",
+      "legacyValue": "Hoa Linh Can",
+      "archetype": "ELEMENTAL",
+      "elementIds": ["FIRE"],
+      "defensiveElementId": "FIRE",
+      "rollWeight": 12,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "ELEMENTAL"]
+    },
+    {
+      "id": "THO_LINH_CAN",
+      "displayName": "Thổ Linh Căn",
+      "legacyValue": "Tho Linh Can",
+      "archetype": "ELEMENTAL",
+      "elementIds": ["EARTH"],
+      "defensiveElementId": "EARTH",
+      "rollWeight": 12,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "ELEMENTAL"]
+    },
+    {
+      "id": "TAP_CAN",
+      "displayName": "Ngũ Hành Linh căn",
+      "legacyValue": "Tap Can",
+      "archetype": "MIXED",
+      "elementIds": [],
+      "defensiveElementId": null,
+      "affinityPolicy": {
+        "mode": "ALLOWED_ELEMENTS",
+        "elementIds": ["METAL", "WOOD", "WATER", "FIRE", "EARTH"]
+      },
+      "rollWeight": 30,
+      "effectIds": [],
+      "tags": ["SPIRIT_ROOT", "MIXED"]
+    }
+  ]
+}

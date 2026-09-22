@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "revision": "WORD_CHAIN_V1",
+  "dictionaryRevision": "VI_TWO_PART_WORDS_V1",
+  "languageCode": "vi",
+  "command": "noitu",
+  "aliases": ["noichu"],
+  "inputPolicy": {
+    "partCount": 2,
+    "maxLength": 80,
+    "unicodeNormalization": "NFC",
+    "casePolicy": "LOWERCASE_VI",
+    "punctuationPolicy": "REJECT",
+    "disallowConsecutiveSuccessfulPlayer": true,
+    "denylist": []
+  },
+  "sessionPolicy": {
+    "scope": "GUILD_CHANNEL",
+    "timeoutSeconds": null,
+    "maxQualifiedFailures": 10,
+    "failureCounterPolicy": "CUMULATIVE_NO_RESET_ON_SUCCESS",
+    "manualStopSettlement": "CANCEL_NO_REWARD",
+    "minimumDistinctParticipants": 3
+  },
+  "rewardPolicy": {
+    "currencyId": "SPIRIT_STONE",
+    "scalingSource": "WINNER_MAP_BASE_PRICE",
+    "baseMultiplierBasisPoints": 10000,
+    "stepEveryValidMoves": 10,
+    "stepMultiplierBasisPoints": 2500,
+    "maximumMultiplierBasisPoints": 20000,
+    "periodType": "DAILY",
+    "periodLimit": 10
+  }
+}

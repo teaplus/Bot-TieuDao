@@ -1,0 +1,2165 @@
+{
+  "version": 2,
+  "pools": [
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_HOANG",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_HOANG",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_HUYEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_HUYEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_DIA",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_DIA",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_DIA",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_THIEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_THIEN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_THANH",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_THANH",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_THANH",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:CULTIVATION_ART_THAN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_FIRE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:ATTACK_THAN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_FIRE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_FIRE:DEFENSE_THAN",
+      "sectId": "SECT_FIRE",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_FIRE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_HOANG",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_HOANG",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_HUYEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_HUYEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_DIA",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_DIA",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_DIA",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_THIEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_THIEN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_THANH",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_THANH",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_THANH",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:CULTIVATION_ART_THAN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WOOD_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:ATTACK_THAN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WOOD_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WOOD:DEFENSE_THAN",
+      "sectId": "SECT_WOOD",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WOOD_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_HOANG",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_HOANG",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_HUYEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_HUYEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_DIA",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_DIA",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_DIA",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_THIEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_THIEN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_THANH",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_THANH",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_THANH",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:CULTIVATION_ART_THAN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_EARTH_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:ATTACK_THAN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_EARTH_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_EARTH:DEFENSE_THAN",
+      "sectId": "SECT_EARTH",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_EARTH_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_HOANG",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_HOANG",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_HUYEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_HUYEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_DIA",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_DIA",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_DIA",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_THIEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_THIEN",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_THANH",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_THANH",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_THANH",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:CULTIVATION_ART_THAN",
+      "sectId": "SECT_WATER",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_WATER_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:ATTACK_THAN",
+      "sectId": "SECT_WATER",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_WATER_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_WATER:DEFENSE_THAN",
+      "sectId": "SECT_WATER",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_WATER_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_HOANG",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_HOANG",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_HUYEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_HUYEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_DIA",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_DIA",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_DIA",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_THIEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_THIEN",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_THANH",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_THANH",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_THANH",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:CULTIVATION_ART_THAN",
+      "sectId": "SECT_METAL",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_METAL_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:ATTACK_THAN",
+      "sectId": "SECT_METAL",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_METAL_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_METAL:DEFENSE_THAN",
+      "sectId": "SECT_METAL",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_METAL_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_HOANG",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_HOANG",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_HUYEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_HUYEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_DIA",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_DIA",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_DIA",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_THIEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_THIEN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_THANH",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_THANH",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_THANH",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:CULTIVATION_ART_THAN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LIGHTNING_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:ATTACK_THAN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LIGHTNING_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING:DEFENSE_THAN",
+      "sectId": "SECT_LIGHTNING",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LIGHTNING_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_HOANG",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_HOANG",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_HUYEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_HUYEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_DIA",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_DIA",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_DIA",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_THIEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_THIEN",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_THANH",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_THANH",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_THANH",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:CULTIVATION_ART_THAN",
+      "sectId": "SECT_ICE",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ICE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:ATTACK_THAN",
+      "sectId": "SECT_ICE",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ICE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ICE:DEFENSE_THAN",
+      "sectId": "SECT_ICE",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ICE_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_HOANG",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_HOANG",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_HUYEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_HUYEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_DIA",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_DIA",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_DIA",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_THIEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_THIEN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_THANH",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_THANH",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_THANH",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:CULTIVATION_ART_THAN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_YINYANG_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:ATTACK_THAN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_YINYANG_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_YINYANG:DEFENSE_THAN",
+      "sectId": "SECT_YINYANG",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_YINYANG_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_HOANG",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_HOANG",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_HUYEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_HUYEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_DIA",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_DIA",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_DIA",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_THIEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_THIEN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_THANH",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_THANH",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_THANH",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:CULTIVATION_ART_THAN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_ASSASSIN_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:ATTACK_THAN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_ASSASSIN_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN:DEFENSE_THAN",
+      "sectId": "SECT_ASSASSIN",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_ASSASSIN_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_HOANG",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_HOANG",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_HOANG",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_HOANG",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_HOANG",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_HUYEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_HUYEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_HUYEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_HUYEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_HUYEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_DIA",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_DIA",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_DIA",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_DIA",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_DIA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_THIEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_THIEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_THIEN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_THIEN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_THIEN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_THANH",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_THANH",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_THANH",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_THANH",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_THANH",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:CULTIVATION_ART_THAN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "CULTIVATION_ART_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "SECT_ART_LONGEVITY_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:ATTACK_THAN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "ATTACK_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_ATK_LONGEVITY_THAN",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY:DEFENSE_THAN",
+      "sectId": "SECT_LONGEVITY",
+      "ruleId": "DEFENSE_THAN",
+      "duplicatePolicy": "DENY_OWNED",
+      "entries": [
+        {
+          "itemId": "BOOK_SECT_DEF_LONGEVITY_THAN",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

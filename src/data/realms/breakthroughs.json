@@ -1,0 +1,90 @@
+{
+  "version": 1,
+
+  "breakthroughs": [
+    {
+      "realm": "LUYEN_KHI",
+      "nextRealm": "TRUC_CO",
+      "chance": 100,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "TRUC_CO",
+      "nextRealm": "KET_DAN",
+      "chance": 95,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "KET_DAN",
+      "nextRealm": "NGUYEN_ANH",
+      "chance": 90,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "NGUYEN_ANH",
+      "nextRealm": "HOA_THAN",
+      "chance": 85,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "HOA_THAN",
+      "nextRealm": "LUYEN_HU",
+      "chance": 80,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "LUYEN_HU",
+      "nextRealm": "HOP_THE",
+      "chance": 75,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "HOP_THE",
+      "nextRealm": "DAI_THUA",
+      "chance": 70,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "DAI_THUA",
+      "nextRealm": "DO_KIEP",
+      "chance": 65,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "DO_KIEP",
+      "nextRealm": "CHAN_TIEN",
+      "chance": 60,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "CHAN_TIEN",
+      "nextRealm": "HUYEN_TIEN",
+      "chance": 55,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "HUYEN_TIEN",
+      "nextRealm": "KIM_TIEN",
+      "chance": 50,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "KIM_TIEN",
+      "nextRealm": "THAI_AT",
+      "chance": 45,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "THAI_AT",
+      "nextRealm": "DAI_LA",
+      "chance": 40,
+      "failureCultivationLossPercent": 25
+    },
+    {
+      "realm": "DAI_LA",
+      "nextRealm": "DAO_TO",
+      "chance": 35,
+      "failureCultivationLossPercent": 25
+    }
+  ]
+}

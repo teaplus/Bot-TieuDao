@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "status": "CATALOG_ONLY",
+  "description": "Catalog chuẩn hóa từ Ky_nang_quai_vat_theo_chung_toc.txt. Chỉ skill có executable template mới được gán vào Monster runtime.",
+  "races": [
+    {
+      "id": "BEAST", "displayName": "Thú tộc",
+      "skills": [
+        { "id": "MON_SK_BEAST_BITE", "displayName": "Cắn Xé" },
+        { "id": "MON_SK_BEAST_POUNCE", "displayName": "Vồ Mồi" },
+        { "id": "MON_SK_BEAST_ROAR", "displayName": "Gầm Thét" },
+        { "id": "MON_SK_BEAST_BERSERK", "displayName": "Cuồng Hóa" },
+        { "id": "MON_SK_BEAST_HUNTING_INSTINCT", "displayName": "Bản Năng Săn Mồi" }
+      ],
+      "bossSkills": [
+        { "id": "MON_SK_BEAST_PACK_SUMMON", "displayName": "Triệu Hồi Bầy Đàn" },
+        { "id": "MON_SK_BEAST_FRENZY", "displayName": "Cuồng Bạo" },
+        { "id": "MON_SK_BEAST_KING_PRESSURE", "displayName": "Vương Giả Uy Áp" }
+      ]
+    },
+    {
+      "id": "SERPENT", "displayName": "Xà tộc",
+      "skills": [
+        { "id": "MON_SK_SERPENT_VENOM", "displayName": "Nọc Độc" },
+        { "id": "MON_SK_SERPENT_CONSTRICT", "displayName": "Quấn Siết" },
+        { "id": "MON_SK_SERPENT_SHED", "displayName": "Lột Xác" },
+        { "id": "MON_SK_SERPENT_POISON_MIST", "displayName": "Độc Vụ" },
+        { "id": "MON_SK_SERPENT_BLOOD_VENOM", "displayName": "Huyết Độc" }
+      ],
+      "bossSkills": [
+        { "id": "MON_SK_SERPENT_NINE_HEAD_VENOM", "displayName": "Cửu Đầu Phun Độc" },
+        { "id": "MON_SK_SERPENT_HEAVEN_DESCENT", "displayName": "Thiên Xà Hàng Thế" }
+      ]
+    },
+    {
+      "id": "AVIAN", "displayName": "Điểu tộc",
+      "skills": [
+        { "id": "MON_SK_AVIAN_WIND_BLADE", "displayName": "Phong Nhận" },
+        { "id": "MON_SK_AVIAN_DIVE", "displayName": "Bổ Nhào" },
+        { "id": "MON_SK_AVIAN_GALE", "displayName": "Cuồng Phong" },
+        { "id": "MON_SK_AVIAN_FLIGHT", "displayName": "Phi Thiên" },
+        { "id": "MON_SK_AVIAN_THUNDER_WING", "displayName": "Lôi Dực" }
+      ],
+      "bossSkills": [
+        { "id": "MON_SK_AVIAN_MYRIAD_FEATHERS", "displayName": "Vạn Vũ Phi Linh" },
+        { "id": "MON_SK_AVIAN_GOLDEN_WING_SLASH", "displayName": "Kim Sí Trảm" }
+      ]
+    },
+    {
+      "id": "DRAGON", "displayName": "Long tộc",
+      "skills": [
+        { "id": "MON_SK_DRAGON_MIGHT", "displayName": "Long Uy" },
+        { "id": "MON_SK_DRAGON_BREATH", "displayName": "Long Tức" },
+        { "id": "MON_SK_DRAGON_CLAW", "displayName": "Long Trảo" },
+        { "id": "MON_SK_DRAGON_SCALE", "displayName": "Long Lân Hộ Thể" },
+        { "id": "MON_SK_DRAGON_WEATHER_CALL", "displayName": "Hô Phong Hoán Vũ" }
+      ],
+      "bossSkills": [
+        { "id": "MON_SK_DRAGON_WORLD_END_BREATH", "displayName": "Diệt Thế Long Tức" },
+        { "id": "MON_SK_DRAGON_TRUE_DESCENT", "displayName": "Chân Long Giáng Thế" }
+      ]
+    },
+    {
+      "id": "TURTLE", "displayName": "Quy tộc",
+      "skills": [
+        { "id": "MON_SK_TURTLE_SHELL", "displayName": "Mai Giáp" },
+        { "id": "MON_SK_TURTLE_WATER_SHIELD", "displayName": "Thủy Thuẫn" },
+        { "id": "MON_SK_TURTLE_EARTHQUAKE", "displayName": "Địa Chấn" },
+        { "id": "MON_SK_TURTLE_COUNTER", "displayName": "Phản Kích" },
+        { "id": "MON_SK_TURTLE_RECOVERY", "displayName": "Hồi Phục" }
+      ],
+      "bossSkills": [{ "id": "MON_SK_TURTLE_XUANWU_SHIELD", "displayName": "Huyền Vũ Thần Thuẫn" }]
+    },
+    {
+      "id": "INSECT", "displayName": "Côn trùng",
+      "skills": [
+        { "id": "MON_SK_INSECT_POISON_NEEDLE", "displayName": "Độc Châm" },
+        { "id": "MON_SK_INSECT_CLONE", "displayName": "Phân Thân" },
+        { "id": "MON_SK_INSECT_COCOON", "displayName": "Kén Bảo Hộ" },
+        { "id": "MON_SK_INSECT_ARMOR_CORROSION", "displayName": "Ăn Mòn Giáp" },
+        { "id": "MON_SK_INSECT_SWARM_ATTACK", "displayName": "Quần Thể Công Kích" }
+      ],
+      "bossSkills": [
+        { "id": "MON_SK_INSECT_SEA", "displayName": "Trùng Hải" },
+        { "id": "MON_SK_INSECT_BROODMOTHER", "displayName": "Trùng Mẫu Sinh Sản" }
+      ]
+    },
+    {
+      "id": "WOOD_DEMON", "displayName": "Mộc yêu",
+      "skills": [
+        { "id": "MON_SK_WOOD_ROOT_BIND", "displayName": "Rễ Trói" },
+        { "id": "MON_SK_WOOD_THORNS", "displayName": "Gai Gỗ" },
+        { "id": "MON_SK_WOOD_REVIVE", "displayName": "Hồi Sinh" },
+        { "id": "MON_SK_WOOD_LIFE_DRAIN", "displayName": "Hấp Thu Sinh Mệnh" },
+        { "id": "MON_SK_WOOD_CHARM_POLLEN", "displayName": "Hoa Phấn Mê Hoặc" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "SPIRIT_CREATURE", "displayName": "Linh vật",
+      "skills": [
+        { "id": "MON_SK_SPIRIT_HEAL", "displayName": "Linh Khí Trị Liệu" },
+        { "id": "MON_SK_SPIRIT_PURIFY", "displayName": "Tịnh Hóa" },
+        { "id": "MON_SK_SPIRIT_LIGHT", "displayName": "Linh Quang" },
+        { "id": "MON_SK_SPIRIT_HASTE", "displayName": "Gia Tốc" },
+        { "id": "MON_SK_SPIRIT_LIFE_SPRING", "displayName": "Sinh Mệnh Chi Tuyền" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "DEMONIC_CREATURE", "displayName": "Ma vật",
+      "skills": [
+        { "id": "MON_SK_DEMONIC_FIRE", "displayName": "Ma Hỏa" },
+        { "id": "MON_SK_DEMONIC_CLAW", "displayName": "Ma Trảo" },
+        { "id": "MON_SK_DEMONIC_TRANSFORM", "displayName": "Ma Hóa" },
+        { "id": "MON_SK_DEMONIC_SOUL_DRAIN", "displayName": "Hút Hồn" },
+        { "id": "MON_SK_DEMONIC_BLOOD_BURST", "displayName": "Huyết Bạo" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "GHOST", "displayName": "Quỷ tộc",
+      "skills": [
+        { "id": "MON_SK_GHOST_GRIEVANCE", "displayName": "Oán Khí" },
+        { "id": "MON_SK_GHOST_SHADOW_STEP", "displayName": "Ám Ảnh Di Chuyển" },
+        { "id": "MON_SK_GHOST_SUMMON_SOUL", "displayName": "Gọi Hồn" },
+        { "id": "MON_SK_GHOST_FEAR", "displayName": "Sợ Hãi" },
+        { "id": "MON_SK_GHOST_SOUL_SEIZE", "displayName": "Đoạt Phách" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "JIANGSHI", "displayName": "Cương thi",
+      "skills": [
+        { "id": "MON_SK_JIANGSHI_POISON", "displayName": "Thi Độc" },
+        { "id": "MON_SK_JIANGSHI_IRON_BODY", "displayName": "Đồng Da Sắt Thịt" },
+        { "id": "MON_SK_JIANGSHI_UNDEAD", "displayName": "Bất Tử" },
+        { "id": "MON_SK_JIANGSHI_CLAW", "displayName": "Thi Trảo" },
+        { "id": "MON_SK_JIANGSHI_AURA", "displayName": "Thi Khí" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "SKELETON", "displayName": "Khô lâu",
+      "skills": [
+        { "id": "MON_SK_SKELETON_ARROW_VOLLEY", "displayName": "Loạn Tiễn" },
+        { "id": "MON_SK_SKELETON_SWORD_SLASH", "displayName": "Kiếm Trảm" },
+        { "id": "MON_SK_SKELETON_SOUL_FIRE", "displayName": "Linh Hồn Hỏa" },
+        { "id": "MON_SK_SKELETON_REVIVE", "displayName": "Hồi Sinh" },
+        { "id": "MON_SK_SKELETON_SUMMON", "displayName": "Triệu Hồi Khô Lâu" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "SEA", "displayName": "Hải tộc",
+      "skills": [
+        { "id": "MON_SK_SEA_TSUNAMI", "displayName": "Hải Khiếu" },
+        { "id": "MON_SK_SEA_TIDAL_WAVE", "displayName": "Sóng Thần" },
+        { "id": "MON_SK_SEA_WATER_PRISON", "displayName": "Thủy Lao" },
+        { "id": "MON_SK_SEA_WATER_ARROW", "displayName": "Thủy Tiễn" },
+        { "id": "MON_SK_SEA_VORTEX", "displayName": "Lốc Xoáy" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "YAKSHA", "displayName": "Dạ Xoa",
+      "skills": [
+        { "id": "MON_SK_YAKSHA_SHADOW_KILL", "displayName": "Ảnh Sát" },
+        { "id": "MON_SK_YAKSHA_FLYING_BLADE", "displayName": "Phi Đao" },
+        { "id": "MON_SK_YAKSHA_DARK_MIST", "displayName": "Hắc Vụ" },
+        { "id": "MON_SK_YAKSHA_RAMPAGE", "displayName": "Cuồng Sát" },
+        { "id": "MON_SK_YAKSHA_AFTERIMAGE", "displayName": "Tàn Ảnh" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "ASURA", "displayName": "Tu La",
+      "skills": [
+        { "id": "MON_SK_ASURA_SLASH", "displayName": "Tu La Trảm" },
+        { "id": "MON_SK_ASURA_BLOOD_BATTLE", "displayName": "Huyết Chiến" },
+        { "id": "MON_SK_ASURA_WILL", "displayName": "Chiến Ý" },
+        { "id": "MON_SK_ASURA_COMBO", "displayName": "Liên Kích" },
+        { "id": "MON_SK_ASURA_DEATH_BATTLE", "displayName": "Tử Chiến" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "HEAVENLY_DEMON", "displayName": "Thiên Ma",
+      "skills": [
+        { "id": "MON_SK_HEAVENLY_DEMON_HEART_CORRUPTION", "displayName": "Tâm Ma Xâm Thực" },
+        { "id": "MON_SK_HEAVENLY_DEMON_ILLUSION", "displayName": "Huyễn Cảnh" },
+        { "id": "MON_SK_HEAVENLY_DEMON_FIRE", "displayName": "Ma Hỏa" },
+        { "id": "MON_SK_HEAVENLY_DEMON_POSSESSION", "displayName": "Đoạt Xá" },
+        { "id": "MON_SK_HEAVENLY_DEMON_BODY", "displayName": "Ma Thần Thể" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "YAO", "displayName": "Yêu tộc",
+      "skills": [
+        { "id": "MON_SK_YAO_CHARM", "displayName": "Mị Hoặc" },
+        { "id": "MON_SK_YAO_BERSERK", "displayName": "Cuồng Hóa" },
+        { "id": "MON_SK_YAO_FIRE", "displayName": "Yêu Hỏa" },
+        { "id": "MON_SK_YAO_AURA", "displayName": "Yêu Khí" },
+        { "id": "MON_SK_YAO_ILLUSION", "displayName": "Huyễn Ảnh" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "ANCIENT_BEAST", "displayName": "Dị thú Thượng Cổ",
+      "skills": [
+        { "id": "MON_SK_ANCIENT_CHAOS_QI", "displayName": "Hỗn Độn Chi Khí" },
+        { "id": "MON_SK_ANCIENT_DEVOUR_HEAVEN", "displayName": "Thôn Thiên" },
+        { "id": "MON_SK_ANCIENT_DESTRUCTION", "displayName": "Phá Diệt" },
+        { "id": "MON_SK_ANCIENT_DEVOUR", "displayName": "Cắn Nuốt" },
+        { "id": "MON_SK_ANCIENT_PRESSURE", "displayName": "Thái Cổ Uy Áp" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "DIVINE_BEAST", "displayName": "Thần thú",
+      "skills": [
+        { "id": "MON_SK_DIVINE_LIGHT", "displayName": "Thần Quang" },
+        { "id": "MON_SK_DIVINE_PUNISHMENT", "displayName": "Thiên Phạt" },
+        { "id": "MON_SK_DIVINE_SHIELD", "displayName": "Thánh Khiên" },
+        { "id": "MON_SK_DIVINE_REBIRTH", "displayName": "Tái Sinh" },
+        { "id": "MON_SK_DIVINE_ELEMENT_LORD", "displayName": "Nguyên Tố Chi Chủ" }
+      ],
+      "bossSkills": []
+    },
+    {
+      "id": "HEAVENLY_DAO_AVATAR", "displayName": "Thiên Đạo Hóa Thân",
+      "skills": [
+        { "id": "MON_SK_DAO_PUNISHMENT", "displayName": "Thiên Phạt" },
+        { "id": "MON_SK_DAO_DISPEL", "displayName": "Xóa Buff" },
+        { "id": "MON_SK_DAO_HEAL_LOCK", "displayName": "Khóa Hồi Máu" },
+        { "id": "MON_SK_DAO_SUPPRESSION", "displayName": "Đạo Tắc Áp Chế" },
+        { "id": "MON_SK_DAO_RULE_DESTRUCTION", "displayName": "Quy Tắc Hủy Diệt" }
+      ],
+      "bossSkills": []
+    }
+  ],
+  "elementSemantics": [
+    { "sourceName": "Kim", "runtimeElementId": "METAL", "mechanic": "ARMOR_PENETRATION", "status": "SUPPORTED" },
+    { "sourceName": "Mộc", "runtimeElementId": "WOOD", "mechanic": "HEAL", "status": "SUPPORTED" },
+    { "sourceName": "Thủy", "runtimeElementId": "WATER", "mechanic": "SLOW", "status": "SUPPORTED" },
+    { "sourceName": "Hỏa", "runtimeElementId": "FIRE", "mechanic": "BURN", "status": "SUPPORTED" },
+    { "sourceName": "Thổ", "runtimeElementId": "EARTH", "mechanic": "SHIELD", "status": "SUPPORTED" },
+    { "sourceName": "Phong", "runtimeElementId": "WIND", "mechanic": "DIRECT_DAMAGE", "status": "SUPPORTED" },
+    { "sourceName": "Lôi", "runtimeElementId": "LIGHTNING", "mechanic": "STUN", "status": "SUPPORTED" },
+    { "sourceName": "Quang", "runtimeElementId": "LIGHT", "mechanic": "PURIFY", "elementStatus": "SUPPORTED", "mechanicStatus": "SUPPORTED", "status": "SUPPORTED" },
+    { "sourceName": "Ám", "runtimeElementId": "DARK", "mechanic": "HEAL_BLOCK", "elementStatus": "SUPPORTED", "mechanicStatus": "SUPPORTED", "status": "SUPPORTED" },
+    { "sourceName": "Hỗn Độn", "runtimeElementId": "CHAOS", "mechanic": "DISPEL", "elementStatus": "SUPPORTED", "mechanicStatus": "SUPPORTED", "status": "SUPPORTED" }
+  ]
+}

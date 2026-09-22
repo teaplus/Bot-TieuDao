@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "defaultResponseRetentionDays": 30,
+  "operationPolicies": {
+    "DEFAULT": {
+      "responseRetentionDays": 30,
+      "businessKeyRetention": "NONE"
+    },
+    "ONE_TIME_CLAIM": {
+      "responseRetentionDays": 30,
+      "businessKeyRetention": "PERMANENT"
+    }
+  }
+}

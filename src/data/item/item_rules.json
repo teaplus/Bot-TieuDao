@@ -1,0 +1,14 @@
+{
+  "inventory": {
+    "defaultSlot": 200,
+    "allowExpand": true,
+    "maxExpandSlot": 1000
+  },
+
+  "default": {
+    "tradable": true,
+    "sellable": true,
+    "droppable": true,
+    "destroyAfterUse": true
+  }
+}

@@ -1,5 +1,5 @@
 import BaseItem from '../core/BaseItem.js';
-import SkillFactory from '../managers/SkillFactory.js';
+import SkillFactory from '../factories/SkillFactory.js';
 
 export default class SkillBook extends BaseItem {
     constructor(template, instanceData = {}) {

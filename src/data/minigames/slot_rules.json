@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "revision": "SLOT_BALANCE_PROFILES_V2_FRIENDLY_15",
+  "activeProfileId": "FRIENDLY_20_PERCENT",
+  "changeGuide": {
+    "switchProfile": "Đổi activeProfileId sang một id trong profiles rồi restart bot.",
+    "customBalance": "Có thể sửa weight và payoutMultiplierBasisPoints; tổng weight mỗi profile phải bằng 100 và RTP phải dưới 100%.",
+    "revisionPolicy": "Tăng revision sau mỗi lần sửa balance để snapshot ván chơi phân biệt đúng cấu hình."
+  },
+  "profiles": [
+    {
+      "id": "CURRENT_6_PERCENT",
+      "label": "Hiện tại · khoảng 6,64%",
+      "reelCount": 3,
+      "requiredMatchCount": 3,
+      "symbols": [
+        { "id": "SPIRIT_STONE", "label": "Linh Thạch", "icon": "💎", "weight": 35, "payoutMultiplierBasisPoints": 70000 },
+        { "id": "SPIRIT_HERB", "label": "Linh Thảo", "icon": "🌿", "weight": 25, "payoutMultiplierBasisPoints": 140000 },
+        { "id": "IMMORTAL_SWORD", "label": "Tiên Kiếm", "icon": "⚔️", "weight": 18, "payoutMultiplierBasisPoints": 280000 },
+        { "id": "SPIRIT_PILL", "label": "Linh Đan", "icon": "🧪", "weight": 12, "payoutMultiplierBasisPoints": 700000 },
+        { "id": "DIVINE_DRAGON", "label": "Thần Long", "icon": "🐉", "weight": 7, "payoutMultiplierBasisPoints": 2250000 },
+        { "id": "CHAOS", "label": "Hỗn Độn", "icon": "☯️", "weight": 3, "payoutMultiplierBasisPoints": 9000000 }
+      ]
+    },
+    {
+      "id": "FRIENDLY_10_PERCENT",
+      "label": "Thân thiện · khoảng 10%",
+      "reelCount": 3,
+      "requiredMatchCount": 3,
+      "symbols": [
+        { "id": "SPIRIT_STONE", "label": "Linh Thạch", "icon": "💎", "weight": 43, "payoutMultiplierBasisPoints": 65000 },
+        { "id": "SPIRIT_HERB", "label": "Linh Thảo", "icon": "🌿", "weight": 26, "payoutMultiplierBasisPoints": 130000 },
+        { "id": "IMMORTAL_SWORD", "label": "Tiên Kiếm", "icon": "⚔️", "weight": 16, "payoutMultiplierBasisPoints": 260000 },
+        { "id": "SPIRIT_PILL", "label": "Linh Đan", "icon": "🧪", "weight": 8, "payoutMultiplierBasisPoints": 650000 },
+        { "id": "DIVINE_DRAGON", "label": "Thần Long", "icon": "🐉", "weight": 5, "payoutMultiplierBasisPoints": 2100000 },
+        { "id": "CHAOS", "label": "Hỗn Độn", "icon": "☯️", "weight": 2, "payoutMultiplierBasisPoints": 8400000 }
+      ]
+    },
+    {
+      "id": "FRIENDLY_15_PERCENT",
+      "label": "Cân bằng thân thiện · khoảng 15%",
+      "reelCount": 3,
+      "requiredMatchCount": 3,
+      "symbols": [
+        { "id": "SPIRIT_STONE", "label": "Linh Thạch", "icon": "💎", "weight": 51, "payoutMultiplierBasisPoints": 52000 },
+        { "id": "SPIRIT_HERB", "label": "Linh Thảo", "icon": "🌿", "weight": 24, "payoutMultiplierBasisPoints": 110000 },
+        { "id": "IMMORTAL_SWORD", "label": "Tiên Kiếm", "icon": "⚔️", "weight": 13, "payoutMultiplierBasisPoints": 220000 },
+        { "id": "SPIRIT_PILL", "label": "Linh Đan", "icon": "🧪", "weight": 6, "payoutMultiplierBasisPoints": 550000 },
+        { "id": "DIVINE_DRAGON", "label": "Thần Long", "icon": "🐉", "weight": 4, "payoutMultiplierBasisPoints": 1700000 },
+        { "id": "CHAOS", "label": "Hỗn Độn", "icon": "☯️", "weight": 2, "payoutMultiplierBasisPoints": 6800000 }
+      ]
+    },
+    {
+      "id": "FRIENDLY_20_PERCENT",
+      "label": "Rất thân thiện · khoảng 20%",
+      "reelCount": 3,
+      "requiredMatchCount": 3,
+      "symbols": [
+        { "id": "SPIRIT_STONE", "label": "Linh Thạch", "icon": "💎", "weight": 57, "payoutMultiplierBasisPoints": 42000 },
+        { "id": "SPIRIT_HERB", "label": "Linh Thảo", "icon": "🌿", "weight": 22, "payoutMultiplierBasisPoints": 90000 },
+        { "id": "IMMORTAL_SWORD", "label": "Tiên Kiếm", "icon": "⚔️", "weight": 11, "payoutMultiplierBasisPoints": 180000 },
+        { "id": "SPIRIT_PILL", "label": "Linh Đan", "icon": "🧪", "weight": 5, "payoutMultiplierBasisPoints": 450000 },
+        { "id": "DIVINE_DRAGON", "label": "Thần Long", "icon": "🐉", "weight": 3, "payoutMultiplierBasisPoints": 1400000 },
+        { "id": "CHAOS", "label": "Hỗn Độn", "icon": "☯️", "weight": 2, "payoutMultiplierBasisPoints": 5600000 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "revision": "MINIGAME_V4_SLOT_PROFILE_CONFIG",
+  "currencyId": "SPIRIT_STONE",
+  "currencyPolicy": "VIRTUAL_ONLY_NO_REAL_MONEY_VALUE",
+  "betPolicy": {
+    "minimumSource": "SHOP_MAP_BASE_PRICE",
+    "minimumMultiplierBasisPoints": 10000,
+    "maximumSource": "WALLET_BALANCE",
+    "dailyRoundLimit": null
+  },
+  "games": [
+    {
+      "id": "SLOT",
+      "displayName": "Linh Thạch Luân Bàn",
+      "command": "slot",
+      "aliases": ["xeng"],
+      "status": "ACTIVE",
+      "balanceSource": "SLOT_ACTIVE_PROFILE",
+      "settlementPolicy": "ATOMIC_SINGLE_REQUEST"
+    },
+    {
+      "id": "HIGH_LOW",
+      "displayName": "Tiên Bài Cao Thấp",
+      "command": "highlow",
+      "aliases": ["caothap"],
+      "status": "ACTIVE",
+      "paytable": {
+        "minimumNumber": 1,
+        "maximumNumber": 101,
+        "midpointNumber": 51,
+        "correctPayoutMultiplierBasisPoints": 20000,
+        "tieSettlement": "LOSE_WAGER"
+      },
+      "rtp": {
+        "partsPerMillion": 990099,
+        "displayPercent": "99.0099"
+      },
+      "settlementPolicy": "PERSISTED_TWO_STEP",
+      "sessionPolicy": {
+        "ttlSeconds": 120,
+        "expirySettlement": "LAZY_REFUND_WAGER",
+        "componentOwnership": "PLAYER_ONLY"
+      }
+    },
+    {
+      "id": "BLACKJACK",
+      "displayName": "Tiên Bài Hắc Kiệt",
+      "command": "blackjack",
+      "aliases": ["xidach", "xi-dach", "bj"],
+      "status": "ACTIVE",
+      "paytable": {
+        "deckCount": 1,
+        "dealerPolicy": "STAND_ALL_17",
+        "naturalPayoutMultiplierBasisPoints": 20000,
+        "winPayoutMultiplierBasisPoints": 20000,
+        "pushPayoutMultiplierBasisPoints": 10000,
+        "doublePolicy": "INITIAL_TWO_CARDS_ONE_DRAW_AUTO_STAND",
+        "splitPolicy": "DISABLED"
+      },
+      "rtp": {
+        "model": "PLAYER_STRATEGY_DEPENDENT"
+      },
+      "settlementPolicy": "PERSISTED_MULTI_STEP",
+      "sessionPolicy": {
+        "ttlSeconds": 120,
+        "expirySettlement": "LAZY_AUTO_STAND",
+        "componentOwnership": "PLAYER_ONLY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "version": 2,
+  "spawnPools": [
+    {
+      "id": "POOL_TRUC_LAM",
+      "entries": [
+        {
+          "monsterId": "MON_BEAST_SPIRIT_RABBIT",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_SPIRIT_FOX",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_DEMON_WOLF",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_IRON_WOLF",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_WOOD_TREE_DEMON",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_LINH_KHE",
+      "entries": [
+        {
+          "monsterId": "TPL_MON_FIRE_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_WOOD_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_EARTH_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_WATER_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_METAL_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_LIGHTNING_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "TPL_MON_ICE_001",
+          "weight": 1,
+          "minPlayerRealmOrder": 1,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_HOA_DIEM_SON",
+      "entries": [
+        {
+          "monsterId": "MON_WOOD_FLOWER_DEMON",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_WOOD_VINE_DEMON",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_WOOD_ANCIENT_WOOD",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_WOOD_SPIRIT_FLOWER",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SPIRIT_GINSENG",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SPIRIT_STONE",
+          "weight": 1,
+          "minPlayerRealmOrder": 2,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_THIEN_MON",
+      "entries": [
+        {
+          "monsterId": "MON_BEAST_WHITE_TIGER",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_BLOOD_TIGER",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_DEMON_BEAR",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_FLAME_LION",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_THUNDER_LEOPARD",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_BEAST_VAJRA_APE",
+          "weight": 1,
+          "minPlayerRealmOrder": 3,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_TRUNG_CHAU_THANH_VUC",
+      "entries": [
+        {
+          "monsterId": "MON_SERPENT_THANH_XA",
+          "weight": 20,
+          "minPlayerRealmOrder": 4,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SERPENT_XICH_XA",
+          "weight": 20,
+          "minPlayerRealmOrder": 4,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SERPENT_DOC_XA",
+          "weight": 20,
+          "minPlayerRealmOrder": 4,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SERPENT_HAC_MANG",
+          "weight": 20,
+          "minPlayerRealmOrder": 4,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SERPENT_HUYEN_XA",
+          "weight": 20,
+          "minPlayerRealmOrder": 4,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_THIEN_LINH_GIOI",
+      "entries": [
+        {
+          "monsterId": "MON_AVIAN_PHONG_UNG",
+          "weight": 20,
+          "minPlayerRealmOrder": 5,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_AVIAN_HUYET_UNG",
+          "weight": 20,
+          "minPlayerRealmOrder": 5,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_AVIAN_HAC_NHA",
+          "weight": 20,
+          "minPlayerRealmOrder": 5,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_AVIAN_HOA_DIEU",
+          "weight": 20,
+          "minPlayerRealmOrder": 5,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_AVIAN_LOI_DIEU",
+          "weight": 20,
+          "minPlayerRealmOrder": 5,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_HU_KHONG_HAI",
+      "entries": [
+        {
+          "monsterId": "MON_SEA_SA_NGU",
+          "weight": 20,
+          "minPlayerRealmOrder": 6,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SEA_YEU_KINH",
+          "weight": 20,
+          "minPlayerRealmOrder": 6,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SEA_THUY_XA",
+          "weight": 20,
+          "minPlayerRealmOrder": 6,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SEA_HAI_MANG",
+          "weight": 20,
+          "minPlayerRealmOrder": 6,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SEA_HAI_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 6,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_THANH_LINH_DAI_LUC",
+      "entries": [
+        {
+          "monsterId": "MON_TURTLE_LINH_QUY",
+          "weight": 20,
+          "minPlayerRealmOrder": 7,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_TURTLE_HUYEN_QUY",
+          "weight": 20,
+          "minPlayerRealmOrder": 7,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_TURTLE_HAC_QUY",
+          "weight": 20,
+          "minPlayerRealmOrder": 7,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_TURTLE_BANG_QUY",
+          "weight": 20,
+          "minPlayerRealmOrder": 7,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_AVIAN_THANH_LOAN",
+          "weight": 20,
+          "minPlayerRealmOrder": 7,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_CUU_THIEN_TIEN_CANH",
+      "entries": [
+        {
+          "monsterId": "MON_DRAGON_AU_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 8,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_THANH_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 8,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_HAC_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 8,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_BANG_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 8,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_LOI_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 8,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_THIEN_KIEP_GIOI",
+      "entries": [
+        {
+          "monsterId": "MON_HEAVENLY_DEMON_THIEN_MA",
+          "weight": 20,
+          "minPlayerRealmOrder": 9,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DEMON_TAM_MA",
+          "weight": 20,
+          "minPlayerRealmOrder": 9,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DEMON_HUYEN_MA",
+          "weight": 20,
+          "minPlayerRealmOrder": 9,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DEMON_KIEM_MA",
+          "weight": 20,
+          "minPlayerRealmOrder": 9,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DEMON_HUYET_MA",
+          "weight": 20,
+          "minPlayerRealmOrder": 9,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_TIEN_GIOI",
+      "entries": [
+        {
+          "monsterId": "MON_SPIRIT_CREATURE_LINH_CHI_TINH",
+          "weight": 20,
+          "minPlayerRealmOrder": 10,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SPIRIT_CREATURE_HOA_LINH",
+          "weight": 20,
+          "minPlayerRealmOrder": 10,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SPIRIT_CREATURE_MOC_LINH",
+          "weight": 20,
+          "minPlayerRealmOrder": 10,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_UNG_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 10,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_HOA_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 10,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_HUYEN_THIEN_TIEN_VUC",
+      "entries": [
+        {
+          "monsterId": "MON_YAO_FOX",
+          "weight": 20,
+          "minPlayerRealmOrder": 11,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_YAO_MIEU_YEU",
+          "weight": 20,
+          "minPlayerRealmOrder": 11,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_YAO_DIEU_YEU",
+          "weight": 20,
+          "minPlayerRealmOrder": 11,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_YAO_XA_YEU",
+          "weight": 20,
+          "minPlayerRealmOrder": 11,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_YAO_TIGER",
+          "weight": 20,
+          "minPlayerRealmOrder": 11,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_KIM_KHUYET_THIEN",
+      "entries": [
+        {
+          "monsterId": "MON_AVIAN_KIM_UNG",
+          "weight": 20,
+          "minPlayerRealmOrder": 12,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_SERPENT_KIM_LAN_MANG",
+          "weight": 20,
+          "minPlayerRealmOrder": 12,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DRAGON_KIM_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 12,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_INSECT_KIM_GIAP_TRUNG",
+          "weight": 20,
+          "minPlayerRealmOrder": 12,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_TURTLE_KIM_GIAP_QUY",
+          "weight": 20,
+          "minPlayerRealmOrder": 12,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_THAI_SO_GIOI",
+      "entries": [
+        {
+          "monsterId": "MON_ANCIENT_BEAST_CUNG_KY",
+          "weight": 20,
+          "minPlayerRealmOrder": 13,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_ANCIENT_BEAST_THAO_THIET",
+          "weight": 20,
+          "minPlayerRealmOrder": 13,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_ANCIENT_BEAST_THAO_NGOT",
+          "weight": 20,
+          "minPlayerRealmOrder": 13,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_ANCIENT_BEAST_HON_DON_THU",
+          "weight": 20,
+          "minPlayerRealmOrder": 13,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_ANCIENT_BEAST_CON_BANG",
+          "weight": 20,
+          "minPlayerRealmOrder": 13,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_DAI_LA_THIEN",
+      "entries": [
+        {
+          "monsterId": "MON_DIVINE_BEAST_THANH_LONG",
+          "weight": 20,
+          "minPlayerRealmOrder": 14,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DIVINE_BEAST_BACH_HO",
+          "weight": 20,
+          "minPlayerRealmOrder": 14,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DIVINE_BEAST_CHU_TUOC",
+          "weight": 20,
+          "minPlayerRealmOrder": 14,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DIVINE_BEAST_HUYEN_VU",
+          "weight": 20,
+          "minPlayerRealmOrder": 14,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_DIVINE_BEAST_KY_LAN",
+          "weight": 20,
+          "minPlayerRealmOrder": 14,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "POOL_KHOI_NGUYEN_DAO_GIOI",
+      "entries": [
+        {
+          "monsterId": "MON_HEAVENLY_DAO_AVATAR_THIEN_DAO_Y_CHI",
+          "weight": 25,
+          "minPlayerRealmOrder": 15,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DAO_AVATAR_DAO_LINH",
+          "weight": 25,
+          "minPlayerRealmOrder": 15,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DAO_AVATAR_HON_DON_LINH",
+          "weight": 25,
+          "minPlayerRealmOrder": 15,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        },
+        {
+          "monsterId": "MON_HEAVENLY_DAO_AVATAR_DAO_BINH",
+          "weight": 25,
+          "minPlayerRealmOrder": 15,
+          "maxPlayerRealmOrder": null,
+          "spawnType": "NORMAL"
+        }
+      ]
+    }
+  ]
+}

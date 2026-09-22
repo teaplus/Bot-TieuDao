@@ -1,48 +1,51 @@
 import { EmbedBuilder, MessageFlags } from 'discord.js';
 import BaseCommand from '../../core/BaseCommand.js';
 import EffectFormatter from '../../core/EffectFormatter.js';
-import Player from '../../core/Player.js';
-import PlayerRepository from '../../repositories/PlayerRepository.js';
+import { compareDecimal, displayDecimal } from '../../shared/numeric/FixedDecimal.js';
+import { formatIntegerAmount } from '../../shared/numeric/IntegerAmount.js';
 
 export default class ProfileCommand extends BaseCommand {
     constructor() {
-        super({ name: 'hoso', description: 'Xem hồ sơ, chỉ số và hiệu ứng nhân vật' });
+        super({ name: 'hoso', description: 'Xem ho so, chi so va hieu ung nhan vat' });
     }
 
-    async execute(interaction) {
+    async execute(interaction, client) {
         await interaction.deferReply();
-        const record = await PlayerRepository.findById(interaction.user.id);
-        if (!record) {
-            return interaction.editReply({ content: 'Hãy dùng `/start` để tạo nhân vật trước.', flags: MessageFlags.Ephemeral });
+        const profileView = await client.playerReadService.getPublicProfileView(interaction.user.id);
+        if (!profileView) {
+            return interaction.editReply({ content: 'Hay dung `/start` de tao nhan vat truoc.', flags: MessageFlags.Ephemeral });
         }
 
-        const player = new Player(record.data);
-        const equipped = player.equipments.filter((item) => item.isEquipped);
-        const effects = player.effects
+        const effects = profileView.effects
             .filter((effect) => effect.stat !== 'cultivation_speed' || effect.value !== 1)
             .map((effect) => `• ${EffectFormatter.format(effect)}`)
-            .join('\n') || 'Không có hiệu ứng cộng thêm';
-        const equipmentText = equipped.length
-            ? equipped.map((item) => `• ${item.equippedSlot}: **${item.name}** [${item.rarityInfo.name}]`).join('\n')
-            : 'Chưa trang bị pháp bảo';
-        const skillText = record.skills.length
-            ? record.skills.map((skill) => `• **${skill.name}** (${skill.type === 'PASSIVE' ? 'Bị động' : 'Chủ động'})`).join('\n')
-            : 'Chưa lĩnh ngộ kỹ năng';
+            .join('\n') || 'Khong co hieu ung cong them';
+        const equipmentText = profileView.equipment.length
+            ? profileView.equipment.map((item) => `• ${item.slot}: **${item.name}** [${item.rarityName}]`).join('\n')
+            : 'Chua trang bi phap bao';
+        const skillText = profileView.skills.length
+            ? profileView.skills.map((skill) => `• **${skill.name}** (${skill.type === 'PASSIVE' ? 'Bi dong' : 'Chu dong'})`).join('\n')
+            : 'Chua linh ngo ky nang';
 
         const embed = new EmbedBuilder()
-            .setTitle(`Hồ sơ tu tiên: ${player.name}`)
+            .setTitle(`Ho so tu tien: ${profileView.name}`)
             .setColor('#C89B3C')
             .setThumbnail(interaction.user.displayAvatarURL())
             .addFields(
-                { name: 'Đạo cơ', value: `Cảnh giới: **${player.realmInfo.name}**\nLinh căn: **${player.spiritualRoot}**\nCông pháp: **${player.cultivationArt.name}** [${player.cultivationArt.rarityInfo.name}]` },
-                { name: 'Tài sản', value: `Linh thạch: **${player.spiritStones.toLocaleString('vi-VN')}**`, inline: true },
-                { name: 'Tu luyện', value: `Tu vi: **${player.cultivation.toLocaleString('vi-VN')}**\nTốc độ: **${player.cultivationSpeed}/giây**`, inline: true },
-                { name: 'Chỉ số', value: `HP **${player.getFinalStat('hp')}** | ATK **${player.getFinalStat('atk')}** | DEF **${player.getFinalStat('def')}** | SPD **${player.getFinalStat('spd')}**` },
-                { name: 'Trang bị', value: equipmentText },
-                { name: 'Kỹ năng', value: skillText },
-                { name: 'Tổng hiệu ứng', value: effects.slice(0, 1024) }
+                { name: 'Dao co', value: `Canh gioi: **${profileView.realm.name} — Tang ${profileView.realm.stage}**\nLinh can: **${profileView.spiritualRoot}${profileView.spiritRootQuality ? ` — ${profileView.spiritRootQuality.name}` : ''}**\nCong phap: **${profileView.cultivationArt.name}** [${profileView.cultivationArt.rarityName}]` },
+                { name: 'Tai san', value: `Linh thach: **${formatIntegerAmount(profileView.spiritStones)}**`, inline: true },
+                {
+                    name: 'Tu luyen (du tinh)',
+                    value: `Tu vi: **${displayDecimal(profileView.cultivation.current)}**\nToc do: **${profileView.cultivation.speedPerMinute}/phut**\nChua nhan: **${compareDecimal(profileView.cultivation.pending, 0) > 0 ? displayDecimal(profileView.cultivation.pending) : '0'}**`,
+                    inline: true
+                },
+                { name: 'Chi so', value: `HP **${profileView.stats.hp}** | ATK **${profileView.stats.atk}** | DEF **${profileView.stats.def}** | SPD **${profileView.stats.spd}**` },
+                { name: 'Trang bi', value: equipmentText },
+                { name: 'Ky nang', value: skillText },
+                { name: 'Tong hieu ung', value: effects.slice(0, 1024) }
             );
 
         return interaction.editReply({ embeds: [embed] });
     }
 }
+

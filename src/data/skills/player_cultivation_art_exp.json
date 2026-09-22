@@ -1,0 +1,13 @@
+{
+  "playerSkillId": 100001,
+
+  "playerId": 10001,
+
+  "skillId": "CP_FIRE_HUYEN",
+
+  "quality": "HIGH",
+
+  "equipped": true,
+
+  "obtainedAt": "2026-07-11T10:00:00Z"
+}

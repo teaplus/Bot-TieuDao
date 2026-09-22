@@ -1,0 +1,177 @@
+{
+  "version": 1,
+
+  "grades": [
+    {
+      "grade": "HOANG",
+      "displayName": "Hoàng",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "LUYEN_KHI",
+          "weaponAtkPercent": 10,
+          "armorDefPercent": 5,
+          "armorHpPercent": 5,
+          "necklaceDefPercent": 5,
+          "necklaceHpPercent": 5,
+          "ringHpPercent": 10,
+          "elementPercent": 5,
+          "randomAffixes": 0
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "LUYEN_KHI",
+          "weaponAtkPercent": 10,
+          "armorDefPercent": 5,
+          "armorHpPercent": 5,
+          "necklaceDefPercent": 5,
+          "necklaceHpPercent": 5,
+          "ringHpPercent": 10,
+          "elementPercent": 5,
+          "randomAffixes": 1
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "LUYEN_KHI",
+          "weaponAtkPercent": 10,
+          "armorDefPercent": 5,
+          "armorHpPercent": 5,
+          "necklaceDefPercent": 5,
+          "necklaceHpPercent": 5,
+          "ringHpPercent": 10,
+          "elementPercent": 5,
+          "randomAffixes": 2
+        }
+      ]
+    },
+    {
+      "grade": "HUYEN",
+      "displayName": "Huyền",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "KET_DAN",
+          "weaponAtkPercent": 20,
+          "armorDefPercent": 10,
+          "armorHpPercent": 10,
+          "necklaceDefPercent": 10,
+          "necklaceHpPercent": 10,
+          "ringHpPercent": 20,
+          "elementPercent": 10,
+          "randomAffixes": 0
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "KET_DAN",
+          "weaponAtkPercent": 20,
+          "armorDefPercent": 10,
+          "armorHpPercent": 10,
+          "necklaceDefPercent": 10,
+          "necklaceHpPercent": 10,
+          "ringHpPercent": 20,
+          "elementPercent": 10,
+          "randomAffixes": 1
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "KET_DAN",
+          "weaponAtkPercent": 20,
+          "armorDefPercent": 10,
+          "armorHpPercent": 10,
+          "necklaceDefPercent": 10,
+          "necklaceHpPercent": 10,
+          "ringHpPercent": 20,
+          "elementPercent": 10,
+          "randomAffixes": 2
+        }
+      ]
+    },
+    {
+      "grade": "DIA",
+      "displayName": "Địa",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "LUYEN_HU",
+          "weaponAtkPercent": 30,
+          "armorDefPercent": 15,
+          "armorHpPercent": 15,
+          "necklaceDefPercent": 15,
+          "necklaceHpPercent": 15,
+          "ringHpPercent": 30,
+          "elementPercent": 15,
+          "randomAffixes": 0
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "LUYEN_HU",
+          "weaponAtkPercent": 30,
+          "armorDefPercent": 15,
+          "armorHpPercent": 15,
+          "necklaceDefPercent": 15,
+          "necklaceHpPercent": 15,
+          "ringHpPercent": 30,
+          "elementPercent": 15,
+          "randomAffixes": 1
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "LUYEN_HU",
+          "weaponAtkPercent": 30,
+          "armorDefPercent": 15,
+          "armorHpPercent": 15,
+          "necklaceDefPercent": 15,
+          "necklaceHpPercent": 15,
+          "ringHpPercent": 30,
+          "elementPercent": 15,
+          "randomAffixes": 2
+        }
+      ]
+    },
+    {
+      "grade": "THIEN",
+      "displayName": "Thiên",
+      "qualities": [
+        {"quality":"LOW","displayName":"Hạ","requiredRealm":"DAI_THUA","weaponAtkPercent":45,"armorDefPercent":23,"armorHpPercent":23,"necklaceDefPercent":23,"necklaceHpPercent":23,"ringHpPercent":45,"elementPercent":23,"randomAffixes":0},
+        {"quality":"MIDDLE","displayName":"Trung","requiredRealm":"DAI_THUA","weaponAtkPercent":45,"armorDefPercent":23,"armorHpPercent":23,"necklaceDefPercent":23,"necklaceHpPercent":23,"ringHpPercent":45,"elementPercent":23,"randomAffixes":1},
+        {"quality":"HIGH","displayName":"Thượng","requiredRealm":"DAI_THUA","weaponAtkPercent":45,"armorDefPercent":23,"armorHpPercent":23,"necklaceDefPercent":23,"necklaceHpPercent":23,"ringHpPercent":45,"elementPercent":23,"randomAffixes":2}
+      ]
+    },
+    {
+      "grade": "TIEN",
+      "displayName": "Tiên",
+      "qualities": [
+        {"quality":"LOW","displayName":"Hạ","requiredRealm":"CHAN_TIEN","weaponAtkPercent":68,"armorDefPercent":34,"armorHpPercent":34,"necklaceDefPercent":34,"necklaceHpPercent":34,"ringHpPercent":68,"elementPercent":34,"randomAffixes":0},
+        {"quality":"MIDDLE","displayName":"Trung","requiredRealm":"CHAN_TIEN","weaponAtkPercent":68,"armorDefPercent":34,"armorHpPercent":34,"necklaceDefPercent":34,"necklaceHpPercent":34,"ringHpPercent":68,"elementPercent":34,"randomAffixes":1},
+        {"quality":"HIGH","displayName":"Thượng","requiredRealm":"CHAN_TIEN","weaponAtkPercent":68,"armorDefPercent":34,"armorHpPercent":34,"necklaceDefPercent":34,"necklaceHpPercent":34,"ringHpPercent":68,"elementPercent":34,"randomAffixes":2}
+      ]
+    },
+    {
+      "grade": "THANH",
+      "displayName": "Thánh",
+      "qualities": [
+        {"quality":"LOW","displayName":"Hạ","requiredRealm":"THAI_AT","weaponAtkPercent":102,"armorDefPercent":51,"armorHpPercent":51,"necklaceDefPercent":51,"necklaceHpPercent":51,"ringHpPercent":102,"elementPercent":51,"randomAffixes":0},
+        {"quality":"MIDDLE","displayName":"Trung","requiredRealm":"THAI_AT","weaponAtkPercent":102,"armorDefPercent":51,"armorHpPercent":51,"necklaceDefPercent":51,"necklaceHpPercent":51,"ringHpPercent":102,"elementPercent":51,"randomAffixes":1},
+        {"quality":"HIGH","displayName":"Thượng","requiredRealm":"THAI_AT","weaponAtkPercent":102,"armorDefPercent":51,"armorHpPercent":51,"necklaceDefPercent":51,"necklaceHpPercent":51,"ringHpPercent":102,"elementPercent":51,"randomAffixes":2}
+      ]
+    },
+    {
+      "grade": "THAN",
+      "displayName": "Thần",
+      "qualities": [
+        {"quality":"LOW","displayName":"Hạ","requiredRealm":"DAO_TO","weaponAtkPercent":153,"armorDefPercent":77,"armorHpPercent":77,"necklaceDefPercent":77,"necklaceHpPercent":77,"ringHpPercent":153,"elementPercent":77,"randomAffixes":0},
+        {"quality":"MIDDLE","displayName":"Trung","requiredRealm":"DAO_TO","weaponAtkPercent":153,"armorDefPercent":77,"armorHpPercent":77,"necklaceDefPercent":77,"necklaceHpPercent":77,"ringHpPercent":153,"elementPercent":77,"randomAffixes":1},
+        {"quality":"HIGH","displayName":"Thượng","requiredRealm":"DAO_TO","weaponAtkPercent":153,"armorDefPercent":77,"armorHpPercent":77,"necklaceDefPercent":77,"necklaceHpPercent":77,"ringHpPercent":153,"elementPercent":77,"randomAffixes":2}
+      ]
+    }
+  ]
+}

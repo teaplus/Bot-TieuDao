@@ -1,0 +1,150 @@
+{
+  "version": 1,
+
+  "grades": [
+    {
+      "grade": "HOANG",
+      "displayName": "Hoàng",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "LUYEN_KHI",
+          "shieldPercent": 30
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "LUYEN_KHI",
+          "shieldPercent": 35
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "LUYEN_KHI",
+          "shieldPercent": 40
+        }
+      ]
+    },
+    {
+      "grade": "HUYEN",
+      "displayName": "Huyền",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "KET_DAN",
+          "shieldPercent": 45
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "KET_DAN",
+          "shieldPercent": 50
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "KET_DAN",
+          "shieldPercent": 55
+        }
+      ]
+    },
+    {
+      "grade": "DIA",
+      "displayName": "Địa",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "LUYEN_HU",
+          "shieldPercent": 60
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "LUYEN_HU",
+          "shieldPercent": 65
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "LUYEN_HU",
+          "shieldPercent": 70
+        }
+      ]
+    },
+    {
+      "grade": "THIEN",
+      "displayName": "Thiên",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "CHAN_TIEN",
+          "shieldPercent": 75
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "CHAN_TIEN",
+          "shieldPercent": 80
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "CHAN_TIEN",
+          "shieldPercent": 85
+        }
+      ]
+    },
+    {
+      "grade": "THANH",
+      "displayName": "Thánh",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "KIM_TIEN",
+          "shieldPercent": 90
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "KIM_TIEN",
+          "shieldPercent": 95
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "KIM_TIEN",
+          "shieldPercent": 100
+        }
+      ]
+    },
+    {
+      "grade": "THAN",
+      "displayName": "Thần",
+      "qualities": [
+        {
+          "quality": "LOW",
+          "displayName": "Hạ",
+          "requiredRealm": "DAI_LA",
+          "shieldPercent": 105
+        },
+        {
+          "quality": "MIDDLE",
+          "displayName": "Trung",
+          "requiredRealm": "DAI_LA",
+          "shieldPercent": 110
+        },
+        {
+          "quality": "HIGH",
+          "displayName": "Thượng",
+          "requiredRealm": "DAI_LA",
+          "shieldPercent": 120
+        }
+      ]
+    }
+  ]
+}

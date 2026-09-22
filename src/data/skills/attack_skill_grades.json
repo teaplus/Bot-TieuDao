@@ -1,0 +1,175 @@
+{
+  "version": 1,
+
+  "grades": [
+
+    {
+      "grade": "HOANG",
+      "quality": "LOW",
+      "requiredRealm": "LUYEN_KHI",
+
+      "damageMultiplier": 1.00,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "HOANG",
+      "quality": "MIDDLE",
+      "requiredRealm": "LUYEN_KHI",
+
+      "damageMultiplier": 1.10,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "HOANG",
+      "quality": "HIGH",
+      "requiredRealm": "LUYEN_KHI",
+
+      "damageMultiplier": 1.20,
+
+      "randomAffixCount": 2
+    },
+
+    {
+      "grade": "HUYEN",
+      "quality": "LOW",
+      "requiredRealm": "KET_DAN",
+
+      "damageMultiplier": 1.30,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "HUYEN",
+      "quality": "MIDDLE",
+      "requiredRealm": "KET_DAN",
+
+      "damageMultiplier": 1.40,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "HUYEN",
+      "quality": "HIGH",
+      "requiredRealm": "KET_DAN",
+
+      "damageMultiplier": 1.50,
+
+      "randomAffixCount": 2
+    },
+
+    {
+      "grade": "DIA",
+      "quality": "LOW",
+      "requiredRealm": "LUYEN_HU",
+
+      "damageMultiplier": 1.60,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "DIA",
+      "quality": "MIDDLE",
+      "requiredRealm": "LUYEN_HU",
+
+      "damageMultiplier": 1.70,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "DIA",
+      "quality": "HIGH",
+      "requiredRealm": "LUYEN_HU",
+
+      "damageMultiplier": 1.80,
+
+      "randomAffixCount": 2
+    },
+
+    {
+      "grade": "THIEN",
+      "quality": "LOW",
+      "requiredRealm": "CHAN_TIEN",
+
+      "damageMultiplier": 2.00,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "THIEN",
+      "quality": "MIDDLE",
+      "requiredRealm": "CHAN_TIEN",
+
+      "damageMultiplier": 2.20,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "THIEN",
+      "quality": "HIGH",
+      "requiredRealm": "CHAN_TIEN",
+
+      "damageMultiplier": 2.40,
+
+      "randomAffixCount": 2
+    },
+
+    {
+      "grade": "THANH",
+      "quality": "LOW",
+      "requiredRealm": "DAI_LA",
+
+      "damageMultiplier": 2.60,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "THANH",
+      "quality": "MIDDLE",
+      "requiredRealm": "DAI_LA",
+
+      "damageMultiplier": 2.80,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "THANH",
+      "quality": "HIGH",
+      "requiredRealm": "DAI_LA",
+
+      "damageMultiplier": 3.00,
+
+      "randomAffixCount": 2
+    },
+
+    {
+      "grade": "THAN",
+      "quality": "LOW",
+      "requiredRealm": "DAO_TO",
+
+      "damageMultiplier": 3.20,
+
+      "randomAffixCount": 0
+    },
+    {
+      "grade": "THAN",
+      "quality": "MIDDLE",
+      "requiredRealm": "DAO_TO",
+
+      "damageMultiplier": 3.40,
+
+      "randomAffixCount": 1
+    },
+    {
+      "grade": "THAN",
+      "quality": "HIGH",
+      "requiredRealm": "DAO_TO",
+
+      "damageMultiplier": 3.60,
+
+      "randomAffixCount": 2
+    }
+
+  ]
+}

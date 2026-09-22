@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "membershipPolicy": {
+    "revision": "sect-membership-v1",
+    "leaveCooldownSeconds": 604800,
+    "retainSectPoints": true
+  },
+  "sects": [
+    {
+      "id": "SECT_FIRE",
+      "displayName": "Xích Diễm Tông",
+      "element": "FIRE",
+      "effects": [
+        "SECT_FIRE_BURN_DURATION"
+      ]
+    },
+    {
+      "id": "SECT_WOOD",
+      "displayName": "Thanh Mộc Cốc",
+      "element": "WOOD",
+      "effects": [
+        "SECT_WOOD_PARTY_HEAL"
+      ]
+    },
+    {
+      "id": "SECT_EARTH",
+      "displayName": "Hậu Thổ Môn",
+      "element": "EARTH",
+      "effects": [
+        "SECT_EARTH_SHIELD_EXPLODE"
+      ]
+    },
+    {
+      "id": "SECT_WATER",
+      "displayName": "Thương Hải Các",
+      "element": "WATER",
+      "effects": [
+        "SECT_WATER_CLEANSE"
+      ]
+    },
+    {
+      "id": "SECT_METAL",
+      "displayName": "Kim Kiếm Sơn",
+      "element": "METAL",
+      "effects": [
+        "SECT_METAL_CRIT_UP"
+      ]
+    },
+    {
+      "id": "SECT_LIGHTNING",
+      "displayName": "Thiên Lôi Điện",
+      "element": "LIGHTNING",
+      "effects": [
+        "SECT_LIGHTNING_PEN_UP"
+      ]
+    },
+    {
+      "id": "SECT_ICE",
+      "displayName": "Hàn Nguyệt Cung",
+      "element": "ICE",
+      "effects": []
+    },
+    {
+      "id": "SECT_YINYANG",
+      "displayName": "Lưỡng Nghi Tông",
+      "element": "CHAOS",
+      "effects": [
+        "SECT_YINYANG_REF_UP",
+        "SECT_YINYANG_ATK_DOWN"
+      ]
+    },
+    {
+      "id": "SECT_ASSASSIN",
+      "displayName": "Sát Thần Điện",
+      "element": "DARK",
+      "effects": [
+        "SECT_ASSASSIN_ATK_UP",
+        "SECT_ASSASSIN_BREAKTHROUGH_DOWN"
+      ]
+    },
+    {
+      "id": "SECT_LONGEVITY",
+      "displayName": "Trường Sinh Cốc",
+      "element": "WOOD",
+      "effects": [
+        "SECT_LONGEVITY_CULTIVATION_UP",
+        "SECT_LONGEVITY_BREAKTHROUGH_UP",
+        "SECT_LONGEVITY_ATK_DOWN",
+        "SECT_LONGEVITY_DEF_DOWN"
+      ]
+    }
+  ]
+}

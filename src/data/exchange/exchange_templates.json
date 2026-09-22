@@ -1,0 +1,39 @@
+{
+  "exchanges": [
+
+    {
+
+      "id": "SECT_BREAKTHROUGH",
+
+      "displayName": "Đổi Phá Chướng Đan",
+
+      "requiredRealm": "LUYEN_KHI",
+
+      "costs": [
+
+        {
+
+          "currencyId": "SECT_POINT",
+
+          "amount": 200
+
+        }
+
+      ],
+
+      "rewards": [
+
+        {
+
+          "itemId": "BREAKTHROUGH_PILL",
+
+          "quantity": 1
+
+        }
+
+      ]
+
+    }
+
+  ]
+}

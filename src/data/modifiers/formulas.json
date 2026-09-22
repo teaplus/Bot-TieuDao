@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "formulas": [
+    {
+      "id": "NORMAL_DAMAGE",
+      "displayName": "Sát thương thường",
+      "description": "Sát thương đòn đánh thường.",
+
+      "expression": "(ATK - DEF * (1 - PEN / 100)) * RANDOM",
+
+      "variables": {
+        "ATK": "SELF.ATK",
+        "DEF": "TARGET.DEF",
+        "PEN": "SELF.PEN",
+        "RANDOM": "RANDOM(0.8,1.0)"
+      }
+    },
+
+    {
+      "id": "SKILL_DAMAGE",
+      "displayName": "Sát thương kỹ năng",
+      "description": "Sát thương kỹ năng cơ bản.",
+
+      "expression": "(ATK - DEF * (1 - PEN / 100)) * DAMAGE_RATE * (1 + SKD / 100) * RANDOM",
+
+      "variables": {
+        "ATK": "SELF.ATK",
+        "DEF": "TARGET.DEF",
+        "PEN": "SELF.PEN",
+        "SKD": "SELF.SKD",
+        "DAMAGE_RATE": "PARAM.DAMAGE_RATE",
+        "RANDOM": "RANDOM(0.8,1.0)"
+      }
+    },
+
+    {
+      "id": "CRITICAL_DAMAGE",
+      "displayName": "Sát thương chí mạng",
+      "description": "Nhân sát thương chí mạng.",
+
+      "expression": "DAMAGE * (1 + CDMG / 100)",
+
+      "variables": {
+        "DAMAGE": "INPUT.DAMAGE",
+        "CDMG": "SELF.CDMG"
+      }
+    },
+
+    {
+      "id": "HEAL_ATTACK",
+      "displayName": "Hồi máu theo Công",
+      "description": "Hồi phục dựa trên Công.",
+
+      "expression": "ATK * 1.2",
+
+      "variables": {
+        "ATK": "SELF.ATK"
+      }
+    },
+
+    {
+      "id": "SHIELD_ATTACK",
+      "displayName": "Tạo khiên",
+      "description": "Tạo khiên dựa trên Công.",
+
+      "expression": "ATK * 1.5 * (1 + SHD / 100)",
+
+      "variables": {
+        "ATK": "SELF.ATK",
+        "SHD": "SELF.SHD"
+      }
+    },
+
+    {
+      "id": "BURN_DAMAGE",
+      "displayName": "Thiêu Đốt",
+      "description": "Sát thương Thiêu Đốt.",
+
+      "expression": "ATK * 0.35",
+
+      "variables": {
+        "ATK": "SELF.ATK"
+      }
+    },
+
+    {
+      "id": "POISON_DAMAGE",
+      "displayName": "Trúng Độc",
+      "description": "Sát thương Độc.",
+
+      "expression": "ATK * 0.30",
+
+      "variables": {
+        "ATK": "SELF.ATK"
+      }
+    },
+
+    {
+      "id": "BLEED_DAMAGE",
+      "displayName": "Chảy Máu",
+      "description": "Sát thương Chảy Máu.",
+
+      "expression": "ATK * 0.40",
+
+      "variables": {
+        "ATK": "SELF.ATK"
+      }
+    },
+
+    {
+      "id": "REGEN_HEAL",
+      "displayName": "Hồi phục",
+      "description": "Hồi máu theo phần trăm HP.",
+
+      "expression": "HP * 0.05",
+
+      "variables": {
+        "HP": "SELF.HP"
+      }
+    },
+
+    {
+      "id": "LIFESTEAL",
+      "displayName": "Hút Máu",
+      "description": "Hồi HP theo sát thương gây ra.",
+
+      "expression": "DAMAGE * LS / 100",
+
+      "variables": {
+        "DAMAGE": "INPUT.DAMAGE",
+        "LS": "SELF.LS"
+      }
+    },
+
+    {
+      "id": "REFLECT_DAMAGE",
+      "displayName": "Phản Đòn",
+      "description": "Phản lại sát thương nhận vào.",
+
+      "expression": "DAMAGE * REF / 100",
+
+      "variables": {
+        "DAMAGE": "INPUT.DAMAGE",
+        "REF": "SELF.REF"
+      }
+    },
+
+    {
+      "id": "SECT_MAX_HP_3",
+      "displayName": "Sect Heal 3% Max HP",
+      "description": "Hồi 3% Max HP của mục tiêu.",
+      "expression": "MAX_HP * 0.03",
+      "variables": { "MAX_HP": "TARGET.HP" }
+    },
+    {
+      "id": "LIGHTNING_CHAIN",
+      "displayName": "Sét Lan",
+      "description": "Sát thương sét lan giảm theo từng mục tiêu.",
+      "expression": "(ATK - DEF * (1 - PEN / 100)) * 0.8 * CHAIN_MULTIPLIER * RANDOM",
+      "variables": {
+        "ATK": "SELF.ATK",
+        "DEF": "TARGET.DEF",
+        "PEN": "SELF.PEN",
+        "CHAIN_MULTIPLIER": "PARAM.CHAIN_MULTIPLIER",
+        "RANDOM": "RANDOM(0.8,1.0)"
+      }
+    }
+  ]
+}

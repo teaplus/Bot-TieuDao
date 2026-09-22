@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "progression": {
+    "stageEnabled": true,
+    "firstStage": 1,
+    "minorBreakthrough": "INCREMENT_STAGE",
+    "minorBreakthroughSuccess": "GUARANTEED",
+    "majorBreakthrough": "ADVANCE_REALM_AND_RESET_STAGE",
+    "majorBreakthroughSuccessRateSource": "CURRENT_REALM_MAX_STAGE",
+    "majorBreakthroughResetStage": 1,
+    "maxStageSource": "realms.json",
+    "stageValueFormula": "INITIAL * GROWTH_PER_STAGE ^ (STAGE - 1)",
+    "stageValueRounding": "FLOOR",
+    "battleStatProgression": {
+      "revision": 2,
+      "attributes": ["HP", "ATK", "DEF", "SPD"],
+      "startingBaseSource": "FIRST_REALM_STAGE_ONE_INITIAL",
+      "minorDefault": { "numerator": "6", "denominator": "5" },
+      "minorOverrides": {
+        "LUYEN_KHI": { "numerator": "11", "denominator": "10" }
+      },
+      "majorDefault": { "numerator": "17", "denominator": "10" },
+      "majorOverrides": {
+        "LUYEN_KHI->TRUC_CO": { "numerator": "3", "denominator": "2" }
+      },
+      "laterRealmInitialPolicy": "DERIVED_IGNORE_AUTHORED_INITIAL",
+      "rounding": "FLOOR_EACH_TRANSITION"
+    }
+  }
+}

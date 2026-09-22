@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "EQ_FIRE_WEAPON",
+      "element": "FIRE",
+      "type": "WEAPON",
+      "displayName": "Xích Viêm Kiếm"
+    },
+    {
+      "id": "EQ_FIRE_ARMOR",
+      "element": "FIRE",
+      "type": "ARMOR",
+      "displayName": "Viêm Long Giáp"
+    },
+    {
+      "id": "EQ_FIRE_NECKLACE",
+      "element": "FIRE",
+      "type": "NECKLACE",
+      "displayName": "Viêm Tâm Hạng Liên"
+    },
+    {
+      "id": "EQ_FIRE_RING",
+      "element": "FIRE",
+      "type": "RING",
+      "displayName": "Viêm Tâm Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_WOOD_WEAPON",
+      "element": "WOOD",
+      "type": "WEAPON",
+      "displayName": "Thanh Mộc Trượng"
+    },
+    {
+      "id": "EQ_WOOD_ARMOR",
+      "element": "WOOD",
+      "type": "ARMOR",
+      "displayName": "Thần Mộc Giáp"
+    },
+    {
+      "id": "EQ_WOOD_NECKLACE",
+      "element": "WOOD",
+      "type": "NECKLACE",
+      "displayName": "Huyền Mộc Hạng Liên"
+    },
+    {
+      "id": "EQ_WOOD_RING",
+      "element": "WOOD",
+      "type": "RING",
+      "displayName": "Sinh Linh Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_EARTH_WEAPON",
+      "element": "EARTH",
+      "type": "WEAPON",
+      "displayName": "Hậu Thổ Chùy"
+    },
+    {
+      "id": "EQ_EARTH_ARMOR",
+      "element": "EARTH",
+      "type": "ARMOR",
+      "displayName": "Huyền Vũ Trọng Giáp"
+    },
+    {
+      "id": "EQ_EARTH_NECKLACE",
+      "element": "EARTH",
+      "type": "NECKLACE",
+      "displayName": "Hậu Thổ Hạng Liên"
+    },
+    {
+      "id": "EQ_EARTH_RING",
+      "element": "EARTH",
+      "type": "RING",
+      "displayName": "Hậu Thổ Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_WATER_WEAPON",
+      "element": "WATER",
+      "type": "WEAPON",
+      "displayName": "Huyền Thủy Kiếm"
+    },
+    {
+      "id": "EQ_WATER_ARMOR",
+      "element": "WATER",
+      "type": "ARMOR",
+      "displayName": "Thương Hải Giáp"
+    },
+    {
+      "id": "EQ_WATER_NECKLACE",
+      "element": "WATER",
+      "type": "NECKLACE",
+      "displayName": "Thương Hải Hạng Liên"
+    },
+    {
+      "id": "EQ_WATER_RING",
+      "element": "WATER",
+      "type": "RING",
+      "displayName": "Thủy Linh Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_METAL_WEAPON",
+      "element": "METAL",
+      "type": "WEAPON",
+      "displayName": "Canh Kim Thần Kiếm"
+    },
+    {
+      "id": "EQ_METAL_ARMOR",
+      "element": "METAL",
+      "type": "ARMOR",
+      "displayName": "Kim Cương Chiến Giáp"
+    },
+    {
+      "id": "EQ_METAL_NECKLACE",
+      "element": "METAL",
+      "type": "NECKLACE",
+      "displayName": "Canh Kim Hạng Liên"
+    },
+    {
+      "id": "EQ_METAL_RING",
+      "element": "METAL",
+      "type": "RING",
+      "displayName": "Canh Kim Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_LIGHTNING_WEAPON",
+      "element": "LIGHTNING",
+      "type": "WEAPON",
+      "displayName": "Thiên Lôi Thương"
+    },
+    {
+      "id": "EQ_LIGHTNING_ARMOR",
+      "element": "LIGHTNING",
+      "type": "ARMOR",
+      "displayName": "Lôi Thần Chiến Giáp"
+    },
+    {
+      "id": "EQ_LIGHTNING_NECKLACE",
+      "element": "LIGHTNING",
+      "type": "NECKLACE",
+      "displayName": "Thiên Lôi Hạng Liên"
+    },
+    {
+      "id": "EQ_LIGHTNING_RING",
+      "element": "LIGHTNING",
+      "type": "RING",
+      "displayName": "Lôi Linh Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_ICE_WEAPON",
+      "element": "ICE",
+      "type": "WEAPON",
+      "displayName": "Hàn Băng Kiếm"
+    },
+    {
+      "id": "EQ_ICE_ARMOR",
+      "element": "ICE",
+      "type": "ARMOR",
+      "displayName": "Hàn Ngục Giáp"
+    },
+    {
+      "id": "EQ_ICE_NECKLACE",
+      "element": "ICE",
+      "type": "NECKLACE",
+      "displayName": "Hàn Phách Hạng Liên"
+    },
+    {
+      "id": "EQ_ICE_RING",
+      "element": "ICE",
+      "type": "RING",
+      "displayName": "Hàn Phách Giới Chỉ"
+    },
+
+    {
+      "id": "EQ_WIND_WEAPON",
+      "element": "WIND",
+      "type": "WEAPON",
+      "displayName": "Thái Hư Tiên Kiếm"
+    },
+    {
+      "id": "EQ_WIND_ARMOR",
+      "element": "WIND",
+      "type": "ARMOR",
+      "displayName": "Kiếm Cương Giáp"
+    },
+    {
+      "id": "EQ_WIND_NECKLACE",
+      "element": "WIND",
+      "type": "NECKLACE",
+      "displayName": "Phong Linh Hạng Liên"
+    },
+    {
+      "id": "EQ_WIND_RING",
+      "element": "WIND",
+      "type": "RING",
+      "displayName": "Kiếm Tâm Giới Chỉ"
+    }
+  ]
+}

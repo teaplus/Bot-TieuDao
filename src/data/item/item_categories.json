@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "PILL",
+      "displayName": "Đan Dược",
+      "stackable": true,
+      "defaultMaxStack": 999
+    },
+    {
+      "id": "MATERIAL",
+      "displayName": "Nguyên Liệu",
+      "stackable": true,
+      "defaultMaxStack": 9999
+    },
+    {
+      "id": "TICKET",
+      "displayName": "Vé",
+      "stackable": true,
+      "defaultMaxStack": 999
+    },
+    {
+      "id": "CHEST",
+      "displayName": "Rương",
+      "stackable": true,
+      "defaultMaxStack": 99
+    },
+    {
+      "id": "TOKEN",
+      "displayName": "Token",
+      "stackable": true,
+      "defaultMaxStack": 999999
+    },
+    {
+      "id": "SCROLL",
+      "displayName": "Quyển Trục",
+      "stackable": true,
+      "defaultMaxStack": 999
+    },
+    {
+      "id": "PET",
+      "displayName": "Pet",
+      "stackable": true,
+      "defaultMaxStack": 999
+    },
+    {
+      "id": "SPECIAL",
+      "displayName": "Đặc Biệt",
+      "stackable": false,
+      "defaultMaxStack": 1
+    }
+  ]
+}

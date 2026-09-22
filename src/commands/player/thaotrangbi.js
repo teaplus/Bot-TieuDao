@@ -1,41 +1,69 @@
 import { MessageFlags } from 'discord.js';
 import BaseCommand from '../../core/BaseCommand.js';
 import SelectPrompt from '../../core/SelectPrompt.js';
-import EquipmentManager from '../../managers/EquipmentManager.js';
-import PlayerRepository from '../../repositories/PlayerRepository.js';
+
+function getEquipmentType(item) {
+    return String(item.equipmentType || item.slot || item.equippedSlot || '').toUpperCase();
+}
+
+function getTypeName(client, equipmentType) {
+    return client.gameDataManager?.getRecord('equipmentTypes', equipmentType)?.name || equipmentType;
+}
 
 export default class UnequipCommand extends BaseCommand {
     constructor() {
         super({ name: 'thaotrangbi', description: 'Chọn trang bị đang mặc để tháo' });
     }
 
-    async execute(interaction) {
+    async execute(interaction, client) {
         await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
         try {
-            const record = await PlayerRepository.findById(interaction.user.id);
-            if (!record) return interaction.editReply('Hãy dùng `/start` để tạo nhân vật trước.');
-            const equipped = record.inventory.filter((item) => item.type === 'EQUIPMENT' && item.isEquipped);
-            if (!equipped.length) return interaction.editReply('Đạo hữu chưa mặc trang bị nào.');
+            const equipped = await client.equipmentService.listEquippedItems(interaction.user.id);
+            if (!equipped) return interaction.editReply('Hãy dùng `/start` để tạo nhân vật trước.');
+            if (!equipped.equippedItems.length) return interaction.editReply('Đạo hữu chưa mặc trang bị nào.');
 
-            const slot = await SelectPrompt.choose(interaction, {
+            const equipmentTypes = [...new Set(equipped.equippedItems.map(getEquipmentType))].filter(Boolean);
+            const equipmentType = await SelectPrompt.choose(interaction, {
+                customId: `unequip_type:${interaction.id}`,
+                placeholder: 'Chọn loại trang bị',
+                prompt: 'Chọn loại trang bị muốn tháo:',
+                options: equipmentTypes.map((type) => {
+                    const item = equipped.equippedItems.find((entry) => getEquipmentType(entry) === type);
+                    return {
+                        label: getTypeName(client, type),
+                        value: type,
+                        description: item ? item.name : type
+                    };
+                })
+            });
+            if (!equipmentType) return;
+
+            const selectedItems = equipped.equippedItems.filter(
+                (item) => getEquipmentType(item) === equipmentType
+            );
+            const selectedInventoryId = await SelectPrompt.choose(interaction, {
                 customId: `unequip_item:${interaction.id}`,
                 placeholder: 'Chọn trang bị muốn tháo',
-                prompt: 'Chọn một trang bị đang mặc:',
-                options: equipped.map((item) => ({
+                prompt: `Trang bị đang mặc thuộc loại **${getTypeName(client, equipmentType)}**:`,
+                options: selectedItems.map((item) => ({
                     label: `${item.name} [${item.rarityInfo.name}]`,
-                    value: item.equippedSlot,
-                    description: `${item.equippedSlot} • ${item.getEffectsDisplay().replaceAll('\n', ', ')}`
+                    value: item.uuid,
+                    description: item.getEffectsDisplay().replaceAll('\n', ', ')
                 }))
             });
-            if (!slot) return;
-            const template = await EquipmentManager.unequip(interaction.user.id, slot);
-            return interaction.editReply({ content: `Đã tháo **${template?.name || 'trang bị'}**.`, components: [] });
+            if (!selectedInventoryId) return;
+
+            const result = await client.equipmentService.unequipItem(interaction.user.id, equipmentType);
+            return interaction.editReply({ content: `Đã tháo **${result.name}**.`, components: [] });
         } catch (error) {
             if (error.message === 'SLOT_EMPTY') {
-                return interaction.editReply({ content: 'Ô này hiện không có trang bị.', components: [] });
+                return interaction.editReply({ content: 'Loại này hiện không có trang bị.', components: [] });
             }
-            console.error('Lỗi tại lệnh /thaotrangbi:', error);
+
+            client.logger?.error('Thaotrangbi command failed', {
+                error: error instanceof Error ? error.message : String(error)
+            });
             return interaction.editReply({ content: 'Không thể tháo trang bị lúc này.', components: [] });
         }
     }

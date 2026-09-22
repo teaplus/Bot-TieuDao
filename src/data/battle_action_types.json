@@ -1,0 +1,125 @@
+{
+  "version": 1,
+
+  "actionTypes": [
+    {
+      "id": "DAMAGE",
+      "displayName": "Gây sát thương",
+      "category": "DAMAGE",
+      "description": "Gây sát thương lên mục tiêu."
+    },
+    {
+      "id": "HEAL",
+      "displayName": "Hồi máu",
+      "category": "DAMAGE",
+      "description": "Hồi phục HP cho mục tiêu."
+    },
+    {
+      "id": "ADD_SHIELD",
+      "displayName": "Tạo khiên",
+      "category": "DAMAGE",
+      "description": "Tạo lá chắn cho mục tiêu."
+    },
+    {
+      "id": "REMOVE_SHIELD",
+      "displayName": "Phá khiên",
+      "category": "DAMAGE",
+      "description": "Loại bỏ lá chắn của mục tiêu."
+    },
+
+    {
+      "id": "ADD_EFFECT",
+      "displayName": "Thêm Effect",
+      "category": "EFFECT",
+      "description": "Thêm Effect lên mục tiêu."
+    },
+    {
+      "id": "REMOVE_EFFECT",
+      "displayName": "Xóa Effect",
+      "category": "EFFECT",
+      "description": "Xóa Effect khỏi mục tiêu."
+    },
+    {
+      "id": "TRIGGER_EFFECT",
+      "displayName": "Kích hoạt Effect",
+      "category": "EFFECT",
+      "description": "Kích hoạt Effect ngay lập tức."
+    },
+    {
+      "id": "EXTEND_EFFECT",
+      "displayName": "Gia hạn Effect",
+      "category": "EFFECT",
+      "description": "Gia hạn thời gian tồn tại của Effect."
+    },
+    {
+      "id": "REDUCE_EFFECT",
+      "displayName": "Giảm thời gian Effect",
+      "category": "EFFECT",
+      "description": "Giảm thời gian tồn tại của Effect."
+    },
+
+    {
+      "id": "ADD_MODIFIER",
+      "displayName": "Thêm Modifier",
+      "category": "MODIFIER",
+      "description": "Thêm Modifier lên mục tiêu."
+    },
+    {
+      "id": "REMOVE_MODIFIER",
+      "displayName": "Xóa Modifier",
+      "category": "MODIFIER",
+      "description": "Xóa Modifier khỏi mục tiêu."
+    },
+
+    {
+      "id": "PURIFY",
+      "displayName": "Thanh tẩy",
+      "category": "CONTROL",
+      "description": "Loại bỏ Debuff."
+    },
+    {
+      "id": "DISPEL",
+      "displayName": "Giải trừ",
+      "category": "CONTROL",
+      "description": "Loại bỏ Buff hoặc Effect."
+    },
+    {
+      "id": "REVIVE",
+      "displayName": "Hồi sinh",
+      "category": "CONTROL",
+      "description": "Hồi sinh mục tiêu."
+    },
+    {
+      "id": "SKIP_TURN",
+      "displayName": "Bỏ lượt",
+      "category": "CONTROL",
+      "description": "Buộc mục tiêu bỏ lượt."
+    },
+    {
+      "id": "END_TURN",
+      "displayName": "Kết thúc lượt",
+      "category": "CONTROL",
+      "description": "Kết thúc ngay lượt hiện tại."
+    },
+
+    {
+      "id": "TRIGGER_ACTION",
+      "displayName": "Kích hoạt Action",
+      "category": "FLOW",
+      "description": "Thực hiện một Action khác."
+    },
+
+    {
+      "id": "SUMMON",
+      "displayName": "Triệu hồi",
+      "category": "SPECIAL",
+      "description": "Triệu hồi Battle Entity."
+    },
+    {
+      "id": "TRANSFORM",
+      "displayName": "Biến hình",
+      "category": "SPECIAL",
+      "description": "Biến đổi Battle Entity."
+    }
+  ]
+}

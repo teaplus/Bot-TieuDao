@@ -1,0 +1,525 @@
+{
+  "version": 2,
+  "modifiers": [
+    {
+      "id": "METAL_PEN",
+      "displayName": "+15 Xuyên Thấu",
+      "attribute": "PEN",
+      "operation": "ADD",
+      "value": 15,
+      "valueType": "FLAT"
+    },
+    {
+      "id": "ATK_UP_10",
+      "attribute": "ATK",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Tấn Công"
+    },
+    {
+      "id": "ATK_UP_20",
+      "attribute": "ATK",
+      "operation": "MULTIPLY",
+      "value": 20,
+      "valueType": "PERCENT",
+      "displayName": "+20% Tấn Công"
+    },
+    {
+      "id": "ATK_DOWN_20",
+      "attribute": "ATK",
+      "operation": "MULTIPLY",
+      "value": -20,
+      "valueType": "PERCENT",
+      "displayName": "-20% Tấn Công"
+    },
+    {
+      "id": "DEF_UP_10",
+      "attribute": "DEF",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Phòng Thủ"
+    },
+    {
+      "id": "DEF_UP_20",
+      "attribute": "DEF",
+      "operation": "MULTIPLY",
+      "value": 20,
+      "valueType": "PERCENT",
+      "displayName": "+20% Phòng Thủ"
+    },
+    {
+      "id": "HP_UP_10",
+      "attribute": "HP",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Sinh Lực"
+    },
+    {
+      "id": "HP_UP_20",
+      "attribute": "HP",
+      "operation": "MULTIPLY",
+      "value": 20,
+      "valueType": "PERCENT",
+      "displayName": "+20% Sinh Lực"
+    },
+    {
+      "id": "SPD_UP_10",
+      "attribute": "SPD",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Tốc Độ"
+    },
+    {
+      "id": "SPD_DOWN_20",
+      "attribute": "SPD",
+      "operation": "MULTIPLY",
+      "value": -20,
+      "valueType": "PERCENT",
+      "displayName": "-20% Tốc Độ"
+    },
+    {
+      "id": "CRIT_UP_10",
+      "attribute": "CRIT",
+      "operation": "ADD",
+      "value": 10,
+      "valueType": "FLAT",
+      "displayName": "+10 Tỉ Lệ Bạo"
+    },
+    {
+      "id": "CRIT_DAMAGE_UP_20",
+      "attribute": "CDMG",
+      "operation": "MULTIPLY",
+      "value": 20,
+      "valueType": "PERCENT",
+      "displayName": "+20% CDMG"
+    },
+    {
+      "id": "PEN_UP_10",
+      "attribute": "PEN",
+      "operation": "ADD",
+      "value": 10,
+      "valueType": "FLAT",
+      "displayName": "+10 Xuyên Thấu"
+    },
+    {
+      "id": "LIFESTEAL_UP_5",
+      "attribute": "LS",
+      "operation": "ADD",
+      "value": 5,
+      "valueType": "FLAT",
+      "displayName": "+5 LS"
+    },
+    {
+      "id": "SKILL_DAMAGE_UP_10",
+      "attribute": "SKD",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% SKD"
+    },
+    {
+      "id": "CONTROL_RATE_UP_10",
+      "attribute": "CCR",
+      "operation": "ADD",
+      "value": 10,
+      "valueType": "FLAT",
+      "displayName": "+10 CCR"
+    },
+    {
+      "id": "CONTROL_RESIST_UP_10",
+      "attribute": "TEN",
+      "operation": "ADD",
+      "value": 10,
+      "valueType": "FLAT",
+      "displayName": "+10 TEN"
+    },
+    {
+      "id": "CULTIVATION_UP_5",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 5,
+      "valueType": "PERCENT",
+      "displayName": "+5% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_10",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_20",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 20,
+      "valueType": "PERCENT",
+      "displayName": "+20% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_25",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 25,
+      "valueType": "PERCENT",
+      "displayName": "+25% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_30",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 30,
+      "valueType": "PERCENT",
+      "displayName": "+30% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_35",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 35,
+      "valueType": "PERCENT",
+      "displayName": "+35% CUL"
+    },
+    {
+      "id": "CULTIVATION_UP_50",
+      "attribute": "CUL",
+      "operation": "MULTIPLY",
+      "value": 50,
+      "valueType": "PERCENT",
+      "displayName": "+50% CUL"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_2",
+      "displayName": "+2% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 2,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_4",
+      "displayName": "+4% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 4,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_7",
+      "displayName": "+7% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 7,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_10",
+      "displayName": "+10% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_14",
+      "displayName": "+14% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 14,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_18",
+      "displayName": "+18% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 18,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_MATCH_DAMAGE_UP_25",
+      "displayName": "+25% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 25,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "SPIRIT_ROOT_UNIVERSAL_DAMAGE_UP_2",
+      "displayName": "+2% Sát Thương Chuẩn",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 2,
+      "valueType": "PERCENT"
+    },
+    {
+      "id": "LUCK_UP_20",
+      "attribute": "LUK",
+      "operation": "ADD",
+      "value": 20,
+      "valueType": "FLAT",
+      "displayName": "+20 LUK"
+    },
+    {
+      "id": "FINAL_DAMAGE_UP_10",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Sát Thương Chuẩn"
+    },
+    {
+      "id": "FINAL_DAMAGE_DOWN_10",
+      "attribute": "FINAL_DAMAGE",
+      "operation": "MULTIPLY",
+      "value": -10,
+      "valueType": "PERCENT",
+      "displayName": "-10% Sát Thương Chuẩn"
+    },
+    {
+      "id": "FINAL_DEFENSE_UP_10",
+      "attribute": "FINAL_DEFENSE",
+      "operation": "MULTIPLY",
+      "value": 10,
+      "valueType": "PERCENT",
+      "displayName": "+10% Miễn Thương"
+    },
+    {
+      "id": "HIT_RATE_UP_100",
+      "attribute": "HIT_RATE",
+      "operation": "SET",
+      "value": 100,
+      "valueType": "FLAT",
+      "displayName": "+100 Chính Xác"
+    },
+    {
+      "id": "IMMUNE_CONTROL",
+      "attribute": "CONTROL_IMMUNITY",
+      "operation": "SET",
+      "value": 1,
+      "valueType": "FLAT",
+      "displayName": "Miễn Khống Chế"
+    },
+    {
+      "id": "REF_UP_10",
+      "attribute": "REF",
+      "operation": "ADD",
+      "value": 10,
+      "valueType": "FLAT",
+      "displayName": "+10 Phản Sát Thương"
+    },
+    {
+      "id": "ATK_DOWN_10",
+      "attribute": "ATK",
+      "operation": "MULTIPLY",
+      "value": -10,
+      "valueType": "PERCENT",
+      "displayName": "-10% Tấn Công"
+    },
+    {
+      "id": "ATK_UP_15",
+      "attribute": "ATK",
+      "operation": "MULTIPLY",
+      "value": 15,
+      "valueType": "PERCENT",
+      "displayName": "+15% Tấn Công"
+    },
+    {
+      "id": "DEF_DOWN_10",
+      "attribute": "DEF",
+      "operation": "MULTIPLY",
+      "value": -10,
+      "valueType": "PERCENT",
+      "displayName": "-10% Phòng Thủ"
+    },
+    {
+      "id": "SPD_DOWN_10",
+      "attribute": "SPD",
+      "operation": "MULTIPLY",
+      "value": -10,
+      "valueType": "PERCENT",
+      "displayName": "-10% Tốc Độ"
+    },
+    {
+      "id": "ELEMENT_METAL_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_METAL_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Kim"
+    },
+    {
+      "id": "ELEMENT_METAL_RESIST_PERCENT",
+      "attribute": "ELEMENT_METAL_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Kim"
+    },
+    {
+      "id": "ELEMENT_WOOD_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_WOOD_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Mộc"
+    },
+    {
+      "id": "ELEMENT_WOOD_RESIST_PERCENT",
+      "attribute": "ELEMENT_WOOD_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Mộc"
+    },
+    {
+      "id": "ELEMENT_WATER_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_WATER_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Thủy"
+    },
+    {
+      "id": "ELEMENT_WATER_RESIST_PERCENT",
+      "attribute": "ELEMENT_WATER_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Thủy"
+    },
+    {
+      "id": "ELEMENT_FIRE_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_FIRE_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Hỏa"
+    },
+    {
+      "id": "ELEMENT_FIRE_RESIST_PERCENT",
+      "attribute": "ELEMENT_FIRE_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Hỏa"
+    },
+    {
+      "id": "ELEMENT_EARTH_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_EARTH_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Thổ"
+    },
+    {
+      "id": "ELEMENT_EARTH_RESIST_PERCENT",
+      "attribute": "ELEMENT_EARTH_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Thổ"
+    },
+    {
+      "id": "ELEMENT_ICE_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_ICE_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Băng"
+    },
+    {
+      "id": "ELEMENT_ICE_RESIST_PERCENT",
+      "attribute": "ELEMENT_ICE_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Băng"
+    },
+    {
+      "id": "ELEMENT_LIGHTNING_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_LIGHTNING_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Lôi"
+    },
+    {
+      "id": "ELEMENT_LIGHTNING_RESIST_PERCENT",
+      "attribute": "ELEMENT_LIGHTNING_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Lôi"
+    },
+    {
+      "id": "ELEMENT_WIND_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_WIND_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Phong"
+    },
+    {
+      "id": "ELEMENT_WIND_RESIST_PERCENT",
+      "attribute": "ELEMENT_WIND_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Phong"
+    },
+    {
+      "id": "ELEMENT_LIGHT_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_LIGHT_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Ánh Sáng"
+    },
+    {
+      "id": "ELEMENT_LIGHT_RESIST_PERCENT",
+      "attribute": "ELEMENT_LIGHT_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Ánh Sáng"
+    },
+    {
+      "id": "ELEMENT_DARK_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_DARK_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Bóng Tối"
+    },
+    {
+      "id": "ELEMENT_DARK_RESIST_PERCENT",
+      "attribute": "ELEMENT_DARK_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Bóng Tối"
+    },
+    {
+      "id": "ELEMENT_CHAOS_DAMAGE_PERCENT",
+      "attribute": "ELEMENT_CHAOS_DAMAGE",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 ST Hỗn Độn"
+    },
+    {
+      "id": "ELEMENT_CHAOS_RESIST_PERCENT",
+      "attribute": "ELEMENT_CHAOS_RESIST",
+      "operation": "ADD",
+      "value": 0,
+      "valueType": "FLAT",
+      "displayName": "0 Kháng Hỗn Độn"
+    }
+  ]
+}

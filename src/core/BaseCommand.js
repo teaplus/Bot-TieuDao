@@ -5,6 +5,8 @@ export default class BaseCommand {
         this.name = options.name;
         this.description = options.description;
         this.options = options.options || []; // Các tham số truyền vào lệnh nếu có
+        this.availability = options.availability || 'ACTIVE';
+        this.cooldown = options.cooldown || 3;
     }
 
     // Phương thức tạo cấu trúc dữ liệu gửi lên Discord API

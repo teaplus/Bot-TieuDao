@@ -1,0 +1,232 @@
+{
+  "revision": 11,
+  "equipmentIconPolicy": {
+    "revision": 1,
+    "filePattern": "equipment/variants/{type}/{grade}-{quality}.png",
+    "attachmentPattern": "equipment-{type}-{grade}-{quality}.png",
+    "types": [
+      { "id": "WEAPON", "master": "equipment/masters/weapon.png" },
+      { "id": "ARMOR", "master": "equipment/masters/armor.png" },
+      { "id": "NECKLACE", "master": "equipment/masters/necklace.png" },
+      { "id": "RING", "master": "equipment/masters/ring.png" }
+    ],
+    "grades": [
+      { "id": "HOANG", "displayName": "Hoàng", "color": "#CBD5E1" },
+      { "id": "HUYEN", "displayName": "Huyền", "color": "#60A5FA" },
+      { "id": "DIA", "displayName": "Địa", "color": "#A78BFA" },
+      { "id": "THIEN", "displayName": "Thiên", "color": "#F59E0B" },
+      { "id": "TIEN", "displayName": "Tiên", "color": "#22D3EE" },
+      { "id": "THANH", "displayName": "Thánh", "color": "#F97316" },
+      { "id": "THAN", "displayName": "Thần", "color": "#EF4444" }
+    ],
+    "qualities": [
+      { "id": "LOW", "displayName": "Hạ phẩm", "markerCount": 1, "frameWidth": 4 },
+      { "id": "MIDDLE", "displayName": "Trung phẩm", "markerCount": 2, "frameWidth": 6 },
+      { "id": "HIGH", "displayName": "Thượng phẩm", "markerCount": 3, "frameWidth": 8 }
+    ]
+  },
+  "equipmentTemplateIconPolicy": {
+    "revision": 2,
+    "masterSize": 256,
+    "variantSize": 32,
+    "masterPattern": "equipment/template-masters/{template}.png",
+    "filePattern": "equipment/template-variants/{template}/{grade}-{quality}.png",
+    "attachmentPattern": "equipment-{template}-{grade}-{quality}.png",
+    "sheets": [
+      { "element": "FIRE", "file": "equipment/template-sheets/fire.png", "templates": { "WEAPON": "EQ_FIRE_WEAPON", "ARMOR": "EQ_FIRE_ARMOR", "NECKLACE": "EQ_FIRE_NECKLACE", "RING": "EQ_FIRE_RING" } },
+      { "element": "WOOD", "file": "equipment/template-sheets/wood.png", "templates": { "WEAPON": "EQ_WOOD_WEAPON", "ARMOR": "EQ_WOOD_ARMOR", "NECKLACE": "EQ_WOOD_NECKLACE", "RING": "EQ_WOOD_RING" } },
+      { "element": "EARTH", "file": "equipment/template-sheets/earth.png", "templates": { "WEAPON": "EQ_EARTH_WEAPON", "ARMOR": "EQ_EARTH_ARMOR", "NECKLACE": "EQ_EARTH_NECKLACE", "RING": "EQ_EARTH_RING" } },
+      { "element": "WATER", "file": "equipment/template-sheets/water.png", "templates": { "WEAPON": "EQ_WATER_WEAPON", "ARMOR": "EQ_WATER_ARMOR", "NECKLACE": "EQ_WATER_NECKLACE", "RING": "EQ_WATER_RING" } },
+      { "element": "METAL", "file": "equipment/template-sheets/metal.png", "templates": { "WEAPON": "EQ_METAL_WEAPON", "ARMOR": "EQ_METAL_ARMOR", "NECKLACE": "EQ_METAL_NECKLACE", "RING": "EQ_METAL_RING" } },
+      { "element": "LIGHTNING", "file": "equipment/template-sheets/lightning.png", "templates": { "WEAPON": "EQ_LIGHTNING_WEAPON", "ARMOR": "EQ_LIGHTNING_ARMOR", "NECKLACE": "EQ_LIGHTNING_NECKLACE", "RING": "EQ_LIGHTNING_RING" } },
+      { "element": "ICE", "file": "equipment/template-sheets/ice.png", "templates": { "WEAPON": "EQ_ICE_WEAPON", "ARMOR": "EQ_ICE_ARMOR", "NECKLACE": "EQ_ICE_NECKLACE", "RING": "EQ_ICE_RING" } },
+      { "element": "WIND", "file": "equipment/template-sheets/wind.png", "templates": { "WEAPON": "EQ_WIND_WEAPON", "ARMOR": "EQ_WIND_ARMOR", "NECKLACE": "EQ_WIND_NECKLACE", "RING": "EQ_WIND_RING" } }
+    ]
+  },
+  "applicationEmojiPolicy": {
+    "revision": 1,
+    "sourceSize": 128,
+    "sourcePattern": "equipment/application-emoji-sources/{template}.png",
+    "namePattern": "td_{template}",
+    "mappingFile": "equipment/application_emojis.json"
+  },
+  "battleSemanticIconPolicy": {
+    "revision": 1,
+    "masterSize": 1254,
+    "sourceSize": 128,
+    "masterPattern": "battle-semantics/masters/{semantic}.png",
+    "sourcePattern": "battle-semantics/emoji-sources/{semantic}.png",
+    "namePattern": "td_battle_{semantic}",
+    "mappingFile": "battle-semantics/application_emojis.json",
+    "semantics": [
+      { "id": "DAMAGE", "displayName": "Sát thương", "fallback": "🗡️" },
+      { "id": "HEAL", "displayName": "Hồi máu", "fallback": "💚" },
+      { "id": "SHIELD", "displayName": "Khiên", "fallback": "🛡️" },
+      { "id": "CRITICAL", "displayName": "Chí mạng", "fallback": "💥" },
+      { "id": "BURN", "displayName": "Thiêu đốt", "fallback": "🔥" },
+      { "id": "FREEZE", "displayName": "Đóng băng", "fallback": "🧊" },
+      { "id": "STUN", "displayName": "Choáng", "fallback": "💫" },
+      { "id": "SILENCE", "displayName": "Câm lặng", "fallback": "🔕" },
+      { "id": "SLOW", "displayName": "Làm chậm", "fallback": "⌛" },
+      { "id": "HEAL_BLOCK", "displayName": "Khóa hồi máu", "fallback": "🚫" },
+      { "id": "PURIFY", "displayName": "Thanh tẩy", "fallback": "🪷" },
+      { "id": "CHAIN_DAMAGE", "displayName": "Sét lan", "fallback": "⚡" }
+    ]
+  },
+  "itemResourceIconPolicy": {
+    "revision": 1,
+    "masterSize": 1254,
+    "sourceSize": 128,
+    "masterPattern": "items/masters/{semantic}.png",
+    "sourcePattern": "items/emoji-sources/{semantic}.png",
+    "namePattern": "td_item_{semantic}",
+    "mappingFile": "items/application_emojis.json",
+    "semantics": [
+      { "id": "BREAKTHROUGH_PILL", "displayName": "Phá Chướng Đan", "fallback": "🔴" },
+      { "id": "CULTIVATION_PILL", "displayName": "Tu Vi Đan", "fallback": "🔵" },
+      { "id": "SPIRIT_GATHERING_PILL", "displayName": "Tụ Linh Đan", "fallback": "🟢" },
+      { "id": "BERSERK_PILL", "displayName": "Cuồng Bạo Đan", "fallback": "🔥" },
+      { "id": "SECRET_REALM_TICKET", "displayName": "Vé Bí Cảnh", "fallback": "🎟️" },
+      { "id": "SPIRIT_STONE", "displayName": "Linh Thạch", "fallback": "💎" },
+      { "id": "RECIPE_SCROLL", "displayName": "Đan Phương", "fallback": "📜" },
+      { "id": "HERB_PRIMARY", "displayName": "Linh Thảo Phổ Biến", "fallback": "🌿" },
+      { "id": "HERB_RARE", "displayName": "Linh Thảo Hiếm", "fallback": "🪷" },
+      { "id": "ORE_PRIMARY", "displayName": "Linh Khoáng Phổ Biến", "fallback": "🪨" },
+      { "id": "ORE_RARE", "displayName": "Linh Khoáng Hiếm", "fallback": "💠" }
+    ],
+    "itemMappings": {
+      "BREAKTHROUGH_PILL": "BREAKTHROUGH_PILL",
+      "CULTIVATION_PILL": "CULTIVATION_PILL",
+      "SPIRIT_GATHERING_PILL": "SPIRIT_GATHERING_PILL",
+      "BERSERK_PILL": "BERSERK_PILL",
+      "SECRET_REALM_TICKET": "SECRET_REALM_TICKET"
+    },
+    "currencyMappings": {
+      "SPIRIT_STONE": "SPIRIT_STONE"
+    }
+  },
+  "shopAreaIconPolicy": {
+    "revision": 1,
+    "masterSize": 1254,
+    "sourceSize": 128,
+    "masterPattern": "shops/masters/{area}.png",
+    "sourcePattern": "shops/emoji-sources/{area}.png",
+    "namePattern": "td_shop_{area}",
+    "mappingFile": "shops/application_emojis.json",
+    "areas": [
+      { "id": "MAP", "displayName": "Phường Thị", "fallback": "🏪" },
+      { "id": "SPECIAL", "displayName": "Trân Các", "fallback": "✨" },
+      { "id": "SECT", "displayName": "Tông Môn", "fallback": "🏯" },
+      { "id": "MYSTERY", "displayName": "Thương Nhân Kỳ Ngộ", "fallback": "🧙" }
+    ]
+  },
+  "mapArtPolicy": {
+    "revision": 1,
+    "width": 1672,
+    "height": 941,
+    "maps": [
+      { "id": "THANH_VAN_SON_MACH", "file": "maps/thanh-van-son-mach.png", "attachmentName": "map-thanh-van-son-mach.png" },
+      { "id": "HUYEN_MOC_QUOC", "file": "maps/huyen-moc-quoc.png", "attachmentName": "map-huyen-moc-quoc.png" },
+      { "id": "DONG_HOANG_DAI_LUC", "file": "maps/dong-hoang-dai-luc.png", "attachmentName": "map-dong-hoang-dai-luc.png" },
+      { "id": "TRUNG_CHAU_THANH_VUC", "file": "maps/trung-chau-thanh-vuc.png", "attachmentName": "map-trung-chau-thanh-vuc.png" },
+      { "id": "THIEN_LINH_GIOI", "file": "maps/thien-linh-gioi.png", "attachmentName": "map-thien-linh-gioi.png" },
+      { "id": "HU_KHONG_HAI", "file": "maps/hu-khong-hai.png", "attachmentName": "map-hu-khong-hai.png" },
+      { "id": "THANH_LINH_DAI_LUC", "file": "maps/thanh-linh-dai-luc.png", "attachmentName": "map-thanh-linh-dai-luc.png" },
+      { "id": "CUU_THIEN_TIEN_CANH", "file": "maps/cuu-thien-tien-canh.png", "attachmentName": "map-cuu-thien-tien-canh.png" },
+      { "id": "THIEN_KIEP_GIOI", "file": "maps/thien-kiep-gioi.png", "attachmentName": "map-thien-kiep-gioi.png" },
+      { "id": "TIEN_GIOI", "file": "maps/tien-gioi.png", "attachmentName": "map-tien-gioi.png" },
+      { "id": "HUYEN_THIEN_TIEN_VUC", "file": "maps/huyen-thien-tien-vuc.png", "attachmentName": "map-huyen-thien-tien-vuc.png" },
+      { "id": "KIM_KHUYET_THIEN", "file": "maps/kim-khuyet-thien.png", "attachmentName": "map-kim-khuyet-thien.png" },
+      { "id": "THAI_SO_GIOI", "file": "maps/thai-so-gioi.png", "attachmentName": "map-thai-so-gioi.png" },
+      { "id": "DAI_LA_THIEN", "file": "maps/dai-la-thien.png", "attachmentName": "map-dai-la-thien.png" },
+      { "id": "KHOI_NGUYEN_DAO_GIOI", "file": "maps/khoi-nguyen-dao-gioi.png", "attachmentName": "map-khoi-nguyen-dao-gioi.png" }
+    ]
+  },
+  "monsterPortraitPolicy": {
+    "revision": 1,
+    "width": 1254,
+    "height": 1254,
+    "fallbackOrder": ["BOSS_ID", "MONSTER_ID_OVERRIDE", "RACE_ID", "ELEMENT"],
+    "races": [
+      { "id": "BEAST", "file": "monsters/races/beast.png", "attachmentName": "monster-race-beast.png" },
+      { "id": "WOOD_DEMON", "file": "monsters/races/wood-demon.png", "attachmentName": "monster-race-wood-demon.png" },
+      { "id": "SPIRIT_CREATURE", "file": "monsters/races/spirit-creature.png", "attachmentName": "monster-race-spirit-creature.png" },
+      { "id": "SERPENT", "file": "monsters/races/serpent.png", "attachmentName": "monster-race-serpent.png" },
+      { "id": "AVIAN", "file": "monsters/races/avian.png", "attachmentName": "monster-race-avian.png" },
+      { "id": "SEA", "file": "monsters/races/sea.png", "attachmentName": "monster-race-sea.png" },
+      { "id": "TURTLE", "file": "monsters/races/turtle.png", "attachmentName": "monster-race-turtle.png" },
+      { "id": "DRAGON", "file": "monsters/races/dragon.png", "attachmentName": "monster-race-dragon.png" },
+      { "id": "HEAVENLY_DEMON", "file": "monsters/races/heavenly-demon.png", "attachmentName": "monster-race-heavenly-demon.png" },
+      { "id": "YAO", "file": "monsters/races/yao.png", "attachmentName": "monster-race-yao.png" },
+      { "id": "INSECT", "file": "monsters/races/insect.png", "attachmentName": "monster-race-insect.png" },
+      { "id": "ANCIENT_BEAST", "file": "monsters/races/ancient-beast.png", "attachmentName": "monster-race-ancient-beast.png" },
+      { "id": "DIVINE_BEAST", "file": "monsters/races/divine-beast.png", "attachmentName": "monster-race-divine-beast.png" },
+      { "id": "HEAVENLY_DAO_AVATAR", "file": "monsters/races/heavenly-dao-avatar.png", "attachmentName": "monster-race-heavenly-dao-avatar.png" }
+    ],
+    "elementalMaster": { "file": "monsters/races/elemental.png" },
+    "elementals": [
+      { "id": "FIRE", "file": "monsters/elementals/fire.png", "attachmentName": "monster-element-fire.png" },
+      { "id": "WOOD", "file": "monsters/elementals/wood.png", "attachmentName": "monster-element-wood.png" },
+      { "id": "EARTH", "file": "monsters/elementals/earth.png", "attachmentName": "monster-element-earth.png" },
+      { "id": "WATER", "file": "monsters/elementals/water.png", "attachmentName": "monster-element-water.png" },
+      { "id": "METAL", "file": "monsters/elementals/metal.png", "attachmentName": "monster-element-metal.png" },
+      { "id": "LIGHTNING", "file": "monsters/elementals/lightning.png", "attachmentName": "monster-element-lightning.png" },
+      { "id": "ICE", "file": "monsters/elementals/ice.png", "attachmentName": "monster-element-ice.png" }
+    ],
+    "overrides": [],
+    "bosses": [
+      { "id": "MON_BOSS_WOLF_KING", "file": "monsters/bosses/mon-boss-wolf-king.png", "attachmentName": "monster-boss-wolf-king.png" },
+      { "id": "MON_BOSS_TEN_THOUSAND_YEAR_TREE", "file": "monsters/bosses/mon-boss-ten-thousand-year-tree.png", "attachmentName": "monster-boss-ten-thousand-year-tree.png" },
+      { "id": "MON_BOSS_WHITE_TIGER_KING", "file": "monsters/bosses/mon-boss-white-tiger-king.png", "attachmentName": "monster-boss-white-tiger-king.png" },
+      { "id": "MON_BOSS_CUU_DAU_XA", "file": "monsters/bosses/mon-boss-cuu-dau-xa.png", "attachmentName": "monster-boss-cuu-dau-xa.png" },
+      { "id": "MON_BOSS_CHU_TUOC_HAU_DUE", "file": "monsters/bosses/mon-boss-chu-tuoc-hau-due.png", "attachmentName": "monster-boss-chu-tuoc-hau-due.png" },
+      { "id": "MON_BOSS_HAI_VUONG", "file": "monsters/bosses/mon-boss-hai-vuong.png", "attachmentName": "monster-boss-hai-vuong.png" },
+      { "id": "MON_BOSS_HUYEN_VU", "file": "monsters/bosses/mon-boss-huyen-vu.png", "attachmentName": "monster-boss-huyen-vu.png" },
+      { "id": "MON_BOSS_THAI_CO_CHAN_LONG", "file": "monsters/bosses/mon-boss-thai-co-chan-long.png", "attachmentName": "monster-boss-thai-co-chan-long.png" },
+      { "id": "MON_BOSS_MA_DE", "file": "monsters/bosses/mon-boss-ma-de.png", "attachmentName": "monster-boss-ma-de.png" },
+      { "id": "MON_BOSS_VAN_LINH_CHI_CHU", "file": "monsters/bosses/mon-boss-van-linh-chi-chu.png", "attachmentName": "monster-boss-van-linh-chi-chu.png" },
+      { "id": "MON_BOSS_YEU_HOANG", "file": "monsters/bosses/mon-boss-yeu-hoang.png", "attachmentName": "monster-boss-yeu-hoang.png" },
+      { "id": "MON_BOSS_KIM_SI_DAI_BANG", "file": "monsters/bosses/mon-boss-kim-si-dai-bang.png", "attachmentName": "monster-boss-kim-si-dai-bang.png" },
+      { "id": "MON_BOSS_THAI_CO_DI_THU", "file": "monsters/bosses/mon-boss-thai-co-di-thu.png", "attachmentName": "monster-boss-thai-co-di-thu.png" },
+      { "id": "MON_BOSS_NGU_THANH_THU", "file": "monsters/bosses/mon-boss-ngu-thanh-thu.png", "attachmentName": "monster-boss-ngu-thanh-thu.png" },
+      { "id": "MON_BOSS_THIEN_DAO_HOA_THAN", "file": "monsters/bosses/mon-boss-thien-dao-hoa-than.png", "attachmentName": "monster-boss-thien-dao-hoa-than.png" }
+    ]
+  },
+  "sectEmblemPolicy": {
+    "revision": 1,
+    "width": 1254,
+    "height": 1254,
+    "sects": [
+      { "id": "SECT_FIRE", "file": "sects/xich-diem-tong.png", "attachmentName": "sect-xich-diem-tong.png" },
+      { "id": "SECT_WOOD", "file": "sects/thanh-moc-coc.png", "attachmentName": "sect-thanh-moc-coc.png" },
+      { "id": "SECT_EARTH", "file": "sects/hau-tho-mon.png", "attachmentName": "sect-hau-tho-mon.png" },
+      { "id": "SECT_WATER", "file": "sects/thuong-hai-cac.png", "attachmentName": "sect-thuong-hai-cac.png" },
+      { "id": "SECT_METAL", "file": "sects/kim-kiem-son.png", "attachmentName": "sect-kim-kiem-son.png" },
+      { "id": "SECT_LIGHTNING", "file": "sects/thien-loi-dien.png", "attachmentName": "sect-thien-loi-dien.png" },
+      { "id": "SECT_ICE", "file": "sects/han-nguyet-cung.png", "attachmentName": "sect-han-nguyet-cung.png" },
+      { "id": "SECT_YINYANG", "file": "sects/luong-nghi-tong.png", "attachmentName": "sect-luong-nghi-tong.png" },
+      { "id": "SECT_ASSASSIN", "file": "sects/sat-than-dien.png", "attachmentName": "sect-sat-than-dien.png" },
+      { "id": "SECT_LONGEVITY", "file": "sects/truong-sinh-coc.png", "attachmentName": "sect-truong-sinh-coc.png" }
+    ]
+  },
+  "assets": [
+    {
+      "id": "CHARACTER_OVERVIEW",
+      "type": "EMBED_BANNER",
+      "file": "banners/character-overview.png",
+      "attachmentName": "tieu-dao-character-overview.png"
+    },
+    {
+      "id": "CULTIVATION",
+      "type": "EMBED_BANNER",
+      "file": "banners/cultivation.png",
+      "attachmentName": "tieu-dao-cultivation.png"
+    },
+    {
+      "id": "JOURNEY",
+      "type": "EMBED_BANNER",
+      "file": "banners/journey.png",
+      "attachmentName": "tieu-dao-journey.png"
+    }
+  ]
+}

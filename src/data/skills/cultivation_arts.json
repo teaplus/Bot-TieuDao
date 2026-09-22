@@ -1,0 +1,64 @@
+{
+  "version": 1,
+
+  "cultivationArts": [
+
+    { "id":"CP_NEUTRAL_HOANG","displayName":"Dẫn Khí Quyết","label":"Dẫn Khí Quyết","grade":"HOANG","gradeLabel":"Hoàng phẩm","element":"NEUTRAL","elementLabel":"Vô hệ","description":"Pháp môn nhập môn vô hệ, vận hành ổn định và phù hợp cho mọi đạo hữu." },
+
+    { "id":"CP_FIRE_HOANG","displayName":"Hỏa Diễm Quyết","grade":"HOANG","element":"FIRE" },
+    { "id":"CP_WOOD_HOANG","displayName":"Thanh Mộc Quyết","grade":"HOANG","element":"WOOD" },
+    { "id":"CP_EARTH_HOANG","displayName":"Hậu Thổ Quyết","grade":"HOANG","element":"EARTH" },
+    { "id":"CP_WATER_HOANG","displayName":"Huyền Thủy Quyết","grade":"HOANG","element":"WATER" },
+    { "id":"CP_METAL_HOANG","displayName":"Canh Kim Quyết","grade":"HOANG","element":"METAL" },
+    { "id":"CP_LIGHTNING_HOANG","displayName":"Dẫn Lôi Quyết","grade":"HOANG","element":"LIGHTNING" },
+    { "id":"CP_ICE_HOANG","displayName":"Hàn Băng Quyết","grade":"HOANG","element":"ICE" },
+
+    { "id":"CP_FIRE_HUYEN","displayName":"Xích Diễm Chân Quyết","grade":"HUYEN","element":"FIRE" },
+    { "id":"CP_WOOD_HUYEN","displayName":"Vạn Mộc Chân Quyết","grade":"HUYEN","element":"WOOD" },
+    { "id":"CP_EARTH_HUYEN","displayName":"Đại Địa Chân Quyết","grade":"HUYEN","element":"EARTH" },
+    { "id":"CP_WATER_HUYEN","displayName":"Thiên Hà Chân Quyết","grade":"HUYEN","element":"WATER" },
+    { "id":"CP_METAL_HUYEN","displayName":"Kim Mang Chân Quyết","grade":"HUYEN","element":"METAL" },
+    { "id":"CP_LIGHTNING_HUYEN","displayName":"Cửu Lôi Chân Quyết","grade":"HUYEN","element":"LIGHTNING" },
+    { "id":"CP_ICE_HUYEN","displayName":"Huyền Băng Chân Quyết","grade":"HUYEN","element":"ICE" },
+
+    { "id":"CP_FIRE_DIA","displayName":"Phần Thiên Bí Điển","grade":"DIA","element":"FIRE" },
+    { "id":"CP_WOOD_DIA","displayName":"Sinh Mệnh Bí Điển","grade":"DIA","element":"WOOD" },
+    { "id":"CP_EARTH_DIA","displayName":"Sơn Hà Bí Điển","grade":"DIA","element":"EARTH" },
+    { "id":"CP_WATER_DIA","displayName":"Thương Hải Bí Điển","grade":"DIA","element":"WATER" },
+    { "id":"CP_METAL_DIA","displayName":"Kim Cương Bí Điển","grade":"DIA","element":"METAL" },
+    { "id":"CP_LIGHTNING_DIA","displayName":"Tử Tiêu Lôi Điển","grade":"DIA","element":"LIGHTNING" },
+    { "id":"CP_ICE_DIA","displayName":"Hàn Ngục Bí Điển","grade":"DIA","element":"ICE" },
+
+    { "id":"CP_FIRE_THIEN","displayName":"Cửu Dương Phần Thiên Quyết","grade":"THIEN","element":"FIRE" },
+    { "id":"CP_WOOD_THIEN","displayName":"Vạn Cổ Trường Sinh Quyết","grade":"THIEN","element":"WOOD" },
+    { "id":"CP_EARTH_THIEN","displayName":"Bất Diệt Hậu Thổ Quyết","grade":"THIEN","element":"EARTH" },
+    { "id":"CP_WATER_THIEN","displayName":"Cửu Hải Chân Kinh","grade":"THIEN","element":"WATER" },
+    { "id":"CP_METAL_THIEN","displayName":"Canh Kim Phá Thiên Quyết","grade":"THIEN","element":"METAL" },
+    { "id":"CP_LIGHTNING_THIEN","displayName":"Cửu Tiêu Thần Lôi Quyết","grade":"THIEN","element":"LIGHTNING" },
+    { "id":"CP_ICE_THIEN","displayName":"Thái Âm Hàn Băng Quyết","grade":"THIEN","element":"ICE" },
+
+    { "id":"CP_FIRE_THANH","displayName":"Thánh Viêm Kinh","grade":"THANH","element":"FIRE" },
+    { "id":"CP_WOOD_THANH","displayName":"Sinh Linh Thánh Kinh","grade":"THANH","element":"WOOD" },
+    { "id":"CP_EARTH_THANH","displayName":"Thánh Linh Địa Kinh","grade":"THANH","element":"EARTH" },
+    { "id":"CP_WATER_THANH","displayName":"Thương Hải Thánh Điển","grade":"THANH","element":"WATER" },
+    { "id":"CP_METAL_THANH","displayName":"Kim Hoàng Thánh Điển","grade":"THANH","element":"METAL" },
+    { "id":"CP_LIGHTNING_THANH","displayName":"Thiên Phạt Lôi Kinh","grade":"THANH","element":"LIGHTNING" },
+    { "id":"CP_ICE_THANH","displayName":"Hàn Thiên Thánh Kinh","grade":"THANH","element":"ICE" },
+
+    { "id":"CP_FIRE_THAN","displayName":"Đại Nhật Phần Thiên Kinh","grade":"THAN","element":"FIRE" },
+    { "id":"CP_WOOD_THAN","displayName":"Thần Mộc Trường Sinh Kinh","grade":"THAN","element":"WOOD" },
+    { "id":"CP_EARTH_THAN","displayName":"Hậu Thổ Thần Kinh","grade":"THAN","element":"EARTH" },
+    { "id":"CP_WATER_THAN","displayName":"Vô Tận Hải Thần Kinh","grade":"THAN","element":"WATER" },
+    { "id":"CP_METAL_THAN","displayName":"Kim Thần Bất Diệt Kinh","grade":"THAN","element":"METAL" },
+    { "id":"CP_LIGHTNING_THAN","displayName":"Cửu Thiên Thần Lôi Kinh","grade":"THAN","element":"LIGHTNING" },
+    { "id":"CP_ICE_THAN","displayName":"Cực Hàn Thần Kinh","grade":"THAN","element":"ICE" },
+
+    { "id":"CP_WIND_HOANG","displayName":"Phong Hành Quyết","label":"Phong Hành Quyết","grade":"HOANG","gradeLabel":"Hoàng phẩm","element":"WIND","elementLabel":"Phong" },
+    { "id":"CP_WIND_HUYEN","displayName":"Tật Phong Chân Quyết","label":"Tật Phong Chân Quyết","grade":"HUYEN","gradeLabel":"Huyền phẩm","element":"WIND","elementLabel":"Phong" },
+    { "id":"CP_WIND_DIA","displayName":"Hư Phong Bí Điển","label":"Hư Phong Bí Điển","grade":"DIA","gradeLabel":"Địa phẩm","element":"WIND","elementLabel":"Phong" },
+    { "id":"CP_WIND_THIEN","displayName":"Cửu Thiên Phong Kinh","label":"Cửu Thiên Phong Kinh","grade":"THIEN","gradeLabel":"Thiên phẩm","element":"WIND","elementLabel":"Phong" },
+    { "id":"CP_WIND_THANH","displayName":"Đại La Phong Đạo","label":"Đại La Phong Đạo","grade":"THANH","gradeLabel":"Thánh phẩm","element":"WIND","elementLabel":"Phong" },
+    { "id":"CP_WIND_THAN","displayName":"Khởi Nguyên Phong Thần Kinh","label":"Khởi Nguyên Phong Thần Kinh","grade":"THAN","gradeLabel":"Thần phẩm","element":"WIND","elementLabel":"Phong" }
+
+  ]
+}

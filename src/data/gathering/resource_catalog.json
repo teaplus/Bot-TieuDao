@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "resources": [
+    {"id":"HERB_TU_LINH_THAO","displayName":"Tụ Linh Thảo","description":"Tụ linh khí loãng, nguyên liệu nền cho đan dược Luyện Khí.","mapId":"THANH_VAN_SON_MACH","resourceTier":1,"family":"HERB","role":"PRIMARY","sources":["GATHERING","MONSTER_DROP"]},
+    {"id":"HERB_THANH_TAM_THAO","displayName":"Thanh Tâm Thảo","description":"Thanh lọc tạp niệm, dùng cho đan ổn định tâm cảnh và đột phá nhập môn.","mapId":"THANH_VAN_SON_MACH","resourceTier":1,"family":"HERB","role":"RARE","sources":["GATHERING","MONSTER_DROP"]},
+    {"id":"ORE_THANH_LINH_THIET","displayName":"Thanh Linh Thiết","description":"Linh thiết phổ thông để luyện pháp khí và khôi lỗi nhập môn.","mapId":"THANH_VAN_SON_MACH","resourceTier":1,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_VAN_MAU_KHOANG","displayName":"Vân Mẫu Khoáng","description":"Khoáng có vân linh khí, dùng làm lõi phù khí và trận bàn sơ cấp.","mapId":"THANH_VAN_SON_MACH","resourceTier":1,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_HUYEN_MOC_CHI","displayName":"Huyền Mộc Chi","description":"Mộc chi giàu sinh cơ, nguyên liệu hồi phục và củng cố đạo cơ.","mapId":"HUYEN_MOC_QUOC","resourceTier":2,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_BICH_DIEP_LAN","displayName":"Bích Diệp Lan","description":"Linh lan thanh khiết, dùng cho đan dược Trúc Cơ và giải độc.","mapId":"HUYEN_MOC_QUOC","resourceTier":2,"family":"HERB","role":"RARE"},
+    {"id":"ORE_MOC_TAM_THACH","displayName":"Mộc Tâm Thạch","description":"Khoáng cộng sinh cổ mộc, phù hợp pháp khí Mộc hệ.","mapId":"HUYEN_MOC_QUOC","resourceTier":2,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_HUYEN_DONG","displayName":"Huyền Đồng Khoáng","description":"Linh đồng bền dẻo, dùng luyện trận kỳ và linh kiện khôi lỗi.","mapId":"HUYEN_MOC_QUOC","resourceTier":2,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_DIA_TAM_HOA_LIEN","displayName":"Địa Tâm Hỏa Liên","description":"Hỏa liên từ địa mạch, dùng luyện đan tăng linh lực và tôi Kim Đan.","mapId":"DONG_HOANG_DAI_LUC","resourceTier":3,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_KIM_SA_THAO","displayName":"Kim Sa Thảo","description":"Lá phủ kim sa, hỗ trợ ổn định đan hỏa và cường hóa kinh mạch.","mapId":"DONG_HOANG_DAI_LUC","resourceTier":3,"family":"HERB","role":"RARE"},
+    {"id":"ORE_XICH_VIEM_THIET","displayName":"Xích Viêm Thiết","description":"Linh thiết mang địa hỏa, nguyên liệu pháp bảo Kết Đan.","mapId":"DONG_HOANG_DAI_LUC","resourceTier":3,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_DONG_HOANG_TINH_SA","displayName":"Đông Hoang Tinh Sa","description":"Tinh sa cô đọng, dùng khắc trận văn và tinh luyện pháp bảo.","mapId":"DONG_HOANG_DAI_LUC","resourceTier":3,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_THANH_TAM_LIEN","displayName":"Thánh Tâm Liên","description":"Linh liên ôn dưỡng thần hồn, dùng cho đan dược Nguyên Anh.","mapId":"TRUNG_CHAU_THANH_VUC","resourceTier":4,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_NGUYEN_ANH_QUA","displayName":"Nguyên Anh Quả","description":"Đạo quả hiếm bổ dưỡng nguyên thần và hồi phục căn nguyên.","mapId":"TRUNG_CHAU_THANH_VUC","resourceTier":4,"family":"HERB","role":"RARE"},
+    {"id":"ORE_TRUNG_CHAU_HUYEN_NGOC","displayName":"Trung Châu Huyền Ngọc","description":"Huyền ngọc chứa linh vận, dùng cho pháp bảo thần hồn.","mapId":"TRUNG_CHAU_THANH_VUC","resourceTier":4,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_THANH_VAN_KIM","displayName":"Thánh Văn Kim","description":"Thần kim tự sinh đạo văn, dùng cho trận bàn và pháp bảo cao cấp.","mapId":"TRUNG_CHAU_THANH_VUC","resourceTier":4,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_THIEN_LINH_HOA","displayName":"Thiên Linh Hoa","description":"Hấp thu linh quang thượng giới, hỗ trợ cô đọng thần niệm.","mapId":"THIEN_LINH_GIOI","resourceTier":5,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_HOA_THAN_THAO","displayName":"Hóa Thần Thảo","description":"Linh thảo hiếm dùng cho đan dược chuyển hóa nguyên thần.","mapId":"THIEN_LINH_GIOI","resourceTier":5,"family":"HERB","role":"RARE"},
+    {"id":"ORE_THIEN_LINH_TINH","displayName":"Thiên Linh Tinh","description":"Linh tinh thuần khiết dùng luyện pháp bảo Hóa Thần.","mapId":"THIEN_LINH_GIOI","resourceTier":5,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_HOA_THAN_NGOC","displayName":"Hóa Thần Ngọc","description":"Thần ngọc dưỡng thần thức, thích hợp trận nhãn và khôi lỗi.","mapId":"THIEN_LINH_GIOI","resourceTier":5,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_HU_KHONG_DANG","displayName":"Hư Không Đằng","description":"Linh đằng sinh trong khe không gian, dùng luyện đan Luyện Hư.","mapId":"HU_KHONG_HAI","resourceTier":6,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_KHONG_MINH_HOA","displayName":"Không Minh Hoa","description":"Hoa ẩn hiện giữa hư không, hỗ trợ cảm ngộ không gian.","mapId":"HU_KHONG_HAI","resourceTier":6,"family":"HERB","role":"RARE"},
+    {"id":"ORE_HU_KHONG_THACH","displayName":"Hư Không Thạch","description":"Vật liệu chứa không gian ổn định cho túi trữ vật và trận pháp.","mapId":"HU_KHONG_HAI","resourceTier":6,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_KHONG_MINH_TINH_THIET","displayName":"Không Minh Tinh Thiết","description":"Tinh thiết xuyên hư không, dùng luyện pháp bảo không gian.","mapId":"HU_KHONG_HAI","resourceTier":6,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_THANH_LINH_CHI","displayName":"Thánh Linh Chi","description":"Linh chi dung hợp khí huyết và nguyên thần.","mapId":"THANH_LINH_DAI_LUC","resourceTier":7,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_HOP_DAO_LIEN","displayName":"Hợp Đạo Liên","description":"Đạo liên hỗ trợ thân–thần hợp nhất và ổn định pháp tướng.","mapId":"THANH_LINH_DAI_LUC","resourceTier":7,"family":"HERB","role":"RARE"},
+    {"id":"ORE_THANH_LINH_NGOC","displayName":"Thánh Linh Ngọc","description":"Thánh ngọc tương hợp nhiều loại linh lực.","mapId":"THANH_LINH_DAI_LUC","resourceTier":7,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_HOP_THIEN_KIM","displayName":"Hợp Thiên Kim","description":"Thần kim dung hợp vật liệu khác, dùng làm lõi pháp bảo Hợp Thể.","mapId":"THANH_LINH_DAI_LUC","resourceTier":7,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_CUU_THIEN_TIEN_THAO","displayName":"Cửu Thiên Tiên Thảo","description":"Tiên thảo thấm cửu thiên linh khí, nguyên liệu Đại Thừa.","mapId":"CUU_THIEN_TIEN_CANH","resourceTier":8,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_DAI_THUA_DAO_QUA","displayName":"Đại Thừa Đạo Quả","description":"Đạo quả trợ ngộ quy tắc và viên mãn tu vi Đại Thừa.","mapId":"CUU_THIEN_TIEN_CANH","resourceTier":8,"family":"HERB","role":"RARE"},
+    {"id":"ORE_CUU_THIEN_TIEN_KIM","displayName":"Cửu Thiên Tiên Kim","description":"Tiên kim dùng luyện bán tiên khí và đại trận.","mapId":"CUU_THIEN_TIEN_CANH","resourceTier":8,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_DAI_THUA_NGOC_TUY","displayName":"Đại Thừa Ngọc Tủy","description":"Ngọc tủy tinh thuần để nuôi dưỡng khí linh.","mapId":"CUU_THIEN_TIEN_CANH","resourceTier":8,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_LOI_KIEP_HOA","displayName":"Lôi Kiếp Hoa","description":"Linh hoa hấp thu kiếp lôi, dùng luyện đan kháng thiên kiếp.","mapId":"THIEN_KIEP_GIOI","resourceTier":9,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_DO_KIEP_TIEN_LIEN","displayName":"Độ Kiếp Tiên Liên","description":"Tiên liên bảo hộ căn nguyên khi vượt kiếp.","mapId":"THIEN_KIEP_GIOI","resourceTier":9,"family":"HERB","role":"RARE"},
+    {"id":"ORE_THIEN_LOI_THACH","displayName":"Thiên Lôi Thạch","description":"Kiếp thạch tích lôi lực, dùng luyện pháp bảo Lôi hệ.","mapId":"THIEN_KIEP_GIOI","resourceTier":9,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_KIEP_HOA_THAN_KIM","displayName":"Kiếp Hỏa Thần Kim","description":"Thần kim qua kiếp hỏa tôi luyện, chịu được thiên uy.","mapId":"THIEN_KIEP_GIOI","resourceTier":9,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_CHAN_TIEN_THAO","displayName":"Chân Tiên Thảo","description":"Tiên thảo cơ bản để luyện tiên đan Chân Tiên.","mapId":"TIEN_GIOI","resourceTier":10,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_TIEN_NGUYEN_QUA","displayName":"Tiên Nguyên Quả","description":"Tiên quả bổ sung tiên nguyên và chữa thương căn nguyên.","mapId":"TIEN_GIOI","resourceTier":10,"family":"HERB","role":"RARE"},
+    {"id":"ORE_TIEN_NGUYEN_NGOC","displayName":"Tiên Nguyên Ngọc","description":"Tiên ngọc tích trữ tiên nguyên cho trận pháp và tiên khí.","mapId":"TIEN_GIOI","resourceTier":10,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_CHAN_TIEN_KIM","displayName":"Chân Tiên Kim","description":"Tiên kim thuần khiết dùng luyện tiên khí nhập môn.","mapId":"TIEN_GIOI","resourceTier":10,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_HUYEN_THIEN_DAO_LIEN","displayName":"Huyền Thiên Đạo Liên","description":"Đạo liên chứa huyền thiên pháp tắc.","mapId":"HUYEN_THIEN_TIEN_VUC","resourceTier":11,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_HUYEN_TIEN_LINH_CHI","displayName":"Huyền Tiên Linh Chi","description":"Linh chi bồi bổ huyền tiên thể và thần hồn.","mapId":"HUYEN_THIEN_TIEN_VUC","resourceTier":11,"family":"HERB","role":"RARE"},
+    {"id":"ORE_HUYEN_THIEN_TINH","displayName":"Huyền Thiên Tinh","description":"Tinh thạch dùng bố trí huyền thiên tiên trận.","mapId":"HUYEN_THIEN_TIEN_VUC","resourceTier":11,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_HUYEN_TIEN_BI_NGAN","displayName":"Huyền Tiên Bí Ngân","description":"Bí ngân dẫn truyền pháp tắc, dùng cho tiên khí tinh vi.","mapId":"HUYEN_THIEN_TIEN_VUC","resourceTier":11,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_KIM_KHUYET_TIEN_LAN","displayName":"Kim Khuyết Tiên Lan","description":"Tiên lan mang kim quang, dùng luyện Kim Tiên đan.","mapId":"KIM_KHUYET_THIEN","resourceTier":12,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_KIM_TIEN_DAO_QUA","displayName":"Kim Tiên Đạo Quả","description":"Đạo quả củng cố bất hủ kim thân.","mapId":"KIM_KHUYET_THIEN","resourceTier":12,"family":"HERB","role":"RARE"},
+    {"id":"ORE_KIM_KHUYET_THAN_KIM","displayName":"Kim Khuyết Thần Kim","description":"Thần kim cứng chắc dùng luyện Kim Tiên khí.","mapId":"KIM_KHUYET_THIEN","resourceTier":12,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_THAI_DUONG_TIEN_TINH","displayName":"Thái Dương Tiên Tinh","description":"Tiên tinh chứa dương lực, dùng làm lõi công phạt tiên khí.","mapId":"KIM_KHUYET_THIEN","resourceTier":12,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_THAI_SO_HON_NGUYEN_THAO","displayName":"Thái Sơ Hỗn Nguyên Thảo","description":"Linh thảo mang hỗn nguyên khí sơ khai.","mapId":"THAI_SO_GIOI","resourceTier":13,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_THAI_AT_DAO_LIEN","displayName":"Thái Ất Đạo Liên","description":"Đạo liên trợ diễn hóa Thái Ất pháp tắc.","mapId":"THAI_SO_GIOI","resourceTier":13,"family":"HERB","role":"RARE"},
+    {"id":"ORE_THAI_SO_NGUYEN_THACH","displayName":"Thái Sơ Nguyên Thạch","description":"Nguyên thạch chứa khí tức khai thiên.","mapId":"THAI_SO_GIOI","resourceTier":13,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_THAI_AT_TIEN_KIM","displayName":"Thái Ất Tiên Kim","description":"Tiên kim dung nạp đa tầng pháp tắc.","mapId":"THAI_SO_GIOI","resourceTier":13,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_DAI_LA_DAO_QUA","displayName":"Đại La Đạo Quả","description":"Đạo quả giúp lĩnh ngộ vạn pháp quy nhất.","mapId":"DAI_LA_THIEN","resourceTier":14,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_VAN_PHAP_TIEN_LIEN","displayName":"Vạn Pháp Tiên Liên","description":"Tiên liên phản chiếu nhiều pháp tắc Đại La.","mapId":"DAI_LA_THIEN","resourceTier":14,"family":"HERB","role":"RARE"},
+    {"id":"ORE_DAI_LA_THAN_KIM","displayName":"Đại La Thần Kim","description":"Thần kim dùng luyện Đại La đạo khí.","mapId":"DAI_LA_THIEN","resourceTier":14,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_VAN_PHAP_DAO_TINH","displayName":"Vạn Pháp Đạo Tinh","description":"Đạo tinh khắc ghi pháp tắc, thích hợp làm trận nhãn.","mapId":"DAI_LA_THIEN","resourceTier":14,"family":"ORE","role":"RARE"},
+
+    {"id":"HERB_KHOI_NGUYEN_DAO_LIEN","displayName":"Khởi Nguyên Đạo Liên","description":"Đạo liên sinh từ nguyên khí khởi nguyên.","mapId":"KHOI_NGUYEN_DAO_GIOI","resourceTier":15,"family":"HERB","role":"PRIMARY"},
+    {"id":"HERB_HONG_MONG_THAN_THAO","displayName":"Hồng Mông Thần Thảo","description":"Thần thảo mang Hồng Mông khí, dùng cho đạo đan tối thượng.","mapId":"KHOI_NGUYEN_DAO_GIOI","resourceTier":15,"family":"HERB","role":"RARE"},
+    {"id":"ORE_KHOI_NGUYEN_THAN_THACH","displayName":"Khởi Nguyên Thần Thạch","description":"Thần thạch duy trì bản nguyên của đạo khí.","mapId":"KHOI_NGUYEN_DAO_GIOI","resourceTier":15,"family":"ORE","role":"PRIMARY"},
+    {"id":"ORE_HONG_MONG_DAO_KIM","displayName":"Hồng Mông Đạo Kim","description":"Đạo kim tối thượng dùng luyện chí bảo cấp Đạo Tổ.","mapId":"KHOI_NGUYEN_DAO_GIOI","resourceTier":15,"family":"ORE","role":"RARE"}
+  ]
+}

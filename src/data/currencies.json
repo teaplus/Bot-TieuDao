@@ -1,0 +1,45 @@
+{
+  "currencies": [
+
+    {
+      "id": "SPIRIT_STONE",
+
+      "displayName": "Linh Thạch",
+
+      "description": "Tiền tệ chính của game.",
+
+      "stackable": true
+    },
+
+    {
+      "id": "SECT_POINT",
+
+      "displayName": "Điểm Cống Hiến",
+
+      "description": "Điểm môn phái.",
+
+      "stackable": true
+    },
+
+    {
+      "id": "HONOR",
+
+      "displayName": "Điểm Vinh Dự",
+
+      "description": "Điểm PvP.",
+
+      "stackable": true
+    },
+
+    {
+      "id": "EVENT_POINT",
+
+      "displayName": "Điểm Sự Kiện",
+
+      "description": "Điểm Event.",
+
+      "stackable": true
+    }
+
+  ]
+}

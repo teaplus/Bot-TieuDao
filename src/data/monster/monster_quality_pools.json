@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "pools": [
+    {
+      "id": "QUALITY_POOL_THANH_VAN",
+      "realmCode": "LUYEN_KHI",
+      "entries": [
+        { "qualityId": "FAN_THU", "weight": 75 },
+        { "qualityId": "LINH_THU", "weight": 20 },
+        { "qualityId": "YEU_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_HUYEN_MOC",
+      "realmCode": "TRUC_CO",
+      "entries": [
+        { "qualityId": "FAN_THU", "weight": 55 },
+        { "qualityId": "LINH_THU", "weight": 30 },
+        { "qualityId": "YEU_THU", "weight": 12 },
+        { "qualityId": "HUYEN_THU", "weight": 3 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_DONG_HOANG",
+      "realmCode": "KET_DAN",
+      "entries": [
+        { "qualityId": "FAN_THU", "weight": 35 },
+        { "qualityId": "LINH_THU", "weight": 35 },
+        { "qualityId": "YEU_THU", "weight": 20 },
+        { "qualityId": "HUYEN_THU", "weight": 8 },
+        { "qualityId": "DIA_THU", "weight": 2 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_TRUNG_CHAU",
+      "realmCode": "NGUYEN_ANH",
+      "entries": [
+        { "qualityId": "LINH_THU", "weight": 45 },
+        { "qualityId": "YEU_THU", "weight": 35 },
+        { "qualityId": "HUYEN_THU", "weight": 15 },
+        { "qualityId": "DIA_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_THIEN_LINH",
+      "realmCode": "HOA_THAN",
+      "entries": [
+        { "qualityId": "YEU_THU", "weight": 45 },
+        { "qualityId": "HUYEN_THU", "weight": 35 },
+        { "qualityId": "DIA_THU", "weight": 15 },
+        { "qualityId": "THIEN_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_HU_KHONG",
+      "realmCode": "LUYEN_HU",
+      "entries": [
+        { "qualityId": "HUYEN_THU", "weight": 45 },
+        { "qualityId": "DIA_THU", "weight": 35 },
+        { "qualityId": "THIEN_THU", "weight": 15 },
+        { "qualityId": "THANH_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_THANH_LINH",
+      "realmCode": "HOP_THE",
+      "entries": [
+        { "qualityId": "DIA_THU", "weight": 45 },
+        { "qualityId": "THIEN_THU", "weight": 35 },
+        { "qualityId": "THANH_THU", "weight": 15 },
+        { "qualityId": "TIEN_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_CUU_THIEN",
+      "realmCode": "DAI_THUA",
+      "entries": [
+        { "qualityId": "THIEN_THU", "weight": 45 },
+        { "qualityId": "THANH_THU", "weight": 35 },
+        { "qualityId": "TIEN_THU", "weight": 15 },
+        { "qualityId": "THAN_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_THIEN_KIEP",
+      "realmCode": "DO_KIEP",
+      "entries": [
+        { "qualityId": "THANH_THU", "weight": 45 },
+        { "qualityId": "TIEN_THU", "weight": 35 },
+        { "qualityId": "THAN_THU", "weight": 15 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_TIEN_GIOI",
+      "realmCode": "CHAN_TIEN",
+      "entries": [
+        { "qualityId": "THANH_THU", "weight": 30 },
+        { "qualityId": "TIEN_THU", "weight": 40 },
+        { "qualityId": "THAN_THU", "weight": 25 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 5 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_HUYEN_THIEN",
+      "realmCode": "HUYEN_TIEN",
+      "entries": [
+        { "qualityId": "TIEN_THU", "weight": 40 },
+        { "qualityId": "THAN_THU", "weight": 40 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 20 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_KIM_KHUYET",
+      "realmCode": "KIM_TIEN",
+      "entries": [
+        { "qualityId": "TIEN_THU", "weight": 25 },
+        { "qualityId": "THAN_THU", "weight": 55 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 20 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_THAI_SO",
+      "realmCode": "THAI_AT",
+      "entries": [
+        { "qualityId": "TIEN_THU", "weight": 10 },
+        { "qualityId": "THAN_THU", "weight": 70 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 20 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_DAI_LA",
+      "realmCode": "DAI_LA",
+      "entries": [
+        { "qualityId": "THAN_THU", "weight": 80 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 20 }
+      ]
+    },
+    {
+      "id": "QUALITY_POOL_KHOI_NGUYEN",
+      "realmCode": "DAO_TO",
+      "entries": [
+        { "qualityId": "THAN_THU", "weight": 80 },
+        { "qualityId": "HONG_HOANG_DI_THU", "weight": 20 }
+      ]
+    }
+  ]
+}

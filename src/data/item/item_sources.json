@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "id": "MONSTER_DROP",
+      "displayName": "Quái Rơi"
+    },
+    {
+      "id": "SHOP",
+      "displayName": "Cửa Hàng"
+    },
+    {
+      "id": "CRAFT",
+      "displayName": "Chế Tạo"
+    },
+    {
+      "id": "EXCHANGE",
+      "displayName": "Đổi"
+    },
+    {
+      "id": "QUEST",
+      "displayName": "Nhiệm Vụ"
+    },
+    {
+      "id": "EVENT",
+      "displayName": "Sự Kiện"
+    },
+    {
+      "id": "GM",
+      "displayName": "GM"
+    },
+    {
+        "id": "GATHERING",
+        "displayName": "Thu Thập"
+    }
+  ]
+}

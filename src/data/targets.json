@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "targets": [
+    {
+      "id": "SELF",
+      "displayName": "Bản thân"
+    },
+    {
+      "id": "ALLY_SINGLE",
+      "displayName": "Một đồng minh"
+    },
+    {
+      "id": "ALLY_ALL",
+      "displayName": "Toàn bộ đồng minh"
+    },
+    {
+      "id": "ALLY_RANDOM",
+      "displayName": "Đồng minh ngẫu nhiên"
+    },
+    {
+      "id": "ALLY_LOWEST_HP",
+      "displayName": "Đồng minh có HP thấp nhất"
+    },
+    {
+      "id": "ALLY_HIGHEST_ATTACK",
+      "displayName": "Đồng minh có Công cao nhất"
+    },
+    {
+      "id": "ENEMY_SINGLE",
+      "displayName": "Một kẻ địch"
+    },
+    {
+      "id": "ENEMY_RANDOM",
+      "displayName": "Một kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": "ENEMY_ALL",
+      "displayName": "Toàn bộ kẻ địch"
+    },
+    {
+      "id": "DEAD_ALLY",
+      "displayName": "Đồng minh đã tử trận"
+    },
+    {
+      "id": "ALL",
+      "displayName": "Toàn bộ mục tiêu"
+    }
+  ]
+}

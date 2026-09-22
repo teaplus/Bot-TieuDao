@@ -1,0 +1,78 @@
+{
+  "version": 1,
+
+  "displayLabels": {
+    "contentTypes": {
+      "CULTIVATION_ART": "Công pháp tu luyện",
+      "ACTIVE": "Kỹ năng chủ động",
+      "PASSIVE": "Kỹ năng bị động"
+    },
+    "elements": {
+      "METAL": "Kim",
+      "WOOD": "Mộc",
+      "WATER": "Thủy",
+      "FIRE": "Hỏa",
+      "EARTH": "Thổ",
+      "WIND": "Phong",
+      "LIGHTNING": "Lôi",
+      "ICE": "Băng",
+      "LIGHT": "Ánh Sáng",
+      "DARK": "Bóng Tối",
+      "CHAOS": "Hỗn Độn",
+      "NEUTRAL": "Vô hệ"
+    },
+    "grades": {
+      "HOANG": "Hoàng phẩm",
+      "HUYEN": "Huyền phẩm",
+      "DIA": "Địa phẩm",
+      "THIEN": "Thiên phẩm",
+      "THANH": "Thánh phẩm",
+      "THAN": "Thần phẩm"
+    }
+  },
+
+   "allowCrossElement": true,
+   "sameElementMultiplier": 1.0,
+   "differentElementMultiplier": 0.8,
+    
+  "allowDuplicateAffix": false,
+  "defenseSkill": {
+    "trigger": "HP_BELOW_PERCENT",
+    "triggerHpPercent": 30,
+    "duration": 2,
+    "oncePerBattle": true
+  },
+
+  "skillSlots": {
+    "cultivationArts": 1,
+    "attackSkills": 3,
+    "defenseSkills":2
+  },
+
+  "playerLoadout": {
+    "revision": 1,
+    "maxActiveSkills": 3,
+    "capacityMilestones": [
+      { "realmCode": "LUYEN_KHI", "capacity": 2 },
+      { "realmCode": "KET_DAN", "capacity": 3 },
+      { "realmCode": "HOA_THAN", "capacity": 4 },
+      { "realmCode": "HOP_THE", "capacity": 5 },
+      { "realmCode": "DO_KIEP", "capacity": 6 },
+      { "realmCode": "HUYEN_TIEN", "capacity": 7 },
+      { "realmCode": "THAI_AT", "capacity": 8 },
+      { "realmCode": "DAO_TO", "capacity": 9 }
+    ]
+  },
+
+  "triggerSkill": {
+    "maxTriggerPerTurn": 2
+  },
+
+  "activeSkillSelection": {
+    "selfSustainPriorityBelowHpPercent": 50
+  },
+
+  "randomSkill": {
+    "allowDuplicate": true
+  }
+}

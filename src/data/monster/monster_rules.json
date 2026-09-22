@@ -1,0 +1,58 @@
+{
+  "version": 3,
+  "description": "Bộ quy tắc chung về xuất hiện quái vật và công thức nội suy chỉ số (Runtime Scaling Formula)",
+  
+  "exploration": {
+    "variant": [
+      "NORMAL",
+      "ELITE"
+    ]
+  },
+
+  "dungeon": {
+    "variant": [
+      "NORMAL",
+      "BOSS"
+    ]
+  },
+
+  "skillSlots": {
+    "maxSkills": 2,
+    "attackSkills": 2,
+    "defenseSkills": 0
+  },
+
+  "rewardResolution": {
+    "aliases": {
+      "BASIC_MONSTER_DROP": {
+        "strategy": "BY_REALM_ORDER",
+        "source": "MONSTER_REWARD_SCALING_V1",
+        "realmOrderTableIds": {}
+      }
+    }
+  },
+
+  "scalingFormulas": {
+    "monster": {
+      "stagePolicy": "FIXED",
+      "defaultFixedStage": 1,
+      "description": "Quái thường lấy chỉ số cơ bản của Đại Cảnh Giới, bỏ qua tăng trưởng theo Bậc (growthPerStage) vì bị khóa ở Bậc 1.",
+      "math": {
+        "HP": "realm.attributes.HP.initial * variant.hpMultiplier",
+        "ATK": "realm.attributes.ATK.initial * variant.atkMultiplier",
+        "DEF": "realm.attributes.DEF.initial * variant.defMultiplier",
+        "SPD": "realm.attributes.SPD.initial * variant.currencyMultiplier" 
+      }
+    },
+    "boss": {
+      "stagePolicy": "ADAPTIVE",
+      "description": "Boss cộng dồn toàn bộ chỉ số theo Bậc (Stage) hiện tại của người chơi/server, đồng thời nhân thêm hệ số sự kiện (worldBossMultiplier).",
+      "math": {
+        "HP": "(realm.attributes.HP.initial * (realm.attributes.HP.growthPerStage ^ (currentStage - 1))) * variant.hpMultiplier * scalingRule.worldBossMultiplier",
+        "ATK": "(realm.attributes.ATK.initial * (realm.attributes.ATK.growthPerStage ^ (currentStage - 1))) * variant.atkMultiplier",
+        "DEF": "(realm.attributes.DEF.initial * (realm.attributes.DEF.growthPerStage ^ (currentStage - 1))) * variant.defMultiplier",
+        "SPD": "(realm.attributes.SPD.initial * (realm.attributes.SPD.growthPerStage ^ (currentStage - 1))) * variant.currencyMultiplier"
+      }
+    }
+  }
+}

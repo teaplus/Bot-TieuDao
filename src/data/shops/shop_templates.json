@@ -1,0 +1,67 @@
+{
+  "shops": [
+
+    {
+      "id": "GENERAL",
+
+      "displayName": "Thương thành",
+
+      "entries": [
+
+        {
+
+          "id": "BREAKTHROUGH_PILL",
+
+          "itemId": "BREAKTHROUGH_PILL",
+
+          "currencyId": "SPIRIT_STONE",
+
+          "price": 150,
+
+          "quantity": 1,
+
+          "dailyLimit": 0,
+
+          "requiredRealm": "LUYEN_KHI"
+
+        },
+
+        {
+
+          "id": "CULTIVATION_PILL",
+
+          "itemId": "CULTIVATION_PILL",
+
+          "currencyId": "SPIRIT_STONE",
+
+          "price": 150,
+
+          "quantity": 1,
+
+          "dailyLimit": 0,
+
+          "requiredRealm": "LUYEN_KHI"
+        },
+
+        {
+
+          "id": "SECRET_REALM_TICKET",
+
+          "itemId": "SECRET_REALM_TICKET",
+
+          "currencyId": "SPIRIT_STONE",
+
+          "price": 500,
+
+          "quantity": 1,
+
+          "dailyLimit": 0
+
+        }
+
+      ]
+
+    }
+
+  ]
+}

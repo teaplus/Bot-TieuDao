@@ -1,9 +1,12 @@
-import fs from 'fs';
 import pool from '../database/postgres.js';
-import ItemFactory from './ItemFactory.js';
+import ItemFactory from '../factories/ItemFactory.js';
+import { getGameDataManager } from '../foundation/game-data/gameDataContext.js';
 
-const arts = JSON.parse(fs.readFileSync('./src/data/cultivationArts.json', 'utf-8'));
+function getArts() {
+    return getGameDataManager().getCollection('cultivationArts') || {};
+}
 
+// LEGACY: use gameplay/player/CultivationArtService.js for new command flows.
 async function consumeOne(client, inventoryId) {
     await client.query(
         `DELETE FROM player_items WHERE id = $1 AND quantity = 1`,
@@ -40,7 +43,7 @@ export default class CultivationArtManager {
             await consumeOne(client, inventoryId);
             await client.query('UPDATE players SET cultivation_art_id = $1 WHERE id = $2', [template.artId, playerId]);
             await client.query('COMMIT');
-            return arts[template.artId];
+            return getArts()[template.artId];
         } catch (error) {
             await client.query('ROLLBACK');
             throw error;
@@ -58,7 +61,7 @@ export default class CultivationArtManager {
             [artId, playerId]
         );
         if (!result.rowCount) throw new Error('ART_NOT_LEARNED');
-        return arts[artId];
+        return getArts()[artId];
     }
 
     static async list(playerId) {
@@ -68,6 +71,7 @@ export default class CultivationArtManager {
              WHERE a.player_id = $1 ORDER BY a.learned_at`,
             [playerId]
         );
+        const arts = getArts();
         return result.rows.map((row) => ({ ...arts[row.art_id], active: row.active })).filter((art) => art.id);
     }
 }

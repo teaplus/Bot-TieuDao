@@ -1,48 +1,72 @@
 import { EmbedBuilder, MessageFlags } from 'discord.js';
 import BaseCommand from '../../core/BaseCommand.js';
-import TreasureHuntManager from '../../managers/TreasureHuntManager.js';
+import { formatIntegerAmount } from '../../shared/numeric/IntegerAmount.js';
 
 function formatTime(seconds) {
     const minutes = Math.ceil(seconds / 60);
-    if (minutes < 60) return `${minutes} phút`;
-    return `${Math.floor(minutes / 60)} giờ ${minutes % 60} phút`;
+    if (minutes < 60) return `${minutes} phut`;
+    return `${Math.floor(minutes / 60)} gio ${minutes % 60} phut`;
+}
+
+function formatReward(reward) {
+    if (reward.type === 'CURRENCY') {
+        return `**${formatIntegerAmount(reward.amount || 0)} ${reward.currencyId}**`;
+    }
+
+    if (reward.type === 'ITEM') {
+        return `**${reward.itemId}** x${reward.quantity || 1}`;
+    }
+
+    if (reward.type === 'EQUIPMENT') {
+        return `**${reward.itemId}** (${reward.rarity || 'COMMON'})`;
+    }
+
+    return `**${reward.type || 'UNKNOWN'}**`;
 }
 
 export default class TreasureHuntCommand extends BaseCommand {
     constructor() {
-        super({ name: 'tambao', description: 'Thăm dò bí cảnh để tìm linh thạch và bảo vật' });
+        super({
+            name: 'tambao',
+            description: 'Tham dò bí cảnh để tìm linh thạch và bảo vật',
+            cooldown: 300
+        });
     }
 
-    async execute(interaction) {
+    async execute(interaction, client) {
         await interaction.deferReply();
         try {
-            const reward = await TreasureHuntManager.hunt(interaction.user.id);
+            const result = await client.treasureHuntService.hunt(interaction.user.id, {
+                operationId: interaction.id
+            });
+            const rewards = result.reward?.applied?.rewards || [];
             const embed = new EmbedBuilder()
-                .setTitle('Tầm bảo trở về')
+                .setTitle('Tam bao tro ve')
                 .setColor('#D4A017')
-                .setDescription('Đạo hữu vượt qua hiểm địa và tìm được một cơ duyên.');
-
-            if (reward.type === 'SPIRIT_STONES') {
-                embed.addFields({ name: 'Thu hoạch', value: `**${reward.amount} Linh thạch**` });
-            } else {
-                embed.addFields({
-                    name: `Thu hoạch • ID ${reward.item.uuid}`,
-                    value: reward.item.getDisplayString()
+                .setDescription('Dao huu vuot qua hiem dia va tim duoc mot co duyen.')
+                .addFields({
+                    name: 'Thu hoach',
+                    value: rewards.length
+                        ? rewards.map(formatReward).join('\n')
+                        : 'Khong tim thay co duyen nao.'
                 });
-            }
+
             return interaction.editReply({ embeds: [embed] });
         } catch (error) {
             if (error.message === 'PLAYER_NOT_FOUND') {
-                return interaction.editReply({ content: 'Hãy dùng `/start` để tạo nhân vật trước.', flags: MessageFlags.Ephemeral });
+                return interaction.editReply({ content: 'Hay dung `/start` de tao nhan vat truoc.', flags: MessageFlags.Ephemeral });
             }
             if (error.message === 'COOLDOWN') {
                 return interaction.editReply({
-                    content: `Linh khí bí cảnh chưa khôi phục. Có thể tầm bảo lại sau **${formatTime(error.remainingSeconds)}**.`,
+                    content: `Linh khi bi canh chua khoi phuc. Co the tam bao lai sau **${formatTime(error.remainingSeconds)}**.`,
                     flags: MessageFlags.Ephemeral
                 });
             }
-            console.error('Lỗi tại lệnh /tambao:', error);
-            return interaction.editReply('Bí cảnh biến động, chưa thể tầm bảo lúc này.');
+
+            client.logger?.error('Tambao command failed', {
+                error: error instanceof Error ? error.message : String(error)
+            });
+            return interaction.editReply('Bi canh bien dong, chua the tam bao luc nay.');
         }
     }
 }

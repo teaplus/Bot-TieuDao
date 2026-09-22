@@ -1,0 +1,140 @@
+{
+  "version": 2,
+
+  "affinityPolicy": {
+    "revision": 1,
+    "mode": "MATCH_SPIRIT_ROOT_ELEMENT",
+    "mismatchBonus": "0",
+    "neutralArt": {
+      "artId": "CP_NEUTRAL_HOANG",
+      "baseBonus": "0.20",
+      "eligibleForAffinity": false
+    },
+    "gradeBonuses": {
+      "HOANG": "0.20",
+      "HUYEN": "0.25",
+      "DIA": "0.30",
+      "THIEN": "0.35",
+      "THANH": "0.40",
+      "THAN": "0.50"
+    }
+  },
+
+  "levels": [
+
+    {
+      "grade": "HOANG",
+      "quality": "LOW",
+      "requiredRealm": "LUYEN_KHI",
+      "modifierId": "CUL_UP_20"
+    },
+    {
+      "grade": "HOANG",
+      "quality": "MIDDLE",
+      "requiredRealm": "LUYEN_KHI",
+      "modifierId": "CUL_UP_25"
+    },
+    {
+      "grade": "HOANG",
+      "quality": "HIGH",
+      "requiredRealm": "LUYEN_KHI",
+      "modifierId": "CUL_UP_30"
+    },
+
+    {
+      "grade": "HUYEN",
+      "quality": "LOW",
+      "requiredRealm": "KET_DAN",
+      "modifierId": "CUL_UP_40"
+    },
+    {
+      "grade": "HUYEN",
+      "quality": "MIDDLE",
+      "requiredRealm": "KET_DAN",
+      "modifierId": "CUL_UP_45"
+    },
+    {
+      "grade": "HUYEN",
+      "quality": "HIGH",
+      "requiredRealm": "KET_DAN",
+      "modifierId": "CUL_UP_50"
+    },
+
+    {
+      "grade": "DIA",
+      "quality": "LOW",
+      "requiredRealm": "LUYEN_HU",
+      "modifierId": "CUL_UP_60"
+    },
+    {
+      "grade": "DIA",
+      "quality": "MIDDLE",
+      "requiredRealm": "LUYEN_HU",
+      "modifierId": "CUL_UP_65"
+    },
+    {
+      "grade": "DIA",
+      "quality": "HIGH",
+      "requiredRealm": "LUYEN_HU",
+      "modifierId": "CUL_UP_70"
+    },
+
+    {
+      "grade": "THIEN",
+      "quality": "LOW",
+      "requiredRealm": "CHAN_TIEN",
+      "modifierId": "CUL_UP_80"
+    },
+    {
+      "grade": "THIEN",
+      "quality": "MIDDLE",
+      "requiredRealm": "CHAN_TIEN",
+      "modifierId": "CUL_UP_90"
+    },
+    {
+      "grade": "THIEN",
+      "quality": "HIGH",
+      "requiredRealm": "CHAN_TIEN",
+      "modifierId": "CUL_UP_100"
+    },
+
+    {
+      "grade": "THANH",
+      "quality": "LOW",
+      "requiredRealm": "DAI_LA",
+      "modifierId": "CUL_UP_110"
+    },
+    {
+      "grade": "THANH",
+      "quality": "MIDDLE",
+      "requiredRealm": "DAI_LA",
+      "modifierId": "CUL_UP_115"
+    },
+    {
+      "grade": "THANH",
+      "quality": "HIGH",
+      "requiredRealm": "DAI_LA",
+      "modifierId": "CUL_UP_120"
+    },
+
+    {
+      "grade": "THAN",
+      "quality": "LOW",
+      "requiredRealm": "DAO_TO",
+      "modifierId": "CUL_UP_120"
+    },
+    {
+      "grade": "THAN",
+      "quality": "MIDDLE",
+      "requiredRealm": "DAO_TO",
+      "modifierId": "CUL_UP_130"
+    },
+    {
+      "grade": "THAN",
+      "quality": "HIGH",
+      "requiredRealm": "DAO_TO",
+      "modifierId": "CUL_UP_140"
+    }
+
+  ]
+}

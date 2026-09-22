@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": "PRIMARY",
+      "displayName": "Chỉ số cơ bản"
+    },
+    {
+      "id": "SECONDARY",
+      "displayName": "Chỉ số chiến đấu"
+    },
+    {
+      "id": "SPECIAL",
+      "displayName": "Chỉ số đặc biệt"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 import pool from '../database/postgres.js';
-import ItemFactory from './ItemFactory.js';
-import SkillFactory from './SkillFactory.js';
+import ItemFactory from '../factories/ItemFactory.js';
+import SkillFactory from '../factories/SkillFactory.js';
 
+// LEGACY: use gameplay/player/SkillService.js for new command flows.
 export default class SkillManager {
     static async learn(playerId, inventoryId) {
         const client = await pool.connect();

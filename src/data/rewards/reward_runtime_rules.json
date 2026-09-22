@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "applyMode": "ALL_OR_NOTHING",
+  "overflowPolicy": "ROLLBACK_RETRYABLE",
+  "luckChancePolicy": {
+    "formula": "RELATIVE_MULTIPLIER_CAP_100",
+    "percentPerLuck": 1,
+    "luckCap": 100,
+    "chanceCapPercent": 100,
+    "snapshotTiming": "ACTIVITY_START",
+    "eligibleRewardTypes": [
+      "ITEM",
+      "EQUIPMENT",
+      "SKILL",
+      "CULTIVATION_ART"
+    ],
+    "excludedRewardTypes": [
+      "CURRENCY"
+    ]
+  }
+}

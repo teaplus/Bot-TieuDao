@@ -1,0 +1,77 @@
+{
+  "actionTypes": [
+
+    {
+      "id": "RECEIVE_ITEM",
+      "displayName": "Nhận Item",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "USE_ITEM",
+      "displayName": "Tiêu hao Item",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "RECEIVE_EQUIPMENT",
+      "displayName": "Nhận Trang Bị",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "RECEIVE_CURRENCY",
+      "displayName": "Nhận Tiền Tệ",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "USE_CURRENCY",
+      "displayName": "Tiêu Hao Tiền Tệ",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "GAIN_EXP",
+      "displayName": "Nhận Tu Vi",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "BREAKTHROUGH",
+      "displayName": "Tăng Tỉ Lệ Đột Phá",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "CULTIVATION",
+      "displayName": "Tăng Tốc Độ Tu Luyện",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "BATTLE_MODIFIER",
+      "displayName": "Battle Modifier",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "PERMISSION",
+      "displayName": "Permission",
+      "target": "PLAYER"
+    },
+
+    {
+      "id": "OPEN_CHEST",
+      "displayName": "Mở Rương",
+      "target": "SYSTEM"
+    },
+
+    {
+      "id": "RANDOM_REWARD",
+      "displayName": "Phần Thưởng Ngẫu Nhiên",
+      "target": "SYSTEM"
+    }
+    
+  ]
+}

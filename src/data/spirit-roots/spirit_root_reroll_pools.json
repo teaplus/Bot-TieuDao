@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "pools": [
+    {
+      "id": "SPIRIT_ROOT_REBIRTH_QUALITY_V1",
+      "revision": 4,
+      "templateWeightSource": "REBIRTH_BRACKETS",
+      "templateWeightBrackets": [
+        {
+          "id": "ROOT_REBIRTH_0_9",
+          "minRebirthCount": "0",
+          "maxRebirthCount": "9",
+          "entries": [
+            { "spiritRootId": "THIEN_LINH_CAN", "weight": 1 },
+            { "spiritRootId": "BANG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "LOI_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "PHONG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "HON_DON_LINH_CAN", "weight": 0 },
+            { "spiritRootId": "KIM_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "MOC_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THUY_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "HOA_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THO_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "TAP_CAN", "weight": 30 }
+          ]
+        },
+        {
+          "id": "ROOT_REBIRTH_10_19",
+          "minRebirthCount": "10",
+          "maxRebirthCount": "19",
+          "entries": [
+            { "spiritRootId": "THIEN_LINH_CAN", "weight": 1 },
+            { "spiritRootId": "BANG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "LOI_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "PHONG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "HON_DON_LINH_CAN", "weight": 0.5 },
+            { "spiritRootId": "KIM_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "MOC_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THUY_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "HOA_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THO_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "TAP_CAN", "weight": 29.5 }
+          ]
+        },
+        {
+          "id": "ROOT_REBIRTH_20_39",
+          "minRebirthCount": "20",
+          "maxRebirthCount": "39",
+          "entries": [
+            { "spiritRootId": "THIEN_LINH_CAN", "weight": 1 },
+            { "spiritRootId": "BANG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "LOI_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "PHONG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "HON_DON_LINH_CAN", "weight": 1 },
+            { "spiritRootId": "KIM_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "MOC_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THUY_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "HOA_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THO_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "TAP_CAN", "weight": 29 }
+          ]
+        },
+        {
+          "id": "ROOT_REBIRTH_40_PLUS",
+          "minRebirthCount": "40",
+          "maxRebirthCount": null,
+          "entries": [
+            { "spiritRootId": "THIEN_LINH_CAN", "weight": 1 },
+            { "spiritRootId": "BANG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "LOI_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "PHONG_LINH_CAN", "weight": 3 },
+            { "spiritRootId": "HON_DON_LINH_CAN", "weight": 2 },
+            { "spiritRootId": "KIM_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "MOC_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THUY_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "HOA_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "THO_LINH_CAN", "weight": 12 },
+            { "spiritRootId": "TAP_CAN", "weight": 28 }
+          ]
+        }
+      ],
+      "qualityBrackets": [
+        {
+          "id": "REBIRTH_0_START",
+          "minRebirthCount": "0",
+          "maxRebirthCount": "0",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 55 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 30 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 12 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 3 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 0 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 0 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 0 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_1_2",
+          "minRebirthCount": "1",
+          "maxRebirthCount": "2",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 55 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 30 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 12 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 3 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 0 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 0 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 0 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_3_5",
+          "minRebirthCount": "3",
+          "maxRebirthCount": "5",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 35 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 35 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 22 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 7 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 1 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 0 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 0 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_6_9",
+          "minRebirthCount": "6",
+          "maxRebirthCount": "9",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 20 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 32 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 30 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 15 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 2 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 1 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 0 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_10_19",
+          "minRebirthCount": "10",
+          "maxRebirthCount": "19",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 10 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 22 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 32 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 24 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 8 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 3 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 1 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_20_39",
+          "minRebirthCount": "20",
+          "maxRebirthCount": "39",
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 5 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 15 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 28 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 27 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 15 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 7 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 3 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 0 }
+          ]
+        },
+        {
+          "id": "REBIRTH_40_PLUS",
+          "minRebirthCount": "40",
+          "maxRebirthCount": null,
+          "entries": [
+            { "qualityTierId": "LOWER_GRADE", "weight": 2 },
+            { "qualityTierId": "MIDDLE_GRADE", "weight": 8 },
+            { "qualityTierId": "UPPER_GRADE", "weight": 18 },
+            { "qualityTierId": "PEAK_GRADE", "weight": 27 },
+            { "qualityTierId": "HEAVENLY_GRADE", "weight": 22 },
+            { "qualityTierId": "SAINT_GRADE", "weight": 14 },
+            { "qualityTierId": "IMMORTAL_GRADE", "weight": 7 },
+            { "qualityTierId": "DIVINE_GRADE", "weight": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}

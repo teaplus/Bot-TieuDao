@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "scalingPolicy": {
+    "id": "MONSTER_QUALITY_BASE_STAT_V1",
+    "formula": "ADDITIVE_FROM_ORIGINAL_BASE",
+    "stepPercent": 15,
+    "defaultQualityId": "FAN_THU",
+    "affectedStats": ["HP", "ATK", "DEF", "SPD"],
+    "rewardChancePolicy": {
+      "formula": "RELATIVE_MULTIPLIER_CAP_100",
+      "eligibleRewardTypes": ["ITEM", "EQUIPMENT", "SKILL", "CULTIVATION_ART"],
+      "excludedRewardTypes": ["CURRENCY"],
+      "capPercent": 100
+    }
+  },
+  "qualityTiers": [
+    { "id": "FAN_THU", "displayName": "Phàm Thú", "order": 1, "rewardChanceBonusPercent": 0 },
+    { "id": "LINH_THU", "displayName": "Linh Thú", "order": 2, "rewardChanceBonusPercent": 5 },
+    { "id": "YEU_THU", "displayName": "Yêu Thú", "order": 3, "rewardChanceBonusPercent": 10 },
+    { "id": "HUYEN_THU", "displayName": "Huyền Thú", "order": 4, "rewardChanceBonusPercent": 15 },
+    { "id": "DIA_THU", "displayName": "Địa Thú", "order": 5, "rewardChanceBonusPercent": 20 },
+    { "id": "THIEN_THU", "displayName": "Thiên Thú", "order": 6, "rewardChanceBonusPercent": 30 },
+    { "id": "THANH_THU", "displayName": "Thánh Thú", "order": 7, "rewardChanceBonusPercent": 40 },
+    { "id": "TIEN_THU", "displayName": "Tiên Thú", "order": 8, "rewardChanceBonusPercent": 55 },
+    { "id": "THAN_THU", "displayName": "Thần Thú", "order": 9, "rewardChanceBonusPercent": 75 },
+    { "id": "HONG_HOANG_DI_THU", "displayName": "Hồng Hoang Dị Thú", "order": 10, "rewardChanceBonusPercent": 100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "revision": "CHARACTER_RESET_V1_KEEP_SPIRIT_STONE",
+  "command": "xoanhanvat",
+  "retainedCurrencyIds": ["SPIRIT_STONE"],
+  "retainEconomyHistory": true,
+  "starterCurrencyGrantOnRecreate": false,
+  "cooldownSeconds": 0,
+  "confirmationTtlSeconds": 60,
+  "activeStatePolicy": "BLOCK_ACTIVITY_CRAFT_MINIGAME",
+  "resetTargetAccountStatus": "GUEST"
+}

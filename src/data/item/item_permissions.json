@@ -1,0 +1,20 @@
+{
+  "permissions": [
+    {
+      "id": "SECRET_REALM",
+      "displayName": "Bí Cảnh"
+    },
+    {
+      "id": "WORLD_BOSS",
+      "displayName": "World Boss"
+    },
+    {
+      "id": "PET_EXCHANGE",
+      "displayName": "Đổi Pet"
+    },
+    {
+      "id": "EVENT",
+      "displayName": "Sự Kiện"
+    }
+  ]
+}

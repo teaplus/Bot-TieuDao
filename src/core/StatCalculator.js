@@ -6,6 +6,7 @@ export default class StatCalculator {
         let percentBaseBonus = 0;
         let flatFinalBonus = 0;
         let totalMultiplier = 1;
+        let setValue = null;
 
         for (const effect of relevantEffects) {
             switch (effect.mode) {
@@ -21,13 +22,18 @@ export default class StatCalculator {
                 case 'mul_total':
                     totalMultiplier *= effect.value;
                     break;
+                case 'set':
+                    setValue = effect.value;
+                    break;
                 default:
                     break;
             }
         }
 
         const baseStageValue = baseValue + flatBaseBonus + (baseValue * percentBaseBonus);
-        const finalValue = (baseStageValue * totalMultiplier) + flatFinalBonus;
+        const finalValue = setValue == null
+            ? (baseStageValue * totalMultiplier) + flatFinalBonus
+            : Number(setValue);
 
         return Number(finalValue.toFixed(2));
     }

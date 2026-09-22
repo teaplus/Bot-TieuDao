@@ -1,0 +1,575 @@
+{
+  "version": 2,
+  "realms": [
+    {
+      "id": 1,
+      "code": "LUYEN_KHI",
+      "displayName": "Luyện Khí",
+      "order": 1,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 200,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 40,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 20,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 5,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 100,
+          "growthPerStage": 1.33
+        },
+        "gain": {
+          "initial": 50,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 100
+      }
+    },
+    {
+      "id": 2,
+      "code": "TRUC_CO",
+      "displayName": "Trúc cơ",
+      "order": 2,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 707,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 141,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 70,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 17,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 1762,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 75,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 95
+      }
+    },
+    {
+      "id": 3,
+      "code": "KET_DAN",
+      "displayName": "Kết đan",
+      "order": 3,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 6204,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 1240,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 620,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 155,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 6222,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 116,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 90
+      }
+    },
+    {
+      "id": 4,
+      "code": "NGUYEN_ANH",
+      "displayName": "Nguyên anh",
+      "order": 4,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 54427,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 10885,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 5442,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 1360,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 21977,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 179,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 85
+      }
+    },
+    {
+      "id": 5,
+      "code": "HOA_THAN",
+      "displayName": "Hóa thần",
+      "order": 5,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 477414,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 95482,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 47741,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 11935,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 77657,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 277,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 80
+      }
+    },
+    {
+      "id": 6,
+      "code": "LUYEN_HU",
+      "displayName": "Luyện hư",
+      "order": 6,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 4187703,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 837540,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 418770,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 104692,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 274315,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 430,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 75
+      }
+    },
+    {
+      "id": 7,
+      "code": "HOP_THE",
+      "displayName": "Hợp thể",
+      "order": 7,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 36732974,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 7346594,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 3673297,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 918324,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 969184,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 666,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 70
+      }
+    },
+    {
+      "id": 8,
+      "code": "DAI_THUA",
+      "displayName": "Đại thừa",
+      "order": 8,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 322207938,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 64441587,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 32220793,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 8055198,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 3424320,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 1032,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 65
+      }
+    },
+    {
+      "id": 9,
+      "code": "DO_KIEP",
+      "displayName": "Độ kiếp",
+      "order": 9,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 2826287721,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 565257544,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 282628772,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 70657193,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 12098240,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 1599,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 60
+      }
+    },
+    {
+      "id": 10,
+      "code": "CHAN_TIEN",
+      "displayName": "Chân tiên",
+      "order": 10,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 24791140553,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 4958228110,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 2479114055,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 619778513,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 42726624,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 2479,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 55
+      }
+    },
+    {
+      "id": 11,
+      "code": "HUYEN_TIEN",
+      "displayName": "Huyền tiên",
+      "order": 11,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 217458627885,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 43491725577,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 21745862788,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 5436465697,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 150908285,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 3842,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 50
+      }
+    },
+    {
+      "id": 12,
+      "code": "KIM_TIEN",
+      "displayName": "Kim tiên",
+      "order": 12,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 1907465884415,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 381493176883,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 190746588441,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 47686647110,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 533442291,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 5955,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 45
+      }
+    },
+    {
+      "id": 13,
+      "code": "THAI_AT",
+      "displayName": "Thái Ất",
+      "order": 13,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 16731578487277,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 3346315697455,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 1673157848727,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 418289462181,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 1885968899,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 9231,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 40
+      }
+    },
+    {
+      "id": 14,
+      "code": "DAI_LA",
+      "displayName": "Đại La",
+      "order": 14,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 146763158892219,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 29352631778443,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 14676315889221,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 3669078972305,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 6662037447,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 14308,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 35
+      }
+    },
+    {
+      "id": 15,
+      "code": "DAO_TO",
+      "displayName": "Đạo Tổ",
+      "order": 15,
+      "maxStage": 10,
+      "attributes": {
+        "HP": {
+          "initial": 1287351628204201,
+          "growthPerStage": 1.25
+        },
+        "ATK": {
+          "initial": 257470325640840,
+          "growthPerStage": 1.25
+        },
+        "DEF": {
+          "initial": 128735162820420,
+          "growthPerStage": 1.25
+        },
+        "SPD": {
+          "initial": 32183790705105,
+          "growthPerStage": 1.15
+        }
+      },
+      "cultivation": {
+        "required": {
+          "initial": 23832065107,
+          "growthPerStage": 1.5
+        },
+        "gain": {
+          "initial": 37114,
+          "growthPerStage": 1.05
+        }
+      },
+      "breakthrough": {
+        "successRate": 30
+      }
+    }
+  ]
+}

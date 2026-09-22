@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "elements": [
+    {
+      "id": "FIRE",
+      "displayName": "Hỏa",
+      "icon": "🔥",
+      "description": "Ngũ hành Hỏa.",
+
+      "effectId": "ELEMENT_FIRE",
+
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE"
+      ]
+    },
+    {
+      "id": "WOOD",
+      "displayName": "Mộc",
+      "icon": "🌿",
+      "description": "Ngũ hành Mộc.",
+
+      "effectId": "ELEMENT_WOOD",
+
+      "tags": [
+        "ELEMENT",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "EARTH",
+      "displayName": "Thổ",
+      "icon": "⛰️",
+      "description": "Ngũ hành Thổ.",
+
+      "effectId": "ELEMENT_EARTH",
+
+      "tags": [
+        "ELEMENT",
+        "DEFENSE"
+      ]
+    },
+    {
+      "id": "METAL",
+      "displayName": "Kim",
+      "icon": "⚙️",
+      "description": "Ngũ hành Kim.",
+
+      "effectId": "ELEMENT_METAL",
+
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE"
+      ]
+    },
+    {
+      "id": "WATER",
+      "displayName": "Thủy",
+      "icon": "💧",
+      "description": "Ngũ hành Thủy.",
+
+      "effectId": "ELEMENT_WATER",
+
+      "tags": [
+        "ELEMENT",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "LIGHTNING",
+      "displayName": "Lôi",
+      "icon": "⚡",
+      "description": "Biến dị của hệ Hỏa.",
+
+      "effectId": "ELEMENT_LIGHTNING",
+
+      "mutation": true,
+
+      "parentElement": "FIRE",
+
+      "tags": [
+        "ELEMENT",
+        "MUTATION",
+        "OFFENSIVE"
+      ]
+    },
+    {
+      "id": "ICE",
+      "displayName": "Băng",
+      "icon": "❄️",
+      "description": "Biến dị của hệ Thủy.",
+
+      "effectId": "ELEMENT_ICE",
+
+      "mutation": true,
+
+      "parentElement": "WATER",
+
+      "tags": [
+        "ELEMENT",
+        "MUTATION",
+        "CONTROL"
+      ]
+    },
+    {
+      "id": "WIND",
+      "displayName": "Phong",
+      "icon": "🌪️",
+      "description": "Phong hệ sát thương thuần.",
+
+      "effectId": "ELEMENT_WIND",
+
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "LIGHT",
+      "displayName": "Ánh Sáng",
+      "icon": "☀️",
+      "description": "Quang hệ đối nghịch và tương khắc với Bóng Tối.",
+      "effectId": "ELEMENT_LIGHT",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "DARK",
+      "displayName": "Bóng Tối",
+      "icon": "🌑",
+      "description": "Ám hệ đối nghịch và tương khắc với Ánh Sáng.",
+      "effectId": "ELEMENT_DARK",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "CHAOS",
+      "displayName": "Hỗn Độn",
+      "icon": "☯️",
+      "description": "Hỗn Độn không bị bất kỳ hệ nào tương khắc; công thức tương hợp toàn hệ đang chờ duyệt.",
+      "effectId": "ELEMENT_CHAOS",
+      "tags": [
+        "ELEMENT",
+        "OFFENSIVE",
+        "DIRECT_DAMAGE",
+        "UNCOUNTERED",
+        "FORMULA_PENDING"
+      ]
+    }
+  ]
+}
