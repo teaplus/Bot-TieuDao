@@ -45,7 +45,7 @@ import CharacterResetService from './gameplay/player/CharacterResetService.js';
 const app = express();
 const port = process.env.PORT || 10000;
 app.get('/', (req, res) => res.send('TieuDao Bot is running!'));
-app.listen(port, () => logger.info('Express web server listening on port ' + port));
+
 
 
 const logger = new Logger();
@@ -257,3 +257,4 @@ client.start(config.discordToken).catch((error) => {
     process.exitCode = 1;
 });
 
+app.listen(port, () => logger.info('Express web server listening on port ' + port));
