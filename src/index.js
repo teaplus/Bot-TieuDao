@@ -40,6 +40,14 @@ import WordChainService from './gameplay/minigames/WordChainService.js';
 import SpiritStoneTransferService from './gameplay/economy/SpiritStoneTransferService.js';
 import CharacterResetService from './gameplay/player/CharacterResetService.js';
 
+
+// Express server to keep Render web service alive
+const app = express();
+const port = process.env.PORT || 10000;
+app.get('/', (req, res) => res.send('TieuDao Bot is running!'));
+app.listen(port, () => logger.info('Express web server listening on port ' + port));
+
+
 const logger = new Logger();
 const config = loadAppConfig(process.env);
 
@@ -249,8 +257,3 @@ client.start(config.discordToken).catch((error) => {
     process.exitCode = 1;
 });
 
-// Express server to keep Render web service alive
-const app = express();
-const port = process.env.PORT || 10000;
-app.get('/', (req, res) => res.send('TieuDao Bot is running!'));
-app.listen(port, () => logger.info('Express web server listening on port ' + port));
